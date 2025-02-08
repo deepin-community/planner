@@ -1,0 +1,170 @@
+[app.drey.Planner]
+last-dir = /apps/planner/general/last_dir
+
+[app.drey.Planner.ui]
+active-view = /apps/planner/ui/active_view
+main-window-height = /apps/planner/ui/main_window_height
+main-window-maximized = /apps/planner/ui/main_window_maximized
+main-window-position-x = /apps/planner/ui/main_window_position_x
+main-window-position-y = /apps/planner/ui/main_window_position_y
+main-window-width = /apps/planner/ui/main_window_width
+
+[app.drey.Planner.views.gantt-view]
+highlight-critical-path = /apps/planner/views/gantt_view/highlight_critical_path
+display-nonstandard-days = /apps/planner/views/gantt_view/display_nonstandard_days
+print-enabled = /apps/planner/views/gantt_view/print_enabled
+show-guidelines = /apps/planner/views/gantt_view/show_guidelines
+
+[app.drey.Planner.views.task-view]
+highlight-critical-path = /apps/planner/views/task_view/highlight_critical_path
+display-nonstandard-days = /apps/planner/views/task_view/highlight_critical_path
+print-enabled = /apps/planner/views/task_view/print_enabled
+
+[app.drey.Planner.views.resource-view]
+print-enabled = /apps/planner/views/resource_view/print_enabled
+
+[app.drey.Planner.plugins.msp-plugin]
+last-dir = /apps/planner/plugins/msp_plugin/last_dir
+
+[app.drey.Planner.plugins.xml-export]
+last-dir = /apps/planner/plugins/xml_export/last_dir
+
+[app.drey.Planner.views.gantt-view.assigned-to]
+order = /apps/planner/gantt_view/columns/assigned_to/order
+visible = /apps/planner/gantt_view/columns/assigned_to/visible
+width = /apps/planner/gantt_view/columns/assigned_to/width
+
+[app.drey.Planner.views.gantt-view.complete]
+order = /apps/planner/gantt_view/columns/complete/order
+visible = /apps/planner/gantt_view/columns/complete/visible
+width = /apps/planner/gantt_view/columns/complete/width
+
+[app.drey.Planner.views.gantt-view.cost]
+order = /apps/planner/gantt_view/columns/cost/order
+visible = /apps/planner/gantt_view/columns/cost/visible
+width = /apps/planner/gantt_view/columns/cost/width
+
+[app.drey.Planner.views.gantt-view.duration]
+order = /apps/planner/gantt_view/columns/duration/order
+visible = /apps/planner/gantt_view/columns/duration/visible
+width = /apps/planner/gantt_view/columns/duration/width
+
+[app.drey.Planner.views.gantt-view.finish]
+order = /apps/planner/gantt_view/columns/finish/order
+visible = /apps/planner/gantt_view/columns/finish/visible
+width = /apps/planner/gantt_view/columns/finish/width
+
+[app.drey.Planner.views.gantt-view.name]
+order = /apps/planner/gantt_view/columns/name/order
+visible = /apps/planner/gantt_view/columns/name/visible
+width = /apps/planner/gantt_view/columns/name/width
+
+[app.drey.Planner.views.gantt-view.slack]
+order = /apps/planner/gantt_view/columns/slack/order
+visible = /apps/planner/gantt_view/columns/slack/visible
+width = /apps/planner/gantt_view/columns/slack/width
+
+[app.drey.Planner.views.gantt-view.start]
+order = /apps/planner/gantt_view/columns/start/order
+visible = /apps/planner/gantt_view/columns/start/visible
+width = /apps/planner/gantt_view/columns/start/width
+
+[app.drey.Planner.views.gantt-view.wbs]
+order = /apps/planner/gantt_view/columns/wbs/order
+visible = /apps/planner/gantt_view/columns/wbs/visible
+width = /apps/planner/gantt_view/columns/wbs/width
+
+[app.drey.Planner.views.gantt-view.work]
+order = /apps/planner/gantt_view/columns/work/order
+visible = /apps/planner/gantt_view/columns/work/visible
+width = /apps/planner/gantt_view/columns/work/width
+
+[app.drey.Planner.views.task-view.assigned-to]
+order = /apps/planner/task_view/columns/assigned_to/order
+visible = /apps/planner/task_view/columns/assigned_to/visible
+width = /apps/planner/task_view/columns/assigned_to/width
+
+[app.drey.Planner.views.task-view.complete]
+order = /apps/planner/task_view/columns/complete/order
+visible = /apps/planner/task_view/columns/complete/visible
+width = /apps/planner/task_view/columns/complete/width
+
+[app.drey.Planner.views.task-view.cost]
+order = /apps/planner/task_view/columns/cost/order
+visible = /apps/planner/task_view/columns/cost/visible
+width = /apps/planner/task_view/columns/cost/width
+
+[app.drey.Planner.views.task-view.duration]
+order = /apps/planner/task_view/columns/duration/order
+visible = /apps/planner/task_view/columns/duration/visible
+width = /apps/planner/task_view/columns/duration/width
+
+[app.drey.Planner.views.task-view.finish]
+order = /apps/planner/task_view/columns/finish/order
+visible = /apps/planner/task_view/columns/finish/visible
+width = /apps/planner/task_view/columns/finish/width
+
+[app.drey.Planner.views.task-view.name]
+order = /apps/planner/task_view/columns/name/order
+visible = /apps/planner/task_view/columns/name/visible
+width = /apps/planner/task_view/columns/name/width
+
+[app.drey.Planner.views.task-view.slack]
+order = /apps/planner/task_view/columns/slack/order
+visible = /apps/planner/task_view/columns/slack/visible
+width = /apps/planner/task_view/columns/slack/width
+
+[app.drey.Planner.views.task-view.start]
+order = /apps/planner/task_view/columns/start/order
+visible = /apps/planner/task_view/columns/start/visible
+width = /apps/planner/task_view/columns/start/width
+
+[app.drey.Planner.views.task-view.wbs]
+order = /apps/planner/task_view/columns/wbs/order
+visible = /apps/planner/task_view/columns/wbs/visible
+width = /apps/planner/task_view/columns/wbs/width
+
+[app.drey.Planner.views.task-view.work]
+order = /apps/planner/task_view/columns/work/order
+visible = /apps/planner/task_view/columns/work/visible
+width = /apps/planner/task_view/columns/work/width
+
+[app.drey.Planner.views.resource-view.cost]
+order = /apps/planner/resource_view/columns/cost/order
+visible = /apps/planner/resource_view/columns/cost/visible
+width = /apps/planner/resource_view/columns/cost/width
+
+[app.drey.Planner.views.resource-view.email]
+order = /apps/planner/resource_view/columns/email/order
+visible = /apps/planner/resource_view/columns/email/visible
+width = /apps/planner/resource_view/columns/email/width
+
+[app.drey.Planner.views.resource-view.group]
+order = /apps/planner/resource_view/columns/group/order
+visible = /apps/planner/resource_view/columns/group/visible
+width = /apps/planner/resource_view/columns/group/width
+
+[app.drey.Planner.views.resource-view.name]
+order = /apps/planner/resource_view/columns/name/order
+visible = /apps/planner/resource_view/columns/name/visible
+width = /apps/planner/resource_view/columns/name/width
+
+[app.drey.Planner.views.resource-view.short-name]
+order = /apps/planner/resource_view/columns/short_name/order
+visible = /apps/planner/resource_view/columns/short_name/visible
+width = /apps/planner/resource_view/columns/short_name/width
+
+[app.drey.Planner.views.resource-view.type]
+order = /apps/planner/resource_view/columns/type/order
+visible = /apps/planner/resource_view/columns/type/visible
+width = /apps/planner/resource_view/columns/type/width
+
+[app.drey.Planner.views.resource-usage-view.resource-name]
+order = /apps/planner/resource_usage_view/columns/resource_name/order
+visible = /apps/planner/resource_usage_view/columns/resource_name/visible
+width = /apps/planner/resource_usage_view/columns/resource_name/width
+
+[app.drey.Planner.views.resource-usage-view.task-name]
+order = /apps/planner/resource_usage_view/columns/task_name/order
+visible = /apps/planner/resource_usage_view/columns/task_name/visible
+width = /apps/planner/resource_usage_view/columns/task_name/width

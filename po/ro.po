@@ -1,0 +1,2501 @@
+# Romanian translation for planner
+# Copyright (c) 2006 Rosetta Contributors and Canonical Ltd 2006
+# This file is distributed under the same license as the planner package.
+# Lucian Adrian Grijncu <lucian.grijincu@gmail.com>, 2009.
+# Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2014, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: planner\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=planner&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-05-18 18:28+0000\n"
+"PO-Revision-Date: 2015-05-18 20:25+0200\n"
+"Last-Translator: Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>\n"
+"Language-Team: Gnome Romanian Translation Team\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.7.1\n"
+"X-Launchpad-Export-Date: 2009-10-26 11:40+0000\n"
+"100 > 19) || ((n % 100 == 0) && (n != 0))) ? 2: 1))\n"
+"X-Project-Style: gnome\n"
+
+#: ../data/glade/add-predecessor.glade.h:1
+msgid "Add Predecessor"
+msgstr "Adaugă predecesor"
+
+#: ../data/glade/add-predecessor.glade.h:2
+#: ../data/glade/calendar-dialog.glade.h:36
+#: ../data/glade/new-property.glade.h:2
+#: ../data/glade/project-properties.glade.h:2
+#: ../data/glade/resource-dialog.glade.h:1
+#: ../data/glade/resource-input-dialog.glade.h:3
+#: ../data/glade/task-dialog.glade.h:1
+#: ../data/glade/task-input-dialog.glade.h:3
+msgid "_Name:"
+msgstr "_Nume:"
+
+#: ../data/glade/add-predecessor.glade.h:3
+msgid "_Relation type:"
+msgstr "Tip _relație:"
+
+#: ../data/glade/add-predecessor.glade.h:4
+msgid "_Lag:"
+msgstr "Î_ntârziere:"
+
+#: ../data/glade/calendar-dialog.glade.h:1
+msgid "Default Week"
+msgstr "Săptămâna implicită"
+
+#: ../data/glade/calendar-dialog.glade.h:2
+msgid "<b>Calendar:</b>"
+msgstr "<b>Calendar:</b>"
+
+#: ../data/glade/calendar-dialog.glade.h:3
+msgid ""
+"Select a weekday and the day type to use for that day in the default week "
+"for this calendar.\n"
+msgstr ""
+"Selectează o zi a săptămânii și tipul de zi ce va fi folosit pentru acea zi "
+"în săptămâna implicită pentru acest calendar.\n"
+
+#: ../data/glade/calendar-dialog.glade.h:5
+msgid "Week day:"
+msgstr "Ziua săptămânii:"
+
+#: ../data/glade/calendar-dialog.glade.h:6
+msgid "Day type:"
+msgstr "Tipul zilei:"
+
+#: ../data/glade/calendar-dialog.glade.h:7
+msgid ""
+"\n"
+"The selected day type has the following working hours:"
+msgstr ""
+"\n"
+"Tipul de zi selectat are următoarele ore de lucru:"
+
+#: ../data/glade/calendar-dialog.glade.h:9
+#: ../data/glade/column-dialog.glade.h:2 ../data/glade/task-dialog.glade.h:9
+msgid "    "
+msgstr "    "
+
+#: ../data/glade/calendar-dialog.glade.h:10
+msgid "Edit Working Time"
+msgstr "Editează timpul de muncă"
+
+#: ../data/glade/calendar-dialog.glade.h:11
+msgid "<b>Day types</b>"
+msgstr "<b>Tipuri de zile</b>"
+
+#: ../data/glade/calendar-dialog.glade.h:12
+msgid "<b>Working hours</b>"
+msgstr "<b>Ore de lucru</b>"
+
+#: ../data/glade/calendar-dialog.glade.h:13
+msgid "-"
+msgstr "-"
+
+#: ../data/glade/calendar-dialog.glade.h:14 ../data/glade/eds.glade.h:4
+#: ../data/glade/new-property.glade.h:5
+#: ../data/glade/resource-dialog.glade.h:6
+#: ../data/glade/resource-input-dialog.glade.h:5 ../data/glade/sql.glade.h:5
+#: ../data/glade/task-input-dialog.glade.h:5
+msgid "*"
+msgstr "*"
+
+#: ../data/glade/calendar-dialog.glade.h:15
+msgid "Calendar Editor"
+msgstr "Editor de calendare"
+
+#: ../data/glade/calendar-dialog.glade.h:16
+msgid "_New..."
+msgstr "_Nou..."
+
+#: ../data/glade/calendar-dialog.glade.h:17
+msgid "Working time..."
+msgstr "Timp de muncă..."
+
+#: ../data/glade/calendar-dialog.glade.h:18
+msgid "Default week..."
+msgstr "Săptămâna implicită..."
+
+#: ../data/glade/calendar-dialog.glade.h:19
+msgid "Use working time from derived calendar"
+msgstr "Folosește timpul de muncă din calendarul derivat"
+
+#: ../data/glade/calendar-dialog.glade.h:20
+msgid "Set day type to:"
+msgstr "Definește tipul zilei la:"
+
+#: ../data/glade/calendar-dialog.glade.h:21
+msgid "Custom working time"
+msgstr "Timp de lucru personalizat"
+
+#: ../data/glade/calendar-dialog.glade.h:22
+msgid "<b>Working time</b>"
+msgstr "<b>Timp de lucru</b>"
+
+#: ../data/glade/calendar-dialog.glade.h:23
+msgid "From:"
+msgstr "De la:"
+
+#: ../data/glade/calendar-dialog.glade.h:24
+msgid "To:"
+msgstr "Până la:"
+
+#: ../data/glade/calendar-dialog.glade.h:25
+msgid "Apply"
+msgstr "Aplică"
+
+#: ../data/glade/calendar-dialog.glade.h:26
+msgid "New Calendar"
+msgstr "Calendar nou"
+
+#: ../data/glade/calendar-dialog.glade.h:27
+msgid "C_reate"
+msgstr "C_rează"
+
+#: ../data/glade/calendar-dialog.glade.h:28
+msgid "_Existing calendars:"
+msgstr "_Calendare existente:"
+
+#: ../data/glade/calendar-dialog.glade.h:29
+msgid "_Name of the new calendar:"
+msgstr "_Numele calendarului nou:"
+
+#: ../data/glade/calendar-dialog.glade.h:30
+msgid "_Derive from a calendar"
+msgstr "_Derivează dintr-un calendar"
+
+#: ../data/glade/calendar-dialog.glade.h:31
+msgid "C_opy an existing calendar"
+msgstr "C_opiază un calendar existent"
+
+#: ../data/glade/calendar-dialog.glade.h:32
+msgid "Create an _empty calendar"
+msgstr "Crează un cal_endar gol"
+
+#: ../data/glade/calendar-dialog.glade.h:33
+msgid "Select a Calendar"
+msgstr "Selectează un calendar"
+
+#: ../data/glade/calendar-dialog.glade.h:34
+msgid "Edit Day Types"
+msgstr "Editează tipurile de zile"
+
+#: ../data/glade/calendar-dialog.glade.h:35
+msgid "Add Day Type"
+msgstr "Adaugă tip de zi"
+
+#: ../data/glade/column-dialog.glade.h:1
+msgid "Hidden columns:"
+msgstr "Coloane ascunse:"
+
+#: ../data/glade/column-dialog.glade.h:3
+msgid "_Show"
+msgstr "Afișea_ză"
+
+#: ../data/glade/column-dialog.glade.h:4
+msgid "_Hide"
+msgstr "Asc_unde"
+
+#: ../data/glade/column-dialog.glade.h:5
+msgid "Visible columns:"
+msgstr "Coloane vizibile:"
+
+#: ../data/glade/eds.glade.h:1
+msgid "dialog1"
+msgstr "dialog1"
+
+#: ../data/glade/eds.glade.h:2
+msgid "Select group"
+msgstr "Selectează un grup"
+
+#: ../data/glade/eds.glade.h:3
+msgid "Search"
+msgstr "Caută"
+
+#: ../data/glade/eds.glade.h:5
+msgid "Select All"
+msgstr "Selectează tot"
+
+#: ../data/glade/eds.glade.h:6
+msgid "Unselect All"
+msgstr "Deselectează tot"
+
+#: ../data/glade/eds.glade.h:7
+msgid "Loading resource data"
+msgstr "Se încarcă datele despre resurse"
+
+#: ../data/glade/group-dialog.glade.h:1
+msgid "Group Editor"
+msgstr "Editor de grupuri"
+
+#: ../data/glade/new-property.glade.h:1
+msgid "Add Property"
+msgstr "Adaugă o proprietate"
+
+#: ../data/glade/new-property.glade.h:3
+msgid "_Description:"
+msgstr "_Descriere:"
+
+#: ../data/glade/new-property.glade.h:4
+#: ../data/glade/resource-dialog.glade.h:2
+msgid "_Type:"
+msgstr "_Tip:"
+
+#: ../data/glade/new-property.glade.h:6
+msgid "_Label:"
+msgstr "_Etichetă:"
+
+#: ../data/glade/project-properties.glade.h:1
+msgid "Project Properties"
+msgstr "Proprietăți proiect"
+
+#: ../data/glade/project-properties.glade.h:3
+msgid "_Start:"
+msgstr "_Start:"
+
+#: ../data/glade/project-properties.glade.h:4
+msgid "_Organization:"
+msgstr "_Organizație:"
+
+#: ../data/glade/project-properties.glade.h:5
+msgid "_Manager:"
+msgstr "_Manager:"
+
+#: ../data/glade/project-properties.glade.h:6
+msgid "_Calendar:"
+msgstr "_Calendar:"
+
+#: ../data/glade/project-properties.glade.h:7
+msgid "Select..."
+msgstr "Alege..."
+
+#: ../data/glade/project-properties.glade.h:8
+msgid "_Phase:"
+msgstr "_Fază:"
+
+#: ../data/glade/project-properties.glade.h:9
+#: ../data/glade/resource-dialog.glade.h:9
+#: ../data/glade/task-dialog.glade.h:14
+msgid "General"
+msgstr "General"
+
+#: ../data/glade/project-properties.glade.h:10
+msgid "Custom"
+msgstr "Personalizat"
+
+#: ../data/glade/project-properties.glade.h:11
+msgid "Edit Project Phases"
+msgstr "Editează fazele proiectului"
+
+#: ../data/glade/project-properties.glade.h:12
+msgid "New Project Phase"
+msgstr "Fază nouă a proiectului"
+
+#: ../data/glade/property-dialog.glade.h:1
+msgid "Custom Properties"
+msgstr "Proprietăți personalizate"
+
+#: ../data/glade/resource-dialog.glade.h:3
+#: ../data/glade/resource-input-dialog.glade.h:4
+msgid "_Email:"
+msgstr "_Email:"
+
+#: ../data/glade/resource-dialog.glade.h:4
+#: ../data/glade/resource-input-dialog.glade.h:6
+msgid "_Group:"
+msgstr "_Grup:"
+
+#: ../data/glade/resource-dialog.glade.h:5
+msgid "C_ost:"
+msgstr "C_ost:"
+
+#: ../data/glade/resource-dialog.glade.h:7
+#: ../data/glade/resource-input-dialog.glade.h:7
+msgid "_Short name:"
+msgstr "Pre_scurtare:"
+
+#: ../data/glade/resource-dialog.glade.h:8
+#: ../data/glade/resource-input-dialog.glade.h:8
+msgid "Optional - overrides resource name in Gantt view."
+msgstr "Opțional - suprascrie numele resursei în vizualizarea Gantt."
+
+#: ../data/glade/resource-dialog.glade.h:10
+msgid ""
+"Select the calendar to use for this resource. If you want to use the default "
+"calendar of the project, select 'None'. "
+msgstr ""
+"Selectează calendarul folosit pentru această resursă. Dacă doriți să "
+"folosiți calendarul implicit al proiectului, alegeți „Niciunul”."
+
+#: ../data/glade/resource-dialog.glade.h:11
+msgid "Edit Calendars..."
+msgstr "Editează calendarele..."
+
+#: ../data/glade/resource-dialog.glade.h:12
+msgid "Calendar"
+msgstr "Calendar"
+
+#: ../data/glade/resource-dialog.glade.h:13
+msgid "_Insert time stamp"
+msgstr "_Introdu marcaj de timp"
+
+#: ../data/glade/resource-dialog.glade.h:14
+#: ../data/glade/task-dialog.glade.h:18
+msgid "Notes"
+msgstr "Notițe"
+
+#: ../data/glade/resource-input-dialog.glade.h:1
+msgid "Insert Resource"
+msgstr "Introdu o resursă"
+
+#: ../data/glade/resource-input-dialog.glade.h:2
+#: ../data/glade/task-input-dialog.glade.h:2
+msgid "_Insert"
+msgstr "_Introdu"
+
+#: ../data/glade/sql.glade.h:1
+msgid "Open Database"
+msgstr "Deschide baza de date"
+
+#: ../data/glade/sql.glade.h:2
+msgid "_Server:"
+msgstr "_Server:"
+
+#: ../data/glade/sql.glade.h:3
+msgid "_Username:"
+msgstr "N_ume utilizator:"
+
+#: ../data/glade/sql.glade.h:4
+msgid "_Password:"
+msgstr "_Parolă:"
+
+#: ../data/glade/sql.glade.h:6
+msgid "_Database:"
+msgstr "Bază de _date:"
+
+#: ../data/glade/sql.glade.h:7
+msgid "Select a Project"
+msgstr "Selectează un proiect"
+
+#: ../data/glade/sql.glade.h:8
+msgid "The database contains the following projects. Select a project to open:"
+msgstr ""
+"Baza de date conține următoarele proiecte. Alegeți proiectul de deschis:"
+
+#: ../data/glade/task-date-widget.glade.h:1
+msgid "window"
+msgstr "fereastră"
+
+#. The verb "schedule".
+#. This is the verb "schedule"
+#. I18n: the verb "schedule" here.
+#: ../data/glade/task-date-widget.glade.h:3
+#: ../data/glade/task-dialog.glade.h:13
+#: ../src/planner-cell-renderer-date.c:139
+msgid "Schedule:"
+msgstr "Planifică:"
+
+#: ../data/glade/task-date-widget.glade.h:4
+msgid ""
+"As soon as possible\n"
+"No earlier than\n"
+"On fixed date"
+msgstr ""
+"Cât mai repede posibil\n"
+"Nu mai devreme decât\n"
+"La o dată fixă"
+
+#: ../data/glade/task-date-widget.glade.h:7
+#: ../src/planner-cell-renderer-date.c:161
+#: ../src/planner-project-properties.c:740
+msgid "Today"
+msgstr "Astăzi"
+
+#: ../data/glade/task-date-widget.glade.h:8
+#: ../src/planner-cell-renderer-date.c:167
+#: ../src/planner-project-properties.c:747
+msgid "Cancel"
+msgstr "Anulează"
+
+#: ../data/glade/task-date-widget.glade.h:9
+#: ../src/planner-cell-renderer-date.c:174
+msgid "Select"
+msgstr "Alege"
+
+#: ../data/glade/task-dialog.glade.h:2
+#: ../data/glade/task-input-dialog.glade.h:4
+msgid "_Work:"
+msgstr "S_ervici:"
+
+#: ../data/glade/task-dialog.glade.h:3
+msgid "_Duration:"
+msgstr "_Durată:"
+
+#: ../data/glade/task-dialog.glade.h:4
+msgid "C_omplete:"
+msgstr "C_ompletat:"
+
+#: ../data/glade/task-dialog.glade.h:5
+msgid "_Priority:"
+msgstr "_Prioritate:"
+
+#: ../data/glade/task-dialog.glade.h:7
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: ../data/glade/task-dialog.glade.h:8
+msgid "  "
+msgstr "  "
+
+#: ../data/glade/task-dialog.glade.h:10
+msgid "_Milestone"
+msgstr "Eveniment i_mportant"
+
+#: ../data/glade/task-dialog.glade.h:11
+msgid "_Fixed duration"
+msgstr "Durată _fixă"
+
+#: ../data/glade/task-dialog.glade.h:15 ../src/planner-resource-view.c:457
+msgid "Resources"
+msgstr "Resurse"
+
+#: ../data/glade/task-dialog.glade.h:16
+msgid "Predecessors"
+msgstr "Predecesori"
+
+#: ../data/glade/task-dialog.glade.h:17
+msgid "_Insert Time Stamp"
+msgstr "_Introdu marcaj de timp"
+
+#: ../data/glade/task-input-dialog.glade.h:1
+msgid "Insert Task"
+msgstr "Introdu o sarcină"
+
+#: ../data/mime/planner.keys.in.h:1
+msgid "Project Plan"
+msgstr "Planul proiectului"
+
+#: ../data/mime/planner.keys.in.h:2
+msgid "Documents/Project Management"
+msgstr "Documente/Gestionare proiect"
+
+#: ../data/mime/planner.xml.in.h:1
+msgid "Planner project plan"
+msgstr "Plan de proiect Planificator"
+
+#: ../data/planner.desktop.in.in.h:1
+msgid "Planner"
+msgstr "Planificator"
+
+#: ../data/planner.desktop.in.in.h:2
+msgid "Project Management"
+msgstr "Management de proiecte"
+
+#: ../data/planner.desktop.in.in.h:3
+msgid "Planner Project Management"
+msgstr "Management de proiecte Planificator"
+
+#: ../data/planner.desktop.in.in.h:4
+msgid "Handle the tasks, resources, and cost of your projects"
+msgstr ""
+"Administrează sarcinile, resursele și costurile proiectelor dumneavoastră"
+
+#: ../data/planner.desktop.in.in.h:5
+msgid "Gantt;Chart;Critical path;Relationship;Dependency;WBS;"
+msgstr ""
+"Gantt;Chart;Critical path;Relationship;Dependency;WBS;Relații;Diagramă;"
+"Diagrame"
+
+#: ../data/planner.schemas.in.h:1
+msgid "Highlight critical path in Gantt view"
+msgstr "Evidențiază calea critică în vizualizarea Gantt"
+
+#: ../data/planner.schemas.in.h:2
+msgid ""
+"Whether to highlight the tasks along the critical path in the Gantt view."
+msgstr ""
+"Dacă să se evidențieze sarcinile de pe calea critică în vizualizarea Gantt."
+
+#: ../data/planner.schemas.in.h:3
+msgid "Display nonstandard days in Gantt view"
+msgstr "Afișează zile nestandard în vizualizarea Gantt"
+
+#: ../data/planner.schemas.in.h:4
+msgid "Whether to display nonstandard days in the Gantt view."
+msgstr "Dacă să se afișeze zile nestandard în vizualizarea Gantt."
+
+#: ../data/planner.schemas.in.h:5
+msgid "Highlight critical path in Task view"
+msgstr "Evidențiază calea critică în vizualizarea sarcinilor"
+
+#: ../data/planner.schemas.in.h:6
+msgid ""
+"Whether to highlight the tasks along the critical path in the Task view."
+msgstr ""
+"Dacă să se evidențieze sarcinile de pe calea critică în vizualizarea "
+"sarcinilor."
+
+#: ../data/planner.schemas.in.h:7
+msgid "Print the Gantt view"
+msgstr "Tipărește vizualizarea Gantt"
+
+#: ../data/planner.schemas.in.h:8
+msgid "Whether printing of the Gantt view is enabled."
+msgstr "Dacă tipărirea vizualizării Gantt este activată."
+
+#: ../data/planner.schemas.in.h:9
+msgid "Print the Task view"
+msgstr "Tipărește vizualizarea sarcinilor"
+
+#: ../data/planner.schemas.in.h:10
+msgid "Whether printing of the Task view is enabled."
+msgstr "Dacă tipărirea vizualizării sarcinilor este activată."
+
+#: ../data/planner.schemas.in.h:11
+msgid "Print the Resource view"
+msgstr "Tipărește vizualizarea resurselor"
+
+#: ../data/planner.schemas.in.h:12
+msgid "Whether printing of the Resource view is enabled."
+msgstr "Dacă tipărirea vizualizării resurselor este activată."
+
+#: ../data/planner.schemas.in.h:13
+msgid "The active view"
+msgstr "Vizualizarea activă"
+
+#: ../data/planner.schemas.in.h:14
+msgid "Which view to display in the user interface."
+msgstr "Ce vizualizare să fie afișată în interfața pentru utilizator."
+
+#: ../data/stylesheets/localizable.xml.h:1
+msgid "Company:"
+msgstr "Companie:"
+
+#: ../data/stylesheets/localizable.xml.h:2
+msgid "Manager:"
+msgstr "Manager:"
+
+#: ../data/stylesheets/localizable.xml.h:3
+msgid "Start:"
+msgstr "Start:"
+
+#: ../data/stylesheets/localizable.xml.h:4
+msgid "Finish:"
+msgstr "Sfârșit:"
+
+#: ../data/stylesheets/localizable.xml.h:5
+msgid "Report Date:"
+msgstr "Dată raport:"
+
+#: ../data/stylesheets/localizable.xml.h:6
+msgid "Week"
+msgstr "Săptămână"
+
+#: ../data/stylesheets/localizable.xml.h:7
+msgid "Priority"
+msgstr "Prioritate"
+
+#: ../data/stylesheets/localizable.xml.h:8
+msgid "Complete"
+msgstr "Complet"
+
+#: ../data/stylesheets/localizable.xml.h:9
+msgid "This file was generated by"
+msgstr "Acest fișier a fost generat de"
+
+#: ../data/stylesheets/localizable.xml.h:10
+msgid "Gantt Chart"
+msgstr "Diagramă Gantt"
+
+#: ../data/stylesheets/localizable.xml.h:11
+msgid "Phase:"
+msgstr "Fază:"
+
+#: ../data/stylesheets/localizable.xml.h:12
+msgid "Unnamed Project"
+msgstr "Proiect fără nume"
+
+#: ../libplanner/mrp-day.c:54
+msgid "Working"
+msgstr "Zi lucrătoare"
+
+#: ../libplanner/mrp-day.c:55
+msgid "A default working day"
+msgstr "O zi lucrătoare implicită"
+
+#: ../libplanner/mrp-day.c:57
+msgid "Nonworking"
+msgstr "Zi nelucrătoare"
+
+#: ../libplanner/mrp-day.c:58
+msgid "A default non working day"
+msgstr "O zi nelucrătoare implicită"
+
+#: ../libplanner/mrp-day.c:60
+msgid "Use base"
+msgstr "Folosește baza"
+
+#: ../libplanner/mrp-day.c:61
+msgid "Use day from base calendar"
+msgstr "Folosește ziua din calendarul de bază"
+
+#: ../libplanner/mrp-file-module.c:125
+#, c-format
+msgid "This format does not support reading"
+msgstr "Acest format nu permite citirea"
+
+#: ../libplanner/mrp-parser.c:1060 ../libplanner/mrp-parser.c:1155
+#, c-format
+msgid "Could not create XML tree"
+msgstr "Nu s-a putut crea arborele XML"
+
+#: ../libplanner/mrp-parser.c:1121
+#, c-format
+msgid "Could not write XML file"
+msgstr "Nu s-a putut scrie fișierul XML"
+
+#: ../libplanner/mrp-project.c:437 ../src/planner-group-dialog.c:842
+msgid "Default"
+msgstr "Implicit"
+
+#: ../libplanner/mrp-project.c:715
+#, c-format
+msgid "Invalid URI: '%s'"
+msgstr "URI nevalid: „%s”"
+
+#: ../libplanner/mrp-project.c:758
+#, c-format
+msgid "Couldn't find a suitable file module for loading '%s'"
+msgstr "Nu s-a găsit un modul potrivit pentru a încărca „%s”"
+
+#: ../libplanner/mrp-project.c:779 ../libplanner/mrp-project.c:1063
+#, c-format
+msgid "No support for SQL storage built into this version of Planner."
+msgstr ""
+"Nu există suport pentru stocare SQL în această versiune a lui Planificator."
+
+#: ../libplanner/mrp-project.c:816
+#, c-format
+msgid "Invalid URI."
+msgstr "URI nevalid."
+
+#: ../libplanner/mrp-project.c:957
+#, c-format
+msgid "Unable to find file writer identified by '%s'"
+msgstr "Nu se găsește scriitorul de fișier identificat prin „%s”"
+
+#: ../libplanner/mrp-project.c:1020
+#, c-format
+msgid "Couldn't find a suitable file module for loading project"
+msgstr "Nu s-a găsit un modul potrivit pentru a încărca proiectul"
+
+#: ../libplanner/mrp-property.c:365
+msgid "Text"
+msgstr "Text"
+
+#: ../libplanner/mrp-property.c:367
+msgid "String list"
+msgstr "Listă de șiruri text"
+
+#: ../libplanner/mrp-property.c:369
+msgid "Integer number"
+msgstr "Număr întreg"
+
+#: ../libplanner/mrp-property.c:371
+msgid "Floating-point number"
+msgstr "Număr în virgulă mobilă"
+
+#: ../libplanner/mrp-property.c:373
+msgid "Date"
+msgstr "Dată"
+
+#: ../libplanner/mrp-property.c:375 ../src/planner-gantt-view.c:628
+#: ../src/planner-task-view.c:371
+msgid "Duration"
+msgstr "Durată"
+
+#: ../libplanner/mrp-property.c:377 ../src/planner-gantt-view.c:630
+#: ../src/planner-resource-view.c:1343 ../src/planner-task-view.c:373
+msgid "Cost"
+msgstr "Cost"
+
+#: ../libplanner/mrp-property.c:380 ../src/planner-project-properties.c:882
+msgid "None"
+msgstr "Niciunul"
+
+#: ../libplanner/mrp-sql.c:280 ../src/planner-sql-plugin.c:151
+msgid "Can't connect to database server"
+msgstr "Nu s-a putut realiza conexiunea la serverul bazei de date"
+
+#: ../libplanner/mrp-sql.c:285 ../src/planner-sql-plugin.c:156
+msgid "No errors reported."
+msgstr "Nicio eroare raportată."
+
+#. Give up.
+#: ../libplanner/mrp-sql.c:374 ../src/planner-sql-plugin.c:225
+msgid "Invalid Unicode"
+msgstr "Cod Unicode incorect"
+
+#: ../libplanner/mrp-sql.c:2258
+#, c-format
+msgid "Connection to database '%s' failed.\n"
+msgstr "Conexiunea la baza de date „%s” a eșuat.\n"
+
+#: ../libplanner/mrp-sql.c:2263
+#, c-format
+msgid ""
+"Connection to database '%s' failed.\n"
+"%s"
+msgstr ""
+"Conexiunea la baza de date „%s” a eșuat.\n"
+"%s"
+
+#: ../libplanner/mrp-sql.c:2272 ../libplanner/mrp-sql.c:3711
+msgid "Failed to create a dictionary for the database connection.\n"
+msgstr "Nu s-a putut creea un dicționar pentru conexiunea la baza de date.\n"
+
+#: ../libplanner/mrp-sql.c:2286
+#, c-format
+msgid "BEGIN command failed %s."
+msgstr "Comanda BEGIN a eșuat %s."
+
+#: ../libplanner/mrp-sql.c:2455
+#, c-format
+msgid ""
+"The project '%s' has been changed by the user '%s' since you opened it. Do "
+"you want to save anyway?"
+msgstr ""
+"Proiectul „%s” a fost modificat de utilizatorul „%s” de când l-ați deschis "
+"ultima dată. Doriți să-l salvați în aceste condiții?"
+
+#: ../libplanner/mrp-sql.c:3704
+#, c-format
+msgid "Connection to database '%s' failed."
+msgstr "Conexiunea la baza de date „%s” a eșuat."
+
+#: ../libplanner/mrp-storage-sql.c:206
+#, c-format
+msgid "Invalid SQL URI (must start with 'sql://' and contain '#')."
+msgstr "URI SQL nevalid (trebuie să înceapă cu „sql://” și să conțină „#”)."
+
+#: ../libplanner/mrp-storage-sql.c:275
+#, c-format
+msgid "Invalid SQL URI (invalid project id)."
+msgstr "URI SQL nevalid (identificator proiect nevalid)"
+
+#: ../libplanner/mrp-storage-sql.c:283
+#, c-format
+msgid "Invalid SQL URI (no database name specified)."
+msgstr "URI SQL nevalid (nu s-a specificat nicio bază de date)."
+
+#: ../libplanner/mrp-task.c:1068
+#, c-format
+msgid ""
+"Could not add a predecessor relation, because the tasks are already related."
+msgstr ""
+"Nu s-a putut adăuga relația de predecesor deoarece sarcinile sunt deja în "
+"relație."
+
+#: ../libplanner/mrp-task.c:1079
+msgid "Start to Finish relation type cannot be combined with other relations."
+msgstr ""
+"Relațiile de tipul „Început la Sfârșit” nu pot fi combinate cu alte relații."
+
+#: ../libplanner/mrp-task.c:1081
+msgid "Finish to Finish relation type cannot be combined with other relations."
+msgstr ""
+"Relațiile de tipul „Sfârșit la Sfârșit” nu pot fi combinate cu alte relații."
+
+#: ../libplanner/mrp-task.c:1098
+msgid ""
+"Start to Finish relation type cannot be combined with Start No Earlier Than "
+"constraint."
+msgstr ""
+"Relațiile de tipul „Început la Sfârșit” nu pot fi combinate cu restricții de "
+"tipul „Nu începe mai devreme de”."
+
+#: ../libplanner/mrp-task.c:1100
+msgid ""
+"Finish to Finish relation type cannot be combined with Start No Earlier Than "
+"constraint."
+msgstr ""
+"Relațiile de tipul „Sfârșit la Sfârșit” nu pot fi combinate cu restricții de "
+"tipul „Nu începe mai devreme de”."
+
+#: ../libplanner/mrp-task.c:1124
+#, c-format
+msgid ""
+"Start to Finish relation cannot be set. Predecessor starts on project start "
+"date."
+msgstr ""
+"Relația „Început la Sfârșit” nu poate fi definită. Predecesorul începe pe "
+"data de început a proiectului."
+
+#: ../libplanner/mrp-task-manager.c:2603
+#, c-format
+msgid "Cannot add a predecessor, because it would result in a loop."
+msgstr "Nu s-e poate adăuga predecesorul pentru că ar duce la o buclă."
+
+#: ../libplanner/mrp-task-manager.c:2647
+#, c-format
+msgid "Cannot move the task, because it would result in a loop."
+msgstr "Nu se poate muta sarcina pentru că ar duce la o buclă."
+
+#. Translators: Example output: October 9, 2006
+#: ../libplanner/mrp-xsl.c:93
+msgid "%B %e, %Y"
+msgstr "%e %B %Y"
+
+#: ../libplanner/mrp-xsl.c:157 ../libplanner/mrp-xsl.c:205
+#, c-format
+msgid "Export to HTML failed"
+msgstr "Exportul în HTML a eșuat"
+
+#: ../src/planner-application.c:54 ../src/planner-application.c:110
+msgid "Insert"
+msgstr "Introdu"
+
+#: ../src/planner-application.c:61 ../src/planner-application.c:117
+msgid "Remove"
+msgstr "Șterge"
+
+#: ../src/planner-application.c:68
+msgid "Unlink"
+msgstr "Dezleagă"
+
+#: ../src/planner-application.c:75
+msgid "Link"
+msgstr "Leagă"
+
+#: ../src/planner-application.c:82
+msgid "Indent"
+msgstr "Identează"
+
+#: ../src/planner-application.c:89
+msgid "Unindent"
+msgstr "Deidentează"
+
+#: ../src/planner-application.c:96
+msgid "Move up"
+msgstr "Mută în sus"
+
+#: ../src/planner-application.c:103
+msgid "Move down"
+msgstr "Mută în jos"
+
+#: ../src/planner-application.c:124
+msgid "Edit"
+msgstr "Editează"
+
+#: ../src/planner-calendar-dialog.c:184
+msgid "Change day type"
+msgstr "Schimbă tipul zilei"
+
+#: ../src/planner-calendar-dialog.c:306
+msgid "Remove calendar"
+msgstr "Șterge calendarul"
+
+#: ../src/planner-calendar-dialog.c:398
+msgid "Add new calendar"
+msgstr "Adaugă un calendar nou"
+
+#: ../src/planner-cell-renderer-date.c:146 ../src/planner-task-dialog.c:1485
+msgid "As soon as possible"
+msgstr "Cât mai repede posibil"
+
+#: ../src/planner-cell-renderer-date.c:147
+msgid "No earlier than"
+msgstr "Nu mai devreme de"
+
+#: ../src/planner-cell-renderer-date.c:148
+msgid "On fixed date"
+msgstr "La o dată fixă"
+
+#: ../src/planner-cmd-manager.c:227
+#, c-format
+msgid "Undo '%s'"
+msgstr "Anulează „%s”"
+
+#: ../src/planner-cmd-manager.c:229
+msgid "Undo"
+msgstr "Anulează"
+
+#: ../src/planner-cmd-manager.c:239
+#, c-format
+msgid "Redo '%s'"
+msgstr "Refă „%s”"
+
+#: ../src/planner-cmd-manager.c:241
+msgid "Redo"
+msgstr "Refă"
+
+#: ../src/planner-day-type-dialog.c:499
+#, c-format
+msgid "Add day type \"%s\""
+msgstr "Adaugă un tip de zi „%s”"
+
+#: ../src/planner-day-type-dialog.c:560
+#, c-format
+msgid "Remove day type \"%s\""
+msgstr "Șterge un tip de zi „%s”"
+
+#: ../src/planner-default-week-dialog.c:42
+msgid "Monday"
+msgstr "Luni"
+
+#: ../src/planner-default-week-dialog.c:43
+msgid "Tuesday"
+msgstr "Marți"
+
+#: ../src/planner-default-week-dialog.c:44
+msgid "Wednesday"
+msgstr "Miercuri"
+
+#: ../src/planner-default-week-dialog.c:45
+msgid "Thursday"
+msgstr "Joi"
+
+#: ../src/planner-default-week-dialog.c:46
+msgid "Friday"
+msgstr "Vineri"
+
+#: ../src/planner-default-week-dialog.c:47
+msgid "Saturday"
+msgstr "Sâmbătă"
+
+#: ../src/planner-default-week-dialog.c:48
+msgid "Sunday"
+msgstr "Duminică"
+
+#: ../src/planner-default-week-dialog.c:288
+msgid "No working time"
+msgstr "Nu există timp de lucru"
+
+#: ../src/planner-default-week-dialog.c:299
+#: ../src/planner-default-week-dialog.c:303
+msgid "%H:%M"
+msgstr "%H:%M"
+
+#: ../src/planner-default-week-dialog.c:555
+msgid "Edit default week"
+msgstr "Editează săptămâna implicită"
+
+#: ../src/planner-eds-plugin.c:155
+msgid "EDS"
+msgstr "SDE"
+
+#: ../src/planner-eds-plugin.c:156
+msgid "Import resources from Evolution Data Server"
+msgstr "Importă resurse din Serverul de date Evolution"
+
+#: ../src/planner-eds-plugin.c:384 ../src/planner-gantt-print.c:191
+#: ../src/planner-gantt-view.c:624 ../src/planner-group-dialog.c:818
+#: ../src/planner-property-dialog.c:475 ../src/planner-resource-view.c:1200
+#: ../src/planner-task-dialog.c:2610 ../src/planner-task-dialog.c:2684
+#: ../src/planner-task-view.c:367
+msgid "Name"
+msgstr "Nume"
+
+#: ../src/planner-eds-plugin.c:404 ../src/planner-resource-view.c:1316
+msgid "Email"
+msgstr "Email"
+
+#: ../src/planner-eds-plugin.c:425
+msgid "Import"
+msgstr "Importă"
+
+#: ../src/planner-eds-plugin.c:435
+msgid "Photo"
+msgstr "Fotografie"
+
+#: ../src/planner-eds-plugin.c:664
+msgid "Imported from Evolution Data Server"
+msgstr "Importate din Serverul de date Evolution"
+
+#: ../src/planner-eds-plugin.c:665
+msgid "Updated from Evolution Data Server"
+msgstr "Actualizate din Serverul de date Evolution"
+
+#: ../src/planner-eds-plugin.c:850
+msgid "Query cancelled."
+msgstr "Interogarea a fost anulată."
+
+#: ../src/planner-eds-plugin.c:911
+msgid "Evolution Data Server UID"
+msgstr "UID al serverului de date Evolution"
+
+#: ../src/planner-eds-plugin.c:912
+msgid "Identifier used by Evolution Data Server for resources"
+msgstr "Identificator folosit de Serverul de date Evolution pentru resurse"
+
+#: ../src/planner-format.c:153
+#, c-format
+msgid "%dd %dh"
+msgstr "%dd %dh"
+
+#: ../src/planner-format.c:156
+#, c-format
+msgid "%dd"
+msgstr "%dd"
+
+#: ../src/planner-format.c:161
+#, c-format
+msgid "%dh %dmin"
+msgstr "%dh %dmin"
+
+#: ../src/planner-format.c:164
+#, c-format
+msgid "%dh"
+msgstr "%dh"
+
+#: ../src/planner-format.c:168
+#, c-format
+msgid "%dmin"
+msgstr "%dmin"
+
+#. i18n: this string is the date nr and month name, displayed
+#. * e.g. in the date cells in the task tree. See
+#. * libmrproject/docs/DateFormat.
+#.
+#: ../src/planner-format.c:203
+msgid "%b %e"
+msgstr "%b %e"
+
+#: ../src/planner-format.c:387
+msgid "mon"
+msgstr "lun"
+
+#. month unit variant accepted in input
+#: ../src/planner-format.c:388
+msgid "month"
+msgstr "lună"
+
+#. month unit variant accepted in input
+#: ../src/planner-format.c:389
+msgid "months"
+msgstr "luni"
+
+#. month unit variant accepted in input
+#: ../src/planner-format.c:390
+msgid "w"
+msgstr "s"
+
+#. week unit variant accepted in input
+#: ../src/planner-format.c:391
+msgid "week"
+msgstr "săptămână"
+
+#. week unit variant accepted in input
+#: ../src/planner-format.c:392
+msgid "weeks"
+msgstr "săptămâni"
+
+#. week unit variant accepted in input
+#: ../src/planner-format.c:393
+msgid "d"
+msgstr "z"
+
+#. day unit variant accepted in input
+#: ../src/planner-format.c:394
+msgid "day"
+msgstr "zi"
+
+#. day unit variant accepted in input
+#: ../src/planner-format.c:395
+msgid "days"
+msgstr "zile"
+
+#. day unit variant accepted in input
+#: ../src/planner-format.c:396
+msgid "h"
+msgstr "h"
+
+#. hour unit variant accepted in input
+#: ../src/planner-format.c:397
+msgid "hour"
+msgstr "oră"
+
+#. hour unit variant accepted in input
+#: ../src/planner-format.c:398
+msgid "hours"
+msgstr "ore"
+
+#. hour unit variant accepted in input
+#: ../src/planner-format.c:399
+msgid "min"
+msgstr "min"
+
+#. minute unit variant accepted in input
+#: ../src/planner-format.c:400
+msgid "minute"
+msgstr "minut"
+
+#. minute unit variant accepted in input
+#: ../src/planner-format.c:401
+msgid "minutes"
+msgstr "minute"
+
+#. i18n: project start, the date format is described in
+#. * libmrproject/docs/DateFormat.
+#: ../src/planner-gantt-background.c:643
+msgid "%Y %b %d"
+msgstr "%Y %b %d"
+
+#: ../src/planner-gantt-background.c:645
+msgid "Project start"
+msgstr "Start proiect"
+
+#: ../src/planner-gantt-header.c:659
+msgid "%a, %e %b %Y"
+msgstr "%a, %e %b %Y"
+
+#: ../src/planner-gantt-print.c:199 ../src/planner-gantt-view.c:627
+#: ../src/planner-resource-dialog.c:1836 ../src/planner-resource-view.c:790
+#: ../src/planner-resource-view.c:806 ../src/planner-resource-view.c:1760
+#: ../src/planner-task-view.c:370
+msgid "Work"
+msgstr "Activitate"
+
+#: ../src/planner-gantt-print.c:546 ../src/planner-gantt-row.c:771
+#: ../src/planner-html-plugin.c:120 ../src/planner-task-tree.c:1584
+#: ../src/planner-window.c:1805
+msgid "Unnamed"
+msgstr "Nedenumit"
+
+#: ../src/planner-gantt-row.c:2350
+#, c-format
+msgid "Change work to %s"
+msgstr "Schimbă activitatea la %s"
+
+#: ../src/planner-gantt-row.c:2366
+#, c-format
+msgid "Change progress to %u%% complete"
+msgstr "Modifică progresul la %u%% complet"
+
+#: ../src/planner-gantt-row.c:2405 ../src/planner-gantt-row.c:2408
+msgid "No name"
+msgstr "Fără nume"
+
+#: ../src/planner-gantt-row.c:2411
+#, c-format
+msgid "Make task '%s' a predecessor of '%s'"
+msgstr "Fă sarcinia „%s” un predecesor al „%s”"
+
+#: ../src/planner-gantt-row.c:3443 ../src/planner-task-dialog.c:455
+#: ../src/planner-task-tree.c:259 ../src/planner-task-tree.c:941
+msgid "Edit task property"
+msgstr "Editează proprietatea sarcinii"
+
+#: ../src/planner-gantt-view.c:138 ../src/planner-task-view.c:119
+msgid "_Insert Task"
+msgstr "_Introdu o sarcină"
+
+#: ../src/planner-gantt-view.c:139 ../src/planner-task-view.c:120
+msgid "Insert a new task"
+msgstr "Introdu o nouă sarcină"
+
+#: ../src/planner-gantt-view.c:141 ../src/planner-task-view.c:122
+msgid "In_sert Tasks..."
+msgstr "In_serează sarcini..."
+
+#: ../src/planner-gantt-view.c:144 ../src/planner-task-view.c:125
+msgid "_Remove Task"
+msgstr "Elimi_nă sarcina "
+
+#: ../src/planner-gantt-view.c:145 ../src/planner-task-view.c:126
+msgid "Remove the selected tasks"
+msgstr "Elimină sarcinile selectate"
+
+#: ../src/planner-gantt-view.c:147
+msgid "_Edit Task Properties..."
+msgstr "Modifică proprietățil_e sarcinii"
+
+#: ../src/planner-gantt-view.c:150 ../src/planner-resource-view.c:248
+#: ../src/planner-task-view.c:131
+msgid "Select _All"
+msgstr "Selecte_ază toate"
+
+#: ../src/planner-gantt-view.c:151 ../src/planner-resource-view.c:249
+#: ../src/planner-task-view.c:132
+msgid "Select all tasks"
+msgstr "Selectează toate sarcinile"
+
+#: ../src/planner-gantt-view.c:153 ../src/planner-task-view.c:134
+msgid "_Unlink Task"
+msgstr "Dezleagă _sarcinile"
+
+#: ../src/planner-gantt-view.c:154 ../src/planner-task-view.c:135
+msgid "Unlink the selected tasks"
+msgstr "Dezleagă sarcinile selectate"
+
+#: ../src/planner-gantt-view.c:156 ../src/planner-task-view.c:137
+msgid "_Link Tasks"
+msgstr "_Leagă sarcinile"
+
+#: ../src/planner-gantt-view.c:157 ../src/planner-task-view.c:138
+msgid "Link the selected tasks"
+msgstr "Leagă sarcinile selectate"
+
+#: ../src/planner-gantt-view.c:159 ../src/planner-task-view.c:140
+msgid "I_ndent Task"
+msgstr "Ide_ntează sarcinile"
+
+#: ../src/planner-gantt-view.c:160 ../src/planner-task-view.c:141
+msgid "Indent the selected tasks"
+msgstr "Identează sarcinile selectate"
+
+#: ../src/planner-gantt-view.c:162 ../src/planner-task-view.c:143
+msgid "Unin_dent Task"
+msgstr "_Deidentează sarcinile"
+
+#: ../src/planner-gantt-view.c:163 ../src/planner-task-view.c:144
+msgid "Unindent the selected tasks"
+msgstr "Deidentează sarcinile selectate"
+
+#: ../src/planner-gantt-view.c:165 ../src/planner-task-view.c:146
+msgid "Move Task _Up"
+msgstr "Mută sarcinile în s_us"
+
+#: ../src/planner-gantt-view.c:166 ../src/planner-task-view.c:147
+msgid "Move the selected tasks upwards"
+msgstr "Mută sarcinile selectate în sus"
+
+#: ../src/planner-gantt-view.c:168 ../src/planner-task-view.c:149
+msgid "Move Task Do_wn"
+msgstr "Mută sarcinile în j_os"
+
+#: ../src/planner-gantt-view.c:169 ../src/planner-task-view.c:150
+msgid "Move the selected tasks downwards"
+msgstr "Mută sarcinile selectate în jos"
+
+#: ../src/planner-gantt-view.c:171 ../src/planner-task-view.c:152
+msgid "Reset _Constraint"
+msgstr "Restabilește _restricția"
+
+#: ../src/planner-gantt-view.c:174
+msgid "Zoom To _Fit"
+msgstr "_Focalizează să încapă"
+
+#: ../src/planner-gantt-view.c:175 ../src/planner-usage-view.c:115
+msgid "Zoom to fit the entire project"
+msgstr "Focalizează să încapă întregul proiect"
+
+#: ../src/planner-gantt-view.c:177
+msgid "_Zoom In"
+msgstr "_Mărește"
+
+#: ../src/planner-gantt-view.c:178 ../src/planner-usage-view.c:111
+#: ../src/planner-usage-view.c:112
+msgid "Zoom in"
+msgstr "Mărește"
+
+#: ../src/planner-gantt-view.c:180
+msgid "Zoom _Out"
+msgstr "Mi_cșorează"
+
+#: ../src/planner-gantt-view.c:181 ../src/planner-usage-view.c:108
+#: ../src/planner-usage-view.c:109
+msgid "Zoom out"
+msgstr "Micșorează"
+
+#: ../src/planner-gantt-view.c:183 ../src/planner-resource-view.c:254
+#: ../src/planner-task-view.c:158 ../src/planner-usage-view.c:117
+msgid "Edit _Visible Columns"
+msgstr "Modifică coloanele _vizibile"
+
+#: ../src/planner-gantt-view.c:184 ../src/planner-resource-view.c:255
+#: ../src/planner-task-view.c:159 ../src/planner-usage-view.c:118
+msgid "Edit visible columns"
+msgstr "Modifică coloanele vizibile"
+
+#: ../src/planner-gantt-view.c:189 ../src/planner-task-view.c:164
+msgid "_Highlight Critical Tasks"
+msgstr "_Evidențiază sarcinile critice"
+
+#: ../src/planner-gantt-view.c:192
+msgid "_Show Guide Lines"
+msgstr "Arată liniile de ghidaj"
+
+#: ../src/planner-gantt-view.c:195 ../src/planner-task-view.c:166
+msgid "_Nonstandard Days"
+msgstr "Zile _nestandarde"
+
+#. i18n: Label used for the sidebar. Please try to make it short and use
+#. * a linebreak if necessary/possible.
+#.
+#: ../src/planner-gantt-view.c:379
+msgid "Gantt"
+msgstr "Gantt"
+
+#: ../src/planner-gantt-view.c:385
+msgid "_Gantt Chart"
+msgstr "Diagramă _Gantt"
+
+#. i18n: WBS is short for work breakdown structure, and is a
+#. * project management term. You might want to leave it
+#. * untranslated unless there is a localized term for it.
+#.
+#. i18n: WBS is sort for work breakdown structure, and is a
+#. * project management term. You might want to leave it
+#. * untranslated unless there is a localized term for it.
+#.
+#: ../src/planner-gantt-view.c:623 ../src/planner-task-view.c:366
+msgid "WBS"
+msgstr "WBS"
+
+#: ../src/planner-gantt-view.c:625 ../src/planner-task-view.c:368
+msgid "Start"
+msgstr "Start"
+
+#: ../src/planner-gantt-view.c:626 ../src/planner-task-view.c:369
+msgid "Finish"
+msgstr "Sfârșit"
+
+#: ../src/planner-gantt-view.c:629 ../src/planner-task-view.c:372
+msgid "Slack"
+msgstr "Cedează"
+
+#: ../src/planner-gantt-view.c:631 ../src/planner-task-view.c:374
+msgid "Assigned to"
+msgstr "Atribuit lui"
+
+#. i18n: The string "% Complete" will be used in the header
+#. * of a column containing values from 0 upto 100, indicating
+#. * what part of a task has been completed.
+#.
+#: ../src/planner-gantt-view.c:637 ../src/planner-task-view.c:380
+#, no-c-format
+msgid "% Complete"
+msgstr "% Complet"
+
+#: ../src/planner-gantt-view.c:991
+msgid "Edit Gantt Columns"
+msgstr "Modifică coloanele GanttNon Standard Days"
+
+#: ../src/planner-group-dialog.c:304
+msgid "Insert group"
+msgstr "Introdu un grup"
+
+#: ../src/planner-group-dialog.c:431
+msgid "Remove group"
+msgstr "Elimină grupul"
+
+#: ../src/planner-group-dialog.c:525
+msgid "Default group"
+msgstr "Grup implicit"
+
+#: ../src/planner-group-dialog.c:643
+msgid "Edit group property"
+msgstr "Editează proprietatea grupului"
+
+#: ../src/planner-group-dialog.c:824
+msgid "Manager name"
+msgstr "Nume manager"
+
+#: ../src/planner-group-dialog.c:830
+msgid "Manager phone"
+msgstr "Telefon manager"
+
+#: ../src/planner-group-dialog.c:836
+msgid "Manager email"
+msgstr "Email manager"
+
+#: ../src/planner-html-plugin.c:46
+msgid "HTML"
+msgstr "HTML"
+
+#: ../src/planner-html-plugin.c:47
+msgid "Export project to HTML"
+msgstr "Exportă proiectul în HTML"
+
+#: ../src/planner-html-plugin.c:79
+msgid "Could not export to HTML"
+msgstr "Nu s-a putut exporta în HTML"
+
+#: ../src/planner-html-plugin.c:105
+msgid "Export to HTML"
+msgstr "Exportă în format HTML"
+
+#: ../src/planner-html-plugin.c:149
+msgid "Show result in browser"
+msgstr "Afișează rezultatele în navigator"
+
+#: ../src/planner-html-plugin.c:168 ../src/planner-window.c:1532
+#: ../src/planner-xml-planner-plugin.c:124
+#, c-format
+msgid "File \"%s\" exists, do you want to overwrite it?"
+msgstr "Fișierul „%s” există deja, vreți să-l suprascrieți?"
+
+#: ../src/planner-main.c:44
+msgid "Create the initial window with the given geometry."
+msgstr "Creează fereastra inițială cu geometria dată."
+
+#: ../src/planner-main.c:44
+msgid "GEOMETRY"
+msgstr "GEOMETRIE"
+
+#: ../src/planner-main.c:45
+msgid "FILES|URIs"
+msgstr "FIȘIERE|URI-uri"
+
+#: ../src/planner-main.c:68
+msgid "- Planner project management"
+msgstr "- Administrare de proiecte Planificator"
+
+#: ../src/planner-main.c:72
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Executați „%s --help” pentru a vedea o listă completă a parametrilor liniei "
+"de comandă.\n"
+
+#: ../src/planner-main.c:99
+#, c-format
+msgid "Invalid geometry string \"%s\"\n"
+msgstr "Șir geometric nevalid „%s”\n"
+
+#: ../src/planner-msp-plugin.c:49
+msgid "MS Project XML..."
+msgstr "MS Project XML..."
+
+#: ../src/planner-msp-plugin.c:49
+msgid "Import an MS Project XML file"
+msgstr "Importă un fișier MS Project XML"
+
+#: ../src/planner-msp-plugin.c:117
+msgid "Couldn't import file."
+msgstr "Nu s-a putut importa fișierul."
+
+#: ../src/planner-msp-plugin.c:205
+msgid "Import a File"
+msgstr "Importă un fișier"
+
+#: ../src/planner-msp-plugin.c:213
+msgid "XML Files"
+msgstr "Fișiere XML"
+
+#: ../src/planner-msp-plugin.c:218 ../src/planner-window.c:878
+msgid "All Files"
+msgstr "Toate fișierele"
+
+#: ../src/planner-phase-dialog.c:540
+msgid "Insert phase"
+msgstr "Introdu o fază"
+
+#: ../src/planner-phase-dialog.c:639
+msgid "Remove phase"
+msgstr "Șterge faza"
+
+#: ../src/planner-plugin-loader.c:40
+#, c-format
+msgid "Could not open plugin file '%s'\n"
+msgstr "Nu s-a putut deschide fișierul modulului „%s”\n"
+
+#: ../src/planner-predecessor-model.c:191 ../src/planner-task-dialog.c:2211
+msgid "FS"
+msgstr "ÎS"
+
+#: ../src/planner-predecessor-model.c:194 ../src/planner-task-dialog.c:2212
+msgid "FF"
+msgstr "SS"
+
+#: ../src/planner-predecessor-model.c:197 ../src/planner-task-dialog.c:2213
+msgid "SS"
+msgstr "ÎÎ"
+
+#: ../src/planner-predecessor-model.c:200 ../src/planner-task-dialog.c:2214
+msgid "SF"
+msgstr "SÎ"
+
+#: ../src/planner-print-dialog.c:247
+msgid "Select the views to print:"
+msgstr "Alegeți vizualizările de tipărit:"
+
+#: ../src/planner-print-job.c:168
+msgid "Select views"
+msgstr "Alegeți vizualizările"
+
+#: ../src/planner-project-properties.c:387
+msgid "Select a calendar to use for this project:"
+msgstr "Alegeți calendarul folosit pentru acest proiect:"
+
+#: ../src/planner-project-properties.c:487
+msgid "Edit Project Name"
+msgstr "Editează numele proiectului"
+
+#: ../src/planner-project-properties.c:523
+msgid "Edit Organization"
+msgstr "Editează organizația"
+
+#: ../src/planner-project-properties.c:559
+msgid "Edit Manager"
+msgstr "Editează managerul"
+
+#: ../src/planner-project-properties.c:631
+#: ../src/planner-project-properties.c:665
+msgid "Edit Project Start"
+msgstr "Editează startul proiectului"
+
+#: ../src/planner-project-properties.c:754
+msgid "OK"
+msgstr "OK"
+
+#: ../src/planner-project-properties.c:842
+msgid "Edit Project Phase"
+msgstr "Editează faza proiectului"
+
+#: ../src/planner-project-properties.c:975
+msgid "Property"
+msgstr "Proprietate"
+
+#: ../src/planner-project-properties.c:986
+msgid "Value"
+msgstr "Valoare"
+
+#: ../src/planner-project-properties.c:1391
+#: ../src/planner-property-dialog.c:323
+msgid "The name of the custom property needs to start with a letter."
+msgstr "Numele unei proprietăți private trebuie să înceapă cu o literă."
+
+#: ../src/planner-project-properties.c:1462
+#: ../src/planner-property-dialog.c:393
+#, c-format
+msgid "Do you really want to remove the property '%s' from the project?"
+msgstr "Sigur doriți să ștergeți proprietatea „%s” din proiect?"
+
+#: ../src/planner-project-properties.c:1557
+msgid "Could not create properties dialog."
+msgstr "Nu s-a putut creea dialogul proprietăților."
+
+#: ../src/planner-project-properties.c:1591
+msgid "Date..."
+msgstr "Dată..."
+
+#: ../src/planner-project-properties.c:1935
+msgid "Add project property"
+msgstr "Adaugă o proprietate de proiect"
+
+#: ../src/planner-project-properties.c:2045
+msgid "Remove project property"
+msgstr "Șterge o proprietate de proiect"
+
+#: ../src/planner-project-properties.c:2138
+msgid "Edit project property value"
+msgstr "Editează valoarea proprietatății proiectului"
+
+#: ../src/planner-property-dialog.c:492
+msgid "Label"
+msgstr "Etichetă"
+
+#: ../src/planner-property-dialog.c:504 ../src/planner-resource-view.c:1253
+#: ../src/planner-task-dialog.c:2716
+msgid "Type"
+msgstr "Tip"
+
+#: ../src/planner-property-dialog.c:661
+msgid "Add property"
+msgstr "Adaugă o proprietate"
+
+#: ../src/planner-property-dialog.c:806
+msgid "Remove property"
+msgstr "Șterge proprietatea"
+
+#: ../src/planner-property-dialog.c:899
+msgid "Edit property label"
+msgstr "Editează eticheta proprietății"
+
+#: ../src/planner-resource-cmd.c:75
+msgid "Insert resource"
+msgstr "Introdu o resursă"
+
+#. Put "no group" at the top.
+#: ../src/planner-resource-dialog.c:312
+#: ../src/planner-resource-input-dialog.c:100
+#: ../src/planner-resource-view.c:1967
+msgid "(None)"
+msgstr "(Niciunul)"
+
+#: ../src/planner-resource-dialog.c:322
+#: ../src/planner-resource-input-dialog.c:110 ../src/planner-task-dialog.c:385
+msgid "(No name)"
+msgstr "(Fără nume)"
+
+#: ../src/planner-resource-dialog.c:495
+msgid "Edit resource calendar"
+msgstr "Editează calendarul resursei"
+
+#: ../src/planner-resource-dialog.c:576
+msgid "Edit resource note"
+msgstr "Editează notița resursei"
+
+#: ../src/planner-resource-dialog.c:643
+msgid "Edit resource cost"
+msgstr "Editează costul resursei"
+
+#: ../src/planner-resource-dialog.c:711 ../src/planner-resource-dialog.c:752
+#: ../src/planner-resource-view.c:1442 ../src/planner-resource-view.c:1523
+msgid "Edit resource property"
+msgstr "Editează proprietatea resursei"
+
+#. i18n: time stamp format for notes in task dialog, see strftime(3) for
+#. * a detailed description.
+#: ../src/planner-resource-dialog.c:1396 ../src/planner-task-dialog.c:1800
+msgid "%a %d %b %Y, %H:%M\n"
+msgstr "%a %d %b %Y, %H:%M\n"
+
+#: ../src/planner-resource-dialog.c:1512
+msgid "None (use project default)"
+msgstr "Niciunul (folosește proiectul implicit)"
+
+#: ../src/planner-resource-dialog.c:1634 ../src/planner-resource-dialog.c:1636
+msgid "Edit resource properties"
+msgstr "Editează proprietățile resursei"
+
+#: ../src/planner-resource-dialog.c:1837 ../src/planner-resource-view.c:793
+#: ../src/planner-resource-view.c:807 ../src/planner-resource-view.c:1761
+msgid "Material"
+msgstr "Material"
+
+#: ../src/planner-resource-view.c:233
+msgid "_Insert Resource"
+msgstr "_Introdu o resursă"
+
+#: ../src/planner-resource-view.c:234
+msgid "Insert a new resource"
+msgstr "Introdu o resursă nouă"
+
+#: ../src/planner-resource-view.c:236
+msgid "In_sert Resources..."
+msgstr "In_trodu resurse..."
+
+#: ../src/planner-resource-view.c:239
+msgid "_Remove Resource"
+msgstr "Ște_rge resursa"
+
+#: ../src/planner-resource-view.c:240
+msgid "Remove the selected resource"
+msgstr "Șterge resursa selectată"
+
+#: ../src/planner-resource-view.c:242
+msgid "_Edit Resource Properties..."
+msgstr "_Editează proprietățile resursei..."
+
+#: ../src/planner-resource-view.c:245
+msgid "Edit _Groups"
+msgstr "Editează _grupurile"
+
+#: ../src/planner-resource-view.c:246
+msgid "Edit resource groups"
+msgstr "Editează grupurile resursei"
+
+#: ../src/planner-resource-view.c:251
+msgid "Edit _Custom Properties..."
+msgstr "Editează proprietățile personali_zate"
+
+#: ../src/planner-resource-view.c:269
+msgid "/_Insert resource"
+msgstr "/_Introdu o resursă"
+
+#: ../src/planner-resource-view.c:272
+msgid "/_Remove resource"
+msgstr "/Ște_rge resursa"
+
+#: ../src/planner-resource-view.c:275 ../src/planner-usage-tree.c:102
+msgid "/_Edit resource..."
+msgstr "/_Editează resursa..."
+
+#: ../src/planner-resource-view.c:463
+msgid "_Resources"
+msgstr "_Resurse"
+
+#: ../src/planner-resource-view.c:980
+msgid "Remove resource"
+msgstr "Șterge resursa"
+
+#: ../src/planner-resource-view.c:1049
+msgid "Edit Resource Columns"
+msgstr "Editează coloanele resursei"
+
+#: ../src/planner-resource-view.c:1084
+msgid "Edit custom resource properties"
+msgstr "Editează proprietățile resursei personalizate"
+
+#: ../src/planner-resource-view.c:1226
+msgid "Short name"
+msgstr "Prescurtare"
+
+#: ../src/planner-resource-view.c:1282
+msgid "Group"
+msgstr "Grup"
+
+#. i18n: Short "Week", preferably 2 letters.
+#: ../src/planner-scale-utils.c:129
+#, c-format
+msgid "Wk %d"
+msgstr "Săp %d"
+
+#: ../src/planner-scale-utils.c:133
+#, c-format
+msgid "Week %d"
+msgstr "Săptămâna %d"
+
+#: ../src/planner-scale-utils.c:139
+#, c-format
+msgid "Week %d, %d"
+msgstr "Săptămâna %d, %d"
+
+#. i18n: Short "Quarter", preferably 1 letter.
+#: ../src/planner-scale-utils.c:170
+#, c-format
+msgid "Q%d"
+msgstr "T%d"
+
+#. i18n: Short "Quarter", preferably 2-3 letters.
+#: ../src/planner-scale-utils.c:174
+#, c-format
+msgid "Qtr %d"
+msgstr "Tri %d"
+
+#. i18n: Year, short "Quarter", preferably 2-3 letters.
+#: ../src/planner-scale-utils.c:178
+#, c-format
+msgid "%d, Qtr %d"
+msgstr "%d, Tri %d"
+
+#. i18n: Short "Half year", preferably 1 letter.
+#: ../src/planner-scale-utils.c:191
+#, c-format
+msgid "H%d"
+msgstr "%dJ"
+
+#. i18n: Year, short "Half year", preferably 1 letter.
+#: ../src/planner-scale-utils.c:196
+#, c-format
+msgid "%04d, H%d"
+msgstr "%04d, %dJ"
+
+#: ../src/planner-sql-plugin.c:93
+msgid "Open from Database..."
+msgstr "Deschide din baza de date..."
+
+#: ../src/planner-sql-plugin.c:94
+msgid "Open a project from a database"
+msgstr "Deschide un proiect dintr-o bază de date"
+
+#: ../src/planner-sql-plugin.c:96 ../src/planner-sql-plugin.c:1141
+msgid "Save to Database"
+msgstr "Salvează în baza de date"
+
+#: ../src/planner-sql-plugin.c:97
+msgid "Save the current project to a database"
+msgstr "Salvează proiectul curent într-o bază de date"
+
+#: ../src/planner-sql-plugin.c:523
+#, c-format
+msgid ""
+"Database %s needs to be upgraded from version %s to version %s.\n"
+"Please backup database before the upgrade."
+msgstr ""
+"Baza de date %s trebuie actualizată de la versiunea %s la versiunea %s.\n"
+"Creați o copie de rezervă a bazei de date înainte de actualizare."
+
+#: ../src/planner-sql-plugin.c:530
+msgid "Upgrade"
+msgstr "Actualizează"
+
+#: ../src/planner-sql-plugin.c:544
+#, c-format
+msgid ""
+"Could not upgrade database %s.\n"
+" Upgrade file used: %s.\n"
+"\n"
+"Database error: \n"
+"%s"
+msgstr ""
+"Nu s-a putut actualiza baza de date %s.\n"
+" Fișier de actualizare utilizat: %s.\n"
+"\n"
+"Eroare de bază de date:\n"
+"%s."
+
+#: ../src/planner-sql-plugin.c:584
+#, c-format
+msgid "Can't create tables in database %s"
+msgstr "Nu s-au putut creea tabele în baza de date %s"
+
+#: ../src/planner-sql-plugin.c:646
+#, c-format
+msgid "Database %s is not setup for Planner. Do you want to do that?"
+msgstr ""
+"Baza de date %s nu este configurată pentru Planificator. Doriți să o "
+"configurați?"
+
+#: ../src/planner-sql-plugin.c:689
+#, c-format
+msgid "Connection to database '%s@%s' failed."
+msgstr "Conexiunea la baza de date „%s@%s” a eșuat."
+
+#: ../src/planner-sql-plugin.c:708
+#, c-format
+msgid "Test to tables in database '%s' failed."
+msgstr "Testarea pentru tabelele în baza de date „%s” a eșuat."
+
+#: ../src/planner-sql-plugin.c:810
+msgid "ID"
+msgstr "ID"
+
+#: ../src/planner-sql-plugin.c:818
+msgid "Project"
+msgstr "Proiect"
+
+#: ../src/planner-sql-plugin.c:826
+msgid "Phase"
+msgstr "Fază"
+
+#: ../src/planner-sql-plugin.c:834
+msgid "Revision"
+msgstr "Revizie"
+
+#: ../src/planner-sql-plugin.c:1029
+msgid "Open from Database"
+msgstr "Deschide din baza de date"
+
+#: ../src/planner-task-cmd.c:96
+msgid "Link task"
+msgstr "Leagă sarcina"
+
+#: ../src/planner-task-cmd.c:172
+msgid "Unlink task"
+msgstr "Dezleagă sarcina"
+
+#: ../src/planner-task-cmd.c:267
+msgid "Insert task"
+msgstr "Introdu o sarcină"
+
+#: ../src/planner-task-dialog.c:529
+msgid "Edit task type"
+msgstr "Editează tipul sarcinii"
+
+#: ../src/planner-task-dialog.c:596
+msgid "Toggle fixed duration"
+msgstr "Comută durata fixată"
+
+#: ../src/planner-task-dialog.c:663
+msgid "Edit task scheduling"
+msgstr "Modifică planificarea sarcinilor"
+
+#: ../src/planner-task-dialog.c:743
+msgid "Assign resource to task"
+msgstr "Atribuie resursa sarcinii"
+
+#: ../src/planner-task-dialog.c:803
+msgid "Unassign resource from task"
+msgstr "Înlătură resursa de la sarcină"
+
+#: ../src/planner-task-dialog.c:862
+msgid "Change resource units in task"
+msgstr "Schimbă unitățile de resurse în sarcină"
+
+#: ../src/planner-task-dialog.c:950
+msgid "Edit task predecessor"
+msgstr "Modifică predecesorul sarcinii"
+
+#: ../src/planner-task-dialog.c:1021
+msgid "Edit lag predecessor"
+msgstr "Modifică predecesorul întărzierii"
+
+#: ../src/planner-task-dialog.c:1086
+msgid "Edit task note"
+msgstr "Modifică notița sarcinii"
+
+#: ../src/planner-task-dialog.c:1489
+#, c-format
+msgid "No earlier than %s"
+msgstr "Nu mai devreme de %s"
+
+#: ../src/planner-task-dialog.c:1493
+#, c-format
+msgid "On fixed date %s"
+msgstr "La data fixată %s"
+
+#: ../src/planner-task-dialog.c:1909
+msgid "Finish to start (FS)"
+msgstr "De la sfărșit la început (SÎ)"
+
+#: ../src/planner-task-dialog.c:1910
+msgid "Finish to finish (FF)"
+msgstr "De la sfârșit la sfârșit (SS)"
+
+#: ../src/planner-task-dialog.c:1911
+msgid "Start to start (SS)"
+msgstr "De la început la început (ÎÎ)"
+
+#: ../src/planner-task-dialog.c:1912
+msgid "Start to finish (SF)"
+msgstr "De la început la sfârșit (ÎS)"
+
+#: ../src/planner-task-dialog.c:1972
+msgid "Can't add new predecessor. No task selected!"
+msgstr "Nu se poate adăuga un predecesor nou. Nu este selectată nicio sarcină!"
+
+#: ../src/planner-task-dialog.c:2457
+msgid "Change..."
+msgstr "Modifică..."
+
+#: ../src/planner-task-dialog.c:2631
+msgid "Assigned"
+msgstr "Alocat"
+
+#: ../src/planner-task-dialog.c:2648
+msgid "Units"
+msgstr "Unități"
+
+#: ../src/planner-task-dialog.c:2738
+msgid "Lag"
+msgstr "Întârziere"
+
+#: ../src/planner-task-dialog.c:2881 ../src/planner-task-dialog.c:2883
+msgid "Edit task properties"
+msgstr "Modifică proprietățile sarcinii"
+
+#: ../src/planner-task-popup.c:52
+msgid "/_Insert task"
+msgstr "/_Introdu o sarcină"
+
+#: ../src/planner-task-popup.c:55
+msgid "/Insert _subtask"
+msgstr "/Introdu o _subsarcină"
+
+#: ../src/planner-task-popup.c:58
+msgid "/_Remove task"
+msgstr "/Elimină sa_rcina"
+
+#: ../src/planner-task-popup.c:63
+msgid "/_Unlink task"
+msgstr "/_Dezleagă sarcina"
+
+#: ../src/planner-task-popup.c:68
+msgid "/Assign _resources..."
+msgstr "/Atribuie _resurse..."
+
+#: ../src/planner-task-popup.c:71 ../src/planner-usage-tree.c:105
+msgid "/_Edit task..."
+msgstr "/_Modifică sarcina..."
+
+#: ../src/planner-task-tree.c:561
+msgid "Remove task"
+msgstr "Elimină sarcina"
+
+#: ../src/planner-task-tree.c:638
+msgid "Apply constraint to task"
+msgstr "Aplică restricția sarcinii"
+
+#: ../src/planner-task-tree.c:700
+msgid "Reset task constraint"
+msgstr "Restabilește restricția sarcinii"
+
+#: ../src/planner-task-tree.c:1483 ../src/planner-task-tree.c:1637
+msgid "N/A"
+msgstr "N/D"
+
+#: ../src/planner-task-tree.c:2804
+msgid "Remove tasks"
+msgstr "Elimină sarcina"
+
+#: ../src/planner-task-tree.c:2866
+#, c-format
+msgid ""
+"You are about to open an edit dialog each for %i tasks. Are you sure that "
+"you want to do that?"
+msgstr ""
+"Sunteți pe cale să deschideți câte o fereastră de dialog pentru %i sarcini. "
+"Sunteți sigur că doriți să faceți acest lucru?"
+
+#: ../src/planner-task-tree.c:2968
+msgid "Unlink tasks"
+msgstr "Dezleagă sarcinile"
+
+#: ../src/planner-task-tree.c:3020
+msgid "Link tasks"
+msgstr "Leagă sarcinile"
+
+#: ../src/planner-task-tree.c:3109
+msgid "Indent tasks"
+msgstr "Identează sarcinile"
+
+#: ../src/planner-task-tree.c:3120
+msgid "Indent task"
+msgstr "Identează sarcina"
+
+#: ../src/planner-task-tree.c:3212
+msgid "Unindent tasks"
+msgstr "Deidentează sarcinile"
+
+#: ../src/planner-task-tree.c:3230
+msgid "Unindent task"
+msgstr "Deidentează sarcinia"
+
+#: ../src/planner-task-tree.c:3306
+msgid "Move tasks up"
+msgstr "Mută sarcinile în sus"
+
+#: ../src/planner-task-tree.c:3344
+msgid "Move task up"
+msgstr "Mută sarcina în sus"
+
+#: ../src/planner-task-tree.c:3432
+msgid "Move tasks down"
+msgstr "Mută sarcinile în jos"
+
+#. Moving task from 'position' to 'position + 1'
+#: ../src/planner-task-tree.c:3478
+msgid "Move task down"
+msgstr "Mută sarcina în jos"
+
+#: ../src/planner-task-tree.c:3534
+msgid "Reset task constraints"
+msgstr "Restabilește restricțiile sarcinii"
+
+#: ../src/planner-task-tree.c:3566
+msgid "Reset all task constraints"
+msgstr "Restabilește toate restricțiile sarcinilor"
+
+#: ../src/planner-task-view.c:128
+msgid "_Edit Task"
+msgstr "_Modifică sarcina"
+
+#: ../src/planner-task-view.c:155
+msgid "_Edit Custom Properties..."
+msgstr "_Modică proprietățile personalizate..."
+
+#: ../src/planner-task-view.c:301
+msgid "Tasks"
+msgstr "Sarcini"
+
+#: ../src/planner-task-view.c:307
+msgid "_Tasks"
+msgstr "_Sarcini"
+
+#: ../src/planner-task-view.c:609
+msgid "Edit custom task properties"
+msgstr "Modifică proprietățile personalizate ale sarcinii"
+
+#: ../src/planner-task-view.c:663
+msgid "Edit Task Columns"
+msgstr "Editează coloanele sarcinii"
+
+#: ../src/planner-usage-tree.c:108
+msgid "/_Expand all resources"
+msgstr "/D_esfășoară toate resursele"
+
+#: ../src/planner-usage-tree.c:111
+msgid "/_Collapse all resources"
+msgstr "/_Restrânge toate resursele"
+
+#: ../src/planner-usage-tree.c:379
+msgid ""
+"\n"
+"Name"
+msgstr ""
+"\n"
+"Nume"
+
+#: ../src/planner-usage-tree.c:381
+msgid ""
+"\n"
+"Task"
+msgstr ""
+"\n"
+"Sarcină"
+
+#: ../src/planner-usage-view.c:114
+msgid "Zoom to fit"
+msgstr "Focalizează să încapă"
+
+#. i18n: Label used for the sidebar. Please try to make it short and use
+#. * a linebreak if necessary/possible.
+#.
+#: ../src/planner-usage-view.c:261
+msgid ""
+"Resource\n"
+"Usage"
+msgstr ""
+"Utilizarea\n"
+"resurselor"
+
+#: ../src/planner-usage-view.c:267
+msgid "Resource _Usage"
+msgstr "_Utilizarea resurselor"
+
+#: ../src/planner-usage-view.c:380
+msgid "Edit Resource Usage Columns"
+msgstr "Modifică coloanele utilizării resurselor"
+
+#: ../src/planner-util-win32.c:45
+#, c-format
+msgid "Unable to open '%s'"
+msgstr "Nu s-a putut deschide „%s”"
+
+#: ../src/planner-util-win32.c:72
+msgid "Unable to open help file"
+msgstr "Nu s-a putut deschide fișierul de documentație"
+
+#: ../src/planner-window.c:216
+msgid "_File"
+msgstr "_Fișier"
+
+#: ../src/planner-window.c:220
+msgid "_New Project"
+msgstr "Proiect _nou"
+
+#: ../src/planner-window.c:220
+msgid "Create a new project"
+msgstr "Creați un proiect nou"
+
+#: ../src/planner-window.c:224
+msgid "_Open..."
+msgstr "_Deschide..."
+
+#: ../src/planner-window.c:224
+msgid "Open a project"
+msgstr "Deschide un proiect"
+
+#: ../src/planner-window.c:227
+msgid "Open _Recent"
+msgstr "Deschide fișiere _recente"
+
+#: ../src/planner-window.c:230
+msgid "_Import"
+msgstr "_Importă"
+
+#: ../src/planner-window.c:234 ../src/planner-window.c:1401
+msgid "_Save"
+msgstr "_Salvează"
+
+#: ../src/planner-window.c:234
+msgid "Save the current project"
+msgstr "Salvează proiectul curent"
+
+#: ../src/planner-window.c:237
+msgid "_Export"
+msgstr "_Exportă"
+
+#: ../src/planner-window.c:240
+msgid "Save _As..."
+msgstr "S_alvează ca..."
+
+#: ../src/planner-window.c:240
+msgid "Save the current project with a different name"
+msgstr "Salvează proiectul curent cu un nume diferit"
+
+#: ../src/planner-window.c:243
+msgid "Page Set_up..."
+msgstr "Opți_uni pagină..."
+
+#: ../src/planner-window.c:243
+msgid "Setup the page settings for your current printer"
+msgstr "Alegeți opțiunile paginii pentru imprimanta curentă"
+
+#: ../src/planner-window.c:246
+msgid "_Print..."
+msgstr "Ti_părește..."
+
+#: ../src/planner-window.c:246
+msgid "Print the current project"
+msgstr "Tipărește proiectul curent"
+
+#: ../src/planner-window.c:249
+msgid "Print Pre_view"
+msgstr "Pre_vizualizează tipărire"
+
+#: ../src/planner-window.c:249
+msgid "Print preview of the current project"
+msgstr "Previzualizează tipărirea proiectului curent"
+
+#: ../src/planner-window.c:252
+msgid "_Close"
+msgstr "În_chide"
+
+#: ../src/planner-window.c:252
+msgid "Close the current file"
+msgstr "Închide fișierul curent"
+
+#: ../src/planner-window.c:255
+msgid "_Quit"
+msgstr "_Ieșire"
+
+#: ../src/planner-window.c:255
+msgid "Exit the program"
+msgstr "Ieșire din program"
+
+#: ../src/planner-window.c:259
+msgid "_Edit"
+msgstr "_Editare"
+
+#: ../src/planner-window.c:262
+msgid "_Undo"
+msgstr "An_ulează"
+
+#: ../src/planner-window.c:262
+msgid "Undo the last action"
+msgstr "Anulează ultima acțiune"
+
+#: ../src/planner-window.c:265
+msgid "_Redo"
+msgstr "_Refă"
+
+#: ../src/planner-window.c:265
+msgid "Redo the undone action"
+msgstr "Refă acțiunea anulată"
+
+#: ../src/planner-window.c:269
+msgid "_View"
+msgstr "_Vizualizare"
+
+#: ../src/planner-window.c:273
+msgid "_Actions"
+msgstr "_Acțiuni"
+
+#: ../src/planner-window.c:277
+msgid "_Project"
+msgstr "_Proiect"
+
+#: ../src/planner-window.c:280
+msgid "_Manage Calendars"
+msgstr "Ad_ministrează calendarele"
+
+#: ../src/planner-window.c:283
+msgid "Edit Day _Types"
+msgstr "Modifică _tipurile de zile"
+
+#: ../src/planner-window.c:286
+msgid "Edit Project _Phases"
+msgstr "Modifică fazele _proiectului"
+
+#: ../src/planner-window.c:289
+msgid "_Edit Project Properties"
+msgstr "Modifică propri_etățile de proiect"
+
+#: ../src/planner-window.c:289
+msgid "Edit the project properties"
+msgstr "Modifică proprietățile proiectului"
+
+#: ../src/planner-window.c:297
+msgid "_Help"
+msgstr "_Ajutor"
+
+#: ../src/planner-window.c:300
+msgid "_User Guide"
+msgstr "Ghidul _utilizatorului"
+
+#: ../src/planner-window.c:300
+msgid "Show the Planner User Guide"
+msgstr "Arată ghidul utilizitaroului pentru Planificator"
+
+#: ../src/planner-window.c:303
+msgid "_About"
+msgstr "_Despre"
+
+#: ../src/planner-window.c:303
+msgid "About this application"
+msgstr "Despre această aplicație"
+
+#: ../src/planner-window.c:692
+#, c-format
+msgid "Switch to the view \"%s\""
+msgstr "Comută la vederea „%s”"
+
+#: ../src/planner-window.c:862
+msgid "Open a File"
+msgstr "Deschide un fișier"
+
+#: ../src/planner-window.c:872
+msgid "Planner Files"
+msgstr "Fișiere Planificator"
+
+#: ../src/planner-window.c:1180
+msgid "A Project Management application for the GNOME desktop"
+msgstr "O aplicație de administrare de proiecte pentru desktopul GNOME"
+
+#: ../src/planner-window.c:1183
+msgid "translator-credits"
+msgstr ""
+"Contibuitori în Launchpad:\n"
+"  Adrian Stratulat https://launchpad.net/~adrian-stratulat\n"
+"  Lucian Adrian Grijincu https://launchpad.net/~lucian.grijincu"
+
+#: ../src/planner-window.c:1185
+msgid "The Planner Homepage"
+msgstr "Pagina web a programului Planificator"
+
+#: ../src/planner-window.c:1334
+msgid "If you don't save, changes made the last minute will be discarded."
+msgstr "Dacă nu salvați, modificările făcute în ultimul minut vor fi anulate."
+
+#: ../src/planner-window.c:1340
+#, c-format
+msgid "If you don't save, changes made the last %d minute will be discarded."
+msgid_plural ""
+"If you don't save, changes made the last %d minutes will be discarded."
+msgstr[0] ""
+"Dacă nu salvați, modificările făcute în ultimul %d minut vor fi anulate."
+msgstr[1] ""
+"Dacă nu salvați, modificările făcute în ultimele %d minute vor fi anulate."
+msgstr[2] ""
+"Dacă nu salvați, modificările făcute în ultimele %d de minute vor fi anulate."
+
+#: ../src/planner-window.c:1348
+msgid "If you don't save, changes made the last hour will be discarded."
+msgstr "Dacă nu salvați, modificările făcute în ultima oră vor fi anulate."
+
+#: ../src/planner-window.c:1353
+#, c-format
+msgid "If you don't save, changes made the last %d hour will be discarded."
+msgid_plural ""
+"If you don't save, changes made the last %d hours will be discarded."
+msgstr[0] ""
+"Dacă nu salvați, modificările făcute în ultima %d oră vor fi anulate."
+msgstr[1] ""
+"Dacă nu salvați, modificările făcute în ultimele %d ore vor fi anulate."
+msgstr[2] ""
+"Dacă nu salvați, modificările făcute în ultimele %d de ore vor fi anulate."
+
+#: ../src/planner-window.c:1363
+#, c-format
+msgid "Save changes to document '%s' before closing?"
+msgstr "Salvați modificările în documentul „%s” înainte de a închide?"
+
+#: ../src/planner-window.c:1388
+msgid "C_lose without saving"
+msgstr "În_chide fără a salva"
+
+#: ../src/planner-window.c:1394
+msgid "_Cancel"
+msgstr "_Anulează"
+
+#: ../src/planner-window.c:1494
+msgid "Save a File"
+msgstr "Salvează un fișier"
+
+#: ../src/planner-window.c:1762
+msgid ""
+"You have opened a file that was saved with an old version of Planner.\n"
+"\n"
+"When loading old files, all tasks will use the constraint 'Must Start On', "
+"since the old version did not fully support automatic rescheduling. To take "
+"advantage of this new feature, you should add predecessor relations between "
+"tasks that are dependent on each other.\n"
+"\n"
+"You can add a predecessor relation by clicking on the predecessor and "
+"dragging to the successor.\n"
+"\n"
+"After doing this, you can remove all constraints by selecting the menu item "
+"'Remove all constraints' in the 'Edit' menu."
+msgstr ""
+"Ați deschis un fișier care a fost salvat cu o versiune veche al lui "
+"Planificator.\n"
+"\n"
+"La încărcarea fișierelor vechi, toate sarcinile vor utiliza restricția  "
+"„Trebuie să înceapă la”, din moment ce versiunea veche nu era capabilă în "
+"întregime de replanificare automată. Pentru a utiliza această "
+"funcționalitate, ar trebui să adăugați relații de predecesor între sarcinile "
+"dependete unele de altele.\n"
+"\n"
+"Puteți să adăugați o relație de predecesor apăsând pe predecesor și trăgându-"
+"l la succesor.\n"
+"\n"
+"După ce ați făcut asta, puteți să eliminați toate restricțiile selectând din "
+"meniul „Editare”, „Elimină toate restricțiile”."
+
+#. Hack.
+#: ../src/planner-window.c:1797
+msgid "Unnamed database project"
+msgstr "Proiect de bază de date nedenumit"
+
+#: ../src/planner-working-time-dialog.c:145
+msgid "Edit working time"
+msgstr "Modifică timpul de lucru"
+
+#: ../src/planner-xml-planner-plugin.c:54
+msgid "Planner 0.11 Format"
+msgstr "Format Planificator 0.11"
+
+#: ../src/planner-xml-planner-plugin.c:55
+msgid "Export project to a file suitable for Planner 0.11"
+msgstr "Exportă proiectul într-un fișier potrivit pentru Planificator 0.11"
+
+#: ../src/planner-xml-planner-plugin.c:90
+msgid "Export"
+msgstr "Exportă"
+
+#: ../eds-backend/e-cal-backend-planner.c:288
+msgid "EDS UID"
+msgstr "EDS UID"
+
+#: ../eds-backend/e-cal-backend-planner.c:289
+msgid "Identifier used by Evolution Data Server for tasks"
+msgstr "Identificator utilizat de serverul de date Evolution pentru sarcini"
+
+#: ../eds-backend/e-cal-backend-planner.c:298
+msgid "EDS Categories"
+msgstr "Categorii EDS"
+
+#: ../eds-backend/e-cal-backend-planner.c:299
+msgid "Categories for a task used by Evolution Data Server"
+msgstr "Categorii pentru o sarcină utilizată de serverul de date Evolution"
+
+#: ../eds-backend/e-cal-backend-planner.c:308
+msgid "EDS Classification"
+msgstr "Clasificare EDS"
+
+#: ../eds-backend/e-cal-backend-planner.c:309
+msgid "Task access classification used by Evolution Data Server"
+msgstr ""
+"Clasificarea accesului la sarcini utilizată de serverul de date Evolution"
+
+#: ../eds-backend/e-cal-backend-planner.c:318
+msgid "EDS URL"
+msgstr "URL EDS"
+
+#: ../eds-backend/e-cal-backend-planner.c:319
+msgid "URL for a Task used by Evolution Data Server"
+msgstr "URL pentru o sarcină utilizată de serverul de date Evolution"
+
+#: ../eds-backend/e-cal-backend-planner.c:828
+msgid "Invalid server URI"
+msgstr "Adresă (URI) server nevalidă"
+
+#. book_target = (EABConfigTargetSource *) data->target;
+#. source = book_target->source;
+#: ../eds-backend/planner-source/planner-source.c:125
+msgid "Select planner file"
+msgstr "Selectați un fișier Planificator"
+
+#: ../eds-backend/planner-source/planner-source.c:157
+#, c-format
+msgid ""
+"The filename extension of this file isn't the planner usual file extension "
+"(%s) Do you want to continue?"
+msgstr ""
+"Extensia de fișier al acestui fișier nu este extensia Planificator obișnuită "
+"(%s). Doriți să continuați?"
+
+#~ msgid " (invalid Unicode)"
+#~ msgstr " (Unicode nevalid)"
+
+#~ msgid "[FILE...]"
+#~ msgstr "[FIȘIER...]"
+
+#~ msgid "Open '%s'"
+#~ msgstr "Deschide „%s”"

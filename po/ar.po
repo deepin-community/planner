@@ -1,0 +1,2454 @@
+# Arabic translations for Planner package.
+# This file is distributed under the same license as Planner package.
+#
+# Automatically generated, 2007.
+# Djihed Afifi <djihed@gmail.com>, 2007.
+# Khaled Hosny <khaledhosny@eglug.org>, 2007, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: planner.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-29 22:40+0200\n"
+"PO-Revision-Date: 2010-03-29 22:34+0300\n"
+"Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Virtaal 0.5.2\n"
+
+#: ../data/glade/add-predecessor.glade.h:1
+msgid "Add Predecessor"
+msgstr "أضِف سلفا"
+
+#: ../data/glade/add-predecessor.glade.h:2
+msgid "_Lag:"
+msgstr "_تباطؤ:"
+
+#: ../data/glade/add-predecessor.glade.h:3
+#: ../data/glade/calendar-dialog.glade.h:35
+#: ../data/glade/new-property.glade.h:5
+#: ../data/glade/project-properties.glade.h:9
+#: ../data/glade/resource-dialog.glade.h:12
+#: ../data/glade/resource-input-dialog.glade.h:7
+#: ../data/glade/task-dialog.glade.h:16
+#: ../data/glade/task-input-dialog.glade.h:4
+msgid "_Name:"
+msgstr "الا_سم:"
+
+#: ../data/glade/add-predecessor.glade.h:4
+msgid "_Relation type:"
+msgstr "نوع ال_علاقة:"
+
+#: ../data/glade/calendar-dialog.glade.h:1
+msgid ""
+"\n"
+"The selected day type has the following working hours:"
+msgstr ""
+"\n"
+"نوع اليوم المختار به ساعات العمل التالية:"
+
+#: ../data/glade/calendar-dialog.glade.h:3
+#: ../data/glade/column-dialog.glade.h:1 ../data/glade/task-dialog.glade.h:2
+msgid "    "
+msgstr "    "
+
+#: ../data/glade/calendar-dialog.glade.h:4 ../data/glade/eds.glade.h:1
+#: ../data/glade/new-property.glade.h:1
+#: ../data/glade/resource-dialog.glade.h:1
+#: ../data/glade/resource-input-dialog.glade.h:1 ../data/glade/sql.glade.h:1
+#: ../data/glade/task-input-dialog.glade.h:1
+msgid "*"
+msgstr "*"
+
+#: ../data/glade/calendar-dialog.glade.h:5
+msgid "-"
+msgstr "-"
+
+#: ../data/glade/calendar-dialog.glade.h:6
+msgid "<b>Calendar:</b>"
+msgstr "<b>التقويم:</b>"
+
+#: ../data/glade/calendar-dialog.glade.h:7
+msgid "<b>Day types</b>"
+msgstr "<b>أنواع الأيام</b>"
+
+#: ../data/glade/calendar-dialog.glade.h:8
+msgid "<b>Working hours</b>"
+msgstr "<b>ساعات العمل</b>"
+
+#: ../data/glade/calendar-dialog.glade.h:9
+msgid "<b>Working time</b>"
+msgstr "<b>وقت العمل</b>"
+
+#: ../data/glade/calendar-dialog.glade.h:10
+msgid "Add Day Type"
+msgstr "اضف نوع يوم"
+
+#: ../data/glade/calendar-dialog.glade.h:11
+msgid "Apply"
+msgstr "طبِّق"
+
+#: ../data/glade/calendar-dialog.glade.h:12
+msgid "C_opy an existing calendar"
+msgstr "ا_نسخ تقويما موجودا"
+
+#: ../data/glade/calendar-dialog.glade.h:13
+msgid "C_reate"
+msgstr "أن_شيء"
+
+#: ../data/glade/calendar-dialog.glade.h:14
+msgid "Calendar Editor"
+msgstr "محرر التقويم"
+
+#: ../data/glade/calendar-dialog.glade.h:15
+msgid "Create an _empty calendar"
+msgstr "أنشيء تقويماً فارغا"
+
+#: ../data/glade/calendar-dialog.glade.h:16
+msgid "Custom working time"
+msgstr "وقت عمل مخصص"
+
+#: ../data/glade/calendar-dialog.glade.h:17
+msgid "Day type:"
+msgstr "نوع اليوم:"
+
+#: ../data/glade/calendar-dialog.glade.h:18
+msgid "Default Week"
+msgstr "الأسبوع الافتراض"
+
+#: ../data/glade/calendar-dialog.glade.h:19
+msgid "Default week..."
+msgstr "الأسبوع الافتراض..."
+
+#: ../data/glade/calendar-dialog.glade.h:20
+msgid "Edit Day Types"
+msgstr "حرر أنواع الأيام"
+
+#: ../data/glade/calendar-dialog.glade.h:21
+msgid "Edit Working Time"
+msgstr "حرر وقت العمل"
+
+#: ../data/glade/calendar-dialog.glade.h:22
+msgid "From:"
+msgstr "من:"
+
+#: ../data/glade/calendar-dialog.glade.h:23
+msgid "New Calendar"
+msgstr "تقويم جديد"
+
+#: ../data/glade/calendar-dialog.glade.h:24
+msgid "Select a Calendar"
+msgstr "انتقِ تقويماً"
+
+#: ../data/glade/calendar-dialog.glade.h:25
+msgid ""
+"Select a weekday and the day type to use for that day in the default week "
+"for this calendar.\n"
+msgstr ""
+"انتق يوما من أيام الأسبوع ونوع يوم لاستخدامه لهذا اليوم من الأسبوع الإفتراض "
+"لهذا التقويم.\n"
+
+#: ../data/glade/calendar-dialog.glade.h:27
+msgid "Set day type to:"
+msgstr "اضبط نوع اليوم إلى:"
+
+#: ../data/glade/calendar-dialog.glade.h:28
+msgid "To:"
+msgstr "إلى:"
+
+#: ../data/glade/calendar-dialog.glade.h:29
+msgid "Use working time from derived calendar"
+msgstr "استخدم وقت العمل للتقويمات المشتقة"
+
+#: ../data/glade/calendar-dialog.glade.h:30
+msgid "Week day:"
+msgstr "يوم الأسبوع:"
+
+#: ../data/glade/calendar-dialog.glade.h:31
+msgid "Working time..."
+msgstr "وقت العمل..."
+
+#: ../data/glade/calendar-dialog.glade.h:32
+msgid "_Derive from a calendar"
+msgstr "ا_شتق من التقويم"
+
+#: ../data/glade/calendar-dialog.glade.h:33
+msgid "_Existing calendars:"
+msgstr "ال_تقويمات الموجودة:"
+
+#: ../data/glade/calendar-dialog.glade.h:34
+msgid "_Name of the new calendar:"
+msgstr "ا_سم التقويم الجديد:"
+
+#: ../data/glade/calendar-dialog.glade.h:36
+msgid "_New..."
+msgstr "_جديد..."
+
+#: ../data/glade/column-dialog.glade.h:2
+msgid "Hidden columns:"
+msgstr "أعمدة مخفية:"
+
+#: ../data/glade/column-dialog.glade.h:3
+msgid "Visible columns:"
+msgstr "أعمدة المرئية:"
+
+#: ../data/glade/column-dialog.glade.h:4
+msgid "_Hide"
+msgstr "ا_خفِ"
+
+#: ../data/glade/column-dialog.glade.h:5
+msgid "_Show"
+msgstr "ا_عرض"
+
+#: ../data/glade/eds.glade.h:2
+msgid "Loading resource data"
+msgstr "يجري تحميل بيانات الموارد"
+
+#: ../data/glade/eds.glade.h:3
+msgid "Search"
+msgstr "ابحث"
+
+#: ../data/glade/eds.glade.h:4
+msgid "Select All"
+msgstr "انتقِ الكل"
+
+#: ../data/glade/eds.glade.h:5
+msgid "Select group"
+msgstr "انتقِ مجموعة"
+
+#: ../data/glade/eds.glade.h:6
+msgid "Unselect All"
+msgstr "ال_غِ انتقاء الكلّ"
+
+#: ../data/glade/eds.glade.h:7
+msgid "dialog1"
+msgstr "حوار1"
+
+#: ../data/glade/group-dialog.glade.h:1
+msgid "Group Editor"
+msgstr "محرر المجموعة"
+
+#: ../data/glade/new-property.glade.h:2
+msgid "Add Property"
+msgstr "أضِف خاصية"
+
+#: ../data/glade/new-property.glade.h:3
+msgid "_Description:"
+msgstr "ال_وصف:"
+
+#: ../data/glade/new-property.glade.h:4
+msgid "_Label:"
+msgstr "ت_سمية:"
+
+#: ../data/glade/new-property.glade.h:6
+#: ../data/glade/resource-dialog.glade.h:14
+msgid "_Type:"
+msgstr "_نوع:"
+
+#: ../data/glade/project-properties.glade.h:1
+msgid "Custom"
+msgstr "مخصص"
+
+#: ../data/glade/project-properties.glade.h:2
+msgid "Edit Project Phases"
+msgstr "حرِّر أطوار المشروع"
+
+#: ../data/glade/project-properties.glade.h:3
+#: ../data/glade/resource-dialog.glade.h:5 ../data/glade/task-dialog.glade.h:6
+msgid "General"
+msgstr "عامّ"
+
+#: ../data/glade/project-properties.glade.h:4
+msgid "New Project Phase"
+msgstr "طور مشروع جديد"
+
+#: ../data/glade/project-properties.glade.h:5
+msgid "Project Properties"
+msgstr "خصائص المشروع"
+
+#: ../data/glade/project-properties.glade.h:6
+msgid "Select..."
+msgstr "انت_قِ..."
+
+#: ../data/glade/project-properties.glade.h:7
+msgid "_Calendar:"
+msgstr "ال_تقويم:"
+
+#: ../data/glade/project-properties.glade.h:8
+msgid "_Manager:"
+msgstr "الم_دير:"
+
+#: ../data/glade/project-properties.glade.h:10
+msgid "_Organization:"
+msgstr "المن_ظمة:"
+
+#: ../data/glade/project-properties.glade.h:11
+msgid "_Phase:"
+msgstr "_طور:"
+
+#: ../data/glade/project-properties.glade.h:12
+msgid "_Start:"
+msgstr "_ابدأ:"
+
+#: ../data/glade/property-dialog.glade.h:1
+msgid "Custom Properties"
+msgstr "خصائص مخصصة"
+
+#: ../data/glade/resource-dialog.glade.h:2
+msgid "C_ost:"
+msgstr "_تكلفة:"
+
+#: ../data/glade/resource-dialog.glade.h:3
+msgid "Calendar"
+msgstr "التقويم"
+
+#: ../data/glade/resource-dialog.glade.h:4
+msgid "Edit Calendars..."
+msgstr "_حرّر التقاويم..."
+
+#: ../data/glade/resource-dialog.glade.h:6 ../data/glade/task-dialog.glade.h:7
+msgid "Notes"
+msgstr "ملاحظات"
+
+#: ../data/glade/resource-dialog.glade.h:7
+#: ../data/glade/resource-input-dialog.glade.h:3
+msgid "Optional - overrides resource name in Gantt view."
+msgstr "اختياري - يتخطى اسم المورد في مشهد جانت."
+
+#: ../data/glade/resource-dialog.glade.h:8
+msgid ""
+"Select the calendar to use for this resource. If you want to use the default "
+"calendar of the project, select 'None'. "
+msgstr ""
+"انتق تقويما لاستخدامه مع هذا المورد. إذا أردت استخدام التقويم الإفتراضي "
+"للمشروع، اختر 'بلا'."
+
+#: ../data/glade/resource-dialog.glade.h:9
+#: ../data/glade/resource-input-dialog.glade.h:4
+msgid "_Email:"
+msgstr "_بريد إلكتروني:"
+
+#: ../data/glade/resource-dialog.glade.h:10
+#: ../data/glade/resource-input-dialog.glade.h:5
+msgid "_Group:"
+msgstr "ال_مجموعة:"
+
+#: ../data/glade/resource-dialog.glade.h:11
+msgid "_Insert time stamp"
+msgstr "أ_درج خاتم زمني"
+
+#: ../data/glade/resource-dialog.glade.h:13
+#: ../data/glade/resource-input-dialog.glade.h:8
+msgid "_Short name:"
+msgstr "الاسم ال_قصير:"
+
+#: ../data/glade/resource-input-dialog.glade.h:2
+msgid "Insert Resource"
+msgstr "أدرج مورِد"
+
+#: ../data/glade/resource-input-dialog.glade.h:6
+#: ../data/glade/task-input-dialog.glade.h:3
+msgid "_Insert"
+msgstr "أ_درج"
+
+#: ../data/glade/sql.glade.h:2
+msgid "Open Database"
+msgstr "افتح قاعدة بيانات"
+
+#: ../data/glade/sql.glade.h:3
+msgid "Select a Project"
+msgstr "انتقِ مشروعاً"
+
+#: ../data/glade/sql.glade.h:4
+msgid "The database contains the following projects. Select a project to open:"
+msgstr "تحتوي قاعدة البيانات المشاريع التالية. انتقِ مشروعا لفتحه:"
+
+#: ../data/glade/sql.glade.h:5
+msgid "_Database:"
+msgstr "_قاعدة بيانات:"
+
+#: ../data/glade/sql.glade.h:6
+msgid "_Password:"
+msgstr "_كلمة السر:"
+
+#: ../data/glade/sql.glade.h:7
+msgid "_Server:"
+msgstr "ال_خادم:"
+
+#: ../data/glade/sql.glade.h:8
+msgid "_Username:"
+msgstr "ا_سم المستخدم:"
+
+#: ../data/glade/task-date-widget.glade.h:1
+msgid ""
+"As soon as possible\n"
+"No earlier than\n"
+"On fixed date"
+msgstr ""
+"بأسرع وقت ممكن\n"
+"ليس مبكرا عن\n"
+"في تاريخ محدد"
+
+#: ../data/glade/task-date-widget.glade.h:4
+#: ../src/planner-cell-renderer-date.c:167
+#: ../src/planner-project-properties.c:747
+msgid "Cancel"
+msgstr "الغِ"
+
+#. The verb "schedule".
+#. This is the verb "schedule"
+#. I18n: the verb "schedule" here.
+#: ../data/glade/task-date-widget.glade.h:6
+#: ../data/glade/task-dialog.glade.h:11
+#: ../src/planner-cell-renderer-date.c:139
+msgid "Schedule:"
+msgstr "جدول زمني:"
+
+#: ../data/glade/task-date-widget.glade.h:7
+#: ../src/planner-cell-renderer-date.c:174
+msgid "Select"
+msgstr "انتقِ"
+
+#: ../data/glade/task-date-widget.glade.h:8
+#: ../src/planner-cell-renderer-date.c:161
+#: ../src/planner-project-properties.c:740
+msgid "Today"
+msgstr "اليوم"
+
+#: ../data/glade/task-date-widget.glade.h:9
+msgid "window"
+msgstr "نافذة"
+
+#: ../data/glade/task-dialog.glade.h:1
+msgid "  "
+msgstr "  "
+
+#: ../data/glade/task-dialog.glade.h:4
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: ../data/glade/task-dialog.glade.h:5
+msgid "C_omplete:"
+msgstr "مُ_كتمِل:"
+
+#: ../data/glade/task-dialog.glade.h:8
+msgid "Predecessors"
+msgstr "الأسلاف"
+
+#: ../data/glade/task-dialog.glade.h:9 ../src/planner-resource-view.c:457
+msgid "Resources"
+msgstr "الموارد"
+
+#: ../data/glade/task-dialog.glade.h:12
+msgid "_Duration:"
+msgstr "ال_مدة:"
+
+#: ../data/glade/task-dialog.glade.h:13
+msgid "_Fixed duration"
+msgstr "مدة م_حددة:"
+
+#: ../data/glade/task-dialog.glade.h:14
+msgid "_Insert Time Stamp"
+msgstr "أ_درج خاتم وقتي"
+
+#: ../data/glade/task-dialog.glade.h:15
+msgid "_Milestone"
+msgstr "_مرحلة محورية"
+
+#: ../data/glade/task-dialog.glade.h:17
+msgid "_Priority:"
+msgstr "الأ_ولويّة:"
+
+#: ../data/glade/task-dialog.glade.h:18
+#: ../data/glade/task-input-dialog.glade.h:5
+msgid "_Work:"
+msgstr "ال_عمل:"
+
+#: ../data/glade/task-input-dialog.glade.h:2
+msgid "Insert Task"
+msgstr "أدرج مهمّة"
+
+#: ../data/mime/planner.keys.in.h:1
+msgid "Documents/Project Management"
+msgstr "إدارة الوثائق/المشروع"
+
+#: ../data/mime/planner.keys.in.h:2
+msgid "Project Plan"
+msgstr "خطّة المشروع"
+
+#: ../data/mime/planner.xml.in.h:1
+msgid "Planner project plan"
+msgstr "خطة مشروع المُخطِّط"
+
+#: ../data/planner.desktop.in.in.h:1
+msgid "Planner Project Management"
+msgstr "إدارة مشاريع المُخَطِّط"
+
+#: ../data/planner.desktop.in.in.h:2
+msgid "Project Management"
+msgstr "إدارة المشروع"
+
+#: ../data/planner.schemas.in.h:1
+msgid "Display nonstandard days in Gantt view"
+msgstr "اعرض الأيام غير القياسية في مشهد جانت"
+
+#: ../data/planner.schemas.in.h:2
+msgid "Highlight critical path in Gantt view"
+msgstr "أبرِز المسارات الحيوية في مشهد جانت"
+
+#: ../data/planner.schemas.in.h:3
+msgid "Highlight critical path in Task view"
+msgstr "أبرِز المسارات الحيوية في مشهد المهمّة"
+
+#: ../data/planner.schemas.in.h:4
+msgid "Print the Gantt view"
+msgstr "اطبع مشهد جانت"
+
+#: ../data/planner.schemas.in.h:5
+msgid "Print the Resource view"
+msgstr "اطبع مشهد الموارد"
+
+#: ../data/planner.schemas.in.h:6
+msgid "Print the Task view"
+msgstr "اطبع مشهد المهام"
+
+#: ../data/planner.schemas.in.h:7
+msgid "The active view"
+msgstr "المشهد النشط"
+
+#: ../data/planner.schemas.in.h:8
+msgid "Whether printing of the Gantt view is enabled."
+msgstr "ما إذا كانت طباعة مشهد جانت مفعلة أم لا."
+
+#: ../data/planner.schemas.in.h:9
+msgid "Whether printing of the Resource view is enabled."
+msgstr "ما إذا كانت طباعة مشهد الموارد مفعلة أم لا."
+
+#: ../data/planner.schemas.in.h:10
+msgid "Whether printing of the Task view is enabled."
+msgstr "ما إذا كانت طباعة مشهد المهام مفعلة أم لا."
+
+#: ../data/planner.schemas.in.h:11
+msgid "Whether to display nonstandard days in the Gantt view."
+msgstr "ما إذا سيعرض الأيام غير القياسية في مشهد جانت أم لا."
+
+#: ../data/planner.schemas.in.h:12
+msgid ""
+"Whether to highlight the tasks along the cricital path in the Gantt view."
+msgstr "ما إذا سيُبرز المهام عبر المسار الحيوي في مشهد جانت أم لا."
+
+#: ../data/planner.schemas.in.h:13
+msgid ""
+"Whether to highlight the tasks along the cricital path in the Task view."
+msgstr "ما إذا سيُبرز المهام عبر المسار الحيوي في مشهد المهام أم لا."
+
+#: ../data/planner.schemas.in.h:14
+msgid "Which view to display in the user interface."
+msgstr "أي مشهد سيعرض في واجهة المستخدم."
+
+#: ../data/stylesheets/localizable.xml.h:1
+msgid "Company:"
+msgstr "الشركة:"
+
+#: ../data/stylesheets/localizable.xml.h:2
+msgid "Complete"
+msgstr "مُكتمل"
+
+#: ../data/stylesheets/localizable.xml.h:3
+msgid "Finish:"
+msgstr "أنهِ:"
+
+#: ../data/stylesheets/localizable.xml.h:4
+msgid "Gantt Chart"
+msgstr "مخطط جانت"
+
+#: ../data/stylesheets/localizable.xml.h:5
+msgid "Manager:"
+msgstr "المدير:"
+
+#: ../data/stylesheets/localizable.xml.h:6
+msgid "Phase:"
+msgstr "طور:"
+
+#: ../data/stylesheets/localizable.xml.h:7
+msgid "Priority"
+msgstr "الأولويّة"
+
+#: ../data/stylesheets/localizable.xml.h:8
+msgid "Report Date:"
+msgstr "تاريخ التقرير:"
+
+#: ../data/stylesheets/localizable.xml.h:9
+msgid "Start:"
+msgstr "ابدأ:"
+
+#: ../data/stylesheets/localizable.xml.h:10
+msgid "This file was generated by"
+msgstr "وُلِّد هذا الملف بواسطة "
+
+#: ../data/stylesheets/localizable.xml.h:11
+msgid "Unnamed Project"
+msgstr "مشروع غير مُسمّى"
+
+#: ../data/stylesheets/localizable.xml.h:12
+msgid "Week"
+msgstr "الأسبوع"
+
+#: ../libplanner/mrp-day.c:54
+msgid "Working"
+msgstr "عمل"
+
+#: ../libplanner/mrp-day.c:55
+msgid "A default working day"
+msgstr "يوم عمل إفتراضي"
+
+#: ../libplanner/mrp-day.c:57
+msgid "Nonworking"
+msgstr "عطلة"
+
+#: ../libplanner/mrp-day.c:58
+msgid "A default non working day"
+msgstr "يوم بلا عمل افتراضي"
+
+#: ../libplanner/mrp-day.c:60
+msgid "Use base"
+msgstr "استخدم الأساس"
+
+#: ../libplanner/mrp-day.c:61
+msgid "Use day from base calendar"
+msgstr "استخدم يوما من التقويم الأساسي"
+
+#: ../libplanner/mrp-file-module.c:125
+#, c-format
+msgid "This format does not support reading"
+msgstr "لا يدعم هذا التنسيق القرائة"
+
+#: ../libplanner/mrp-parser.c:1062 ../libplanner/mrp-parser.c:1157
+#, c-format
+msgid "Could not create XML tree"
+msgstr "تعذّر إنشاء شجرة XML"
+
+#: ../libplanner/mrp-parser.c:1123
+#, c-format
+msgid "Could not write XML file"
+msgstr "تعذّر كتابة ملف XML"
+
+#: ../libplanner/mrp-project.c:437 ../src/planner-group-dialog.c:846
+msgid "Default"
+msgstr "الإفتراضيّ"
+
+#: ../libplanner/mrp-project.c:715
+#, c-format
+msgid "Invalid URI: '%s'"
+msgstr "مسار غير صحيح: '%s'"
+
+#: ../libplanner/mrp-project.c:758
+#, c-format
+msgid "Couldn't find a suitable file module for loading '%s'"
+msgstr "تعذّر العثور على وحدة ملف مناسبة لتحميل '%s'"
+
+#: ../libplanner/mrp-project.c:779 ../libplanner/mrp-project.c:1063
+#, c-format
+msgid "No support for SQL storage built into this version of Planner."
+msgstr "لم يضمن أي دعم لتخزين SQL في نسخة المُخَطِّط هذه"
+
+#: ../libplanner/mrp-project.c:816
+#, c-format
+msgid "Invalid URI."
+msgstr "مسار غير صحيح"
+
+#: ../libplanner/mrp-project.c:957
+#, c-format
+msgid "Unable to find file writer identified by '%s'"
+msgstr "تعذّر العثور على كاتب ملف معرّف بـ '%s'"
+
+#: ../libplanner/mrp-project.c:1020
+#, c-format
+msgid "Couldn't find a suitable file module for loading project"
+msgstr "تعذّر العثور على وحدة ملف مناسبة لتحميل مشروع"
+
+#: ../libplanner/mrp-property.c:365
+msgid "Text"
+msgstr "نص"
+
+#: ../libplanner/mrp-property.c:367
+msgid "String list"
+msgstr "قائمة سلاسل النص"
+
+#: ../libplanner/mrp-property.c:369
+msgid "Integer number"
+msgstr "عدد صحيح"
+
+#: ../libplanner/mrp-property.c:371
+msgid "Floating-point number"
+msgstr "عدد عشري"
+
+#: ../libplanner/mrp-property.c:373
+msgid "Date"
+msgstr "التّاريخ"
+
+#: ../libplanner/mrp-property.c:375 ../src/planner-gantt-view.c:625
+#: ../src/planner-task-view.c:371
+msgid "Duration"
+msgstr "المدّة"
+
+#: ../libplanner/mrp-property.c:377 ../src/planner-gantt-view.c:627
+#: ../src/planner-resource-view.c:1354 ../src/planner-task-view.c:373
+msgid "Cost"
+msgstr "التكلفة"
+
+#: ../libplanner/mrp-property.c:380 ../src/planner-project-properties.c:882
+msgid "None"
+msgstr "بلا"
+
+#: ../libplanner/mrp-sql.c:280 ../src/planner-sql-plugin.c:152
+msgid "Can't connect to database server"
+msgstr "لا يمكن الإتصال بخادم قاعدة البيانات"
+
+#: ../libplanner/mrp-sql.c:285 ../src/planner-sql-plugin.c:157
+msgid "No errors reported."
+msgstr "لم يُبلغ عن أية أخطاء."
+
+#. Give up.
+#: ../libplanner/mrp-sql.c:374 ../src/planner-sql-plugin.c:226
+msgid "Invalid Unicode"
+msgstr "يونيكود غير صحيح"
+
+#: ../libplanner/mrp-sql.c:2260
+#, c-format
+msgid "Connection to database '%s' failed.\n"
+msgstr "فشل الاتصال بقاعدة البيانات '%s'.\n"
+
+#: ../libplanner/mrp-sql.c:2265
+#, c-format
+msgid ""
+"Connection to database '%s' failed.\n"
+"%s"
+msgstr ""
+"فشل الاتصال بقاعدة البيانات '%s'.\n"
+"%s"
+
+#: ../libplanner/mrp-sql.c:2274 ../libplanner/mrp-sql.c:3713
+msgid "Failed to create a dictionary for the database connection.\n"
+msgstr "فشل إنشاء قاموس لاتصال قاعدة البيانات.\n"
+
+#: ../libplanner/mrp-sql.c:2288
+#, c-format
+msgid "BEGIN command failed %s."
+msgstr "فشل أمر  BEGIN %s"
+
+#: ../libplanner/mrp-sql.c:2457
+#, c-format
+msgid ""
+"The project '%s' has been changed by the user '%s' since you opened it. Do "
+"you want to save anyway?"
+msgstr ""
+"لقد تغير المشروع '%s' على يد المستخدم '%s' منذ فتحته. أترغب في حفظه على أي "
+"حال؟"
+
+#: ../libplanner/mrp-sql.c:3706
+#, c-format
+msgid "Connection to database '%s' failed."
+msgstr "فشل الاتصال بقاعدة البيانات '%s'."
+
+#: ../libplanner/mrp-storage-sql.c:206
+#, c-format
+msgid "Invalid SQL URI (must start with 'sql://' and contain '#')."
+msgstr "مسار SQL غير صحيح (يجب أن يبدأ بـ 'sql://' وأن يحتوي '#')."
+
+#: ../libplanner/mrp-storage-sql.c:275
+#, c-format
+msgid "Invalid SQL URI (invalid project id)."
+msgstr "مسار SQL غير صحيح (معرف مشروع غير صحيح)."
+
+#: ../libplanner/mrp-storage-sql.c:283
+#, c-format
+msgid "Invalid SQL URI (no database name specified)."
+msgstr "مسار SQL غير صحيح (لم يحدد اسم قاعدة بيانات)"
+
+#: ../libplanner/mrp-task.c:1070
+#, c-format
+msgid ""
+"Could not add a predecessor relation, because the tasks are already related."
+msgstr "لا يمكن إضافة علاقة أبويّة، لأن المهام متعلّقة بالفعل."
+
+#: ../libplanner/mrp-task.c:1081
+msgid "Start to Finish relation type cannot be combined with other relations."
+msgstr "لا يمكن دمج علاقة من نوع بداية لنهاية مع العلاقات الأخرى."
+
+#: ../libplanner/mrp-task.c:1083
+msgid "Finish to Finish relation type cannot be combined with other relations."
+msgstr "لا يمكن دمج علاقة من نوع نهاية لنهاية مع العلاقات الأخرى."
+
+#: ../libplanner/mrp-task.c:1100
+msgid ""
+"Start to Finish relation type cannot be combined with Start No Earlier Than "
+"constraint."
+msgstr "لا يمكن دمج علاقة من نوع بداية لنهاية مع قيد \"لا تبدأ مبكرا عن\"."
+
+#: ../libplanner/mrp-task.c:1102
+msgid ""
+"Finish to Finish relation type cannot be combined with Start No Earlier Than "
+"constraint."
+msgstr "لا يمكن دمج علاقة من نوع نهاية لنهاية مع قيد \"لا تبدأ مبكرا عن\"."
+
+#: ../libplanner/mrp-task.c:1126
+#, c-format
+msgid ""
+"Start to Finish relation cannot be set. Predecessor starts on project start "
+"date."
+msgstr "لا يمكن وضع علاقة بداية لنهاية. يبدأ الأسلاف عند تاريخ بداية المشروع."
+
+#: ../libplanner/mrp-task-manager.c:2630
+#, c-format
+msgid "Cannot add a predecessor, because it would result in a loop."
+msgstr "لا يمكن إضافة سلف، لأنه قد يتسبب في حلقة مفرغة."
+
+#: ../libplanner/mrp-task-manager.c:2674
+#, c-format
+msgid "Cannot move the task, because it would result in a loop."
+msgstr "لا يمكن نقل المهمّة، لأنه قد يتسبب في حلقة مفرغة."
+
+#. Translators: Example output: October 9, 2006
+#: ../libplanner/mrp-xsl.c:93
+msgid "%B %e, %Y"
+msgstr "%e %B، %Y"
+
+#: ../libplanner/mrp-xsl.c:157 ../libplanner/mrp-xsl.c:205
+#, c-format
+msgid "Export to HTML failed"
+msgstr "فشل التصدير إلى HTML"
+
+#: ../src/planner-application.c:54 ../src/planner-application.c:110
+msgid "Insert"
+msgstr "أدرج"
+
+#: ../src/planner-application.c:61 ../src/planner-application.c:117
+msgid "Remove"
+msgstr "أزِل"
+
+#: ../src/planner-application.c:68
+msgid "Unlink"
+msgstr "أزل الربط"
+
+#: ../src/planner-application.c:75
+msgid "Link"
+msgstr "اربط"
+
+#: ../src/planner-application.c:82
+msgid "Indent"
+msgstr "أزِح"
+
+#: ../src/planner-application.c:89
+msgid "Unindent"
+msgstr "أزِل الإزاحة"
+
+#: ../src/planner-application.c:96
+msgid "Move up"
+msgstr "حرّك لأعلى"
+
+#: ../src/planner-application.c:103
+msgid "Move down"
+msgstr "حرّك لأسفل"
+
+#: ../src/planner-application.c:124
+msgid "Edit"
+msgstr "حرّر"
+
+#: ../src/planner-calendar-dialog.c:184
+msgid "Change day type"
+msgstr "غيّر نوع اليوم"
+
+#: ../src/planner-calendar-dialog.c:306
+msgid "Remove calendar"
+msgstr "أزل التقويم"
+
+#: ../src/planner-calendar-dialog.c:398
+msgid "Add new calendar"
+msgstr "أضِف تقويم جديد"
+
+#: ../src/planner-cell-renderer-date.c:146 ../src/planner-task-dialog.c:1491
+msgid "As soon as possible"
+msgstr "بأسرع وقتٍ ممكن"
+
+#: ../src/planner-cell-renderer-date.c:147
+msgid "No earlier than"
+msgstr "ليس مبكرا عن"
+
+#: ../src/planner-cell-renderer-date.c:148
+msgid "On fixed date"
+msgstr "في تاريخ محدد"
+
+#: ../src/planner-cmd-manager.c:227
+#, c-format
+msgid "Undo '%s'"
+msgstr "تراجع عن '%s'"
+
+#: ../src/planner-cmd-manager.c:229
+msgid "Undo"
+msgstr "تراجع"
+
+#: ../src/planner-cmd-manager.c:239
+#, c-format
+msgid "Redo '%s'"
+msgstr "أعِد '%s'"
+
+#: ../src/planner-cmd-manager.c:241
+msgid "Redo"
+msgstr "أعِد"
+
+#: ../src/planner-day-type-dialog.c:499
+#, c-format
+msgid "Add day type \"%s\""
+msgstr "أضف نوع اليوم \"%s\""
+
+#: ../src/planner-day-type-dialog.c:560
+#, c-format
+msgid "Remove day type \"%s\""
+msgstr "احذف نوع اليوم \"%s\""
+
+#: ../src/planner-default-week-dialog.c:42
+msgid "Monday"
+msgstr "الإثنين"
+
+#: ../src/planner-default-week-dialog.c:43
+msgid "Tuesday"
+msgstr "الثّلاثاء"
+
+#: ../src/planner-default-week-dialog.c:44
+msgid "Wednesday"
+msgstr "الأربعاء"
+
+#: ../src/planner-default-week-dialog.c:45
+msgid "Thursday"
+msgstr "الخميس"
+
+#: ../src/planner-default-week-dialog.c:46
+msgid "Friday"
+msgstr "الجمعة"
+
+#: ../src/planner-default-week-dialog.c:47
+msgid "Saturday"
+msgstr "السّبت"
+
+#: ../src/planner-default-week-dialog.c:48
+msgid "Sunday"
+msgstr "الأحد"
+
+#: ../src/planner-default-week-dialog.c:288
+msgid "No working time"
+msgstr "بلا وقت عمل"
+
+#: ../src/planner-default-week-dialog.c:299
+#: ../src/planner-default-week-dialog.c:303
+msgid "%H:%M"
+msgstr "%H:%M"
+
+#: ../src/planner-default-week-dialog.c:553
+msgid "Edit default week"
+msgstr "حرّر الشهر الإفتراضي"
+
+#: ../src/planner-eds-plugin.c:155
+msgid "EDS"
+msgstr "خ.ب.إ"
+
+#: ../src/planner-eds-plugin.c:156
+msgid "Import resources from Evolution Data Server"
+msgstr "استورد الموارد من خادم بيانات إفليوشن"
+
+#: ../src/planner-eds-plugin.c:384 ../src/planner-gantt-print.c:191
+#: ../src/planner-gantt-view.c:621 ../src/planner-group-dialog.c:822
+#: ../src/planner-property-dialog.c:475 ../src/planner-resource-view.c:1211
+#: ../src/planner-task-dialog.c:2616 ../src/planner-task-dialog.c:2690
+#: ../src/planner-task-view.c:367
+msgid "Name"
+msgstr "الاسم"
+
+#: ../src/planner-eds-plugin.c:404 ../src/planner-resource-view.c:1327
+msgid "Email"
+msgstr "بريد إلكتروني"
+
+#: ../src/planner-eds-plugin.c:425
+msgid "Import"
+msgstr "استورد"
+
+#: ../src/planner-eds-plugin.c:435
+msgid "Photo"
+msgstr "صورة"
+
+#: ../src/planner-eds-plugin.c:664
+msgid "Imported from Evolution Data Server"
+msgstr "استورِد من خادم بيانات إفليوشن"
+
+#: ../src/planner-eds-plugin.c:665
+msgid "Updated from Evolution Data Server"
+msgstr "حُدِّث من خادم بيانات إفليوشن"
+
+#: ../src/planner-eds-plugin.c:850
+msgid "Query cancelled."
+msgstr "أُلغِيَ الاستعلام"
+
+#: ../src/planner-eds-plugin.c:911
+msgid "Evolution Data Server UID"
+msgstr "معرف خادم بيانات إفليوشن"
+
+#: ../src/planner-eds-plugin.c:912
+msgid "Identifier used by Evolution Data Server for resources"
+msgstr "معرف يستخدمه خادم بيانات إفليوشن للموارد"
+
+#: ../src/planner-format.c:153
+#, c-format
+msgid "%dd %dh"
+msgstr "%dd %dh"
+
+#: ../src/planner-format.c:156
+#, c-format
+msgid "%dd"
+msgstr "%dd"
+
+#: ../src/planner-format.c:161
+#, c-format
+msgid "%dh %dmin"
+msgstr "%dس %dد"
+
+#: ../src/planner-format.c:164
+#, c-format
+msgid "%dh"
+msgstr "%dh"
+
+#: ../src/planner-format.c:168
+#, c-format
+msgid "%dmin"
+msgstr "%dد"
+
+#. i18n: this string is the date nr and month name, displayed
+#. * e.g. in the date cells in the task tree. See
+#. * libmrproject/docs/DateFormat.
+#.
+#: ../src/planner-format.c:203
+msgid "%b %e"
+msgstr "%e %b"
+
+#: ../src/planner-format.c:387
+msgid "mon"
+msgstr "شهر"
+
+#. month unit variant accepted in input
+#: ../src/planner-format.c:388
+msgid "month"
+msgstr "شهر"
+
+#. month unit variant accepted in input
+#: ../src/planner-format.c:389
+msgid "months"
+msgstr "أشهر"
+
+#. month unit variant accepted in input
+#: ../src/planner-format.c:390
+msgid "w"
+msgstr "أسبوع"
+
+#. week unit variant accepted in input
+#: ../src/planner-format.c:391
+msgid "week"
+msgstr "أسبوع"
+
+#. week unit variant accepted in input
+#: ../src/planner-format.c:392
+msgid "weeks"
+msgstr "أسابيع"
+
+#. week unit variant accepted in input
+#: ../src/planner-format.c:393
+msgid "d"
+msgstr "ي"
+
+#. day unit variant accepted in input
+#: ../src/planner-format.c:394
+msgid "day"
+msgstr "يوم"
+
+#. day unit variant accepted in input
+#: ../src/planner-format.c:395
+msgid "days"
+msgstr "أيام"
+
+#. day unit variant accepted in input
+#: ../src/planner-format.c:396
+msgid "h"
+msgstr "س"
+
+#. hour unit variant accepted in input
+#: ../src/planner-format.c:397
+msgid "hour"
+msgstr "ساعة"
+
+#. hour unit variant accepted in input
+#: ../src/planner-format.c:398
+msgid "hours"
+msgstr "ساعات"
+
+#. hour unit variant accepted in input
+#: ../src/planner-format.c:399
+msgid "min"
+msgstr "د"
+
+#. minute unit variant accepted in input
+#: ../src/planner-format.c:400
+msgid "minute"
+msgstr "دقيقة"
+
+#. minute unit variant accepted in input
+#: ../src/planner-format.c:401
+msgid "minutes"
+msgstr "دقائق"
+
+#. i18n: project start, the date format is described in
+#. * libmrproject/docs/DateFormat.
+#: ../src/planner-gantt-background.c:647
+msgid "%Y %b %d"
+msgstr "%d %b %Y"
+
+#: ../src/planner-gantt-background.c:649
+msgid "Project start"
+msgstr "بداية المشروع"
+
+#: ../src/planner-gantt-header.c:671
+msgid "%e %b %Y"
+msgstr "%e %b %Y"
+
+#: ../src/planner-gantt-print.c:199 ../src/planner-gantt-view.c:624
+#: ../src/planner-resource-dialog.c:1850 ../src/planner-resource-view.c:790
+#: ../src/planner-resource-view.c:806 ../src/planner-resource-view.c:1776
+#: ../src/planner-task-view.c:370
+msgid "Work"
+msgstr "عمل"
+
+#: ../src/planner-gantt-print.c:546 ../src/planner-gantt-row.c:779
+#: ../src/planner-html-plugin.c:124 ../src/planner-task-tree.c:1601
+#: ../src/planner-window.c:1868
+msgid "Unnamed"
+msgstr "غير مسمى"
+
+#: ../src/planner-gantt-row.c:2361
+#, c-format
+msgid "Change work to %s"
+msgstr "غيّر العمل إلى %s"
+
+#: ../src/planner-gantt-row.c:2377
+#, c-format
+msgid "Change progress to %u%% complete"
+msgstr "غير التقدم إلى %u%% مكتمل"
+
+#: ../src/planner-gantt-row.c:2416 ../src/planner-gantt-row.c:2419
+msgid "No name"
+msgstr "لا اسم"
+
+#: ../src/planner-gantt-row.c:2422
+#, c-format
+msgid "Make task '%s' a predecessor of '%s'"
+msgstr "اجعل المهمّة '%s' سلفا لـ '%s' "
+
+#: ../src/planner-gantt-row.c:3457 ../src/planner-task-dialog.c:455
+#: ../src/planner-task-tree.c:262 ../src/planner-task-tree.c:952
+msgid "Edit task property"
+msgstr "حرّر خاصية المهمّة"
+
+#: ../src/planner-gantt-view.c:138 ../src/planner-task-view.c:119
+msgid "_Insert Task"
+msgstr "أ_درِج مهمّة"
+
+#: ../src/planner-gantt-view.c:139 ../src/planner-task-view.c:120
+msgid "Insert a new task"
+msgstr "أدرِج مهمّةً جديدة"
+
+#: ../src/planner-gantt-view.c:141 ../src/planner-task-view.c:122
+msgid "In_sert Tasks..."
+msgstr "أ_درِج مهام..."
+
+#: ../src/planner-gantt-view.c:144 ../src/planner-task-view.c:125
+msgid "_Remove Task"
+msgstr "أ_زِل المهمة"
+
+#: ../src/planner-gantt-view.c:145 ../src/planner-task-view.c:126
+msgid "Remove the selected tasks"
+msgstr "أزل المهام المنتقاة"
+
+#: ../src/planner-gantt-view.c:147
+msgid "_Edit Task Properties..."
+msgstr "_حرّر خصائص المهم..."
+
+#: ../src/planner-gantt-view.c:150 ../src/planner-resource-view.c:248
+#: ../src/planner-task-view.c:131
+msgid "Select _All"
+msgstr "انتقِ ال_كل"
+
+#: ../src/planner-gantt-view.c:151 ../src/planner-resource-view.c:249
+#: ../src/planner-task-view.c:132
+msgid "Select all tasks"
+msgstr "انتقِ كل المهام"
+
+#: ../src/planner-gantt-view.c:153 ../src/planner-task-view.c:134
+msgid "_Unlink Task"
+msgstr "الغِ ر_بط المهمّة"
+
+#: ../src/planner-gantt-view.c:154 ../src/planner-task-view.c:135
+msgid "Unlink the selected tasks"
+msgstr "الغِ ربط المهام المُنتقاة"
+
+#: ../src/planner-gantt-view.c:156 ../src/planner-task-view.c:137
+msgid "_Link Tasks"
+msgstr "ا_ربط المهام"
+
+#: ../src/planner-gantt-view.c:157 ../src/planner-task-view.c:138
+msgid "Link the selected tasks"
+msgstr "اربط المهام المُنتقاة"
+
+#: ../src/planner-gantt-view.c:159 ../src/planner-task-view.c:140
+msgid "I_ndent Task"
+msgstr "أ_زِح المهمَّة"
+
+#: ../src/planner-gantt-view.c:160 ../src/planner-task-view.c:141
+msgid "Indent the selected tasks"
+msgstr "أزِح المهام المُنتقاة"
+
+#: ../src/planner-gantt-view.c:162 ../src/planner-task-view.c:143
+msgid "Unin_dent Task"
+msgstr "الغِ إ_زاحة المهمّة"
+
+#: ../src/planner-gantt-view.c:163 ../src/planner-task-view.c:144
+msgid "Unindent the selected tasks"
+msgstr "الغِ إزاحة المهام المنتقاة"
+
+#: ../src/planner-gantt-view.c:165 ../src/planner-task-view.c:146
+msgid "Move Task _Up"
+msgstr "حرّك المهمّة لأ_على"
+
+#: ../src/planner-gantt-view.c:166 ../src/planner-task-view.c:147
+msgid "Move the selected tasks upwards"
+msgstr "حرّك المهمّة المنتقاة لأعلى"
+
+#: ../src/planner-gantt-view.c:168 ../src/planner-task-view.c:149
+msgid "Move Task Do_wn"
+msgstr "حرّك المهمّة لأ_سفل"
+
+#: ../src/planner-gantt-view.c:169 ../src/planner-task-view.c:150
+msgid "Move the selected tasks downwards"
+msgstr "حرّك المهمّة المنتقاة لأسفل"
+
+#: ../src/planner-gantt-view.c:171 ../src/planner-task-view.c:152
+msgid "Reset _Constraint"
+msgstr "صفّر ال_قيود"
+
+#: ../src/planner-gantt-view.c:174
+msgid "Zoom To _Fit"
+msgstr "كبّر حتى ال_ملائمة"
+
+#: ../src/planner-gantt-view.c:175 ../src/planner-usage-view.c:115
+msgid "Zoom to fit the entire project"
+msgstr "كبّر ليلائم المشروع كاملا"
+
+#: ../src/planner-gantt-view.c:177
+msgid "_Zoom In"
+msgstr "ت_كبير"
+
+#: ../src/planner-gantt-view.c:178 ../src/planner-usage-view.c:111
+#: ../src/planner-usage-view.c:112
+msgid "Zoom in"
+msgstr "تكبير"
+
+#: ../src/planner-gantt-view.c:180
+msgid "Zoom _Out"
+msgstr "ت_صغير"
+
+#: ../src/planner-gantt-view.c:181 ../src/planner-usage-view.c:108
+#: ../src/planner-usage-view.c:109
+msgid "Zoom out"
+msgstr "تصغير"
+
+#: ../src/planner-gantt-view.c:183 ../src/planner-resource-view.c:254
+#: ../src/planner-task-view.c:158 ../src/planner-usage-view.c:117
+msgid "Edit _Visible Columns"
+msgstr "حرر الأ_عمدة المرئية"
+
+#: ../src/planner-gantt-view.c:184 ../src/planner-resource-view.c:255
+#: ../src/planner-task-view.c:159 ../src/planner-usage-view.c:118
+msgid "Edit visible columns"
+msgstr "حرر الأعمدة المرئية"
+
+#: ../src/planner-gantt-view.c:189 ../src/planner-task-view.c:164
+msgid "_Highlight Critical Tasks"
+msgstr "أ_برِز المهام الحيويّة"
+
+#: ../src/planner-gantt-view.c:192
+msgid "_Show Guide Lines"
+msgstr "أ_ظهر الخطوط العامة"
+
+#: ../src/planner-gantt-view.c:195 ../src/planner-task-view.c:166
+msgid "_Nonstandard Days"
+msgstr "أ_يام غير قياسية"
+
+#. i18n: Label used for the sidebar. Please try to make it short and use
+#. * a linebreak if necessary/possible.
+#.
+#: ../src/planner-gantt-view.c:376
+msgid "Gantt"
+msgstr "جانت"
+
+#: ../src/planner-gantt-view.c:382
+msgid "_Gantt Chart"
+msgstr "_مخطط جانت"
+
+#. i18n: WBS is short for work breakdown structure, and is a
+#. * project management term. You might want to leave it
+#. * untranslated unless there is a localized term for it.
+#.
+#. i18n: WBS is sort for work breakdown structure, and is a
+#. * project management term. You might want to leave it
+#. * untranslated unless there is a localized term for it.
+#.
+#: ../src/planner-gantt-view.c:620 ../src/planner-task-view.c:366
+msgid "WBS"
+msgstr "WBS"
+
+#: ../src/planner-gantt-view.c:622 ../src/planner-task-view.c:368
+msgid "Start"
+msgstr "بداية"
+
+#: ../src/planner-gantt-view.c:623 ../src/planner-task-view.c:369
+msgid "Finish"
+msgstr "نهاية"
+
+#: ../src/planner-gantt-view.c:626 ../src/planner-task-view.c:372
+msgid "Slack"
+msgstr "التراخي"
+
+#: ../src/planner-gantt-view.c:628 ../src/planner-task-view.c:374
+msgid "Assigned to"
+msgstr "مُسْند إلى"
+
+#. i18n: The string "% Complete" will be used in the header
+#. * of a column containing values from 0 upto 100, indicating
+#. * what part of a task has been completed.
+#.
+#: ../src/planner-gantt-view.c:634 ../src/planner-task-view.c:380
+#, no-c-format
+msgid "% Complete"
+msgstr "% مكتمل"
+
+#: ../src/planner-gantt-view.c:988
+msgid "Edit Gantt Columns"
+msgstr "حرّر أعمدة جانت"
+
+#: ../src/planner-group-dialog.c:304
+msgid "Insert group"
+msgstr "أدرِج مجموعة"
+
+#: ../src/planner-group-dialog.c:431
+msgid "Remove group"
+msgstr "أزِل مجموعة"
+
+#: ../src/planner-group-dialog.c:526
+msgid "Default group"
+msgstr "المجموعة الافتراضيّة"
+
+#: ../src/planner-group-dialog.c:644
+msgid "Edit group property"
+msgstr "حرّر خاصية المجموعة"
+
+#: ../src/planner-group-dialog.c:828
+msgid "Manager name"
+msgstr "اسم المدير"
+
+#: ../src/planner-group-dialog.c:834
+msgid "Manager phone"
+msgstr "هاتف المدير"
+
+#: ../src/planner-group-dialog.c:840
+msgid "Manager email"
+msgstr "بريد المدير الإلكتروني"
+
+#: ../src/planner-html-plugin.c:46
+msgid "HTML"
+msgstr "HTML"
+
+#: ../src/planner-html-plugin.c:47
+msgid "Export project to HTML"
+msgstr "صدّر المشروع إلى HTML"
+
+#: ../src/planner-html-plugin.c:81
+msgid "Could not export to HTML"
+msgstr "تعذّر التصدير إلى HTML"
+
+#: ../src/planner-html-plugin.c:109
+msgid "Export to HTML"
+msgstr "صدّر إلى HTML"
+
+#: ../src/planner-html-plugin.c:153
+msgid "Show result in browser"
+msgstr "أظهر الناتج في المتصفح"
+
+#: ../src/planner-html-plugin.c:172 ../src/planner-window.c:1583
+#: ../src/planner-xml-planner-plugin.c:124
+#, c-format
+msgid "File \"%s\" exists, do you want to overwrite it?"
+msgstr "الملف \"%s\" موجود. أتريد أن تكتب فوقه؟"
+
+#: ../src/planner-main.c:39
+msgid "Create the initial window with the given geometry."
+msgstr "انشيء النافذة الأولية بالأبعاد المعطاة."
+
+#: ../src/planner-main.c:39
+msgid "GEOMETRY"
+msgstr "GEOMETRY"
+
+#: ../src/planner-main.c:40
+msgid "FILES"
+msgstr "FILES"
+
+#: ../src/planner-main.c:63
+msgid "- Planner project management"
+msgstr "- إدارة مشاريع المُخَطِّط"
+
+#: ../src/planner-main.c:67
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"شغّل '%s --help' لترى قائمة كاملة بخيارات سطر الأوامر المتاحة.\n"
+
+#: ../src/planner-main.c:88
+#, c-format
+msgid "Invalid geometry string \"%s\"\n"
+msgstr "سلسلة هندسة غير سليمة \"%s\"\n"
+
+#: ../src/planner-msp-plugin.c:49
+msgid "MS Project XML..."
+msgstr "MS Project XML..."
+
+#: ../src/planner-msp-plugin.c:49
+msgid "Import an MS Project XML file"
+msgstr "استور ملف XML  من MS Project"
+
+#: ../src/planner-msp-plugin.c:117
+msgid "Couldn't import file."
+msgstr "تعذّر استيراد الملف."
+
+#: ../src/planner-msp-plugin.c:205
+msgid "Import a File"
+msgstr "استورد ملف"
+
+#: ../src/planner-msp-plugin.c:213
+msgid "XML Files"
+msgstr "ملفات XML"
+
+#: ../src/planner-msp-plugin.c:218 ../src/planner-window.c:889
+msgid "All Files"
+msgstr "كل الملفات"
+
+#: ../src/planner-phase-dialog.c:540
+msgid "Insert phase"
+msgstr "أدرج طور"
+
+#: ../src/planner-phase-dialog.c:639
+msgid "Remove phase"
+msgstr "أزِل طور"
+
+#: ../src/planner-plugin-loader.c:40
+#, c-format
+msgid "Could not open plugin file '%s'\n"
+msgstr "تعذّر فتح ملف الملحق '%s'.\n"
+
+#: ../src/planner-predecessor-model.c:191 ../src/planner-task-dialog.c:2217
+msgid "FS"
+msgstr "ن‌ب"
+
+#: ../src/planner-predecessor-model.c:194 ../src/planner-task-dialog.c:2218
+msgid "FF"
+msgstr "ن‌ن"
+
+#: ../src/planner-predecessor-model.c:197 ../src/planner-task-dialog.c:2219
+msgid "SS"
+msgstr "ب‌ب"
+
+#: ../src/planner-predecessor-model.c:200 ../src/planner-task-dialog.c:2220
+msgid "SF"
+msgstr "ب‌ن"
+
+#: ../src/planner-print-dialog.c:247
+msgid "Select the views to print:"
+msgstr "انتقِ المشاهد التي ستُطبع:"
+
+#: ../src/planner-print-job.c:172
+msgid "Select views"
+msgstr "انتقِ المشاهد"
+
+#: ../src/planner-project-properties.c:387
+msgid "Select a calendar to use for this project:"
+msgstr "انتق تقويما ليستخدم في هذا المشروع:"
+
+#: ../src/planner-project-properties.c:487
+msgid "Edit Project Name"
+msgstr "حرّر اسم المشروع"
+
+#: ../src/planner-project-properties.c:523
+msgid "Edit Organization"
+msgstr "حرّر المنظّمة"
+
+#: ../src/planner-project-properties.c:559
+msgid "Edit Manager"
+msgstr "حرّر المدير"
+
+#: ../src/planner-project-properties.c:631
+#: ../src/planner-project-properties.c:665
+msgid "Edit Project Start"
+msgstr "حرر بداية المشروع"
+
+#: ../src/planner-project-properties.c:754
+msgid "OK"
+msgstr "موافق"
+
+#: ../src/planner-project-properties.c:842
+msgid "Edit Project Phase"
+msgstr "حرّر طور المشروع"
+
+#: ../src/planner-project-properties.c:975
+msgid "Property"
+msgstr "خاصية"
+
+#: ../src/planner-project-properties.c:986
+msgid "Value"
+msgstr "القيمة"
+
+#: ../src/planner-project-properties.c:1391
+#: ../src/planner-property-dialog.c:323
+msgid "The name of the custom property needs to start with a letter."
+msgstr "يحتاج اسم الخاصية المخصصة أن يبدأ بحرف."
+
+#: ../src/planner-project-properties.c:1462
+#: ../src/planner-property-dialog.c:393
+#, c-format
+msgid "Do you really want to remove the property '%s' from the project?"
+msgstr "أتريد حقاً إزالة الخاصية '%s' من المشروع؟"
+
+#: ../src/planner-project-properties.c:1557
+msgid "Could not create properties dialog."
+msgstr "تعذّر إنشاء حوار الخصائص"
+
+#: ../src/planner-project-properties.c:1591
+msgid "Date..."
+msgstr "التاريخ..."
+
+#: ../src/planner-project-properties.c:1935
+msgid "Add project property"
+msgstr "أضِف خاصية مشروع"
+
+#: ../src/planner-project-properties.c:2045
+msgid "Remove project property"
+msgstr "أزل خاصية مشروع"
+
+#: ../src/planner-project-properties.c:2138
+msgid "Edit project property value"
+msgstr "حرر قيمة خاصية مشروع"
+
+#: ../src/planner-property-dialog.c:492
+msgid "Label"
+msgstr "تسمية"
+
+#: ../src/planner-property-dialog.c:504 ../src/planner-resource-view.c:1264
+#: ../src/planner-task-dialog.c:2722
+msgid "Type"
+msgstr "نوع"
+
+#: ../src/planner-property-dialog.c:661
+msgid "Add property"
+msgstr "أضِف خاصية"
+
+#: ../src/planner-property-dialog.c:806
+msgid "Remove property"
+msgstr "أزل خاصية"
+
+#: ../src/planner-property-dialog.c:899
+msgid "Edit property label"
+msgstr "حرر جدول الخاصيّة"
+
+#: ../src/planner-resource-cmd.c:75
+msgid "Insert resource"
+msgstr "أدرِج مورِد"
+
+#. Put "no group" at the top.
+#: ../src/planner-resource-dialog.c:312
+#: ../src/planner-resource-input-dialog.c:100
+#: ../src/planner-resource-view.c:1985
+msgid "(None)"
+msgstr "(لا شيء)"
+
+#: ../src/planner-resource-dialog.c:322
+#: ../src/planner-resource-input-dialog.c:110 ../src/planner-task-dialog.c:381
+msgid "(No name)"
+msgstr "(لا اسم)"
+
+#: ../src/planner-resource-dialog.c:495
+msgid "Edit resource calendar"
+msgstr "حرر تقويم المورد"
+
+#: ../src/planner-resource-dialog.c:576
+msgid "Edit resource note"
+msgstr "حرر ملاحظة المرد"
+
+#: ../src/planner-resource-dialog.c:643
+msgid "Edit resource cost"
+msgstr "حرر تكلفة المورد"
+
+#: ../src/planner-resource-dialog.c:711 ../src/planner-resource-dialog.c:752
+#: ../src/planner-resource-view.c:1453 ../src/planner-resource-view.c:1534
+msgid "Edit resource property"
+msgstr "حرّر خاصية المورِد"
+
+#. i18n: time stamp format for notes in task dialog, see strftime(3) for
+#. * a detailed description.
+#: ../src/planner-resource-dialog.c:1404 ../src/planner-task-dialog.c:1808
+msgid "%a %d %b %Y, %H:%M\n"
+msgstr "%a %d %b %Y، %H:%M\n"
+
+#: ../src/planner-resource-dialog.c:1521
+msgid "None (use project default)"
+msgstr "بدون (استخدم افتراضي المشروع)"
+
+#: ../src/planner-resource-dialog.c:1648 ../src/planner-resource-dialog.c:1650
+msgid "Edit resource properties"
+msgstr "حرر خصائص المورد"
+
+#: ../src/planner-resource-dialog.c:1851 ../src/planner-resource-view.c:793
+#: ../src/planner-resource-view.c:807 ../src/planner-resource-view.c:1777
+msgid "Material"
+msgstr "مواد"
+
+#: ../src/planner-resource-view.c:233
+msgid "_Insert Resource"
+msgstr "أ_درِج مورِد"
+
+#: ../src/planner-resource-view.c:234
+msgid "Insert a new resource"
+msgstr "أدرِج مورِد جديد"
+
+#: ../src/planner-resource-view.c:236
+msgid "In_sert Resources..."
+msgstr "أ_درِج موارِد..."
+
+#: ../src/planner-resource-view.c:239
+msgid "_Remove Resource"
+msgstr "أ_زِل مورِد"
+
+#: ../src/planner-resource-view.c:240
+msgid "Remove the selected resource"
+msgstr "أزل المورد المنقى"
+
+#: ../src/planner-resource-view.c:242
+msgid "_Edit Resource Properties..."
+msgstr "_حرر خصائص المورد..."
+
+#: ../src/planner-resource-view.c:245
+msgid "Edit _Groups"
+msgstr "حرّر الم_جموعات"
+
+#: ../src/planner-resource-view.c:246
+msgid "Edit resource groups"
+msgstr "حرّر مجموعات الموارد"
+
+#: ../src/planner-resource-view.c:251
+msgid "Edit _Custom Properties..."
+msgstr "حرّر الخصائص المخ_صصة..."
+
+#: ../src/planner-resource-view.c:269
+msgid "/_Insert resource"
+msgstr "/أ_درِج مورد"
+
+#: ../src/planner-resource-view.c:272
+msgid "/_Remove resource"
+msgstr "/أ_زِل المورد"
+
+#: ../src/planner-resource-view.c:275 ../src/planner-usage-tree.c:102
+msgid "/_Edit resource..."
+msgstr "/_حرر المورد..."
+
+#: ../src/planner-resource-view.c:463
+msgid "_Resources"
+msgstr "ال_موارد"
+
+#: ../src/planner-resource-view.c:983
+msgid "Remove resource"
+msgstr "أزِل المورد"
+
+#: ../src/planner-resource-view.c:1060
+msgid "Edit Resource Columns"
+msgstr "حرر أعمدة الموارد"
+
+#: ../src/planner-resource-view.c:1095
+msgid "Edit custom resource properties"
+msgstr "حرر خصائص الموارد المخصصة"
+
+#: ../src/planner-resource-view.c:1237
+msgid "Short name"
+msgstr "اسم قصير"
+
+#: ../src/planner-resource-view.c:1293
+msgid "Group"
+msgstr "المجموعة"
+
+#. i18n: Short "Week", preferably 2 letters.
+#: ../src/planner-scale-utils.c:129
+#, c-format
+msgid "Wk %d"
+msgstr "أس %Id"
+
+#: ../src/planner-scale-utils.c:133
+#, c-format
+msgid "Week %d"
+msgstr "الأسبوع %Id"
+
+#: ../src/planner-scale-utils.c:139
+#, c-format
+msgid "Week %d, %d"
+msgstr "الأسبوع %Id، %Id"
+
+#. i18n: Short "Quarter", preferably 1 letter.
+#: ../src/planner-scale-utils.c:170
+#, c-format
+msgid "Q%d"
+msgstr "ر%Id"
+
+#. i18n: Short "Quarter", preferably 2-3 letters.
+#: ../src/planner-scale-utils.c:174
+#, c-format
+msgid "Qtr %d"
+msgstr "ربع %Id"
+
+#. i18n: Year, short "Quarter", preferably 2-3 letters.
+#: ../src/planner-scale-utils.c:178
+#, c-format
+msgid "%d, Qtr %d"
+msgstr "%Id، ربع %Id"
+
+#. i18n: Short "Half year", preferably 1 letter.
+#: ../src/planner-scale-utils.c:191
+#, c-format
+msgid "H%d"
+msgstr "ن%Id"
+
+#. i18n: Year, short "Half year", preferably 1 letter.
+#: ../src/planner-scale-utils.c:196
+#, c-format
+msgid "%04d, H%d"
+msgstr "%I04d، ن%Id"
+
+#: ../src/planner-sql-plugin.c:94
+msgid "Open from Database..."
+msgstr "افتح من قاعدة بيانات..."
+
+#: ../src/planner-sql-plugin.c:95
+msgid "Open a project from a database"
+msgstr "افتح مشروع من قاعدة بيانات"
+
+#: ../src/planner-sql-plugin.c:97 ../src/planner-sql-plugin.c:1145
+msgid "Save to Database"
+msgstr "احفظ إلى قاعدة بيانات"
+
+#: ../src/planner-sql-plugin.c:98
+msgid "Save the current project to a database"
+msgstr "احفظ المشروع الحالي إلى قاعدة بيانات"
+
+#: ../src/planner-sql-plugin.c:524
+#, c-format
+msgid ""
+"Database %s needs to be upgraded from version %s to version %s.\n"
+"Please backup database before the upgrade."
+msgstr ""
+"تحتاج قاعدة البيانات %s للتحديث من النسخة %s إلي النسخة %s.\n"
+"من فضلك احفظ قاعدة البيانات احتياطيا قبل التحديث."
+
+#: ../src/planner-sql-plugin.c:531
+msgid "Upgrade"
+msgstr "حدِّث"
+
+#: ../src/planner-sql-plugin.c:545
+#, c-format
+msgid ""
+"Could not upgrade database %s.\n"
+" Upgrade file used: %s.\n"
+"\n"
+"Database error: \n"
+"%s"
+msgstr ""
+"تعذّر تحديث قاعدة البيانات %s.\n"
+"ملف التحديث المستخدم: %s.\n"
+"\n"
+"خطأ قاعدة البيانات: \n"
+"%s"
+
+#: ../src/planner-sql-plugin.c:585
+#, c-format
+msgid "Can't create tables in database %s"
+msgstr "تعذّر إنشاء جداول في قاعدة البيانات %s"
+
+#: ../src/planner-sql-plugin.c:647
+#, c-format
+msgid "Database %s is not setup for Planner. Do you want to do that?"
+msgstr "لم تُعدّ قاعدة البيانات %s للمُخطِّط. أترغب في فعل ذلك؟"
+
+#: ../src/planner-sql-plugin.c:690
+#, c-format
+msgid "Connection to database '%s@%s' failed."
+msgstr "فشل الإتصال مع قاعدة البيانات '%s@%s' failed."
+
+#: ../src/planner-sql-plugin.c:709
+#, c-format
+msgid "Test to tables in database '%s' failed."
+msgstr "فشل الختبار الجداول في قاعدة البيانات '%s'."
+
+#: ../src/planner-sql-plugin.c:811
+msgid "ID"
+msgstr "مُعرِّف"
+
+#: ../src/planner-sql-plugin.c:819
+msgid "Project"
+msgstr "مشروع"
+
+#: ../src/planner-sql-plugin.c:827
+msgid "Phase"
+msgstr "طور"
+
+#: ../src/planner-sql-plugin.c:835
+msgid "Revision"
+msgstr "المراجعة"
+
+#: ../src/planner-sql-plugin.c:1033
+msgid "Open from Database"
+msgstr "افتح من قاعدة بيانات"
+
+#: ../src/planner-task-cmd.c:97
+msgid "Link task"
+msgstr "أوصِل المهمّة"
+
+#: ../src/planner-task-cmd.c:173
+msgid "Unlink task"
+msgstr "الغِ ربط المهمّة"
+
+#: ../src/planner-task-cmd.c:268
+msgid "Insert task"
+msgstr "أدرِج مهمّة"
+
+#: ../src/planner-task-dialog.c:529
+msgid "Edit task type"
+msgstr "حرّر نوع المهمّة"
+
+#: ../src/planner-task-dialog.c:596
+msgid "Toggle fixed duration"
+msgstr "بدّل المدّة الثابتة"
+
+#: ../src/planner-task-dialog.c:663
+msgid "Edit task scheduling"
+msgstr "حرر جدولة المهمّة"
+
+#: ../src/planner-task-dialog.c:743
+msgid "Assign resource to task"
+msgstr "أسنِد المورِد للمهمّة"
+
+#: ../src/planner-task-dialog.c:803
+msgid "Unassign resource from task"
+msgstr "الغِ إسناد المورد للمهمة"
+
+#: ../src/planner-task-dialog.c:862
+msgid "Change resource units in task"
+msgstr "غير وحدات الموارد في المهمّة"
+
+#: ../src/planner-task-dialog.c:950
+msgid "Edit task predecessor"
+msgstr "حرر سلف المهمّة"
+
+#: ../src/planner-task-dialog.c:1021
+msgid "Edit lag predecessor"
+msgstr "حرّر تباطؤ السلف"
+
+#: ../src/planner-task-dialog.c:1087
+msgid "Edit task note"
+msgstr "حرِّر ملاحظة المهمّة"
+
+#: ../src/planner-task-dialog.c:1495
+#, c-format
+msgid "No earlier than %s"
+msgstr "ليس مبكرا عن %s"
+
+#: ../src/planner-task-dialog.c:1499
+#, c-format
+msgid "On fixed date %s"
+msgstr "في تاريخ محدد %s"
+
+#: ../src/planner-task-dialog.c:1917
+msgid "Finish to start (FS)"
+msgstr "نهاية لبداية (ن‌ب)"
+
+#: ../src/planner-task-dialog.c:1918
+msgid "Finish to finish (FF)"
+msgstr "نهاية لنهاية (ن‌ن)"
+
+#: ../src/planner-task-dialog.c:1919
+msgid "Start to start (SS)"
+msgstr "بداية لبداية (ب‌ب)"
+
+#: ../src/planner-task-dialog.c:1920
+msgid "Start to finish (SF)"
+msgstr "بداية لنهاية (ب‌ن)"
+
+#: ../src/planner-task-dialog.c:1975
+msgid "Can't add new predecessor. No task selected!"
+msgstr "تعذّر إضافة سلف جديد. لم يُنتق أية مهمّة!"
+
+#: ../src/planner-task-dialog.c:2463
+msgid "Change..."
+msgstr "غيِّر..."
+
+#: ../src/planner-task-dialog.c:2637
+msgid "Assigned"
+msgstr "مُسْندة"
+
+#: ../src/planner-task-dialog.c:2654
+msgid "Units"
+msgstr "وحدات"
+
+#: ../src/planner-task-dialog.c:2744
+msgid "Lag"
+msgstr "تباطؤ"
+
+#: ../src/planner-task-dialog.c:2887 ../src/planner-task-dialog.c:2889
+msgid "Edit task properties"
+msgstr "حرّر خصائص المهمّة"
+
+#: ../src/planner-task-popup.c:52
+msgid "/_Insert task"
+msgstr "/أدرج _مهمّة"
+
+#: ../src/planner-task-popup.c:55
+msgid "/Insert _subtask"
+msgstr "/أدرج مهمّة _فرعية"
+
+#: ../src/planner-task-popup.c:58
+msgid "/_Remove task"
+msgstr "/أ_زِل المهمّة"
+
+#: ../src/planner-task-popup.c:63
+msgid "/_Unlink task"
+msgstr "/الغِ _وصل المهمّة"
+
+#: ../src/planner-task-popup.c:68
+msgid "/Assign _resources..."
+msgstr "/أسنِد الموارد..."
+
+#: ../src/planner-task-popup.c:71 ../src/planner-usage-tree.c:105
+msgid "/_Edit task..."
+msgstr "/_حرر المهمّة..."
+
+#: ../src/planner-task-tree.c:572
+msgid "Remove task"
+msgstr "أزل المهمّة"
+
+#: ../src/planner-task-tree.c:649
+msgid "Apply constraint to task"
+msgstr "طبق القيود على المهمّة"
+
+#: ../src/planner-task-tree.c:711
+msgid "Reset task constraint"
+msgstr "صفّر قيود المهمّة"
+
+#: ../src/planner-task-tree.c:1497 ../src/planner-task-tree.c:1654
+msgid "N/A"
+msgstr "غير متوفر"
+
+#: ../src/planner-task-tree.c:2825
+msgid "Remove tasks"
+msgstr "أزل المهام"
+
+#: ../src/planner-task-tree.c:2887
+#, c-format
+msgid ""
+"You are about to open an edit dialog each for %i tasks. Are you sure that "
+"you want to do that?"
+msgstr ""
+"أنت على وشك فتح حوار تحرير لكل واحد من %Ii مهام. أواثق من رغبتك في عمل هذا؟"
+
+#: ../src/planner-task-tree.c:2989
+msgid "Unlink tasks"
+msgstr "الغِ ربط المهام"
+
+#: ../src/planner-task-tree.c:3041
+msgid "Link tasks"
+msgstr "اربط المهام"
+
+#: ../src/planner-task-tree.c:3132
+msgid "Indent tasks"
+msgstr "أزِح المهام"
+
+#: ../src/planner-task-tree.c:3143
+msgid "Indent task"
+msgstr "أزِح المهمّة"
+
+#: ../src/planner-task-tree.c:3237
+msgid "Unindent tasks"
+msgstr "الغ إزاحة المهام"
+
+#: ../src/planner-task-tree.c:3255
+msgid "Unindent task"
+msgstr "الغ إزاحة المهمّة"
+
+#: ../src/planner-task-tree.c:3333
+msgid "Move tasks up"
+msgstr "حرّك المهام لأعلى"
+
+#: ../src/planner-task-tree.c:3371
+msgid "Move task up"
+msgstr "حرّك المهمة لأعلى"
+
+#: ../src/planner-task-tree.c:3459
+msgid "Move tasks down"
+msgstr "حرّك المهام لأسفل"
+
+#. Moving task from 'position' to 'position + 1'
+#: ../src/planner-task-tree.c:3505
+msgid "Move task down"
+msgstr "حرّك المهمة لأسفل"
+
+#: ../src/planner-task-tree.c:3561
+msgid "Reset task constraints"
+msgstr "صفِّر قيود المهمّة"
+
+#: ../src/planner-task-tree.c:3593
+msgid "Reset all task constraints"
+msgstr "صفِّر كل قيود المهمّة"
+
+#: ../src/planner-task-view.c:128
+msgid "_Edit Task"
+msgstr "_حرّر المهمة"
+
+#: ../src/planner-task-view.c:155
+msgid "_Edit Custom Properties..."
+msgstr "_حرّر الخصائص المخصصة..."
+
+#: ../src/planner-task-view.c:301
+msgid "Tasks"
+msgstr "مهام"
+
+#: ../src/planner-task-view.c:307
+msgid "_Tasks"
+msgstr "_مهام"
+
+#: ../src/planner-task-view.c:609
+msgid "Edit custom task properties"
+msgstr "حرر خصائص المهام المخصصة"
+
+#: ../src/planner-task-view.c:663
+msgid "Edit Task Columns"
+msgstr "حرر أعمدة المهام"
+
+#: ../src/planner-usage-tree.c:108
+msgid "/_Expand all resources"
+msgstr "/_وسع كل خيوط الموارد"
+
+#: ../src/planner-usage-tree.c:111
+msgid "/_Collapse all resources"
+msgstr "/_قلّص كل الموارد"
+
+#: ../src/planner-usage-tree.c:379
+msgid ""
+"\n"
+"Name"
+msgstr ""
+"\n"
+"الا_سم"
+
+#: ../src/planner-usage-tree.c:381
+msgid ""
+"\n"
+"Task"
+msgstr ""
+"\n"
+"مهمَّة"
+
+#: ../src/planner-usage-view.c:114
+msgid "Zoom to fit"
+msgstr "كبّر حتى الملاءمة"
+
+#. i18n: Label used for the sidebar. Please try to make it short and use
+#. * a linebreak if necessary/possible.
+#.
+#: ../src/planner-usage-view.c:257
+msgid ""
+"Resource\n"
+"Usage"
+msgstr ""
+"استخدام\n"
+"الموارد"
+
+#: ../src/planner-usage-view.c:263
+msgid "Resource _Usage"
+msgstr "ا_ستخدام الموارد"
+
+#: ../src/planner-usage-view.c:374
+msgid "Edit Resource Usage Columns"
+msgstr "حرر أعمدة استخدام الموارد"
+
+#: ../src/planner-window.c:220
+msgid "_File"
+msgstr "_ملف"
+
+#: ../src/planner-window.c:224
+msgid "_New Project"
+msgstr "مشروع _جديد"
+
+#: ../src/planner-window.c:224
+msgid "Create a new project"
+msgstr "انشيء مشروع جديد"
+
+#: ../src/planner-window.c:228
+msgid "_Open..."
+msgstr "ا_فتح..."
+
+#: ../src/planner-window.c:228
+msgid "Open a project"
+msgstr "افتح مشروع"
+
+#: ../src/planner-window.c:231
+msgid "Open _Recent"
+msgstr "افتح الأح_دث"
+
+#: ../src/planner-window.c:234
+msgid "_Import"
+msgstr "ا_ستورد"
+
+#: ../src/planner-window.c:238 ../src/planner-window.c:1452
+msgid "_Save"
+msgstr "ا_حفظ"
+
+#: ../src/planner-window.c:238
+msgid "Save the current project"
+msgstr "احفظ المشروع الحالي"
+
+#: ../src/planner-window.c:241
+msgid "_Export"
+msgstr "_صدِّر"
+
+#: ../src/planner-window.c:244
+msgid "Save _As..."
+msgstr "احفظ _كـ..."
+
+#: ../src/planner-window.c:244
+msgid "Save the current project with a different name"
+msgstr "احفظ المشروع الحالي الحالي باسم مغاير"
+
+#: ../src/planner-window.c:247
+msgid "Page Set_up..."
+msgstr "إ_عداد الصفحة.."
+
+#: ../src/planner-window.c:247
+msgid "Setup the page settings for your current printer"
+msgstr "اضبط إعدادات الصفحة لطابعتك الحالية"
+
+#: ../src/planner-window.c:250
+msgid "_Print..."
+msgstr "ا_طبع..."
+
+#: ../src/planner-window.c:250
+msgid "Print the current project"
+msgstr "اطبع المشروع الحالي"
+
+#: ../src/planner-window.c:253
+msgid "Print Pre_view"
+msgstr "م_عاينة الطبع"
+
+#: ../src/planner-window.c:253
+msgid "Print preview of the current project"
+msgstr "معاينة الطبع للمشروع الحالي"
+
+#: ../src/planner-window.c:256
+msgid "_Close"
+msgstr "أ_غلق"
+
+#: ../src/planner-window.c:256
+msgid "Close the current file"
+msgstr "أغلق الملف الحالي"
+
+#: ../src/planner-window.c:259
+msgid "_Quit"
+msgstr "ا_خرج"
+
+#: ../src/planner-window.c:259
+msgid "Exit the program"
+msgstr "اخرج من البرنامج"
+
+#: ../src/planner-window.c:263
+msgid "_Edit"
+msgstr "_حرّر"
+
+#: ../src/planner-window.c:266
+msgid "_Undo"
+msgstr "_تراجع"
+
+#: ../src/planner-window.c:266
+msgid "Undo the last action"
+msgstr "أعِد آخر إجراء"
+
+#: ../src/planner-window.c:269
+msgid "_Redo"
+msgstr "أعِد"
+
+#: ../src/planner-window.c:269
+msgid "Redo the undone action"
+msgstr "أعِد العملية المتراجع عنها"
+
+#: ../src/planner-window.c:273
+msgid "_View"
+msgstr "ا_عرض"
+
+#: ../src/planner-window.c:277
+msgid "_Actions"
+msgstr "إ_جراءات"
+
+#: ../src/planner-window.c:281
+msgid "_Project"
+msgstr "م_شروع"
+
+#: ../src/planner-window.c:284
+msgid "_Manage Calendars"
+msgstr "أدِر الت_قويمات"
+
+#: ../src/planner-window.c:287
+msgid "Edit Day _Types"
+msgstr "حرّر أ_نواع اليوم"
+
+#: ../src/planner-window.c:290
+msgid "Edit Project _Phases"
+msgstr "حرِّر أ_طوار المشروع"
+
+#: ../src/planner-window.c:293
+msgid "_Edit Project Properties"
+msgstr "_حرّر خصائص المشروع"
+
+#: ../src/planner-window.c:293
+msgid "Edit the project properties"
+msgstr "حرّر خصائص المشروع"
+
+#: ../src/planner-window.c:301
+msgid "_Help"
+msgstr "_مساعدة"
+
+#: ../src/planner-window.c:304
+msgid "_User Guide"
+msgstr "_دليل المستخدم"
+
+#: ../src/planner-window.c:304
+msgid "Show the Planner User Guide"
+msgstr "اعرض دليل مستخدمي المُخَطِّط"
+
+#: ../src/planner-window.c:307
+msgid "_About"
+msgstr "_حوْل"
+
+#: ../src/planner-window.c:307
+msgid "About this application"
+msgstr "حوْل هذا التطبيق"
+
+#: ../src/planner-window.c:698
+#, c-format
+msgid "Switch to the view \"%s\""
+msgstr "بدّل إلى المشهد \"%s\""
+
+#: ../src/planner-window.c:873
+msgid "Open a File"
+msgstr "افتح ملف"
+
+#: ../src/planner-window.c:883
+msgid "Planner Files"
+msgstr "ملفات المُخَطِّط"
+
+#. I18n: Translators, list your names here, newline separated if there
+#. * are more than one, to appear in the about box.
+#.
+#: ../src/planner-window.c:1209 ../src/planner-window.c:1231
+msgid "translator-credits"
+msgstr ""
+"فريق عرب آيز للترجمة http://www.arabeyes.org :\n"
+"خالد حسني\t<khaledhosny@eglug.org>"
+
+#: ../src/planner-window.c:1226
+msgid "A Project Management application for the GNOME desktop"
+msgstr "تطبيق إدارة مشاريع لمكتب جنوم"
+
+#: ../src/planner-window.c:1233
+msgid "The Planner Homepage"
+msgstr "الصفحة الرئيسية للمُخَطِّط"
+
+#: ../src/planner-window.c:1385
+msgid "If you don't save, changes made the last minute will be discarded."
+msgstr "إذا لم تحفظ ستُتجاهل التغييرات التي حدثت في الدقيقة الأخيرة."
+
+#: ../src/planner-window.c:1391
+#, c-format
+msgid "If you don't save, changes made the last %d minute will be discarded."
+msgid_plural ""
+"If you don't save, changes made the last %d minutes will be discarded."
+msgstr[0] "إذا لم تحفظ ستُتجاهل التغييرات التي حدثت في الـ %Id دقائق الأخيرة."
+msgstr[1] "إذا لم تحفظ ستُتجاهل التغييرات التي حدثت في الدقيقة الأخيرة."
+msgstr[2] "إذا لم تحفظ ستُتجاهل التغييرات التي حدثت في الدقيقتين الأخيرتين."
+msgstr[3] "إذا لم تحفظ ستُتجاهل التغييرات التي حدثت في الـ %Id دقائق الأخيرة."
+msgstr[4] "إذا لم تحفظ ستُتجاهل التغييرات التي حدثت في الـ %Id دقيقة الأخيرة."
+msgstr[5] "إذا لم تحفظ ستُتجاهل التغييرات التي حدثت في الـ %Id دقيقة الأخيرة."
+
+#: ../src/planner-window.c:1399
+msgid "If you don't save, changes made the last hour will be discarded."
+msgstr "إذا لم تحفظ ستُتجاهل التغييرات التي حدثت في الساعة الأخيرة."
+
+#: ../src/planner-window.c:1404
+#, c-format
+msgid "If you don't save, changes made the last %d hour will be discarded."
+msgid_plural ""
+"If you don't save, changes made the last %d hours will be discarded."
+msgstr[0] "إذا لم تحفظ ستُتجاهل التغييرات التي حدثت في الـ %Id ساعات الأخيرة."
+msgstr[1] "إذا لم تحفظ ستُتجاهل التغييرات التي حدثت في الساعة الأخيرة."
+msgstr[2] "إذا لم تحفظ ستُتجاهل التغييرات التي حدثت في الساعتين الأخيرتين."
+msgstr[3] "إذا لم تحفظ ستُتجاهل التغييرات التي حدثت في الـ %Id ساعات الأخيرة."
+msgstr[4] "إذا لم تحفظ ستُتجاهل التغييرات التي حدثت في الـ %Id ساعة الأخيرة."
+msgstr[5] "إذا لم تحفظ ستُتجاهل التغييرات التي حدثت في الـ %Id ساعة الأخيرة."
+
+#: ../src/planner-window.c:1414
+#, c-format
+msgid "Save changes to document '%s' before closing?"
+msgstr "أتريد حفظ التّغييرات في المستند '%s' قبل غلقه؟"
+
+#: ../src/planner-window.c:1439
+msgid "C_lose without saving"
+msgstr "أ_غلق بدون حفظ"
+
+#: ../src/planner-window.c:1445
+msgid "_Cancel"
+msgstr "ال_غِ"
+
+#: ../src/planner-window.c:1545
+msgid "Save a File"
+msgstr "احفظ ملف"
+
+#: ../src/planner-window.c:1825
+msgid ""
+"You have opened a file that was saved with an old version of Planner.\n"
+"\n"
+"When loading old files, all tasks will use the constraint 'Must Start On', "
+"since the old version did not fully support automatic rescheduling. To take "
+"advantage of this new feature, you should add predecessor relations between "
+"tasks that are dependent on each other.\n"
+"\n"
+"You can add a predecessor relation by clicking on the predecessor and "
+"dragging to the successor.\n"
+"\n"
+"After doing this, you can remove all constraints by selecting the menu item "
+"'Remove all constraints' in the 'Edit' menu."
+msgstr ""
+"لقد فتحت ملفا حُفِظ بنسخة قديمة من المُخَطِّط.\n"
+"\n"
+"عند تحميل الملفات القديمة، ستستخدم كل المهام القيد 'يجب أن يبدأ في'، حيث أن "
+"النسخة القديمة لا تدعم الجدولة التلقائية كاملة. لتستفيد من هذه الخاصية "
+"الجديدة، يجب أن تضيف علاقة أبوية بين المهام التي تعتمد على بعضها الآخر.\n"
+"\n"
+"يمكنك إضافة علاقة أبوية بالنقر على السلف وسحبه إلى الخلف.\n"
+"\n"
+"بعد هذا يمكنك حذف كل القيود بانتقاء عنصر القائمة 'أزل كل القيود' من قائمة "
+"'حرّر'."
+
+#. Hack.
+#: ../src/planner-window.c:1860
+msgid "Unnamed database project"
+msgstr "مشروع قاعدة بيانات غير مسمّى"
+
+#: ../src/planner-working-time-dialog.c:145
+msgid "Edit working time"
+msgstr "حرّر وقت العمل"
+
+#: ../src/planner-xml-planner-plugin.c:54
+msgid "Planner 0.11 Format"
+msgstr "تنسيق المُخّطِّط 0.11"
+
+#: ../src/planner-xml-planner-plugin.c:55
+msgid "Export project to a file suitable for Planner 0.11"
+msgstr "صدّر المشروع لملف مناسب للمُخّطِّط 0.11"
+
+#: ../src/planner-xml-planner-plugin.c:90
+msgid "Export"
+msgstr "صدِّر"
+
+#: ../eds-backend/e-cal-backend-planner.c:288
+msgid "EDS UID"
+msgstr "معرّف خ.ب.إ"
+
+#: ../eds-backend/e-cal-backend-planner.c:289
+msgid "Identifier used by Evolution Data Server for tasks"
+msgstr "معرّف تستخدمه مهام خادم بيانات إفليوشن"
+
+#: ../eds-backend/e-cal-backend-planner.c:298
+msgid "EDS Categories"
+msgstr "فئات خ.ب.إ"
+
+#: ../eds-backend/e-cal-backend-planner.c:299
+msgid "Categories for a task used by Evolution Data Server"
+msgstr "فئات لمهمة يستخدمها خادم بيانات إفليوشن"
+
+#: ../eds-backend/e-cal-backend-planner.c:308
+msgid "EDS Classification"
+msgstr "تصنيف خ.ب.إ"
+
+#: ../eds-backend/e-cal-backend-planner.c:309
+msgid "Task access classification used by Evolution Data Server"
+msgstr "تصنيف وصول للمهام يستخدمه خادم بيانات إفليوشن"
+
+#: ../eds-backend/e-cal-backend-planner.c:318
+msgid "EDS URL"
+msgstr "مسار خ.ب.إ"
+
+#: ../eds-backend/e-cal-backend-planner.c:319
+msgid "URL for a Task used by Evolution Data Server"
+msgstr "مسار لمهمة يستخدمه خادم بيانات إفليوشن"
+
+#: ../eds-backend/e-cal-backend-planner.c:828
+msgid "Invalid server URI"
+msgstr "مسار خادم غير سليم"
+
+#. book_target = (EABConfigTargetSource *) data->target;
+#. source = book_target->source;
+#: ../eds-backend/planner-source/planner-source.c:120
+msgid "Select planner file"
+msgstr "انتقِ ملفَّ مُخطِّط"
+
+#: ../eds-backend/planner-source/planner-source.c:152
+#, c-format
+msgid ""
+"The filename extension of this file isn't the planner usual file extension (%"
+"s) Do you want to continue?"
+msgstr "امتداد الملف ليس امتداد ملفات المُخَطِّط المعتاد (%s) أترغب في المتابعة؟"
+
+#~ msgid " (invalid Unicode)"
+#~ msgstr " (يونيكود غير سليم)"
+
+#~ msgid "[FILE...]"
+#~ msgstr "[FILE...]"
+
+#~ msgid "Print Project"
+#~ msgstr "اطبع المشروع"
+
+#~ msgid "Open '%s'"
+#~ msgstr "افتح '%s'"
+
+#~ msgid "Optional - overrides resource name in gantt view."
+#~ msgstr "اختياري - تخطى اسم المورد في مشهد جانت."

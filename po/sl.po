@@ -1,0 +1,2427 @@
+# Slovenian translations for planner.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# This file is distributed under the same license as the planner package.
+#
+# Matej Urbančič <mateju@svn.gnome.org>, 2006-2014.
+# Martin Srebotnjak <miles@filmsi.net>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: planner master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/planner/issues\n"
+"POT-Creation-Date: 2023-02-07 08:03+0000\n"
+"PO-Revision-Date: 2023-02-12 17:18+0100\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
+"n%100==4 ? 3 : 0);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: data/mime/app.drey.Planner.xml.in:5
+msgid "Planner project plan"
+msgstr "Planer: plan projekta"
+
+#: data/app.drey.Planner.desktop.in:3
+msgid "Planner"
+msgstr "Planer"
+
+#: data/app.drey.Planner.desktop.in:4
+msgid "Project Management"
+msgstr "Upravljanje projektov"
+
+#: data/app.drey.Planner.desktop.in:6
+msgid "Handle the tasks, resources, and cost of your projects"
+msgstr "Upravljanje z nalogami, viri in stroški vašega projekta."
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/app.drey.Planner.desktop.in:8
+msgid "Gantt;Chart;Critical path;Relationship;Dependency;WBS;"
+msgstr "Gantt;diagram;odvisnosti;kritična pot;odnosi;odvisnost;WBS;"
+
+#: data/app.drey.Planner.gschema.xml:19
+msgid "Highlight critical path in Gantt view"
+msgstr "Poudari ključno pot v pogledu Ganttovega diagrama."
+
+#: data/app.drey.Planner.gschema.xml:20
+msgid ""
+"Whether to highlight the tasks along the critical path in the Gantt view."
+msgstr ""
+"Ali naj bodo poudarjene naloge ob ključnih poteh v pogledu Ganttovega "
+"diagrama."
+
+#: data/app.drey.Planner.gschema.xml:24
+msgid "Display nonstandard days in Gantt view"
+msgstr "Pokaži neobičajne dni v pogledu Ganttovega diagrama."
+
+#: data/app.drey.Planner.gschema.xml:25
+msgid "Whether to display nonstandard days in the Gantt view."
+msgstr "Ali naj bodo prikazani neobičajni dnevi v pogledu Ganttovega diagrama."
+
+#: data/app.drey.Planner.gschema.xml:29
+msgid "Print the Gantt view"
+msgstr "Natisni pogled Ganttovega diagrama"
+
+#: data/app.drey.Planner.gschema.xml:30
+msgid "Whether printing of the Gantt view is enabled."
+msgstr "Ali je omogočeno tiskanje pogleda Ganttovega diagrama."
+
+#: data/app.drey.Planner.gschema.xml:159
+msgid "Highlight critical path in Task view"
+msgstr "Poudari ključno pot v pogledu nalog"
+
+#: data/app.drey.Planner.gschema.xml:160
+msgid ""
+"Whether to highlight the tasks along the critical path in the Task view."
+msgstr "Ali naj bodo poudarjene naloge ob ključnih poteh v pogledu nalog."
+
+#: data/app.drey.Planner.gschema.xml:164
+msgid "Display nonstandard days in Task view"
+msgstr "Pokaži neobičajne dni v pogledu nalog."
+
+#: data/app.drey.Planner.gschema.xml:165
+msgid "Whether to display nonstandard days in the Task view."
+msgstr "Ali naj bodo prikazani neobičajni dnevi v pogledu nalog."
+
+#: data/app.drey.Planner.gschema.xml:169
+msgid "Print the Task view"
+msgstr "Natisni pogled nalog"
+
+#: data/app.drey.Planner.gschema.xml:170
+msgid "Whether printing of the Task view is enabled."
+msgstr "Ali je omogočeno tiskanje pogleda nalog."
+
+#: data/app.drey.Planner.gschema.xml:296
+msgid "Print the Resource view"
+msgstr "Natisni pogled virov"
+
+#: data/app.drey.Planner.gschema.xml:297
+msgid "Whether printing of the Resource view is enabled."
+msgstr "Ali je omogočeno tiskanje pogleda virov."
+
+#: data/app.drey.Planner.gschema.xml:401
+msgid "The active view"
+msgstr "Dejavni pogled"
+
+#: data/app.drey.Planner.gschema.xml:402
+msgid "Which view to display in the user interface."
+msgstr "Pogled uporabniškega vmesnika"
+
+#: data/sql/app.drey.planner.plugins.sql.gschema.xml:6
+msgid "Host"
+msgstr "Gostitelj"
+
+#: data/sql/app.drey.planner.plugins.sql.gschema.xml:7
+msgid "The host running the SQL server."
+msgstr "Gostitelj, ki poganja strežnik SQL."
+
+#: data/sql/app.drey.planner.plugins.sql.gschema.xml:11
+msgid "Database"
+msgstr "Zbirka podatkov"
+
+#: data/sql/app.drey.planner.plugins.sql.gschema.xml:12
+msgid "The SQL server database."
+msgstr "Zbirka podatkov strežnika SQL."
+
+#: data/sql/app.drey.planner.plugins.sql.gschema.xml:16
+msgid "User"
+msgstr "Uporabnik"
+
+#: data/sql/app.drey.planner.plugins.sql.gschema.xml:17
+msgid "The SQL server user name."
+msgstr "Uporabniško ime strežnika SQL."
+
+#: data/ui/add-predecessor.ui:7
+msgid "Add Predecessor"
+msgstr "Dodaj predhodno nalogo"
+
+#: data/ui/add-predecessor.ui:70 data/ui/new-day-dialog.ui:60
+#: data/ui/new-phase-dialog.ui:68 data/ui/new-property.ui:61
+#: data/ui/project-properties.ui:67 data/ui/resource-dialog.ui:62
+#: data/ui/resource-input-dialog.ui:112 data/ui/task-dialog.ui:89
+#: data/ui/task-input-dialog.ui:112
+msgid "_Name:"
+msgstr "_Ime:"
+
+#: data/ui/add-predecessor.ui:97
+msgid "_Relation type:"
+msgstr "Vrsta _povezave:"
+
+#: data/ui/add-predecessor.ui:139
+msgid "_Lag:"
+msgstr "_Zaostanek:"
+
+#: data/ui/calendar-dialog.ui:5
+msgid "Calendar Editor"
+msgstr "Urejevalnik koledarjev"
+
+#: data/ui/calendar-dialog.ui:57
+msgid "_New..."
+msgstr "_Novo ..."
+
+#: data/ui/calendar-dialog.ui:96
+msgid "Working time..."
+msgstr "Delovni čas ..."
+
+#: data/ui/calendar-dialog.ui:106
+msgid "Default week..."
+msgstr "Privzet teden ..."
+
+#: data/ui/calendar-dialog.ui:211
+msgid "Use working time from derived calendar"
+msgstr "Uporabi delovni čas prirejenega koledarja"
+
+#: data/ui/calendar-dialog.ui:233
+msgid "Set day type to:"
+msgstr "Določi vrsto dni kot:"
+
+#: data/ui/calendar-dialog.ui:272
+msgid "Custom working time"
+msgstr "Prilagojen delovni čas"
+
+#: data/ui/calendar-dialog.ui:319
+msgid "<b>Working time</b>"
+msgstr "<b>Delovni čas</b>"
+
+#: data/ui/calendar-dialog.ui:357 data/ui/calendar-dialog.ui:380
+#: data/ui/calendar-dialog.ui:403 data/ui/calendar-dialog.ui:426
+#: data/ui/calendar-dialog.ui:647 data/ui/working-time-dialog.ui:170
+#: data/ui/working-time-dialog.ui:193 data/ui/working-time-dialog.ui:216
+#: data/ui/working-time-dialog.ui:239 data/ui/working-time-dialog.ui:451
+msgid "-"
+msgstr "-"
+
+#: data/ui/calendar-dialog.ui:456 data/ui/calendar-dialog.ui:478
+#: data/ui/calendar-dialog.ui:500 data/ui/calendar-dialog.ui:522
+#: data/ui/calendar-dialog.ui:544 data/ui/calendar-dialog.ui:566
+#: data/ui/calendar-dialog.ui:588 data/ui/calendar-dialog.ui:610
+#: data/ui/calendar-dialog.ui:632 data/ui/calendar-dialog.ui:677
+#: data/ui/eds.ui:140 data/ui/new-calendar-dialog.ui:151
+#: data/ui/new-day-dialog.ui:88 data/ui/new-property.ui:139
+#: data/ui/new-property.ui:159 data/ui/new-property.ui:217
+#: data/ui/resource-dialog.ui:216 data/ui/resource-dialog.ui:237
+#: data/ui/resource-dialog.ui:258 data/ui/resource-dialog.ui:303
+#: data/ui/resource-input-dialog.ui:167 data/ui/resource-input-dialog.ui:187
+#: data/ui/resource-input-dialog.ui:271 data/ui/sql-open-dialog.ui:140
+#: data/ui/sql-open-dialog.ui:160 data/ui/sql-open-dialog.ui:180
+#: data/ui/sql-open-dialog.ui:224 data/ui/task-input-dialog.ui:167
+#: data/ui/task-input-dialog.ui:187 data/ui/working-time-dialog.ui:268
+#: data/ui/working-time-dialog.ui:289 data/ui/working-time-dialog.ui:310
+#: data/ui/working-time-dialog.ui:331 data/ui/working-time-dialog.ui:352
+#: data/ui/working-time-dialog.ui:373 data/ui/working-time-dialog.ui:394
+#: data/ui/working-time-dialog.ui:415 data/ui/working-time-dialog.ui:436
+#: data/ui/working-time-dialog.ui:480
+msgid "*"
+msgstr "*"
+
+#: data/ui/calendar-dialog.ui:692
+msgid "From:"
+msgstr "Od:"
+
+#: data/ui/calendar-dialog.ui:738
+msgid "To:"
+msgstr "Za:"
+
+#: data/ui/calendar-dialog.ui:775
+msgid "Apply"
+msgstr "Uporabi"
+
+#: data/ui/calendar-selector.ui:6
+msgid "Select a Calendar"
+msgstr "Izbor koledarja"
+
+#: data/ui/column-dialog.ui:61
+msgid "Hidden columns:"
+msgstr "Skriti stolpci:"
+
+#: data/ui/column-dialog.ui:127 data/ui/column-dialog.ui:151
+#: data/ui/column-dialog.ui:347 data/ui/default-week-dialog.ui:265
+#: data/ui/task-dialog.ui:323
+msgid "    "
+msgstr "    "
+
+#: data/ui/column-dialog.ui:230
+msgid "_Show"
+msgstr "_Pokaži"
+
+#: data/ui/column-dialog.ui:299
+msgid "_Hide"
+msgstr "_Skrij"
+
+#: data/ui/column-dialog.ui:383
+msgid "Visible columns:"
+msgstr "Vidni stolpci:"
+
+#: data/ui/day-type-dialog.ui:6
+msgid "Edit Day Types"
+msgstr "Urejanje vrst dni"
+
+#: data/ui/default-week-dialog.ui:6
+msgid "Default Week"
+msgstr "Privzet teden"
+
+#: data/ui/default-week-dialog.ui:63
+msgid "<b>Calendar:</b>"
+msgstr "<b>Koledar:</b>"
+
+#: data/ui/default-week-dialog.ui:120
+msgid ""
+"Select a weekday and the day type to use for that day in the default week "
+"for this calendar.\n"
+msgstr ""
+"Izberite dneve tedna in vrsto dni za prikaz dneva v izbranem koledarju.\n"
+
+#: data/ui/default-week-dialog.ui:151
+msgid "Week day:"
+msgstr "Dan v tednu:"
+
+#: data/ui/default-week-dialog.ui:194
+msgid "Day type:"
+msgstr "Vrsta dni:"
+
+#: data/ui/default-week-dialog.ui:239
+msgid ""
+"\n"
+"The selected day type has the following working hours:"
+msgstr ""
+"\n"
+"Izbrana vrsta dni ima določen naslednji delovni čas:"
+
+#: data/ui/eds.ui:6
+msgid "dialog1"
+msgstr "okno1"
+
+#: data/ui/eds.ui:71
+msgid "Select group"
+msgstr "Izberi skupine"
+
+#: data/ui/eds.ui:114
+msgid "Search"
+msgstr "Poišči"
+
+#: data/ui/eds.ui:205
+msgid "Select All"
+msgstr "Izberi vse"
+
+#: data/ui/eds.ui:274
+msgid "Unselect All"
+msgstr "Počisti vse"
+
+#: data/ui/eds.ui:353
+msgid "Loading resource data"
+msgstr "Nalaganje podatkov vira"
+
+#: data/ui/group-dialog.ui:7
+msgid "Group Editor"
+msgstr "Urejevalnik skupin"
+
+#: data/ui/new-calendar-dialog.ui:6
+msgid "New Calendar"
+msgstr "Nov koledar"
+
+#: data/ui/new-calendar-dialog.ui:38
+msgid "C_reate"
+msgstr "Ustva_ri"
+
+#: data/ui/new-calendar-dialog.ui:65
+msgid "_Existing calendars:"
+msgstr "_Obstoječi koledarji:"
+
+#: data/ui/new-calendar-dialog.ui:124
+msgid "_Name of the new calendar:"
+msgstr "_Ime novega koledarja:"
+
+#: data/ui/new-calendar-dialog.ui:184
+msgid "_Derive from a calendar"
+msgstr "_Odvedi iz koledarja"
+
+#: data/ui/new-calendar-dialog.ui:201
+msgid "C_opy an existing calendar"
+msgstr "_Kopiraj obstoječi koledar"
+
+#: data/ui/new-calendar-dialog.ui:219
+msgid "Create an _empty calendar"
+msgstr "Ustvari _prazen koledar"
+
+#: data/ui/new-day-dialog.ui:6
+msgid "Add Day Type"
+msgstr "Dodaj vrsto dni"
+
+#: data/ui/new-phase-dialog.ui:7
+msgid "New Project Phase"
+msgstr "Nov korak projekta"
+
+#: data/ui/new-property.ui:6
+msgid "Add Property"
+msgstr "Dodaj lastnost"
+
+#: data/ui/new-property.ui:85
+msgid "_Description:"
+msgstr "_Opis:"
+
+#: data/ui/new-property.ui:109 data/ui/resource-dialog.ui:86
+msgid "_Type:"
+msgstr "_Vrsta:"
+
+#: data/ui/new-property.ui:187
+msgid "_Label:"
+msgstr "_Oznaka:"
+
+#: data/ui/phase-dialog.ui:6
+msgid "Edit Project Phases"
+msgstr "Uredi korake projekta"
+
+#: data/ui/project-properties.ui:6
+msgid "Project Properties"
+msgstr "Lastnosti projekta"
+
+#: data/ui/project-properties.ui:95
+msgid "_Start:"
+msgstr "_Začetek:"
+
+#: data/ui/project-properties.ui:123
+msgid "_Organization:"
+msgstr "_Ustanova:"
+
+#: data/ui/project-properties.ui:192
+msgid "_Manager:"
+msgstr "_Nadzornik:"
+
+#: data/ui/project-properties.ui:240
+msgid "_Calendar:"
+msgstr "_Koledar:"
+
+#: data/ui/project-properties.ui:298
+msgid "Select..."
+msgstr "Izberi ..."
+
+#: data/ui/project-properties.ui:323
+msgid "_Phase:"
+msgstr "_Korak:"
+
+#: data/ui/project-properties.ui:390
+msgid "Date..."
+msgstr "Datum ..."
+
+#: data/ui/project-properties.ui:418 data/ui/resource-dialog.ui:323
+#: data/ui/task-dialog.ui:688
+msgid "General"
+msgstr "Splošno"
+
+#: data/ui/project-properties.ui:521
+msgid "Custom"
+msgstr "Po meri"
+
+#: data/ui/property-dialog.ui:6
+msgid "Custom Properties"
+msgstr "Lastnosti po meri"
+
+#: data/ui/resource-dialog.ui:110 data/ui/resource-input-dialog.ui:136
+msgid "_Email:"
+msgstr "_Elektronski naslov:"
+
+#: data/ui/resource-dialog.ui:134 data/ui/resource-input-dialog.ui:201
+msgid "_Group:"
+msgstr "_Skupina:"
+
+#: data/ui/resource-dialog.ui:158
+msgid "C_ost:"
+msgstr "Str_oški:"
+
+#: data/ui/resource-dialog.ui:272 data/ui/resource-input-dialog.ui:239
+msgid "_Short name:"
+msgstr "_Kratko ime:"
+
+#: data/ui/resource-dialog.ui:296 data/ui/resource-input-dialog.ui:263
+msgid "Optional - overrides resource name in Gantt view."
+msgstr "Izbirno - prepiše ime vira v pogledu Ganttovega diagrama."
+
+#: data/ui/resource-dialog.ui:344
+msgid ""
+"Select the calendar to use for this resource. If you want to use the default "
+"calendar of the project, select 'None'. "
+msgstr ""
+"Izbor koledarja za ta vir. Za izbor privzetega koledarja izberite možnost "
+"'Brez'. "
+
+#: data/ui/resource-dialog.ui:395
+msgid "Edit Calendars..."
+msgstr "Uredi koledarje ..."
+
+#: data/ui/resource-dialog.ui:422
+msgid "Calendar"
+msgstr "Koledar"
+
+#: data/ui/resource-dialog.ui:513
+msgid "_Insert time stamp"
+msgstr "_Vstavi časovni žig"
+
+#: data/ui/resource-dialog.ui:552 data/ui/task-dialog.ui:973
+msgid "Notes"
+msgstr "Sporočila"
+
+#: data/ui/resource-input-dialog.ui:6
+msgid "Insert Resource"
+msgstr "Vstavi vire"
+
+#: data/ui/resource-input-dialog.ui:69 data/ui/task-input-dialog.ui:69
+msgid "_Insert"
+msgstr "_Vstavi"
+
+#: data/ui/sql-open-dialog.ui:6
+msgid "Open Database"
+msgstr "Odpri podatkovno zbirko"
+
+#: data/ui/sql-open-dialog.ui:62
+msgid "_Server:"
+msgstr "_Strežnik:"
+
+#: data/ui/sql-open-dialog.ui:86
+msgid "_Username:"
+msgstr "_Uporabniško ime:"
+
+#: data/ui/sql-open-dialog.ui:110
+msgid "_Password:"
+msgstr "_Geslo:"
+
+#: data/ui/sql-open-dialog.ui:194
+msgid "_Database:"
+msgstr "_Podatkovna zbirka:"
+
+#: data/ui/sql-select-dialog.ui:6
+msgid "Select a Project"
+msgstr "Izbor projekta"
+
+#: data/ui/sql-select-dialog.ui:59
+msgid "The database contains the following projects. Select a project to open:"
+msgstr "Podatkovna zbirka vsebuje naslednje ustvarjene projekte:"
+
+#: data/ui/task-dialog.ui:117 data/ui/task-input-dialog.ui:136
+msgid "_Work:"
+msgstr "_Zahtevnost:"
+
+#: data/ui/task-dialog.ui:145
+msgid "_Duration:"
+msgstr "_Trajanje:"
+
+#: data/ui/task-dialog.ui:173
+msgid "C_omplete:"
+msgstr "K_ončano:"
+
+#: data/ui/task-dialog.ui:201
+msgid "_Priority:"
+msgstr "_Prednost:"
+
+#: data/ui/task-dialog.ui:269
+msgid "%"
+msgstr "%"
+
+#: data/ui/task-dialog.ui:296 data/ui/task-dialog.ui:401
+#: data/ui/task-dialog.ui:448 data/ui/task-dialog.ui:475
+#: data/ui/task-dialog.ui:502 data/ui/task-dialog.ui:648
+msgid "  "
+msgstr "  "
+
+#: data/ui/task-dialog.ui:356
+msgid "_Milestone"
+msgstr "_Mejnik"
+
+#: data/ui/task-dialog.ui:374
+msgid "_Fixed duration"
+msgstr "_Določeno trajanje"
+
+#. This is the verb "schedule"
+#: data/ui/task-dialog.ui:569 src/planner-calendar-popover.ui:36
+msgid "Schedule:"
+msgstr "Urnik:"
+
+#: data/ui/task-dialog.ui:626
+msgid "Change..."
+msgstr "Spremeni ..."
+
+#: data/ui/task-dialog.ui:735 src/planner-resource-view.c:405
+msgid "Resources"
+msgstr "Viri"
+
+#: data/ui/task-dialog.ui:828
+msgid "Predecessors"
+msgstr "Predhodne naloge"
+
+#: data/ui/task-dialog.ui:930
+msgid "_Insert Time Stamp"
+msgstr "_Vstavi časovni žig"
+
+#: data/ui/task-input-dialog.ui:6
+msgid "Insert Task"
+msgstr "Vnos naloge"
+
+#: data/ui/working-time-dialog.ui:5
+msgid "Edit Working Time"
+msgstr "Urejanje delovnega časa"
+
+#: data/ui/working-time-dialog.ui:62
+msgid "<b>Day types</b>"
+msgstr "<b>Vrste dni</b>"
+
+#: data/ui/working-time-dialog.ui:142
+msgid "<b>Working hours</b>"
+msgstr "<b>Ure dela</b>"
+
+#: libplanner/mrp-day.c:64
+msgid "Working"
+msgstr "Delavno"
+
+#: libplanner/mrp-day.c:65
+msgid "A default working day"
+msgstr "Privzet delovni dan"
+
+#: libplanner/mrp-day.c:67
+msgid "Nonworking"
+msgstr "Dela prosto"
+
+#: libplanner/mrp-day.c:68
+msgid "A default non working day"
+msgstr "Privzet dela prost dan"
+
+#: libplanner/mrp-day.c:70
+msgid "Use base"
+msgstr "Uporabi glavno"
+
+#: libplanner/mrp-day.c:71
+msgid "Use day from base calendar"
+msgstr "Uporabi dan iz glavnega koledarja"
+
+#: libplanner/mrp-file-module.c:125
+#, c-format
+msgid "This format does not support reading"
+msgstr "Zapis ne podpira branja"
+
+#: libplanner/mrp-parser.c:1076 libplanner/mrp-parser.c:1171
+#, c-format
+msgid "Could not create XML tree"
+msgstr "Ni mogoče ustvariti drevesa XML"
+
+#: libplanner/mrp-parser.c:1137
+#, c-format
+msgid "Could not write XML file"
+msgstr "Ni mogoče zapisati datoteke XML"
+
+#: libplanner/mrp-project.c:582 src/planner-group-dialog.c:840
+msgid "Default"
+msgstr "Privzeto"
+
+#: libplanner/mrp-project.c:860
+#, c-format
+msgid "Invalid URI: '%s'"
+msgstr "Neveljaven naslov URI: '%s'"
+
+#: libplanner/mrp-project.c:904
+#, c-format
+msgid "Couldn't find a suitable file module for loading '%s'"
+msgstr "Ni mogoče najti ustrezne datotečne enote za nalaganje '%s'"
+
+#: libplanner/mrp-project.c:925 libplanner/mrp-project.c:1209
+#, c-format
+msgid "No support for SQL storage built into this version of Planner."
+msgstr "Ta različica programa Planner ne podpira shranjevanje v zapisu SQL."
+
+#: libplanner/mrp-project.c:962
+#, c-format
+msgid "Invalid URI."
+msgstr "Neveljaven naslov URI."
+
+#: libplanner/mrp-project.c:1103
+#, c-format
+msgid "Unable to find file writer identified by '%s'"
+msgstr "Ni mogoče najti urejevalnika datotek določenega z '%s'"
+
+#: libplanner/mrp-project.c:1166
+#, c-format
+msgid "Couldn't find a suitable file module for loading project"
+msgstr "Ni mogoče najti primerne datotečne enote za nalaganje projekta"
+
+#: libplanner/mrp-property.c:376
+msgid "Text"
+msgstr "Besedilo"
+
+#: libplanner/mrp-property.c:378
+msgid "String list"
+msgstr "Seznam nizov"
+
+#: libplanner/mrp-property.c:380
+msgid "Integer number"
+msgstr "Celo število"
+
+#: libplanner/mrp-property.c:382
+msgid "Floating-point number"
+msgstr "Število s plavajočo vejico"
+
+#: libplanner/mrp-property.c:384
+msgid "Date"
+msgstr "Datum"
+
+#: libplanner/mrp-property.c:386 src/planner-gantt-view.c:601
+#: src/planner-task-view.c:365
+msgid "Duration"
+msgstr "Trajanje"
+
+#: libplanner/mrp-property.c:388 src/planner-gantt-view.c:603
+#: src/planner-resource-view.c:1286 src/planner-task-view.c:367
+msgid "Cost"
+msgstr "Stroški"
+
+#: libplanner/mrp-property.c:391 src/planner-project-properties.c:737
+msgid "None"
+msgstr "Brez"
+
+#: libplanner/mrp-sql.c:289 src/planner-sql-plugin.c:200
+msgid "Can't connect to database server"
+msgstr "Ni se mogoče povezati s strežnikom podatkovne zbirke"
+
+#: libplanner/mrp-sql.c:294 src/planner-sql-plugin.c:205
+msgid "No errors reported."
+msgstr "Ni poročil o napakah."
+
+#. Give up.
+#: libplanner/mrp-sql.c:389 src/planner-sql-plugin.c:274
+msgid "Invalid Unicode"
+msgstr "Neveljaven znak Unicode"
+
+#: libplanner/mrp-sql.c:2283
+#, c-format
+msgid "Connection to database '%s' failed.\n"
+msgstr "Povezovanje s podatkovno zbirko '%s' je spodletelo.\n"
+
+#: libplanner/mrp-sql.c:2288
+#, c-format
+msgid ""
+"Connection to database '%s' failed.\n"
+"%s"
+msgstr ""
+"Povezovanje s podatkovno zbirko '%s' je spodletelo.\n"
+"%s"
+
+#: libplanner/mrp-sql.c:2303
+#, c-format
+msgid "BEGIN command failed %s."
+msgstr "Napaka ukaza BEGIN %s."
+
+#: libplanner/mrp-sql.c:2469
+#, c-format
+msgid ""
+"The project '%s' has been changed by the user '%s' since you opened it. Do "
+"you want to save anyway?"
+msgstr ""
+"Projekt '%s' je bil spremenjen (uporabnik '%s'). Ali želite spremembe "
+"shraniti?"
+
+#: libplanner/mrp-sql.c:3724
+#, c-format
+msgid "Connection to database '%s' failed."
+msgstr "Neuspešna povezava z zbirko podatkov '%s'."
+
+#: libplanner/mrp-storage-sql.c:181
+#, c-format
+msgid "Invalid SQL URI (must start with 'sql://' and contain '#')."
+msgstr "Neveljaven URI SQL (začeti se mora z 'sql://' in mora vsebovati '#')."
+
+#: libplanner/mrp-storage-sql.c:252
+#, c-format
+msgid "Invalid SQL URI (invalid project id)."
+msgstr "Neveljaven URI SQL (neveljaven ID projekta)."
+
+#: libplanner/mrp-storage-sql.c:260
+#, c-format
+msgid "Invalid SQL URI (no database name specified)."
+msgstr "Neveljaven URI SQL (ni določenega imena podatkovne zbirke)."
+
+#: libplanner/mrp-task.c:1118
+#, c-format
+msgid ""
+"Could not add a predecessor relation, because the tasks are already related."
+msgstr ""
+"Ni mogoče dodati povezave z nalogo, saj ima ta že drugo predhodno povezavo."
+
+#: libplanner/mrp-task.c:1129
+msgid "Start to Finish relation type cannot be combined with other relations."
+msgstr ""
+"Povezave vrste od začetka do konca, ni mogoče združiti z drugimi povezavami."
+
+#: libplanner/mrp-task.c:1131
+msgid "Finish to Finish relation type cannot be combined with other relations."
+msgstr ""
+"Povezave vrste od konca do začetka, ni mogoče združiti z drugimi povezavami."
+
+#: libplanner/mrp-task.c:1148
+msgid ""
+"Start to Finish relation type cannot be combined with Start No Earlier Than "
+"constraint."
+msgstr ""
+"Povezave vrste od začetka do konca, ni mogoče združiti z določilom prični "
+"nič prej kot določa omejitev."
+
+#: libplanner/mrp-task.c:1150
+msgid ""
+"Finish to Finish relation type cannot be combined with Start No Earlier Than "
+"constraint."
+msgstr ""
+"Povezave vrste od konca do konca, ni mogoče združiti z določilom prični nič "
+"prej kot določa omejitev."
+
+#: libplanner/mrp-task.c:1174
+#, c-format
+msgid ""
+"Start to Finish relation cannot be set. Predecessor starts on project start "
+"date."
+msgstr ""
+"Povezave vrste od začetka do konca, ni mogoče določiti. Predhodna naloga se "
+"prične na začetku na začetni datum projekta."
+
+#: libplanner/mrp-task-manager.c:2557
+#, c-format
+msgid "Cannot add a predecessor, because it would result in a loop."
+msgstr ""
+"Predhodne naloge ni mogoče dodati, saj bi s tem ustvarili krožno povezavo."
+
+#: libplanner/mrp-task-manager.c:2602
+#, c-format
+msgid "Cannot move the task, because it would result in a loop."
+msgstr "Naloge ni mogoče premakniti, saj bi s tem ustvarili krožno povezavo."
+
+#. Translators: Example output: October 9, 2006
+#: libplanner/mrp-xsl.c:93
+msgid "%B %e, %Y"
+msgstr "%e. %B %Y"
+
+#: libplanner/mrp-xsl.c:159 libplanner/mrp-xsl.c:207
+#, c-format
+msgid "Export to HTML failed"
+msgstr "Izvoz v HTML ni uspel."
+
+#: src/planner-application.c:54 src/planner-application.c:110
+msgid "Insert"
+msgstr "Vstavi"
+
+#: src/planner-application.c:61 src/planner-application.c:117
+msgid "Remove"
+msgstr "Odstrani"
+
+#: src/planner-application.c:68
+msgid "Unlink"
+msgstr "Razveži"
+
+#: src/planner-application.c:75
+msgid "Link"
+msgstr "Povezava"
+
+#: src/planner-application.c:82
+msgid "Indent"
+msgstr "Zamik"
+
+#: src/planner-application.c:89
+msgid "Unindent"
+msgstr "Razveljavi zamik"
+
+#: src/planner-application.c:96
+msgid "Move up"
+msgstr "Premakni navzgor"
+
+#: src/planner-application.c:103
+msgid "Move down"
+msgstr "Premakni navzdol"
+
+#: src/planner-application.c:124
+msgid "Edit"
+msgstr "Uredi"
+
+#: src/planner-calendar-dialog.c:183
+msgid "Change day type"
+msgstr "Spremeni vrsto dneva"
+
+#: src/planner-calendar-dialog.c:305
+msgid "Remove calendar"
+msgstr "Odstrani koledar"
+
+#: src/planner-calendar-dialog.c:397
+msgid "Add new calendar"
+msgstr "Dodaj nov koledar"
+
+#: src/planner-calendar-popover.ui:23
+msgid "Today"
+msgstr "Danes"
+
+#. The order of items has to match the CONSTRAINT_COMBO_* constants in C file
+#: src/planner-calendar-popover.ui:45 src/planner-task-dialog.c:1431
+msgid "As soon as possible"
+msgstr "Takoj, ko je mogoče"
+
+#: src/planner-calendar-popover.ui:46
+msgid "No earlier than"
+msgstr "Nič prej kot"
+
+#: src/planner-calendar-popover.ui:47
+msgid "On fixed date"
+msgstr "Na določen dan"
+
+#: src/planner-cmd-manager.c:227
+#, c-format
+msgid "Undo '%s'"
+msgstr "Razveljavi '%s'"
+
+#: src/planner-cmd-manager.c:229
+msgid "Undo"
+msgstr "Razveljavi"
+
+#: src/planner-cmd-manager.c:239
+#, c-format
+msgid "Redo '%s'"
+msgstr "Ponovno uveljavi '%s'"
+
+#: src/planner-cmd-manager.c:241
+msgid "Redo"
+msgstr "Ponovno uveljavi"
+
+#: src/planner-day-type-dialog.c:486
+#, c-format
+msgid "Add day type \"%s\""
+msgstr "Dodaj vrsto dneva \"%s\""
+
+#: src/planner-day-type-dialog.c:547
+#, c-format
+msgid "Remove day type \"%s\""
+msgstr "Odstrani vrsto dneva \"%s\""
+
+#: src/planner-default-week-dialog.c:42
+msgid "Monday"
+msgstr "ponedeljek"
+
+#: src/planner-default-week-dialog.c:43
+msgid "Tuesday"
+msgstr "torek"
+
+#: src/planner-default-week-dialog.c:44
+msgid "Wednesday"
+msgstr "sreda"
+
+#: src/planner-default-week-dialog.c:45
+msgid "Thursday"
+msgstr "četrtek"
+
+#: src/planner-default-week-dialog.c:46
+msgid "Friday"
+msgstr "petek"
+
+#: src/planner-default-week-dialog.c:47
+msgid "Saturday"
+msgstr "sobota"
+
+#: src/planner-default-week-dialog.c:48
+msgid "Sunday"
+msgstr "nedelja"
+
+#: src/planner-default-week-dialog.c:304
+msgid "No working time"
+msgstr "Brez delovnega časa"
+
+#: src/planner-default-week-dialog.c:315 src/planner-default-week-dialog.c:319
+msgid "%H:%M"
+msgstr "%H:%M"
+
+#: src/planner-default-week-dialog.c:533
+msgid "Edit default week"
+msgstr "Uredi privzet teden"
+
+#: src/planner-eds-plugin.c:150
+msgid "EDS"
+msgstr "EDS"
+
+#: src/planner-eds-plugin.c:151
+msgid "Import resources from Evolution Data Server"
+msgstr "Uvoz virov s podatkovnega strežnika Evolution"
+
+#: src/planner-eds-plugin.c:379 src/planner-gantt-print.c:192
+#: src/planner-gantt-view.c:597 src/planner-group-dialog.c:816
+#: src/planner-property-dialog.c:458 src/planner-resource-view.c:1133
+#: src/planner-task-dialog.c:2557 src/planner-task-dialog.c:2627
+#: src/planner-task-view.c:361
+msgid "Name"
+msgstr "Ime"
+
+#: src/planner-eds-plugin.c:399 src/planner-resource-view.c:1259
+msgid "Email"
+msgstr "Elektronska pošta"
+
+#: src/planner-eds-plugin.c:420
+msgid "Import"
+msgstr "Uvozi"
+
+#: src/planner-eds-plugin.c:430
+msgid "Photo"
+msgstr "Fotografija"
+
+#: src/planner-eds-plugin.c:666
+msgid "Imported from Evolution Data Server"
+msgstr "Uvoženi viri s podatkovnega strežnika Evolution"
+
+#: src/planner-eds-plugin.c:667
+msgid "Updated from Evolution Data Server"
+msgstr "Posodobljeno s podatkovnega strežnika Evolution"
+
+#: src/planner-eds-plugin.c:852
+msgid "Query cancelled."
+msgstr "Poizvedba je preklicana."
+
+#: src/planner-eds-plugin.c:913
+msgid "Evolution Data Server UID"
+msgstr "UID podatkovnega strežnika Evolution"
+
+#: src/planner-eds-plugin.c:914
+msgid "Identifier used by Evolution Data Server for resources"
+msgstr "Določilo, ki ga za vire uporablja podatkovni strežnik Evolution"
+
+#: src/planner-format.c:153
+#, c-format
+msgid "%dd %dh"
+msgstr "%dd %dh"
+
+#: src/planner-format.c:156
+#, c-format
+msgid "%dd"
+msgstr "%dd"
+
+#: src/planner-format.c:161
+#, c-format
+msgid "%dh %dmin"
+msgstr "%dh %dmin"
+
+#: src/planner-format.c:164
+#, c-format
+msgid "%dh"
+msgstr "%dh"
+
+#: src/planner-format.c:168
+#, c-format
+msgid "%dmin"
+msgstr "%dmin"
+
+#. i18n: this string is the date nr and month name, displayed
+#. * e.g. in the date cells in the task tree. See
+#. * libmrproject/docs/DateFormat.
+#.
+#: src/planner-format.c:203
+msgid "%b %e"
+msgstr "%e. %b"
+
+#: src/planner-format.c:387
+msgid "mon"
+msgstr "pon"
+
+#. month unit variant accepted in input
+#: src/planner-format.c:388
+msgid "month"
+msgstr "mesec"
+
+#. month unit variant accepted in input
+#: src/planner-format.c:389
+msgid "months"
+msgstr "mesecev"
+
+#. month unit variant accepted in input
+#: src/planner-format.c:390
+msgid "w"
+msgstr "t"
+
+#. week unit variant accepted in input
+#: src/planner-format.c:391
+msgid "week"
+msgstr "teden"
+
+#. week unit variant accepted in input
+#: src/planner-format.c:392
+msgid "weeks"
+msgstr "tednov"
+
+#. week unit variant accepted in input
+#: src/planner-format.c:393
+msgid "d"
+msgstr "d"
+
+#. day unit variant accepted in input
+#: src/planner-format.c:394
+msgid "day"
+msgstr "dan"
+
+#. day unit variant accepted in input
+#: src/planner-format.c:395
+msgid "days"
+msgstr "dni"
+
+#. day unit variant accepted in input
+#: src/planner-format.c:396
+msgid "h"
+msgstr "h"
+
+#. hour unit variant accepted in input
+#: src/planner-format.c:397
+msgid "hour"
+msgstr "ura"
+
+#. hour unit variant accepted in input
+#: src/planner-format.c:398
+msgid "hours"
+msgstr "ur"
+
+#. hour unit variant accepted in input
+#: src/planner-format.c:399
+msgid "min"
+msgstr "min"
+
+#. minute unit variant accepted in input
+#: src/planner-format.c:400
+msgid "minute"
+msgstr "minuta"
+
+#. minute unit variant accepted in input
+#: src/planner-format.c:401
+msgid "minutes"
+msgstr "minut"
+
+#. i18n: project start, the date format is described in
+#. * libmrproject/docs/DateFormat.
+#: src/planner-gantt-background.c:577
+msgid "%Y %b %d"
+msgstr "%d. %b. %Y"
+
+#: src/planner-gantt-background.c:579
+msgid "Project start"
+msgstr "Začetek projekta"
+
+#: src/planner-gantt-header.c:687
+msgid "%a, %e %b %Y"
+msgstr "%a, %e. %b %Y"
+
+#: src/planner-gantt-print.c:200 src/planner-gantt-view.c:600
+#: src/planner-resource-dialog.c:255 src/planner-resource-view.c:744
+#: src/planner-resource-view.c:760 src/planner-resource-view.c:1684
+#: src/planner-task-view.c:364
+msgid "Work"
+msgstr "Zahtevnost"
+
+#: src/planner-gantt-print.c:547 src/planner-gantt-row.c:738
+#: src/planner-html-plugin.c:120 src/planner-task-tree.c:1570
+#: src/planner-window.c:1784
+msgid "Unnamed"
+msgstr "Neimenovano"
+
+#: src/planner-gantt-row.c:2120
+#, c-format
+msgid "Change work to %s"
+msgstr "Spremeni zahtevnost na %s"
+
+#: src/planner-gantt-row.c:2136
+#, c-format
+msgid "Change progress to %u%% complete"
+msgstr "Spremeni napredek na %u%% opravljenega dela"
+
+#: src/planner-gantt-row.c:2175 src/planner-gantt-row.c:2178
+msgid "No name"
+msgstr "Brez imena"
+
+#: src/planner-gantt-row.c:2181
+#, c-format
+msgid "Make task '%s' a predecessor of '%s'"
+msgstr "Določi nalogo '%s' kot predhodno nalogo '%s'"
+
+#: src/planner-gantt-row.c:3202 src/planner-task-dialog.c:401
+#: src/planner-task-tree.c:264 src/planner-task-tree.c:957
+msgid "Edit task property"
+msgstr "Uredi lastnosti naloge"
+
+#: src/planner-gantt-view.c:137 src/planner-task-view.c:118
+msgid "_Insert Task"
+msgstr "_Vnos naloge"
+
+#: src/planner-gantt-view.c:138 src/planner-task-view.c:119
+msgid "Insert a new task"
+msgstr "Vstavi novo nalogo"
+
+#: src/planner-gantt-view.c:140 src/planner-task-view.c:121
+msgid "In_sert Tasks..."
+msgstr "Vno_s nalog ..."
+
+#: src/planner-gantt-view.c:143 src/planner-task-view.c:124
+msgid "_Remove Task"
+msgstr "_Odstrani nalogo"
+
+#: src/planner-gantt-view.c:144 src/planner-task-view.c:125
+msgid "Remove the selected tasks"
+msgstr "Odstrani izbrane naloge"
+
+#: src/planner-gantt-view.c:146
+msgid "_Edit Task Properties..."
+msgstr "_Urejanje lastnosti nalog ..."
+
+#: src/planner-gantt-view.c:149 src/planner-resource-view.c:241
+#: src/planner-task-view.c:130
+msgid "Select _All"
+msgstr "_Izberi vse"
+
+#: src/planner-gantt-view.c:150 src/planner-resource-view.c:242
+#: src/planner-task-view.c:131
+msgid "Select all tasks"
+msgstr "Izberi vse naloge"
+
+#: src/planner-gantt-view.c:152 src/planner-task-view.c:133
+msgid "_Unlink Task"
+msgstr "_Razveži nalogo"
+
+#: src/planner-gantt-view.c:153 src/planner-task-view.c:134
+msgid "Unlink the selected tasks"
+msgstr "Razveži izbrane naloge"
+
+#: src/planner-gantt-view.c:155 src/planner-task-view.c:136
+msgid "_Link Tasks"
+msgstr "_Poveži naloge"
+
+#: src/planner-gantt-view.c:156 src/planner-task-view.c:137
+msgid "Link the selected tasks"
+msgstr "Poveži izbrane naloge"
+
+#: src/planner-gantt-view.c:158 src/planner-task-view.c:139
+msgid "I_ndent Task"
+msgstr "Zamak_ni nalogo"
+
+#: src/planner-gantt-view.c:159 src/planner-task-view.c:140
+msgid "Indent the selected tasks"
+msgstr "Zamakni izbrane naloge"
+
+#: src/planner-gantt-view.c:161 src/planner-task-view.c:142
+msgid "Unin_dent Task"
+msgstr "O_dmakni nalogo"
+
+#: src/planner-gantt-view.c:162 src/planner-task-view.c:143
+msgid "Unindent the selected tasks"
+msgstr "Odmakni izbrane naloge"
+
+#: src/planner-gantt-view.c:164 src/planner-task-view.c:145
+msgid "Move Task _Up"
+msgstr "Premakni nalogo navz_gor"
+
+#: src/planner-gantt-view.c:165 src/planner-task-view.c:146
+msgid "Move the selected tasks upwards"
+msgstr "Premakni izbrane naloge proti vrhu"
+
+#: src/planner-gantt-view.c:167 src/planner-task-view.c:148
+msgid "Move Task Do_wn"
+msgstr "Premakni nalogo navz_dol"
+
+#: src/planner-gantt-view.c:168 src/planner-task-view.c:149
+msgid "Move the selected tasks downwards"
+msgstr "Premakni izbrane naloge proti dnu"
+
+#: src/planner-gantt-view.c:170 src/planner-task-view.c:151
+msgid "Reset _Constraint"
+msgstr "Počisti _omejitve"
+
+#: src/planner-gantt-view.c:173
+msgid "Zoom To _Fit"
+msgstr "Prilagodi _velikost oknu"
+
+#: src/planner-gantt-view.c:174 src/planner-usage-view.c:115
+msgid "Zoom to fit the entire project"
+msgstr "Prilagodi na velikost projekta"
+
+#: src/planner-gantt-view.c:176
+msgid "_Zoom In"
+msgstr "_Približaj"
+
+#: src/planner-gantt-view.c:177 src/planner-usage-view.c:111
+#: src/planner-usage-view.c:112
+msgid "Zoom in"
+msgstr "Približaj"
+
+#: src/planner-gantt-view.c:179
+msgid "Zoom _Out"
+msgstr "_Oddalji"
+
+#: src/planner-gantt-view.c:180 src/planner-usage-view.c:108
+#: src/planner-usage-view.c:109
+msgid "Zoom out"
+msgstr "Oddalji"
+
+#: src/planner-gantt-view.c:182 src/planner-resource-view.c:247
+#: src/planner-task-view.c:157 src/planner-usage-view.c:117
+msgid "Edit _Visible Columns"
+msgstr "Uredi _vidne stolpce"
+
+#: src/planner-gantt-view.c:183 src/planner-resource-view.c:248
+#: src/planner-task-view.c:158 src/planner-usage-view.c:118
+msgid "Edit visible columns"
+msgstr "Uredi vidne stolpce"
+
+#: src/planner-gantt-view.c:188 src/planner-task-view.c:163
+msgid "_Highlight Critical Tasks"
+msgstr "_Poudari pomembne naloge"
+
+#: src/planner-gantt-view.c:191
+msgid "_Show Guide Lines"
+msgstr "_Pokaži vodila"
+
+#: src/planner-gantt-view.c:194 src/planner-task-view.c:165
+msgid "_Nonstandard Days"
+msgstr "_Neobičajni dnevi"
+
+#. i18n: Label used for the sidebar. Please try to make it short and use
+#. * a linebreak if necessary/possible.
+#.
+#: src/planner-gantt-view.c:390
+msgid "Gantt"
+msgstr ""
+"Ganttov\n"
+"diagram"
+
+#: src/planner-gantt-view.c:396
+msgid "_Gantt Chart"
+msgstr "_Ganttov diagram"
+
+# WBS, work breakdown structure – zgradba členitve projekta (ZČP)
+#. i18n: WBS is short for work breakdown structure, and is a
+#. * project management term. You might want to leave it
+#. * untranslated unless there is a localized term for it.
+#.
+#. i18n: WBS is sort for work breakdown structure, and is a
+#. * project management term. You might want to leave it
+#. * untranslated unless there is a localized term for it.
+#.
+#: src/planner-gantt-view.c:596 src/planner-task-view.c:360
+msgid "WBS"
+msgstr "ZČP"
+
+#: src/planner-gantt-view.c:598 src/planner-task-view.c:362
+msgid "Start"
+msgstr "Začetek"
+
+#: src/planner-gantt-view.c:599 src/planner-task-view.c:363
+msgid "Finish"
+msgstr "Konec"
+
+#: src/planner-gantt-view.c:602 src/planner-task-view.c:366
+msgid "Slack"
+msgstr "Ohlapno"
+
+#: src/planner-gantt-view.c:604 src/planner-task-view.c:368
+msgid "Assigned to"
+msgstr "Določeno za"
+
+#. i18n: The string "% Complete" will be used in the header
+#. * of a column containing values from 0 upto 100, indicating
+#. * what part of a task has been completed.
+#.
+#: src/planner-gantt-view.c:610 src/planner-task-view.c:374
+#, no-c-format
+msgid "% Complete"
+msgstr "% opravljenega dela"
+
+#: src/planner-gantt-view.c:947
+msgid "Edit Gantt Columns"
+msgstr "Uredi stolpce Ganttovega diagrama"
+
+#: src/planner-group-dialog.c:302
+msgid "Insert group"
+msgstr "Vstavi skupino"
+
+#: src/planner-group-dialog.c:429
+msgid "Remove group"
+msgstr "Odstrani skupino"
+
+#: src/planner-group-dialog.c:523
+msgid "Default group"
+msgstr "Privzeta skupina"
+
+#: src/planner-group-dialog.c:641
+msgid "Edit group property"
+msgstr "Uredi lastnosti skupine"
+
+#: src/planner-group-dialog.c:822
+msgid "Manager name"
+msgstr "Ime nadzornika"
+
+#: src/planner-group-dialog.c:828
+msgid "Manager phone"
+msgstr "Telefon nadzornika"
+
+#: src/planner-group-dialog.c:834
+msgid "Manager email"
+msgstr "Elektronski naslov nadzornika"
+
+#: src/planner-html-plugin.c:46
+msgid "HTML"
+msgstr "HTML"
+
+#: src/planner-html-plugin.c:47
+msgid "Export project to HTML"
+msgstr "Izvozi projekt v HTML"
+
+#: src/planner-html-plugin.c:79
+msgid "Could not export to HTML"
+msgstr "Ni mogoče izvoziti v HTML"
+
+#: src/planner-html-plugin.c:105
+msgid "Export to HTML"
+msgstr "Izvozi v HTML"
+
+#: src/planner-html-plugin.c:149
+msgid "Show result in browser"
+msgstr "Pokaži v brskalniku"
+
+#: src/planner-html-plugin.c:168 src/planner-window.c:1511
+#: src/planner-xml-planner-plugin.c:128
+#, c-format
+msgid "File \"%s\" exists, do you want to overwrite it?"
+msgstr "Datoteka \"%s\" že obstaja. Ali jo želite prepisati?"
+
+#: src/planner-main.c:44
+msgid "Create the initial window with the given geometry."
+msgstr "Ustvari začetno okno z določeno geometrijo."
+
+#: src/planner-main.c:44
+msgid "GEOMETRY"
+msgstr "Geometrija"
+
+#: src/planner-main.c:45
+msgid "FILES|URIs"
+msgstr "DATOTEKE|NASLOVI URI"
+
+#: src/planner-main.c:75
+msgid "- Planner project management"
+msgstr "- Planner: upravljanje projektnega dela"
+
+#: src/planner-main.c:79
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Zaženite '%s --help' za podroben pregled celotnega seznama možnosti ukazne "
+"vrstice.\n"
+
+#: src/planner-main.c:107
+#, c-format
+msgid "Invalid geometry string \"%s\"\n"
+msgstr "Neveljaven geometrijski niz \"%s\"\n"
+
+#: src/planner-msp-plugin.c:51
+msgid "MS Project XML..."
+msgstr "Vir XML MS Project ..."
+
+#: src/planner-msp-plugin.c:51
+msgid "Import an MS Project XML file"
+msgstr "Uvoz vira XML MS Project"
+
+#: src/planner-msp-plugin.c:119
+msgid "Couldn't import file."
+msgstr "Ni mogoče uvoziti datoteke."
+
+#: src/planner-msp-plugin.c:212
+msgid "Import a File"
+msgstr "Uvozi datoteko"
+
+#: src/planner-msp-plugin.c:220
+msgid "XML Files"
+msgstr "Datoteke XML"
+
+#: src/planner-msp-plugin.c:225 src/planner-window.c:875
+msgid "All Files"
+msgstr "Vse datoteke"
+
+#: src/planner-phase-dialog.c:527
+msgid "Insert phase"
+msgstr "Vstavi korak"
+
+#: src/planner-phase-dialog.c:626
+msgid "Remove phase"
+msgstr "Odstrani korak"
+
+#: src/planner-plugin-loader.c:40
+#, c-format
+msgid "Could not open plugin file '%s'\n"
+msgstr "Ni mogoče odpreti datoteke vstavka '%s'\n"
+
+#. i18n: finish-to-start, not sure if it should be translated...
+#: src/planner-predecessor-model.c:192 src/planner-task-dialog.c:2161
+msgid "FS"
+msgstr "KZ"
+
+#: src/planner-predecessor-model.c:195 src/planner-task-dialog.c:2167
+msgid "FF"
+msgstr "KK"
+
+#: src/planner-predecessor-model.c:198 src/planner-task-dialog.c:2173
+msgid "SS"
+msgstr "ZZ"
+
+#: src/planner-predecessor-model.c:201 src/planner-task-dialog.c:2179
+msgid "SF"
+msgstr "ZK"
+
+#: src/planner-print-dialog.c:247
+msgid "Select the views to print:"
+msgstr "Izbor pogledov za tiskanje:"
+
+#: src/planner-print-job.c:168
+msgid "Select views"
+msgstr "Izbor pogleda"
+
+#: src/planner-project-properties.c:383
+msgid "Select a calendar to use for this project:"
+msgstr "Izbor koledarja za ta projekt:"
+
+#: src/planner-project-properties.c:483
+msgid "Edit Project Name"
+msgstr "Uredi ime projekta"
+
+#: src/planner-project-properties.c:519
+msgid "Edit Organization"
+msgstr "Uredi podatke ustanove"
+
+#: src/planner-project-properties.c:555
+msgid "Edit Manager"
+msgstr "Uredi podatke nadzornika"
+
+#: src/planner-project-properties.c:630 src/planner-project-properties.c:654
+msgid "Edit Project Start"
+msgstr "Uredi začetek projekta"
+
+#: src/planner-project-properties.c:679
+msgid "Edit Project Phase"
+msgstr "Uredi korake projekta"
+
+#: src/planner-project-properties.c:812
+msgid "Property"
+msgstr "Lastnost"
+
+#: src/planner-project-properties.c:823
+msgid "Value"
+msgstr "Vrednost"
+
+#: src/planner-project-properties.c:1218 src/planner-property-dialog.c:306
+msgid "The name of the custom property needs to start with a letter."
+msgstr "Ime lastnosti po meri se mora začeti s črko."
+
+#: src/planner-project-properties.c:1290 src/planner-property-dialog.c:376
+#, c-format
+msgid "Do you really want to remove the property '%s' from the project?"
+msgstr "Ali zares želite odstraniti lastnost '%s' iz projekta?"
+
+#: src/planner-project-properties.c:1748
+msgid "Add project property"
+msgstr "Dodaj lastnost projekta"
+
+#: src/planner-project-properties.c:1858
+msgid "Remove project property"
+msgstr "Odstrani lastnost projekta"
+
+#: src/planner-project-properties.c:1951
+msgid "Edit project property value"
+msgstr "Uredi vrednost lastnosti projekta"
+
+#: src/planner-property-dialog.c:475
+msgid "Label"
+msgstr "Oznaka"
+
+#: src/planner-property-dialog.c:487 src/planner-resource-view.c:1195
+#: src/planner-task-dialog.c:2651
+msgid "Type"
+msgstr "Vrsta"
+
+#: src/planner-property-dialog.c:640
+msgid "Add property"
+msgstr "Dodaj lastnost"
+
+#: src/planner-property-dialog.c:785
+msgid "Remove property"
+msgstr "Odstrani lastnost"
+
+#: src/planner-property-dialog.c:878
+msgid "Edit property label"
+msgstr "Uredi oznako lastnosti"
+
+#: src/planner-resource-cmd.c:75
+msgid "Insert resource"
+msgstr "Vstavi vire"
+
+#: src/planner-resource-dialog.c:256 src/planner-resource-view.c:747
+#: src/planner-resource-view.c:761 src/planner-resource-view.c:1689
+msgid "Material"
+msgstr "Gradivo"
+
+#: src/planner-resource-dialog.c:271 src/planner-resource-input-dialog.c:80
+#: src/planner-resource-view.c:1863
+msgid "(None)"
+msgstr "(brez)"
+
+#: src/planner-resource-dialog.c:275 src/planner-resource-input-dialog.c:84
+#: src/planner-task-dialog.c:330
+msgid "(No name)"
+msgstr "(Brez imena)"
+
+#: src/planner-resource-dialog.c:472
+msgid "Edit resource calendar"
+msgstr "Uredi osnovni koledar"
+
+#: src/planner-resource-dialog.c:553
+msgid "Edit resource note"
+msgstr "Uredi opombe vira"
+
+#: src/planner-resource-dialog.c:620
+msgid "Edit resource cost"
+msgstr "Uredi izdatke vira"
+
+#: src/planner-resource-dialog.c:688 src/planner-resource-dialog.c:729
+#: src/planner-resource-view.c:1385 src/planner-resource-view.c:1466
+msgid "Edit resource property"
+msgstr "Uredi lastnost vira"
+
+#. i18n: time stamp format for notes in task dialog, see strftime(3) for
+#. * a detailed description.
+#: src/planner-resource-dialog.c:1373 src/planner-task-dialog.c:1746
+msgid "%a %d %b %Y, %H:%M\n"
+msgstr "%a, %d. %b. %Y, %H:%M\n"
+
+#: src/planner-resource-dialog.c:1489
+msgid "None (use project default)"
+msgstr "Brez (uporabi privzet projekt)"
+
+#: src/planner-resource-dialog.c:1611 src/planner-resource-dialog.c:1613
+msgid "Edit resource properties"
+msgstr "Uredi lastnosti virov"
+
+#: src/planner-resource-view.c:226
+msgid "_Insert Resource"
+msgstr "_Vstavi vire"
+
+#: src/planner-resource-view.c:227
+msgid "Insert a new resource"
+msgstr "Vstavi nov vir"
+
+#: src/planner-resource-view.c:229
+msgid "In_sert Resources..."
+msgstr "V_stavi vire ..."
+
+#: src/planner-resource-view.c:232
+msgid "_Remove Resource"
+msgstr "_Odstrani vire"
+
+#: src/planner-resource-view.c:233
+msgid "Remove the selected resource"
+msgstr "Odstrani izbrani vir"
+
+#: src/planner-resource-view.c:235
+msgid "_Edit Resource Properties..."
+msgstr "_Uredi lastnosti vira ..."
+
+#: src/planner-resource-view.c:238
+msgid "Edit _Groups"
+msgstr "Uredi _skupine"
+
+#: src/planner-resource-view.c:239
+msgid "Edit resource groups"
+msgstr "Uredi skupine virov"
+
+#: src/planner-resource-view.c:244
+msgid "Edit _Custom Properties..."
+msgstr "Uredi lastnosti _po meri ..."
+
+#: src/planner-resource-view.c:411
+msgid "_Resources"
+msgstr "_Viri"
+
+#: src/planner-resource-view.c:910
+msgid "Remove resource"
+msgstr "Odstrani vire"
+
+#: src/planner-resource-view.c:979
+msgid "Edit Resource Columns"
+msgstr "Uredi stolpce virov"
+
+#: src/planner-resource-view.c:1014
+msgid "Edit custom resource properties"
+msgstr "Uredi lastnosti vira po meri"
+
+#: src/planner-resource-view.c:1159
+msgid "Short name"
+msgstr "Kratko ime"
+
+#: src/planner-resource-view.c:1233
+msgid "Group"
+msgstr "Skupina"
+
+#: src/planner-scale-utils.c:92
+#, c-format
+msgid "%a %e"
+msgstr "%a %e"
+
+#: src/planner-scale-utils.c:95
+msgid "%a, %b %e"
+msgstr "%a, %b %Y"
+
+#. i18n: Short "Week", preferably 2 letters.
+#: src/planner-scale-utils.c:104
+#, c-format
+msgid "Wk %d"
+msgstr "Td: %d"
+
+#: src/planner-scale-utils.c:108
+#, c-format
+msgid "Week %d"
+msgstr "Teden %d"
+
+#. i18n: Week, year.
+#: src/planner-scale-utils.c:113
+#, c-format
+msgid "Week %d, %d"
+msgstr "Teden %d, %d"
+
+#. i18n: Short "Quarter", preferably 1 letter.
+#: src/planner-scale-utils.c:140
+#, c-format
+msgid "Q%d"
+msgstr "Č %d"
+
+#. i18n: Short "Quarter", preferably 2-3 letters.
+#: src/planner-scale-utils.c:144
+#, c-format
+msgid "Qtr %d"
+msgstr "Čtr %d"
+
+#. i18n: Year, short "Quarter", preferably 2-3 letters.
+#: src/planner-scale-utils.c:148
+#, c-format
+msgid "%d, Qtr %d"
+msgstr "%d, čtr %d"
+
+#. i18n: Short "Half year", preferably 1 letter.
+#: src/planner-scale-utils.c:161
+#, c-format
+msgid "H%d"
+msgstr "P%d"
+
+#. i18n: Year, short "Half year", preferably 1 letter.
+#: src/planner-scale-utils.c:166
+#, c-format
+msgid "%04d, H%d"
+msgstr "%04d, P%d"
+
+#: src/planner-sql-plugin.c:94
+msgid "Open from Database..."
+msgstr "Odpri podatkovno zbirko ..."
+
+#: src/planner-sql-plugin.c:95
+msgid "Open a project from a database"
+msgstr "Odpri projekt iz podatkovne zbirke"
+
+#: src/planner-sql-plugin.c:97 src/planner-sql-plugin.c:1210
+msgid "Save to Database"
+msgstr "Shrani v podatkovno zbirko"
+
+#: src/planner-sql-plugin.c:98
+msgid "Save the current project to a database"
+msgstr "Shrani trenutni projekt v podatkovno zbirko"
+
+#: src/planner-sql-plugin.c:574
+#, c-format
+msgid ""
+"Database %s needs to be upgraded from version %s to version %s.\n"
+"Please backup database before the upgrade."
+msgstr ""
+"Podatkovno zbirko %s je treba posodobiti iz različice %s na različico %s.\n"
+"Pred posodabljanjem ustvarite varnostno kopijo podatkov."
+
+#: src/planner-sql-plugin.c:581
+msgid "Upgrade"
+msgstr "Posodobi"
+
+#: src/planner-sql-plugin.c:595
+#, c-format
+msgid ""
+"Could not upgrade database %s.\n"
+" Upgrade file used: %s.\n"
+"\n"
+"Database error: \n"
+"%s"
+msgstr ""
+"Ni mogoče posodobiti podatkovne zbirke %s.\n"
+" Datoteka za posodobitev: %s.\n"
+"\n"
+"Napaka podatkovne zbirke: \n"
+"%s"
+
+#: src/planner-sql-plugin.c:635
+#, c-format
+msgid "Can't create tables in database %s"
+msgstr "Ni mogoče ustvariti razpredelnic v zbirki podatkov %s"
+
+#: src/planner-sql-plugin.c:698
+#, c-format
+msgid "Database %s is not setup for Planner. Do you want to do that?"
+msgstr ""
+"Podatkovna zbirka %s ni prilagojena programu Planner. Ali jo želite "
+"spremeniti?"
+
+#: src/planner-sql-plugin.c:740
+#, c-format
+msgid "Connection to database '%s@%s' failed."
+msgstr "Povezovanje s podatkovno zbirko '%s@%s' je spodletelo."
+
+#: src/planner-sql-plugin.c:763
+#, c-format
+msgid "Test to tables in database '%s' failed."
+msgstr "Preverjanje razpredelnic v podatkovni zbirki '%s' ni uspelo."
+
+#: src/planner-sql-plugin.c:851
+msgid "ID"
+msgstr "ID"
+
+#: src/planner-sql-plugin.c:859
+msgid "Project"
+msgstr "Projekt"
+
+#: src/planner-sql-plugin.c:867
+msgid "Phase"
+msgstr "Korak"
+
+#: src/planner-sql-plugin.c:875
+msgid "Revision"
+msgstr "Pregled"
+
+#: src/planner-sql-plugin.c:1100
+msgid "Open from Database"
+msgstr "Odpri iz podatkovne zbirke"
+
+#: src/planner-task-cmd.c:97
+msgid "Link task"
+msgstr "Poveži nalogo"
+
+#: src/planner-task-cmd.c:173
+msgid "Unlink task"
+msgstr "Odstrani povezavo naloge"
+
+#: src/planner-task-cmd.c:268
+msgid "Insert task"
+msgstr "Vnos naloge"
+
+#: src/planner-task-dialog.c:276
+msgid "Finish to start (FS)"
+msgstr "Od konca do začetka (KZ)"
+
+#: src/planner-task-dialog.c:277
+msgid "Finish to finish (FF)"
+msgstr "Od konca do konca (KK)"
+
+#: src/planner-task-dialog.c:278
+msgid "Start to start (SS)"
+msgstr "Od začetka do začetka (ZZ)"
+
+#: src/planner-task-dialog.c:279
+msgid "Start to finish (SF)"
+msgstr "Od začetka do konca (ZK)"
+
+#: src/planner-task-dialog.c:475
+msgid "Edit task type"
+msgstr "Uredi vrsto naloge"
+
+#: src/planner-task-dialog.c:542
+msgid "Toggle fixed duration"
+msgstr "Preklop določenega trajanja"
+
+#: src/planner-task-dialog.c:609
+msgid "Edit task scheduling"
+msgstr "Uredi urnik nalog"
+
+#: src/planner-task-dialog.c:689
+msgid "Assign resource to task"
+msgstr "Določitev virov naloge"
+
+#: src/planner-task-dialog.c:749
+msgid "Unassign resource from task"
+msgstr "Odstranitev vira naloge"
+
+#: src/planner-task-dialog.c:808
+msgid "Change resource units in task"
+msgstr "Spremeni enote virov v nalogi"
+
+#: src/planner-task-dialog.c:896
+msgid "Edit task predecessor"
+msgstr "Uredi predhodne naloge"
+
+#: src/planner-task-dialog.c:967
+msgid "Edit lag predecessor"
+msgstr "Uredi zaostanek predhodne naloge"
+
+#: src/planner-task-dialog.c:1032
+msgid "Edit task note"
+msgstr "Uredi opombe naloge"
+
+#: src/planner-task-dialog.c:1435
+#, c-format
+msgid "No earlier than %s"
+msgstr "Nič prej kot %s"
+
+#: src/planner-task-dialog.c:1439
+#, c-format
+msgid "On fixed date %s"
+msgstr "Na določen dan %s"
+
+#: src/planner-task-dialog.c:1909
+msgid "Can't add new predecessor. No task selected!"
+msgstr "Ni mogoče dodati predhodnega dejanja, dokler ni izbrane naloge!"
+
+#: src/planner-task-dialog.c:2578
+msgid "Assigned"
+msgstr "Dodeljeno"
+
+#: src/planner-task-dialog.c:2595
+msgid "Units"
+msgstr "Enote"
+
+#: src/planner-task-dialog.c:2669
+msgid "Lag"
+msgstr "Zakasnitev"
+
+#: src/planner-task-dialog.c:2812 src/planner-task-dialog.c:2814
+msgid "Edit task properties"
+msgstr "Urejanje lastnosti nalog"
+
+#: src/planner-task-popup.c:45
+msgid "_Insert task"
+msgstr "_Vstavi nalogo"
+
+#: src/planner-task-popup.c:49
+msgid "Insert _subtask"
+msgstr "Vstavo _podrejeno nalogo"
+
+#: src/planner-task-popup.c:53
+msgid "_Remove task"
+msgstr "_Odstrani nalogo"
+
+#: src/planner-task-popup.c:57
+msgid "_Unlink task"
+msgstr "_Odstrani povezavo naloge"
+
+#: src/planner-task-popup.c:61
+msgid "Assign _resources..."
+msgstr "Dodeli vi_re …"
+
+#: src/planner-task-popup.c:65 src/planner-usage-tree.c:91
+msgid "_Edit task..."
+msgstr "_Uredi nalogo ..."
+
+#: src/planner-task-tree.c:566
+msgid "Remove task"
+msgstr "Odstrani nalogo"
+
+#: src/planner-task-tree.c:656
+msgid "Apply constraint to task"
+msgstr "Določi omejitve naloge"
+
+#: src/planner-task-tree.c:716
+msgid "Reset task constraint"
+msgstr "Počisti omejitve naloge"
+
+#: src/planner-task-tree.c:1469 src/planner-task-tree.c:1623
+msgid "N/A"
+msgstr "N/A"
+
+#: src/planner-task-tree.c:2833
+msgid "Remove tasks"
+msgstr "Odstrani naloge"
+
+#: src/planner-task-tree.c:2895
+#, c-format
+msgid ""
+"You are about to open an edit dialog each for %i tasks. Are you sure that "
+"you want to do that?"
+msgstr ""
+"Odpreti nameravate pogovorno okno urejanja za %i nalog. Ali ste prepričani, "
+"da to želite storiti?"
+
+#: src/planner-task-tree.c:2997
+msgid "Unlink tasks"
+msgstr "Razveži naloge"
+
+#: src/planner-task-tree.c:3049
+msgid "Link tasks"
+msgstr "Poveži naloge"
+
+#: src/planner-task-tree.c:3138
+msgid "Indent tasks"
+msgstr "Zamakni naloge"
+
+#: src/planner-task-tree.c:3149
+msgid "Indent task"
+msgstr "Zamakni nalogo"
+
+#: src/planner-task-tree.c:3241
+msgid "Unindent tasks"
+msgstr "Odmakni naloge"
+
+#: src/planner-task-tree.c:3259
+msgid "Unindent task"
+msgstr "Odmakni nalogo"
+
+#: src/planner-task-tree.c:3335
+msgid "Move tasks up"
+msgstr "Pomakni naloge navzgor"
+
+#: src/planner-task-tree.c:3373
+msgid "Move task up"
+msgstr "Pomakni nalogo navzgor"
+
+#: src/planner-task-tree.c:3465
+msgid "Move tasks down"
+msgstr "Pomakni naloge navzdol"
+
+#. Moving task from 'position' to 'position + 1'
+#: src/planner-task-tree.c:3511
+msgid "Move task down"
+msgstr "Pomakni nalogo navzdol"
+
+#: src/planner-task-tree.c:3571
+msgid "Reset task constraints"
+msgstr "Počisti omejitve naloge"
+
+#: src/planner-task-tree.c:3603
+msgid "Reset all task constraints"
+msgstr "Počisti omejitve vseh nalog"
+
+#: src/planner-task-view.c:127
+msgid "_Edit Task"
+msgstr "_Uredi naloge"
+
+#: src/planner-task-view.c:154
+msgid "_Edit Custom Properties..."
+msgstr "_Uredi lastnosti po meri ..."
+
+#: src/planner-task-view.c:300
+msgid "Tasks"
+msgstr "Naloge"
+
+#: src/planner-task-view.c:306
+msgid "_Tasks"
+msgstr "_Naloge"
+
+#: src/planner-task-view.c:602
+msgid "Edit custom task properties"
+msgstr "Uredi lastnosti naloge po meri"
+
+#: src/planner-task-view.c:656
+msgid "Edit Task Columns"
+msgstr "Uredi stolpce nalog"
+
+#: src/planner-usage-tree.c:87
+msgid "Edit _resource..."
+msgstr "_Uredi vir ..."
+
+#: src/planner-usage-tree.c:95
+msgid "E_xpand all resources"
+msgstr "_Razširi vse vire"
+
+#: src/planner-usage-tree.c:99
+msgid "_Collapse all resources"
+msgstr "_Strni vse vire"
+
+#: src/planner-usage-tree.c:389
+msgid ""
+"\n"
+"Name"
+msgstr ""
+"\n"
+"Ime"
+
+#: src/planner-usage-tree.c:391
+msgid ""
+"\n"
+"Task"
+msgstr ""
+"\n"
+"Naloga"
+
+#: src/planner-usage-view.c:114
+msgid "Zoom to fit"
+msgstr "Prilagodi oknu"
+
+#. i18n: Label used for the sidebar. Please try to make it short and use
+#. * a linebreak if necessary/possible.
+#.
+#: src/planner-usage-view.c:273
+msgid ""
+"Resource\n"
+"Usage"
+msgstr ""
+"Uporaba\n"
+"virov"
+
+#: src/planner-usage-view.c:279
+msgid "Resource _Usage"
+msgstr "_Uporaba virov"
+
+#: src/planner-usage-view.c:392
+msgid "Edit Resource Usage Columns"
+msgstr "Uredi stolpce uporabe virov"
+
+#: src/planner-util-win32.c:45
+#, c-format
+msgid "Unable to open '%s'"
+msgstr "Ni mogoče odpreti '%s'"
+
+#: src/planner-util-win32.c:72
+msgid "Unable to open help file"
+msgstr "Ni mogoče odpreti datoteke pomoči"
+
+#: src/planner-window.c:211
+msgid "_File"
+msgstr "_Datoteka"
+
+#: src/planner-window.c:215
+msgid "_New Project"
+msgstr "_Nov projekt"
+
+#: src/planner-window.c:215
+msgid "Create a new project"
+msgstr "Ustvari nov projekt"
+
+#: src/planner-window.c:219
+msgid "_Open..."
+msgstr "_Odpri ..."
+
+#: src/planner-window.c:219
+msgid "Open a project"
+msgstr "Odpri projekt"
+
+#: src/planner-window.c:222
+msgid "Open _Recent"
+msgstr "Odpri _nedavno"
+
+#: src/planner-window.c:225
+msgid "_Import"
+msgstr "_Uvozi"
+
+#: src/planner-window.c:229 src/planner-window.c:1380
+msgid "_Save"
+msgstr "_Shrani"
+
+#: src/planner-window.c:229
+msgid "Save the current project"
+msgstr "Shrani trenutni projekt"
+
+#: src/planner-window.c:232
+msgid "_Export"
+msgstr "_Izvozi"
+
+#: src/planner-window.c:235
+msgid "Save _As..."
+msgstr "Shrani _kot ..."
+
+#: src/planner-window.c:235
+msgid "Save the current project with a different name"
+msgstr "Shrani trenutni projekt z drugim imenom"
+
+#: src/planner-window.c:238
+msgid "Page Set_up..."
+msgstr "N_astavitev strani ..."
+
+#: src/planner-window.c:238
+msgid "Setup the page settings for your current printer"
+msgstr "Nastavi lastnosti strani za trenutni tiskalnik"
+
+#: src/planner-window.c:241
+msgid "_Print..."
+msgstr "_Natisni ..."
+
+#: src/planner-window.c:241
+msgid "Print the current project"
+msgstr "Natisni trenutni projekt"
+
+#: src/planner-window.c:244
+msgid "Print Pre_view"
+msgstr "P_redogled tiskanja"
+
+#: src/planner-window.c:244
+msgid "Print preview of the current project"
+msgstr "Predogled tiskanja trenutnega projekta"
+
+#: src/planner-window.c:247
+msgid "_Close"
+msgstr "_Zapri"
+
+#: src/planner-window.c:247
+msgid "Close the current file"
+msgstr "Zapri trenutno datoteko"
+
+#: src/planner-window.c:250
+msgid "_Quit"
+msgstr "_Končaj"
+
+#: src/planner-window.c:250
+msgid "Exit the program"
+msgstr "Izhod iz programa"
+
+#: src/planner-window.c:254
+msgid "_Edit"
+msgstr "_Uredi"
+
+#: src/planner-window.c:257
+msgid "_Undo"
+msgstr "_Razveljavi"
+
+#: src/planner-window.c:257
+msgid "Undo the last action"
+msgstr "Razveljavi zadnje dejanje"
+
+#: src/planner-window.c:260
+msgid "_Redo"
+msgstr "_Ponovi"
+
+#: src/planner-window.c:260
+msgid "Redo the undone action"
+msgstr "Obnovi razveljavljeno dejanje"
+
+#: src/planner-window.c:264
+msgid "_View"
+msgstr "_Pogled"
+
+#: src/planner-window.c:268
+msgid "_Actions"
+msgstr "_Dejanja"
+
+#: src/planner-window.c:272
+msgid "_Project"
+msgstr "_Projekt"
+
+#: src/planner-window.c:275
+msgid "_Manage Calendars"
+msgstr "_Upravljanje koledarjev"
+
+#: src/planner-window.c:278
+msgid "Edit Day _Types"
+msgstr "Uredi _vrste dni"
+
+#: src/planner-window.c:281
+msgid "Edit Project _Phases"
+msgstr "Uredi korake _projekta"
+
+#: src/planner-window.c:284
+msgid "_Edit Project Properties"
+msgstr "_Uredi lastnosti projekta"
+
+#: src/planner-window.c:284
+msgid "Edit the project properties"
+msgstr "Uredi lastnosti projekta"
+
+#: src/planner-window.c:292
+msgid "_Help"
+msgstr "Pomo_č"
+
+#: src/planner-window.c:295
+msgid "_User Guide"
+msgstr "_Priročnik"
+
+#: src/planner-window.c:295
+msgid "Show the Planner User Guide"
+msgstr "Prikaži uporabniški priročnik"
+
+#: src/planner-window.c:298
+msgid "_About"
+msgstr "_O Programu"
+
+#: src/planner-window.c:298
+msgid "About this application"
+msgstr "Podrobnosti o programu"
+
+#: src/planner-window.c:687
+#, c-format
+msgid "Switch to the view \"%s\""
+msgstr "Preklopi na pogled \"%s\""
+
+#: src/planner-window.c:859
+msgid "Open a File"
+msgstr "Odpri datoteko"
+
+#: src/planner-window.c:869
+msgid "Planner Files"
+msgstr "Datoteke programa Planner"
+
+#: src/planner-window.c:1177
+msgid "A Project Management application for the GNOME desktop"
+msgstr "Program namizja GNOME za vodenje projektnega dela."
+
+#: src/planner-window.c:1180
+msgid "translator-credits"
+msgstr "Matej Urbančič <mateju@svn.gnome.org>"
+
+#: src/planner-window.c:1182
+msgid "The Planner Homepage"
+msgstr "Spletna stran programa Planner"
+
+#: src/planner-window.c:1329
+#, c-format
+msgid "Save changes to document '%s' before closing?"
+msgstr "Ali želite shraniti spremembe dokumenta '%s' pred zapiranjem?"
+
+#: src/planner-window.c:1340
+msgid "If you don't save, changes made the last minute will be discarded."
+msgstr ""
+"V primeru, da datoteke ne shranite, bodo spremembe zadnje minute izgubljene."
+
+#: src/planner-window.c:1344
+#, c-format
+msgid "If you don't save, changes made the last %d minute will be discarded."
+msgid_plural ""
+"If you don't save, changes made the last %d minutes will be discarded."
+msgstr[0] ""
+"V primeru, da datoteke ne shranite, bodo spremembe zadnjih %d minut "
+"izgubljene."
+msgstr[1] ""
+"V primeru, da datoteke ne shranite, bodo spremembe zadnje %d minute "
+"izgubljene."
+msgstr[2] ""
+"V primeru, da datoteke ne shranite, bodo spremembe zadnjih %d minut "
+"izgubljene."
+msgstr[3] ""
+"V primeru, da datoteke ne shranite, bodo spremembe zadnjih %d minut "
+"izgubljene."
+
+#: src/planner-window.c:1351
+msgid "If you don't save, changes made the last hour will be discarded."
+msgstr ""
+"V primeru, da datoteke ne shranite, bodo spremembe zadnje ure izgubljene."
+
+#: src/planner-window.c:1354
+#, c-format
+msgid "If you don't save, changes made the last %d hour will be discarded."
+msgid_plural ""
+"If you don't save, changes made the last %d hours will be discarded."
+msgstr[0] ""
+"V primeru, da datoteke ne shranite, bodo spremembe zadnjih %d ur izgubljene."
+msgstr[1] ""
+"V primeru, da datoteke ne shranite, bodo spremembe zadnje %d ure izgubljene."
+msgstr[2] ""
+"V primeru, da datoteke ne shranite, bodo spremembe zadnjih %d ur izgubljene."
+msgstr[3] ""
+"V primeru, da datoteke ne shranite, bodo spremembe zadnjih %d ur izgubljene."
+
+#: src/planner-window.c:1367
+msgid "C_lose without saving"
+msgstr "Za_pri brez shranjevanja"
+
+#: src/planner-window.c:1373
+msgid "_Cancel"
+msgstr "_Prekliči"
+
+#: src/planner-window.c:1473
+msgid "Save a File"
+msgstr "Shrani datoteko"
+
+#: src/planner-window.c:1741
+msgid ""
+"You have opened a file that was saved with an old version of Planner.\n"
+"\n"
+"When loading old files, all tasks will use the constraint 'Must Start On', "
+"since the old version did not fully support automatic rescheduling. To take "
+"advantage of this new feature, you should add predecessor relations between "
+"tasks that are dependent on each other.\n"
+"\n"
+"You can add a predecessor relation by clicking on the predecessor and "
+"dragging to the successor.\n"
+"\n"
+"After doing this, you can remove all constraints by selecting the menu item "
+"'Remove all constraints' in the 'Edit' menu."
+msgstr ""
+"Odprli ste datoteko, ki je shranjena v starejši različici programa.\n"
+"\n"
+"Med nalaganjem starejših datotek bodo vse naloge prevzele omejitev 'Začne se "
+"na', saj starejše različice niso popolno podpirale samodejnega časovnega "
+"preurejanja. Za polno uporabo prednosti te možnosti, je treba dodati "
+"predhodno nalogo ali povezavo med nalogami, ki so medsebojno odvisne.\n"
+"\n"
+"Predhodne naloge lahko dodate s klikom nanje in vlačenjem do glavne naloge.\n"
+"\n"
+"Po tem lahko odstranite omejitve preko možnosti 'Odstrani vse omejitve' v "
+"meniju 'Uredi'."
+
+#. Hack.
+#: src/planner-window.c:1776
+msgid "Unnamed database project"
+msgstr "Neimenovana zbirka projekta"
+
+#: src/planner-working-time-dialog.c:145
+msgid "Edit working time"
+msgstr "Uredi delovni čas"
+
+#: src/planner-xml-planner-plugin.c:54
+msgid "Planner 0.11 Format"
+msgstr "Planner 0.11"
+
+#: src/planner-xml-planner-plugin.c:55
+msgid "Export project to a file suitable for Planner 0.11"
+msgstr "Izvoz projekta v zapis programa Planner različice 0.11"
+
+#: src/planner-xml-planner-plugin.c:94
+msgid "Export"
+msgstr "Izvozi"
+
+#: eds-backend/e-cal-backend-planner.c:288
+msgid "EDS UID"
+msgstr "UID EDS"
+
+#: eds-backend/e-cal-backend-planner.c:289
+msgid "Identifier used by Evolution Data Server for tasks"
+msgstr "Določevala nalog kot jih uporablja podatkovni strežnik Evolution (EDS)"
+
+#: eds-backend/e-cal-backend-planner.c:298
+msgid "EDS Categories"
+msgstr "Kategorije EDS"
+
+#: eds-backend/e-cal-backend-planner.c:299
+msgid "Categories for a task used by Evolution Data Server"
+msgstr "Kategorije nalog kot jih uporablja podatkovni strežnik Evolution (EDS)"
+
+#: eds-backend/e-cal-backend-planner.c:308
+msgid "EDS Classification"
+msgstr "Klasifikacija EDS"
+
+#: eds-backend/e-cal-backend-planner.c:309
+msgid "Task access classification used by Evolution Data Server"
+msgstr "Zaznamovanje dostopa do naloge preko podatkovnega strežnika Evolution."
+
+#: eds-backend/e-cal-backend-planner.c:318
+msgid "EDS URL"
+msgstr "URL EDS"
+
+#: eds-backend/e-cal-backend-planner.c:319
+msgid "URL for a Task used by Evolution Data Server"
+msgstr "Naslov URL naloge, ki jo uporablja podatkovni strežnik Evolution"
+
+#: eds-backend/e-cal-backend-planner.c:828
+msgid "Invalid server URI"
+msgstr "Neveljaven URI strežnika"
+
+#. book_target = (EABConfigTargetSource *) data->target;
+#. source = book_target->source;
+#: eds-backend/planner-source/planner-source.c:125
+msgid "Select planner file"
+msgstr "Izbor datoteke planerja"
+
+#: eds-backend/planner-source/planner-source.c:157
+#, c-format
+msgid ""
+"The filename extension of this file isn't the planner usual file extension "
+"(%s) Do you want to continue?"
+msgstr ""
+"Pripona te datoteke ni običajna pri datotekah programa Planner (%s). Ali "
+"želite nadaljevati?"

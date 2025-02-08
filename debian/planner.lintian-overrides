@@ -1,0 +1,3 @@
+# the package does infact install several shared libraries to
+# /usr/lib/<multi_arch_triplet>/planner/* (refer d/planner.install)
+planner: package-has-unnecessary-activation-of-ldconfig-trigger

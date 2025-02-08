@@ -1,0 +1,434 @@
+<schemalist gettext-domain="planner">
+  <schema id="app.drey.Planner" path="/app/drey/Planner/">
+    <key name="last-dir" type="s">
+      <default>''</default>
+    </key>
+    <child name="views" schema="app.drey.Planner.views"/>
+    <child name="ui" schema="app.drey.Planner.ui"/>
+    <child name="plugins" schema="app.drey.Planner.plugins"/>
+  </schema>
+  <schema id="app.drey.Planner.views" path="/app/drey/Planner/views/">
+    <child name="gantt-view" schema="app.drey.Planner.views.gantt-view"/>
+    <child name="task-view" schema="app.drey.Planner.views.task-view"/>
+    <child name="resource-view" schema="app.drey.Planner.views.resource-view"/>
+    <child name="resource-usage-view" schema="app.drey.Planner.views.resource-usage-view"/>
+  </schema>
+  <schema id="app.drey.Planner.views.gantt-view" path="/app/drey/Planner/views/gantt-view/">
+    <key name="highlight-critical-path" type="b">
+      <default>false</default>
+      <summary>Highlight critical path in Gantt view</summary>
+      <description>Whether to highlight the tasks along the critical path in the Gantt view.</description>
+    </key>
+    <key name="display-nonstandard-days" type="b">
+      <default>false</default>
+      <summary>Display nonstandard days in Gantt view</summary>
+      <description>Whether to display nonstandard days in the Gantt view.</description>
+    </key>
+    <key name="print-enabled" type="b">
+      <default>true</default>
+      <summary>Print the Gantt view</summary>
+      <description>Whether printing of the Gantt view is enabled.</description>
+    </key>
+    <key name="show-guidelines" type="b">
+      <default>false</default>
+    </key>
+    <child name="assigned-to" schema="app.drey.Planner.views.gantt-view.assigned-to"/>
+    <child name="complete" schema="app.drey.Planner.views.gantt-view.complete"/>
+    <child name="cost" schema="app.drey.Planner.views.gantt-view.cost"/>
+    <child name="duration" schema="app.drey.Planner.views.gantt-view.duration"/>
+    <child name="finish" schema="app.drey.Planner.views.gantt-view.finish"/>
+    <child name="name" schema="app.drey.Planner.views.gantt-view.name"/>
+    <child name="slack" schema="app.drey.Planner.views.gantt-view.slack"/>
+    <child name="start" schema="app.drey.Planner.views.gantt-view.start"/>
+    <child name="wbs" schema="app.drey.Planner.views.gantt-view.wbs"/>
+    <child name="work" schema="app.drey.Planner.views.gantt-view.work"/>
+  </schema>
+  <schema id="app.drey.Planner.views.gantt-view.assigned-to" path="/app/drey/Planner/views/gantt-view/assigned-to/">
+    <key name="order" type="i">
+      <default>8</default>
+    </key>
+    <key name="visible" type="b">
+      <default>false</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.gantt-view.complete" path="/app/drey/Planner/views/gantt-view/complete/">
+    <key name="order" type="i">
+      <default>9</default>
+    </key>
+    <key name="visible" type="b">
+      <default>false</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.gantt-view.cost" path="/app/drey/Planner/views/gantt-view/cost/">
+    <key name="order" type="i">
+      <default>7</default>
+    </key>
+    <key name="visible" type="b">
+      <default>false</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.gantt-view.duration" path="/app/drey/Planner/views/gantt-view/duration/">
+    <key name="order" type="i">
+      <default>5</default>
+    </key>
+    <key name="visible" type="b">
+      <default>false</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.gantt-view.finish" path="/app/drey/Planner/views/gantt-view/finish/">
+    <key name="order" type="i">
+      <default>3</default>
+    </key>
+    <key name="visible" type="b">
+      <default>false</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.gantt-view.name" path="/app/drey/Planner/views/gantt-view/name/">
+    <key name="order" type="i">
+      <default>1</default>
+    </key>
+    <key name="visible" type="b">
+      <default>true</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.gantt-view.slack" path="/app/drey/Planner/views/gantt-view/slack/">
+    <key name="order" type="i">
+      <default>6</default>
+    </key>
+    <key name="visible" type="b">
+      <default>false</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.gantt-view.start" path="/app/drey/Planner/views/gantt-view/start/">
+    <key name="order" type="i">
+      <default>2</default>
+    </key>
+    <key name="visible" type="b">
+      <default>false</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.gantt-view.wbs" path="/app/drey/Planner/views/gantt-view/wbs/">
+    <key name="order" type="i">
+      <default>0</default>
+    </key>
+    <key name="visible" type="b">
+      <default>true</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.gantt-view.work" path="/app/drey/Planner/views/gantt-view/work/">
+    <key name="order" type="i">
+      <default>4</default>
+    </key>
+    <key name="visible" type="b">
+      <default>true</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.task-view" path="/app/drey/Planner/views/task-view/">
+    <key name="highlight-critical-path" type="b">
+      <default>false</default>
+      <summary>Highlight critical path in Task view</summary>
+      <description>Whether to highlight the tasks along the critical path in the Task view.</description>
+    </key>
+    <key name="display-nonstandard-days" type="b">
+      <default>false</default>
+      <summary>Display nonstandard days in Task view</summary>
+      <description>Whether to display nonstandard days in the Task view.</description>
+    </key>
+    <key name="print-enabled" type="b">
+      <default>true</default>
+      <summary>Print the Task view</summary>
+      <description>Whether printing of the Task view is enabled.</description>
+    </key>
+    <child name="assigned-to" schema="app.drey.Planner.views.task-view.assigned-to"/>
+    <child name="complete" schema="app.drey.Planner.views.task-view.complete"/>
+    <child name="cost" schema="app.drey.Planner.views.task-view.cost"/>
+    <child name="duration" schema="app.drey.Planner.views.task-view.duration"/>
+    <child name="finish" schema="app.drey.Planner.views.task-view.finish"/>
+    <child name="name" schema="app.drey.Planner.views.task-view.name"/>
+    <child name="slack" schema="app.drey.Planner.views.task-view.slack"/>
+    <child name="start" schema="app.drey.Planner.views.task-view.start"/>
+    <child name="wbs" schema="app.drey.Planner.views.task-view.wbs"/>
+    <child name="work" schema="app.drey.Planner.views.task-view.work"/>
+  </schema>
+  <schema id="app.drey.Planner.views.task-view.assigned-to" path="/app/drey/Planner/views/task-view/assigned-to/">
+    <key name="order" type="i">
+      <default>8</default>
+    </key>
+    <key name="visible" type="b">
+      <default>true</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.task-view.complete" path="/app/drey/Planner/views/task-view/complete/">
+    <key name="order" type="i">
+      <default>9</default>
+    </key>
+    <key name="visible" type="b">
+      <default>true</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.task-view.cost" path="/app/drey/Planner/views/task-view/cost/">
+    <key name="order" type="i">
+      <default>7</default>
+    </key>
+    <key name="visible" type="b">
+      <default>true</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.task-view.duration" path="/app/drey/Planner/views/task-view/duration/">
+    <key name="order" type="i">
+      <default>5</default>
+    </key>
+    <key name="visible" type="b">
+      <default>true</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.task-view.finish" path="/app/drey/Planner/views/task-view/finish/">
+    <key name="order" type="i">
+      <default>3</default>
+    </key>
+    <key name="visible" type="b">
+      <default>true</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.task-view.name" path="/app/drey/Planner/views/task-view/name/">
+    <key name="order" type="i">
+      <default>1</default>
+    </key>
+    <key name="visible" type="b">
+      <default>true</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.task-view.slack" path="/app/drey/Planner/views/task-view/slack/">
+    <key name="order" type="i">
+      <default>6</default>
+    </key>
+    <key name="visible" type="b">
+      <default>true</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.task-view.start" path="/app/drey/Planner/views/task-view/start/">
+    <key name="order" type="i">
+      <default>2</default>
+    </key>
+    <key name="visible" type="b">
+      <default>true</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.task-view.wbs" path="/app/drey/Planner/views/task-view/wbs/">
+    <key name="order" type="i">
+      <default>0</default>
+    </key>
+    <key name="visible" type="b">
+      <default>true</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.task-view.work" path="/app/drey/Planner/views/task-view/work/">
+    <key name="order" type="i">
+      <default>4</default>
+    </key>
+    <key name="visible" type="b">
+      <default>true</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.resource-view" path="/app/drey/Planner/views/resource-view/">
+    <key name="print-enabled" type="b">
+      <default>true</default>
+      <summary>Print the Resource view</summary>
+      <description>Whether printing of the Resource view is enabled.</description>
+    </key>
+    <child name="cost" schema="app.drey.Planner.views.resource-view.cost"/>
+    <child name="email" schema="app.drey.Planner.views.resource-view.email"/>
+    <child name="group" schema="app.drey.Planner.views.resource-view.group"/>
+    <child name="name" schema="app.drey.Planner.views.resource-view.name"/>
+    <child name="short-name" schema="app.drey.Planner.views.resource-view.short-name"/>
+    <child name="type" schema="app.drey.Planner.views.resource-view.type"/>
+  </schema>
+  <schema id="app.drey.Planner.views.resource-view.cost" path="/app/drey/Planner/views/resource-view/cost/">
+    <key name="order" type="i">
+      <default>5</default>
+    </key>
+    <key name="visible" type="b">
+      <default>true</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.resource-view.email" path="/app/drey/Planner/views/resource-view/email/">
+    <key name="order" type="i">
+      <default>4</default>
+    </key>
+    <key name="visible" type="b">
+      <default>true</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.resource-view.group" path="/app/drey/Planner/views/resource-view/group/">
+    <key name="order" type="i">
+      <default>3</default>
+    </key>
+    <key name="visible" type="b">
+      <default>true</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.resource-view.name" path="/app/drey/Planner/views/resource-view/name/">
+    <key name="order" type="i">
+      <default>0</default>
+    </key>
+    <key name="visible" type="b">
+      <default>true</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.resource-view.short-name" path="/app/drey/Planner/views/resource-view/short-name/">
+    <key name="order" type="i">
+      <default>1</default>
+    </key>
+    <key name="visible" type="b">
+      <default>true</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.resource-view.type" path="/app/drey/Planner/views/resource-view/type/">
+    <key name="order" type="i">
+      <default>2</default>
+    </key>
+    <key name="visible" type="b">
+      <default>true</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.resource-usage-view" path="/app/drey/Planner/views/resource-usage-view/">
+    <child name="resource-name" schema="app.drey.Planner.views.resource-usage-view.resource-name"/>
+    <child name="task-name" schema="app.drey.Planner.views.resource-usage-view.task-name"/>
+  </schema>
+  <schema id="app.drey.Planner.views.resource-usage-view.resource-name" path="/app/drey/Planner/views/resource-usage-view/resource-name/">
+    <key name="order" type="i">
+      <default>0</default>
+    </key>
+    <key name="visible" type="b">
+      <default>true</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.views.resource-usage-view.task-name" path="/app/drey/Planner/views/resource-usage-view/task-name/">
+    <key name="order" type="i">
+      <default>1</default>
+    </key>
+    <key name="visible" type="b">
+      <default>true</default>
+    </key>
+    <key name="width" type="i">
+      <default>0</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.ui" path="/app/drey/Planner/ui/">
+    <key name="active-view" type="s">
+      <default>'gantt_view'</default>
+      <summary>The active view</summary>
+      <description>Which view to display in the user interface.</description>
+    </key>
+    <key name="main-window-height" type="i">
+      <default>550</default>
+    </key>
+    <key name="main-window-maximized" type="b">
+      <default>false</default>
+    </key>
+    <key name="main-window-position-x" type="i">
+      <default>0</default>
+    </key>
+    <key name="main-window-position-y" type="i">
+      <default>0</default>
+    </key>
+    <key name="main-window-width" type="i">
+      <default>800</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.plugins" path="/app/drey/Planner/plugins/">
+    <child name="msp-plugin" schema="app.drey.Planner.plugins.msp-plugin"/>
+    <child name="xml-export" schema="app.drey.Planner.plugins.xml-export"/>
+  </schema>
+  <schema id="app.drey.Planner.plugins.msp-plugin" path="/app/drey/Planner/plugins/msp-plugin/">
+    <key name="last-dir" type="s">
+      <default>''</default>
+    </key>
+  </schema>
+  <schema id="app.drey.Planner.plugins.xml-export" path="/app/drey/Planner/plugins/xml-export/">
+    <key name="last-dir" type="s">
+      <default>''</default>
+    </key>
+  </schema>
+</schemalist>

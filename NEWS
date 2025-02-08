@@ -1,0 +1,440 @@
+===============
+Planner 0.14.92
+===============
+
+This is a source code only beta release, testing it and reporting bugs is much
+appreciated.
+
+* Bugs fixed:
+  - #248 Drop exporter to Planner 0.11 format (Mart Raudsepp)
+  - #255 extra Default calendar created when opening .planner file (Christophe
+    Noisel)
+  - #257 Segfault when removing a resource (Christophe Noisel)
+  - !50 Update POTFILES.in and POTFILES.skip 230205
+  - !53 DOAP: Replace defunct mailing list
+
+* Translation updates:
+  - Basque (Asier Sarasua Garmendia)
+  - Catalan (Jordi Mas i Hernandez)
+  - Croatian (Goran Vidović)
+  - Danish (Alan Mortensen)
+  - Finnish (Jiri Grönroos)
+  - Georgian (Ekaterine Papava)
+  - German (Jürgen Benvenuti, Philipp Kiemle)
+  - Hungarian (Balázs Úr)
+  - Icelandic (Sveinn í Felli)
+  - Indonesian (Andika Triwidada)
+  - Lithuanian (Aurimas Černius)
+  - Polish (Piotr Drąg)
+  - Portuguese (Brazil) (Enrico Nicoletto)
+  - Russian (Sergej A)
+  - Slovenian (Martin)
+  - Swedish (Anders Jonsson)
+  - Turkish (Sabri Ünal)
+  - Ukrainian (Yuri Chornoivan)
+
+===============
+Planner 0.14.91
+===============
+
+This is a source code only beta release, testing it and reporting bugs is much
+appreciated.
+
+* Code hosting, issues and feature requests have been migrated from bugzilla to
+  GNOME gitlab: https://gitlab.gnome.org/World/planner
+
+* The UI code has been ported to use GTK3 instead of GTK2. As a prerequisite of
+  that, settings have been migrated from GConf to GSettings (dconf), and the UI
+  descriptions have been migrated from libglade to modern GtkBuilder files
+  (Mart Raudsepp, Yavor Doganov, Alexandre Franke, !22, !26, !42, #237, #250)
+
+* The build system is changed to Meson (Marty E. Plummer, Mart Raudsepp, !8, !30)
+
+* Anti-aliased drawing in gantt display (!22)
+
+* The libplanner API library has been made private, removing support for
+  out-of-tree plugins, but none were known to exist (#238)
+
+* Modernized date handling in libplanner, also fixing issues during daylight
+  savings time and dates past year 2038 (#69, #247, !28, !45, !46)
+
+* Fixed opening and saving files with spaces and non-ASCII characters (#3, #213)
+
+* Configuration files moved to XDG directories (Caolan McNamara, Luis Menina)
+
+* Various bug and API deprecation fixes (Alexandre Franke, Julian Taylor,
+  Daniel Mustieles, Ville Skyttä, Arthur Petitpierre, Luis Menina,
+  Gilles Dartiguelongue, vcr, Caolan McNamara, Anders Jonsson, 00willo
+  Andrew Miloradovsky, Mac Tuitio, Ahmed Baïzid, Alexander Alzate Olaya,
+  Andre Klapper, Piotr Drąg, Günther Wagner, Christophe Noisel)
+
+* Updated dependencies:
+  - GLib >= 2.56
+  - GTK >= 3.22
+  - evolution-data-server >= 3.6 (optional)
+  - libgda 5 (optional)
+  - meson >= 0.56 (build-time only)
+
+* Removed dependencies:
+  - GConf2 (but if installed, one-time user settings migration is performed)
+  - gnome-vfs
+  - intltool
+  - libgnomeui
+  - libgnomecanvas (ported to GTK3 code is bundled instead)
+  - libglade
+  - PyGTK
+
+* Bugs fixed:
+  - #3 Saving file with spaces in the name (Ahmed Baïzid)
+  - #12 Timeline disappeared - conversion issue from tm to mrptime with timezone
+    (Mart Raudsepp)
+  - #69 Prevent wrapping of dates beyond 2038 (Mart Raudsepp)
+  - #202 [patch] crash with LC_TIME=pt_PT (Mart Raudsepp)
+  - #213 Files with spaces in the filename do not open (Ahmed Baïzid)
+  - #221 Update installation guide (Ahmed Baïzid)
+  - #226 Unzip Dia diagrams (Ahmed Baïzid)
+  - #230 the signedness warnings may (and should) be fixed (Andrew Miloradovsky,
+    Günther Wagner)
+  - #237 gtk3: Fix date picker popup behaviour (Mart Raudsepp)
+  - #238 Make libplanner private for now (Mart Raudsepp)
+  - #247 Refactor mrptime to not break on year 2038 and not have problems with
+    DST (Mart Raudsepp, Günther Wagner)
+  - #250 Fix basic dark mode support (Mart Raudsepp)
+  - !8 Port to meson, gda5, eds-3.33
+  - !22 GTK3 port
+  - !25 data: Add translator comments to the .desktop file (Piotr Drąg)
+  - !26 GTK3 preparations: GSettings, GtkBuilder, GSEAL, deprecation fixes, etc
+  - !27 Port libplanner to new GObject style
+  - !28 Refactor MrpTime API (Günther Wagner)
+  - !30 Port MIME type handling from intltool to gettext (Mart Raudsepp)
+  - !31 Add basic CI that build tests for Ubuntu and Fedora (Mart Raudsepp)
+  - !36 Meson: i18n.merge_file() does not take positional arguments (Ahmed Baïzid)
+  - !38 Issue #221: Remove the installation guide (Ahmed Baïzid)
+  - !42 Database support: GSetting schemas are missing (Ahmed Baïzid)
+  - !43 retrieve sibling_priv later so it match the sibling we just set
+    (Christophe Noisel)
+  - !44 after moving tasks, unselect before restoring selection
+    (Christophe Noisel)
+  - !46 Fix mrp-time tests with glib-2.74 (Mart Raudsepp, Christophe Noisel)
+  - !47 ci: Depend on libgda5-devel on Fedora instead of libgda-devel
+  - !48 Migrate app-id to app.drey.Planner (Mart Raudsepp)
+
+* Translation updates:
+  - Basque (Inaki Larranaga Murgoitio, Asier Sarasua Garmendia)
+  - Bokmål, Norwegian (Kjartan Maraas)
+  - Bosnian (Samir Ribic)
+  - Catalan (Jordi Mas, Gil Forcada)
+  - Chinese (China) (liushuyu, Luming Zh)
+  - Chinese (Hong Kong) (Walter Cheuk)
+  - Chinese (Taiwan) (Walter Cheuk)
+  - Croatian (Goran Vidović)
+  - Czech (Marek Černocký)
+  - Danish (Alan Mortensen, Ask Hjorth Larsen, Joe Hansen)
+  - Dutch (Nathan Follens, Justin van Steijn)
+  - Esperanto (Kristjan SCHMIDT)
+  - Estonian (Mattias Põldaru)
+  - Finnish (Ville-Pekka Vainio, Jiri Grönroos, Lasse Liehu)
+  - French (Alexandre Franke)
+  - Galician (Fran Diéguez)
+  - Georgian (Zurab Kargareteli)
+  - German (Christian Kirbach, Mario Blättermann)
+  - Greek, Modern (1453-) (Dimitris Spingos)
+  - Hungarian (Balázs Úr)
+  - Icelandic (Sveinn í Felli)
+  - Indonesian (Andika Triwidada, Kukuh Syafaat)
+  - Japanese (Jiro Matsuzawa, Takeshi AIHANA, Ryuta Fujii)
+  - Latvian (Rūdolfs Mazurs)
+  - Lithuanian (Aurimas Černius)
+  - Polish (Piotr Drąg)
+  - Portuguese (Pedro Albuquerque)
+  - Portuguese (Brazil) (Enrico Nicoletto, Rafael Fontenelle)
+  - Romanian (Daniel Șerbănescu, Jobava)
+  - Russian (Alexey Rubtsov, Yuri Kozlov)
+  - Serbian (Мирослав Николић)
+  - Slovak (Peter Mráz)
+  - Slovenian (Matej Urbančič, Martin)
+  - Spanish (Daniel Mustieles, Rodrigo Lledó)
+  - Swedish (Anders Jonsson)
+  - Tajik (Victor Ibragimov)
+  - Tamil (Sri Ramadoss M)
+  - Turkish (Sabri Ünal, Necdet Yücel, Muhammet Kara)
+  - Ukrainian (Yuri Chornoivan)
+
+==============
+Planner 0.14.6
+==============
+
+Fixes
+=====
+
+* Fixed compilation with --with-database (thanks to Maxim Zakharov)
+* Several warnings (thanks to Tinggong Wang)
+* Got rid of AM_MAINTAINER_MODE
+* Got rid of some deprecated code
+
+New and Updated Translations
+============================
+Kristjan Schmidt (eo)
+Alexandre Franke (fr)
+Takeshi AIHANA (ja)
+Rüdolfs Mazurs (lv)
+Piotr Drąg (pl)
+Matej Urbančič (sl)
+Daniel Nylander (sv)
+Gorkem Cetin (tr)
+Muhammet Kara (tr)
+Kjartan Maraas (nb)
+
+==============
+Planner 0.14.5
+==============
+
+New features and fixes
+======================
+
+* First release since transition to git
+  -> ChangeLog is now generated from git log by make distcheck
+* GTK+ requirement has been bumped from 2.6.0 to 2.14.0
+* minor build enhancements, gnome-common is now needed to build
+  (commits e8e08f, e06805, 05e9cf, c8141a)
+* many memory leaks got fixed
+  (commits 07c105, b1964f, 37cbf8, 60daf9, 327bbb, 6f9c48, 6cc17b, 21c832, 15c94a, 04e47d)
+  (bugs #334114, #596746)
+* some deprecated code got updated
+  (commits 209bb8, ce9da9, c982ae, cae485, 8b9104, a9e57c, 9998b3, bc176e, f01117, 53986b, 554d30, 98b929, 09545b, 8a571f, b892fb, df6dea, addef5, 046a28)
+  (bugs #349304, #536416, #584009, #590485, #613623)
+* misc bugs fixed:
+  * Crash when exporting HTML (commit 6c7062)
+  * Prevent changing order of resources on load/save (commit dfcab6)
+  * Crash when using zoom-to-fit (commit 8e4fab, bug #550559)
+  * Assigned resources information shown in HTML export (commit b43d37, bug #308064)
+  * Maximum percent complete stuck at 75% (commit 226c5e, bug #580216)
+  * Error when opening files with colon in path (commit 37cbf8, bug #602427)
+  * Allow scrolling in Gantt and resource usage (commit 170f10, bug #604355)
+  * Show date in status bar (commit 8f6325, bug #604515)
+
+Known introduced regressions
+============================
+
+* help won't open on a build using --prefix (introduced by switch to new API in commit cae485 in planner)
+* Gantt chart header has a white background on the Windows version 
+
+New and Updated Translations
+============================
+Khaled Hosny (ar)
+Amitakhya Phukan (as)
+Xandru Armesto (ast)
+Runa Bhattacharjee (bn_IN)
+Gil Forcada (ca)
+Carles Ferrando (ca@valencia)
+Ondřej Kopka (cs)
+Marek Cernocky (cs)
+Joe Hansen (da)
+Mario Blätterman (de)
+Christian Kirbach (de)
+Nikos Charonitakis (el)
+Jorge González (es)
+Daniel Mustieles (es)
+Mattias Põldaru (et)
+Ivar Smolin (et)
+Iñaki Larrañaga Murgoitio (eu)
+Louis Grandjean (fr)
+Claude Paroz (fr)
+Milo Casagrande (it)
+Takeshi AIHANA (ja)
+Baurzhan Muftakhidinov (kk)
+Sandeep Shedmake (mr)
+Kjartan Maraas (nb)
+Nils-Christoph Fiedler (nds)
+Manoj Kumar Giri (or)
+Piotr Drąg (pl)
+Lucian Adrian Grijncu (ro)
+Yuri Kozlov (ru)
+Alexandre Prokoudine (ru)
+Matej Urbančič (sl)
+Daniel Nylander (sv)
+I. Felix (ta)
+Gavin Huang (zh_CN)
+Aron Xu (zh_CN)
+
+
+==============
+Planner 0.14.4
+==============
+
+New features and fixes
+======================
+
+* Rewrote printing to use the GTK printing API, fixing most problems with
+  printing on Windows (thanks to Francisco Moraes)
+* Added display of minutes to duration format
+* Added creation of Windows installer to Makefiles
+* Dropped support for libgda < 3.0
+* Added proper quoting to SQL code (#168147, #571801)
+* Fixed alignment problems in HTML export (#471218, #478027)
+* Fixed a crash in UNDO/REDO code (#420443)
+* Fixed several issues with the build (#528582, #528971, #529045, #539993)
+
+New and Updated Translations
+============================
+Khaled Hosny (ar)
+Gil Forcada (ca)
+Petr Kovar (cs)
+Jorge González (es)
+Ivar Smolin (et)
+Iñaki Larrañaga Murgoitio (eu)
+Ilkka Tuohela (fi)
+Louis Grandjean (fr)
+Ankit Patel (gu)
+Gabor Kelemen (hu)
+Anna Jonna Ármannsdóttir (is)
+Milo Casagrande (it)
+Takeshi AIHANA (ja)
+Sandeep Shedmake (mr)
+Kjartan Maraas (nb)
+Yannig Marchegay (Kokoyaya) (oc)
+Leonardo Ferreira Fontenelle (pt_BR)
+Daniel Nylander (sv)
+
+
+==============
+Planner 0.14.3
+==============
+
+New features and fixes
+======================
+* Added support for version 3 of libgda, the database access library
+* Added internationalization (I18N) support for HTML export
+* Allow dragging of completion bar in Gantt chart
+* Allow dragging of task duration in Gantt beyond the window size
+* % Complete column added to task and Gantt view
+* New Tango icon set contributed by Frédéric Bellaiche
+* Show guide lines setting is now persistent thanks to Marie Durand
+
+* Fixed bug: Incorrect week numbers were sometimes shown both in the UI and in exported HTML.
+             This fix requires a dependency on libxslt-1.1.23 or higher (see bug #452876).
+* Fixed bug: Project start time shifts each time a project is read from a database
+* Fixed bug: Toggling fixed duration state does not immediately update task appearance in Gantt chart
+* Fixed bug #332748: Row height in exported HTML is incorrect in Internet Explorer (patch by Nico de Groot)
+* Fixed bug #337382: Sidebar buttons are not accessible for things like screen readers
+* Fixed bug #345163: ngettext should be used to get proper translation of plural
+* Fixed bug #373008: Crash when importing MS project XML
+* Fixed bug #382548: Crash when undoing indent
+* Fixed bug #388454: Planner hangs when cancelling HTML export
+* Fixed bug #393620: Gantt header width in exported HTML is incorrect
+* Fixed bug #397132: Crash on export to database
+* Fixed bug #436263: Keep task selection when (un)indenting
+* Fixed bug #464359: Make distcheck fails (patch by Gilles Dartiguelongue)
+* Fixed bug #486990: Fixed duration tasks have incorrect duration 
+* Fixed bug #499090: Incorrect task cost calculation in exported HTML for tasks worked on by multiple people.
+
+New and Updated Translations
+============================
+Khaled Hosny (ar)
+Yavor Doganov (bg)
+Gil Forcada (ca)
+yangka (dz)
+nikosCharonitakis (el)
+David Lodge (en_GB)
+Jorge González (es)
+Iñaki Larrañaga Murgoitio (eu)
+Ilkka Tuohela (fi)
+Claude Paroz (fr)
+Iván Méndez López (gl)
+Gabor Kelemen (hu)
+Milo Casagrande (it)
+Tomas Kuliavas (lt)
+Yannig Marchegay (Kokoyaya) (oc)
+Leonardo Ferreira Fontenelle (pt_BR)
+Matej Urbančič (sl)
+Daniel Nylander (sv)
+I. Felix (ta)
+Clytie Siddall (vi)
+Walter Cheuk (zh_HK)
+Walter Cheuk (zh_TW)
+
+
+==============
+Planner 0.14.2
+==============
+
+New features and fixes
+======================
+* fix bug #353232 - patch to raise majic priority, fixing nautilus behavior when clicking on a planner file
+* fix bug #368186 - patch to paint guide lines behind project start date rather than on top - contributed by Arthur Petitpierre
+* added -Wno-return-type for compile with database enabled
+* patch related to bug #353213 - added #ifdefs to allow compile with libgda 1 or 2, up to libgda-1.9.102
+* Added Arabic - contributed by Djihed Afifi
+* fix for bug 358415 crash in gantt view, contributed by Arthur Petitpierre and mdpoole trolius org.
+
+
+==============
+Planner 0.14.1
+==============
+
+New features and fixes
+======================
+* new man page contributed by Martin-Eric Racine
+* fix for bug #353213 - fix compile with libgda 1.3.91 - contrubuted by Dennis Lubert
+
+* corrected build of translated user guides
+* src/planner-format.c:  fix NULL pointer deref - bug #334121
+* src/planner-gantt-row.c:  patch to fix segv on scrolling - bug #345517
+* po/POTFILES.in:  Added missing files per bug #344793
+* README: Put some better, more current info in there
+* NEWS:  Updates since v0.13
+
+
+============
+Planner 0.14
+============
+
+New features and fixes
+======================
+ * FF and SF Predecessors 140561 (Kurt Maute)
+ * Simple priority scheduling (Matteo Nastasi): 
+   Use the --enable-simple-priority-scheduling option when building. 
+   This feature will allow a high priority task to steal resources from a 
+   lower priority task.
+ * View Non-standard working/nonworking days (Matteo Nastasi): 
+   In the Gantt view, this feature shows where resources have differences 
+   in working and nonworking days when compared to the default calendar.
+ * Resource Usage view canvas interactivity (Alvaro del Castillo):
+   Right clicking on a usage bar or resource pops up an option menu.
+ * Gantt chart misalignment with tree view 128983 (Francisco Moraes)
+ * Summary tasks: work now equals sum of child tasks 305801 (Kurt Maute)
+ * Eliminate effects of resource assignments on summary tasks 151604 
+   (Kurt Maute): 
+   Assigning a resource to a summary task now has no effect.
+ * Updated user guide: (Kurt Maute)
+ * View Grid Lines in Gantt view 303374 (Nguyễn Thái Ngọc Duy):
+   Shows horizontal lines in Gantt to help visually line up tasks with 
+   Gantt bars. 
+
+New and Updated Translations
+============================
+Vladimir "Kaladan" Petkov (bg)
+Miloslav Trmac (cs)
+Hendrik Richter (de)
+Kostas Papadimas (el)
+Adam Weinberger (en_CA)
+David Lodge (en_GB)
+Francisco Javier F. Serrador (es)
+Ivar Smolin (et)
+Larra Murgoitio (eu)
+Meelad Zakaria (fa)
+Ilkka Tuohela (fi)
+Gabor Kelemen (hu)
+Takeshi AIHANA (ja)
+Tomas Kuliavas (lt)
+Kjartan Maraas (nb)
+"Last-Translator: \n" (ne)
+Jan-Willem Harmanny (nl)
+Afonso Celso Medina (pt_BR)
+Steve Murphy (rw)
+Marcel Telka (sk)
+Данило Шеган (sr)
+Daniel Nylander (sv)
+Maxim V. Dziumanenko (uk)
+Clytie Siddall (vi)
+Woodman Tuen (zh_TW)

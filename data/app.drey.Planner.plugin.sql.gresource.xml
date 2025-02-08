@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/app/drey/Planner/plugin/sql">
+    <file preprocess="xml-stripblanks">ui/sql-open-dialog.ui</file>
+    <file preprocess="xml-stripblanks">ui/sql-select-dialog.ui</file>
+  </gresource>
+</gresources>

@@ -1,22 +1,135 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: template-repository
-Source: https://github.com/deepin-community/template-repository
+Upstream-Name: planner
+Upstream-Contact: Mart Raudsepp <leio@gentoo.org>
+Source: https://ftp.gnome.org/pub/GNOME/sources/planner
 
 Files: *
-Copyright: 2023 Tsic404 <liuheng@deepin.org>
+Copyright:
+    2001-2004, CodeFactory AB
+    2001-2008, Imendio AB
+    2002-2004,2006 Alvaro del Castillo <acs@barrapunto.com>
+    2001-2003, Mikael Hallendal <micke@imendio.com>
+    2001-2003, Richard Hult <richard@imendio.com>
+    2005-2008, Jani Tiainen
+    1997-2000, Free Software Foundation
+    2005-2008, Maurice van der Pot
+    2008-2010, Maurice van der Pot <griffon26@kfk4ever.com>
+    2002,      Alexander Larsson
+    2004       Lincoln Phipps <lincoln.phipps@openmutual.net>
+    2003,      Benjamin BAYART <benjamin@sitadelle.com>
+    2004,      Chris Ladd <caladd@particlestorm.net>
+    2003       Daniel Lundin <daniel@edgewall.com>
+    2005,      Francisco Moraes
+    2008,      Lee Baylis <lee@leebaylis.co.uk>
+    2004       Kurt Maute <kurt@maute.us>
+    2003-2004, Xavier Ordoquy <xordoquy@wanadoo.fr>
+    2009-2021, Alexandre Franke <alexandre.franke@gmail.com>
+    2021-2024, Mart Raudsepp <leio@gentoo.org>
 License: GPL-2+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
+
+Files: tests/self-check.c
+Copyright: 1999, Eazel, Inc.
+License: GPL-2+
+
+Files:
+    eds-backend/*
+    src/planner-task-cmd.h
+    src/planner-eds-plugin.c
+    src/planner-resource-cmd.*
+Copyright:
+    2004-2005, Alvaro del Castillo <acs@barrapunto.com>
+License: GPL-2
+
+Files: src/valgrind.h
+Copyright: 2000-2009, Julian Seward
+License: BSD-like
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
  .
- This package is distributed in the hope that it will be useful,
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ .
+ 2. The origin of this software must not be misrepresented; you must
+    not claim that you wrote the original software.  If you use this
+    software in a product, an acknowledgment in the product
+    documentation would be appreciated but is not required.
+ .
+ 3. Altered source versions must be plainly marked as such, and must
+    not be misrepresented as being the original software.
+ .
+ 4. The name of the author may not be used to endorse or promote
+    products derived from this software without specific prior written
+    permission.
+ .
+   THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS
+   OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+   WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+   ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+   DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+   DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+   GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+   INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+   WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+   NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Files: debian/*
+Copyright: 2009-2010 Xavier Oswald <xoswald@debian.org>
+           2011-2016 Dmitry Smirnov <onlyjob@debian.org>
+           2011, Josue Abarca <jmaslibre@debian.org.gt>
+           2011, Wences Arana <aranax@debian.org.gt>
+           2018-2019, Yavor Doganov <yavor@gnu.org>
+           2024 Shriram Ravindranathan <s20n@ters.dev>
+License: GPL-1+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 1, or (at your option)
+ any later version.
+ .
+ This program is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
  .
  You should have received a copy of the GNU General Public License
- along with this program. If not, see <https://www.gnu.org/licenses/>
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston MA  02110-1301 USA
  .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ On Debian systems, the full text of the GNU General Public
+ License version 1 can be found in the file
+ `/usr/share/common-licenses/GPL-1'.
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of version 2 of the GNU General Public
+ License as published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of the
+ License, or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public
+ License along with this program; if not, write to the
+ Free Software Foundation, Inc., 51 Franklin St, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the full text of the GNU General Public
+ License version 2 can be found in the file
+ `/usr/share/common-licenses/GPL-2'.

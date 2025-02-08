@@ -1,0 +1,1639 @@
+# Son Kyung-uk <vvs740@chol.com>, 2003.
+# Changwoo Ryu <cwryu@debian.org>, 2003-2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: planner 0.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-02-21 02:38+0900\n"
+"PO-Revision-Date: 2004-04-21 02:24+0900\n"
+"Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
+"Language-Team: GNOME Korea <gnome-kr-hackers@lists.kldp.net>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: data/glade/add-predecessor.glade.h:1 data/glade/calendar-dialog.glade.h:4
+#: data/glade/html-output.glade.h:2 data/glade/new-property.glade.h:1
+#: data/glade/project-properties.glade.h:1
+#: data/glade/resource-dialog.glade.h:1
+#: data/glade/resource-input-dialog.glade.h:1 data/glade/sql.glade.h:1
+#: data/glade/task-dialog.glade.h:4 data/glade/task-input-dialog.glade.h:1
+msgid "*"
+msgstr "*"
+
+#: data/glade/add-predecessor.glade.h:2
+msgid "Add Predecessor"
+msgstr "선행 작업 더하기"
+
+#: data/glade/add-predecessor.glade.h:3
+msgid "_Lag:"
+msgstr "간격(_L):"
+
+#: data/glade/add-predecessor.glade.h:4 data/glade/calendar-dialog.glade.h:35
+#: data/glade/new-property.glade.h:5 data/glade/project-properties.glade.h:10
+#: data/glade/resource-dialog.glade.h:11
+#: data/glade/resource-input-dialog.glade.h:6
+#: data/glade/task-dialog.glade.h:14 data/glade/task-input-dialog.glade.h:4
+msgid "_Name:"
+msgstr "이름(_N):"
+
+#: data/glade/add-predecessor.glade.h:5
+msgid "_Relation type:"
+msgstr "연결 관계 종류(_R):"
+
+#: data/glade/calendar-dialog.glade.h:1
+msgid ""
+"\n"
+"The selected day type has the following working hours:"
+msgstr ""
+"\n"
+"선택된 날짜 유형은 다음의 작업 시간을 포함합니다:"
+
+#: data/glade/calendar-dialog.glade.h:3 data/glade/html-output.glade.h:1
+#: data/glade/task-dialog.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: data/glade/calendar-dialog.glade.h:5
+msgid "-"
+msgstr "-"
+
+#: data/glade/calendar-dialog.glade.h:6
+msgid "<b>Calendar:</b>"
+msgstr "<b>Calendar:</b>"
+
+#: data/glade/calendar-dialog.glade.h:7
+msgid "<b>Day types</b>"
+msgstr "<b>날짜 유형</b>"
+
+#: data/glade/calendar-dialog.glade.h:8
+msgid "<b>Working hours</b>"
+msgstr "<b>작업 시간(hours)</b>"
+
+#: data/glade/calendar-dialog.glade.h:9
+msgid "<b>Working time</b>"
+msgstr "<b>작업 시간</b>"
+
+#: data/glade/calendar-dialog.glade.h:10
+msgid "Add Day Type"
+msgstr "날짜 종류 더하기"
+
+#: data/glade/calendar-dialog.glade.h:11
+msgid "Apply"
+msgstr "적용"
+
+#: data/glade/calendar-dialog.glade.h:12
+msgid "C_opy an existing calendar"
+msgstr "기존 달력 복사(_O)"
+
+#: data/glade/calendar-dialog.glade.h:13
+msgid "C_reate"
+msgstr "만들기(_R)"
+
+#: data/glade/calendar-dialog.glade.h:14
+msgid "Calendar Editor"
+msgstr "달력 편집기"
+
+#: data/glade/calendar-dialog.glade.h:15
+msgid "Create an _empty calendar"
+msgstr "빈 달력 만들기(_E)"
+
+#: data/glade/calendar-dialog.glade.h:16
+msgid "Custom working time"
+msgstr "맞춤 작업 시간"
+
+#: data/glade/calendar-dialog.glade.h:17
+msgid "Day type:"
+msgstr "날짜 종류:"
+
+#: data/glade/calendar-dialog.glade.h:18
+msgid "Default Week"
+msgstr "기본 주"
+
+#: data/glade/calendar-dialog.glade.h:19
+msgid "Default week..."
+msgstr "기본 주..."
+
+#: data/glade/calendar-dialog.glade.h:20
+msgid "Edit Day Types"
+msgstr "날짜 유형 편집"
+
+#: data/glade/calendar-dialog.glade.h:21
+msgid "Edit Working Time"
+msgstr "작업 시간 편집"
+
+#: data/glade/calendar-dialog.glade.h:22
+msgid "From:"
+msgstr "시작 시각:"
+
+#: data/glade/calendar-dialog.glade.h:23
+msgid "New Calendar"
+msgstr "새 달력"
+
+#: data/glade/calendar-dialog.glade.h:24
+msgid "Select a Calendar"
+msgstr "달력 선택"
+
+#: data/glade/calendar-dialog.glade.h:25
+msgid ""
+"Select a weekday and the day type to use for that day in the default week "
+"for this calendar.\n"
+msgstr "이 달력의 기본 주에서 사용할 요일과 날짜 유형 선택하십시오.\n"
+
+#: data/glade/calendar-dialog.glade.h:27
+msgid "Set day type to:"
+msgstr "날짜 유형 선택:"
+
+#: data/glade/calendar-dialog.glade.h:28
+msgid "To:"
+msgstr "끝 시각:"
+
+#: data/glade/calendar-dialog.glade.h:29
+msgid "Use working time from derived calendar"
+msgstr "파생되어 온 달력의 작업 시간 사용"
+
+#: data/glade/calendar-dialog.glade.h:30
+msgid "Week day:"
+msgstr "요일:"
+
+#: data/glade/calendar-dialog.glade.h:31
+msgid "Working time..."
+msgstr "작업 시간..."
+
+#: data/glade/calendar-dialog.glade.h:32
+msgid "_Derive from a calendar"
+msgstr "기존 달력에서 고치기(_D)"
+
+#: data/glade/calendar-dialog.glade.h:33
+msgid "_Existing calendars:"
+msgstr "이미 있는 달력(_E):"
+
+#: data/glade/calendar-dialog.glade.h:34
+msgid "_Name of the new calendar:"
+msgstr "새 달력의 이름(_N):"
+
+#: data/glade/calendar-dialog.glade.h:36
+msgid "_New..."
+msgstr "새로 만들기(_N)..."
+
+#: data/glade/group-dialog.glade.h:1
+msgid "Group Editor"
+msgstr "그룹 에디터"
+
+#: data/glade/html-output.glade.h:3
+msgid "<b>Save to</b>"
+msgstr "<b>다음으로 저장:</b>"
+
+#: data/glade/html-output.glade.h:4 data/ui/html-plugin.ui.h:1
+msgid "Export to HTML"
+msgstr "HTML로 내보내기"
+
+#: data/glade/html-output.glade.h:5
+msgid "Local file:"
+msgstr "로컬 파일:"
+
+#: data/glade/html-output.glade.h:6
+msgid "Save to HTML File"
+msgstr "HTML 파일로 저장"
+
+#: data/glade/html-output.glade.h:7
+msgid "Web location:"
+msgstr "웹 위치:"
+
+#: data/glade/new-property.glade.h:2
+msgid "Add Property"
+msgstr "속성 더하기"
+
+#: data/glade/new-property.glade.h:3
+msgid "_Description:"
+msgstr "설명(_D):"
+
+#: data/glade/new-property.glade.h:4
+msgid "_Label:"
+msgstr "레이블(_L):"
+
+#: data/glade/new-property.glade.h:6 data/glade/resource-dialog.glade.h:12
+msgid "_Type:"
+msgstr "종류(_T):"
+
+#: data/glade/project-properties.glade.h:2
+msgid "Custom"
+msgstr "사용자 지정"
+
+#: data/glade/project-properties.glade.h:3
+msgid "Edit Project Phases"
+msgstr "프로젝트 단계 편집"
+
+#: data/glade/project-properties.glade.h:4
+#: data/glade/resource-dialog.glade.h:5 data/glade/task-dialog.glade.h:6
+msgid "General"
+msgstr "일반"
+
+#: data/glade/project-properties.glade.h:5
+msgid "New Project Phase"
+msgstr "새 프로젝트 단계"
+
+#: data/glade/project-properties.glade.h:6
+msgid "Project Properties"
+msgstr "프로젝트 등록 정보"
+
+#: data/glade/project-properties.glade.h:7
+msgid "Select..."
+msgstr "선택하기..."
+
+#: data/glade/project-properties.glade.h:8
+msgid "_Calendar:"
+msgstr "달력(_C):"
+
+#: data/glade/project-properties.glade.h:9
+msgid "_Manager:"
+msgstr "관리자(_M):"
+
+#: data/glade/project-properties.glade.h:11
+msgid "_Organization:"
+msgstr "조직(_O):"
+
+#: data/glade/project-properties.glade.h:12
+msgid "_Phase:"
+msgstr "단계(_P):"
+
+#: data/glade/project-properties.glade.h:13
+msgid "_Start:"
+msgstr "시작(_S):"
+
+#: data/glade/property-dialog.glade.h:1
+msgid "Custom Properties"
+msgstr "맞춤 등록 정보"
+
+#: data/glade/resource-dialog.glade.h:2
+msgid "C_ost:"
+msgstr "비용(_O):"
+
+#: data/glade/resource-dialog.glade.h:3
+msgid "Calendar"
+msgstr "달력"
+
+#: data/glade/resource-dialog.glade.h:4
+msgid "Edit Calendars..."
+msgstr "달력 편집..."
+
+#: data/glade/resource-dialog.glade.h:6 data/glade/task-dialog.glade.h:7
+msgid "Notes"
+msgstr "메모"
+
+#: data/glade/resource-dialog.glade.h:7
+msgid ""
+"Select the calendar to use for this resource. If you want to use the default "
+"calendar of the project, select 'None'. "
+msgstr ""
+"이 자원에 쓸 달력을 선택하십시오. 기본 달력을 사용하려면, '없음'을 선택하십시"
+"오."
+
+#: data/glade/resource-dialog.glade.h:8
+#: data/glade/resource-input-dialog.glade.h:3
+msgid "_Email:"
+msgstr "전자메일(_E):"
+
+#: data/glade/resource-dialog.glade.h:9
+#: data/glade/resource-input-dialog.glade.h:4
+msgid "_Group:"
+msgstr "그룹(_G):"
+
+#: data/glade/resource-dialog.glade.h:10
+msgid "_Insert time stamp"
+msgstr "타임 스탬프 넣기(_I)"
+
+#: data/glade/resource-input-dialog.glade.h:2
+msgid "Insert Resource"
+msgstr "자원 넣기"
+
+#: data/glade/resource-input-dialog.glade.h:5
+#: data/glade/task-input-dialog.glade.h:3
+msgid "_Insert"
+msgstr "넣기(_I)"
+
+#: data/glade/sql.glade.h:2
+msgid "Open Database"
+msgstr "데이타베이스 열기"
+
+#: data/glade/sql.glade.h:3
+msgid "Select a Project"
+msgstr "프로젝트 선택"
+
+#: data/glade/sql.glade.h:4
+msgid "The database contains the following projects. Select a project to open:"
+msgstr ""
+"데이타베이스에는 다음 프로젝트가 들어 있습니다. 열 프로젝트를 선택하세요:"
+
+#: data/glade/sql.glade.h:5
+msgid "_Database:"
+msgstr "데이타베이스(_D):"
+
+#: data/glade/sql.glade.h:6
+msgid "_Password:"
+msgstr "열쇠글(_P):"
+
+#: data/glade/sql.glade.h:7
+msgid "_Server:"
+msgstr "서버(_S):"
+
+#: data/glade/sql.glade.h:8
+msgid "_Username:"
+msgstr "사용자이름(_U):"
+
+#: data/glade/task-dialog.glade.h:3
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: data/glade/task-dialog.glade.h:5
+msgid "C_omplete:"
+msgstr "완료(_O):"
+
+#: data/glade/task-dialog.glade.h:8
+msgid "Predecessors"
+msgstr "선행 작업"
+
+#: data/glade/task-dialog.glade.h:9 src/planner-resource-view.c:384
+msgid "Resources"
+msgstr "자원"
+
+#: data/glade/task-dialog.glade.h:10
+msgid "_Duration:"
+msgstr "기간(_D):"
+
+#: data/glade/task-dialog.glade.h:11
+msgid "_Fixed duration"
+msgstr "고정된 기간(_F)"
+
+#: data/glade/task-dialog.glade.h:12
+msgid "_Insert Time Stamp"
+msgstr "타임 스탬프 넣기(_I)"
+
+#: data/glade/task-dialog.glade.h:13
+msgid "_Milestone"
+msgstr "마일스톤(_M)"
+
+#: data/glade/task-dialog.glade.h:15
+msgid "_Priority:"
+msgstr "우선 순위(_P):"
+
+#: data/glade/task-dialog.glade.h:16 data/glade/task-input-dialog.glade.h:5
+msgid "_Work:"
+msgstr "작업(_W):"
+
+#. day unit variant accepted in input
+#: data/glade/task-dialog.glade.h:17 src/planner-task-tree.c:2479
+msgid "days"
+msgstr "날짜"
+
+#: data/glade/task-input-dialog.glade.h:2
+msgid "Insert Task"
+msgstr "작업 넣기"
+
+#: data/planner.desktop.in.h:1
+msgid "Planner Project Management"
+msgstr "Planner 프로젝트 관리 프로그램"
+
+#: data/planner.desktop.in.h:2
+msgid "Project Management"
+msgstr "프로젝트 관리"
+
+#: data/ui/gantt-view.ui.h:1 data/ui/task-view.ui.h:1
+msgid "I_ndent Task"
+msgstr "작업 들여쓰기(_N)"
+
+#: data/ui/gantt-view.ui.h:2 data/ui/task-view.ui.h:2
+msgid "In_sert Tasks..."
+msgstr "작업 여러 개 넣기(_S)..."
+
+#: data/ui/gantt-view.ui.h:3 data/ui/task-view.ui.h:3
+#: src/planner-application.c:83
+msgid "Indent"
+msgstr "들여쓰기"
+
+#: data/ui/gantt-view.ui.h:4 data/ui/resource-view.ui.h:5
+#: data/ui/task-view.ui.h:4 src/planner-application.c:55
+#: src/planner-application.c:111
+msgid "Insert"
+msgstr "넣기"
+
+#: data/ui/gantt-view.ui.h:5 data/ui/task-view.ui.h:5
+#: src/planner-application.c:76
+msgid "Link"
+msgstr "연결"
+
+#: data/ui/gantt-view.ui.h:6 data/ui/task-view.ui.h:6
+msgid "Move Task Do_wn"
+msgstr "작업을 아래로 옮기기"
+
+#: data/ui/gantt-view.ui.h:7 data/ui/task-view.ui.h:7
+msgid "Move Task _Up"
+msgstr "작업을 위로 옮기기"
+
+#: data/ui/gantt-view.ui.h:8 data/ui/task-view.ui.h:8
+#: src/planner-application.c:104
+msgid "Move down"
+msgstr "아래로"
+
+#: data/ui/gantt-view.ui.h:9 data/ui/task-view.ui.h:9
+#: src/planner-application.c:97
+msgid "Move up"
+msgstr "위로"
+
+#: data/ui/gantt-view.ui.h:10 data/ui/resource-view.ui.h:6
+#: data/ui/task-view.ui.h:10 src/planner-application.c:62
+#: src/planner-application.c:118
+msgid "Remove"
+msgstr "지우기"
+
+#: data/ui/gantt-view.ui.h:11 data/ui/task-view.ui.h:11
+msgid "Reset _All Constraints"
+msgstr "모든 제한 없애기(_A)"
+
+#: data/ui/gantt-view.ui.h:12 data/ui/task-view.ui.h:12
+msgid "Reset _Constraint"
+msgstr "제한 없애기(_C)"
+
+#: data/ui/gantt-view.ui.h:13 data/ui/resource-view.ui.h:7
+#: data/ui/task-view.ui.h:13
+msgid "Select _All"
+msgstr "모두 선택(_A)"
+
+#: data/ui/gantt-view.ui.h:14 data/ui/resource-view.ui.h:8
+#: data/ui/task-view.ui.h:14
+msgid "Select all tasks"
+msgstr "모든 작업을 선택"
+
+#: data/ui/gantt-view.ui.h:15
+msgid "Test"
+msgstr "테스트"
+
+#: data/ui/gantt-view.ui.h:16 data/ui/task-view.ui.h:15
+msgid "Unin_dent Task"
+msgstr "작업 들여쓰기 해제(_D)"
+
+#: data/ui/gantt-view.ui.h:17 data/ui/task-view.ui.h:16
+#: src/planner-application.c:90
+msgid "Unindent"
+msgstr "내기"
+
+#: data/ui/gantt-view.ui.h:18 data/ui/task-view.ui.h:17
+#: src/planner-application.c:69
+msgid "Unlink"
+msgstr "풀기"
+
+#: data/ui/gantt-view.ui.h:19
+msgid "Zoom In"
+msgstr "확대"
+
+#: data/ui/gantt-view.ui.h:20
+msgid "Zoom Out"
+msgstr "축소"
+
+#: data/ui/gantt-view.ui.h:21
+msgid "Zoom To Fit"
+msgstr "화면에 맞춤"
+
+#: data/ui/gantt-view.ui.h:22
+msgid "Zoom To _Fit"
+msgstr "화면에 맞춤(_F)"
+
+#: data/ui/gantt-view.ui.h:23
+msgid "Zoom _Out"
+msgstr "축소(_O)"
+
+#: data/ui/gantt-view.ui.h:24 data/ui/task-view.ui.h:19
+msgid "_Edit Task Properties..."
+msgstr "작업 등록 정보 편집(_E)..."
+
+#: data/ui/gantt-view.ui.h:25 data/ui/task-view.ui.h:20
+msgid "_Highlight Critical Tasks"
+msgstr "중요한 작업을 밝게(_H)"
+
+#: data/ui/gantt-view.ui.h:26 data/ui/task-view.ui.h:21
+msgid "_Insert Task"
+msgstr "작업 넣기(_I)"
+
+#: data/ui/gantt-view.ui.h:27 data/ui/task-view.ui.h:22
+msgid "_Link Tasks"
+msgstr "작업 연결(_L)"
+
+#: data/ui/gantt-view.ui.h:28 data/ui/task-view.ui.h:23
+msgid "_Remove Task"
+msgstr "작업 지우기(_R)"
+
+#: data/ui/gantt-view.ui.h:29 data/ui/task-view.ui.h:24
+msgid "_Unlink Task"
+msgstr "작업 풀기(_U)"
+
+#: data/ui/gantt-view.ui.h:30
+msgid "_Zoom In"
+msgstr "확대(_Z)"
+
+#: data/ui/main-window.ui.h:1
+msgid "About this application"
+msgstr "이 프로그램 정보"
+
+#: data/ui/main-window.ui.h:2
+msgid "C_ut"
+msgstr "잘라내기(_U)"
+
+#: data/ui/main-window.ui.h:3
+msgid "Clear"
+msgstr "지우기"
+
+#: data/ui/main-window.ui.h:4
+msgid "Clear the selection"
+msgstr "선택 범위 지우기"
+
+#: data/ui/main-window.ui.h:5
+msgid "Close the current file"
+msgstr "지금 파일 닫기"
+
+#: data/ui/main-window.ui.h:6
+msgid "Copy the selection"
+msgstr "선택 범위 복사"
+
+#: data/ui/main-window.ui.h:7
+msgid "Create a new project"
+msgstr "새 프로젝트 만들기"
+
+#: data/ui/main-window.ui.h:8
+msgid "Cut the selection"
+msgstr "선택 범위 자르기"
+
+#: data/ui/main-window.ui.h:9
+msgid "Edit Day _Types"
+msgstr "날짜 유형 편집(_T)"
+
+#: data/ui/main-window.ui.h:10
+msgid "Edit Project _Phases"
+msgstr "프로젝트 단계 편집(_P)"
+
+#: data/ui/main-window.ui.h:11
+msgid "Edit the project properties"
+msgstr "프로젝트 등록 정보 편집"
+
+#: data/ui/main-window.ui.h:12
+msgid "Exit the program"
+msgstr "프로그램 끝내기"
+
+#: data/ui/main-window.ui.h:13
+msgid "New"
+msgstr "새로 만들기"
+
+#: data/ui/main-window.ui.h:14
+msgid "New..."
+msgstr "새로 만들기..."
+
+#: data/ui/main-window.ui.h:15
+msgid "Open"
+msgstr "열기"
+
+#: data/ui/main-window.ui.h:16
+msgid "Open a project"
+msgstr "프로젝트 열기"
+
+#: data/ui/main-window.ui.h:17
+msgid "Paste the clipboard"
+msgstr "클립보드에서 붙이기"
+
+#: data/ui/main-window.ui.h:18
+msgid "Print"
+msgstr "인쇄"
+
+#: data/ui/main-window.ui.h:19
+msgid "Print preview of the current project"
+msgstr "현재 프로젝트의 미리 보기 인쇄"
+
+#: data/ui/main-window.ui.h:20
+msgid "Print the current project"
+msgstr "현재 프로젝트 인쇄"
+
+#: data/ui/main-window.ui.h:21
+msgid "Redo the undone action"
+msgstr "취소한 행동 되살리기"
+
+#: data/ui/main-window.ui.h:22
+msgid "Save"
+msgstr "저장"
+
+#: data/ui/main-window.ui.h:23
+msgid "Save _As..."
+msgstr "다른 이름으로 저장(_A)..."
+
+#: data/ui/main-window.ui.h:24
+msgid "Save the current project"
+msgstr "현재 프로젝트 저장"
+
+#: data/ui/main-window.ui.h:25
+msgid "Save the current project with a different name"
+msgstr "현재 프로젝트를 다른 이름으로 저장"
+
+#: data/ui/main-window.ui.h:26
+msgid "Show the Planner User Guide"
+msgstr "Planner 유저 가이드 보기"
+
+#: data/ui/main-window.ui.h:27
+msgid "Undo the last action"
+msgstr "마지막 행동 취소"
+
+#: data/ui/main-window.ui.h:28
+msgid "_About"
+msgstr "정보(_A)"
+
+#: data/ui/main-window.ui.h:29
+msgid "_Actions"
+msgstr "명령(_A)"
+
+#: data/ui/main-window.ui.h:30
+msgid "_Close"
+msgstr "닫기(_C)"
+
+#: data/ui/main-window.ui.h:31
+msgid "_Copy"
+msgstr "복사(_C)"
+
+#: data/ui/main-window.ui.h:32
+msgid "_Edit"
+msgstr "편집(_E)"
+
+#: data/ui/main-window.ui.h:33
+msgid "_Edit Project Properties"
+msgstr "프로젝트 등록 정보 편집(_E)"
+
+#: data/ui/main-window.ui.h:34
+msgid "_File"
+msgstr "파일(_F)"
+
+#: data/ui/main-window.ui.h:35
+msgid "_Help"
+msgstr "도움말(_H)"
+
+#: data/ui/main-window.ui.h:36
+msgid "_Manage Calendars"
+msgstr "관리 달력(_M)"
+
+#: data/ui/main-window.ui.h:37
+msgid "_New Project"
+msgstr "새 프로젝트(_N)"
+
+#: data/ui/main-window.ui.h:38
+msgid "_Open..."
+msgstr "열기(_O)..."
+
+#: data/ui/main-window.ui.h:39
+msgid "_Paste"
+msgstr "붙여 넣기(_P)"
+
+#: data/ui/main-window.ui.h:40
+msgid "_Print Preview"
+msgstr "인쇄 미리 보기(_P)"
+
+#: data/ui/main-window.ui.h:41
+msgid "_Print..."
+msgstr "인쇄(_P)..."
+
+#: data/ui/main-window.ui.h:42
+msgid "_Project"
+msgstr "프로젝트(_P)"
+
+#: data/ui/main-window.ui.h:43
+msgid "_Quit"
+msgstr "끝내기(_Q)"
+
+#: data/ui/main-window.ui.h:44 src/planner-window.c:1168
+msgid "_Redo"
+msgstr "다시 실행(_R)"
+
+#: data/ui/main-window.ui.h:45 src/planner-window.c:1271
+msgid "_Save"
+msgstr "저장(_S)"
+
+#: data/ui/main-window.ui.h:46 src/planner-window.c:1142
+msgid "_Undo"
+msgstr "실행 취소(_U)"
+
+#: data/ui/main-window.ui.h:47
+msgid "_User Guide"
+msgstr "사용자 안내서(_U)"
+
+#: data/ui/main-window.ui.h:48
+msgid "_View"
+msgstr "보기(_V)"
+
+#: data/ui/resource-view.ui.h:1
+msgid "Edit _Custom Properties..."
+msgstr "맞춤 등록 정보 편집(_C)..."
+
+#: data/ui/resource-view.ui.h:2
+msgid "Edit _Groups"
+msgstr "그룹 편집(_G)"
+
+#: data/ui/resource-view.ui.h:3
+msgid "Groups"
+msgstr "그룹"
+
+#: data/ui/resource-view.ui.h:4
+msgid "In_sert Resources..."
+msgstr "자원 넣기(_S)..."
+
+#: data/ui/resource-view.ui.h:9
+msgid "_Edit Resource Properties..."
+msgstr "자원 등록 정보 편집(_E)..."
+
+#: data/ui/resource-view.ui.h:10
+msgid "_Insert Resource"
+msgstr "자원 넣기(_I)"
+
+#: data/ui/resource-view.ui.h:11
+msgid "_Remove Resource"
+msgstr "자원 지우기(_R)"
+
+#: data/ui/sql-plugin.ui.h:1
+msgid "Open from Database..."
+msgstr "데이타베이스에서 열기..."
+
+#: data/ui/sql-plugin.ui.h:2
+msgid "Save to Database..."
+msgstr "데이타베이스에 저장..."
+
+#: data/ui/task-view.ui.h:18
+msgid "_Edit Custom Properties..."
+msgstr "맞춤 등록 정보 편집(_E)..."
+
+#: libegg/recent-files/egg-recent-vfs-utils.c:90
+msgid " (invalid Unicode)"
+msgstr " (잘못된 유니코드)"
+
+#: libplanner/mrp-day.c:54
+msgid "Working"
+msgstr "근무"
+
+#: libplanner/mrp-day.c:55
+msgid "A default working day"
+msgstr "기본 근무일"
+
+#: libplanner/mrp-day.c:57
+msgid "Nonworking"
+msgstr "휴일"
+
+#: libplanner/mrp-day.c:58
+msgid "A default non working day"
+msgstr "기본 휴일"
+
+#: libplanner/mrp-day.c:60
+msgid "Use base"
+msgstr "기초 날짜 사용"
+
+#: libplanner/mrp-day.c:61
+msgid "Use day from base calendar"
+msgstr "기초 달력에서 날짜를 사용합니다"
+
+#: libplanner/mrp-parser.c:1043 libplanner/mrp-parser.c:1138
+msgid "Could not create XML tree"
+msgstr "XML 트리를 만들 수 없습니다"
+
+#: libplanner/mrp-parser.c:1104
+msgid "Could not write XML file"
+msgstr "XML 파일을 쓸 수 없습니다"
+
+#: libplanner/mrp-project.c:440 src/planner-group-dialog.c:829
+msgid "Default"
+msgstr "기본"
+
+#: libplanner/mrp-project.c:748
+#, c-format
+msgid "Couldn't find a suitable file module for loading '%s'"
+msgstr "'%s'을(를) 읽어들일 파일 모듈을 찾을 수 없습니다"
+
+#: libplanner/mrp-project.c:769 libplanner/mrp-project.c:1033
+msgid "No support for SQL storage built into this version of Planner."
+msgstr "이 버전의 Planner에는 SQL 스토리지 지원이 빌드되어 있지 않습니다."
+
+#: libplanner/mrp-project.c:806
+msgid "Invalid URI."
+msgstr "잘못된 URI."
+
+#: libplanner/mrp-project.c:927
+#, c-format
+msgid "Unable to find file writer identified by '%s'"
+msgstr "'%s'(이)라는 파일 쓰기 모듈을 찾지 못했습니다"
+
+#: libplanner/mrp-project.c:990
+msgid "Couldn't find a suitable file module for loading project"
+msgstr "프로젝트를 읽어들일 파일 모듈을 찾을 수 없습니다"
+
+#: libplanner/mrp-property.c:365
+msgid "Text"
+msgstr "텍스트"
+
+#: libplanner/mrp-property.c:367
+msgid "String list"
+msgstr "문자열 리스트"
+
+#: libplanner/mrp-property.c:369
+msgid "Integer number"
+msgstr "정수"
+
+#: libplanner/mrp-property.c:371
+msgid "Floating-point number"
+msgstr "부동소수점 수"
+
+#: libplanner/mrp-property.c:373
+msgid "Date"
+msgstr "날짜"
+
+#: libplanner/mrp-property.c:375
+msgid "Duration"
+msgstr "기간"
+
+#: libplanner/mrp-property.c:377 src/planner-task-view.c:270
+msgid "Cost"
+msgstr "비용"
+
+#: libplanner/mrp-property.c:380 src/planner-project-properties.c:655
+msgid "None"
+msgstr "없음"
+
+#. Give up.
+#: libplanner/mrp-sql.c:345 src/planner-sql-plugin.c:171
+msgid "Invalid Unicode"
+msgstr "잘못된 유니코드"
+
+#: libplanner/mrp-sql.c:2201
+#, c-format
+msgid "Connection to database '%s' failed.\n"
+msgstr "'%s' 데이타베이스에 연결하는 데 실패했습니다.\n"
+
+#: libplanner/mrp-sql.c:2206 libplanner/mrp-sql.c:3643
+#, c-format
+msgid ""
+"Connection to database '%s' failed.\n"
+"%s"
+msgstr ""
+"'%s' 데이타베이스에 연결하는 데 실패했습니다.\n"
+"%s"
+
+#: libplanner/mrp-sql.c:2214
+#, c-format
+msgid "BEGIN command failed %s."
+msgstr "BEGIN 명령이 %s에 실패했습니다."
+
+#: libplanner/mrp-sql.c:2380
+#, c-format
+msgid ""
+"The project '%s' has been changed by the user '%s' since you opened it. Do "
+"you want to save anyway?"
+msgstr ""
+"프로젝트 '%s'을(를) 연 다음에 사용자 '%s'이(가) 그 프로젝트를 바꿨습니다. 그"
+"래도 프로젝트를 저장할까요?"
+
+#: libplanner/mrp-storage-sql.c:205
+msgid "Invalid SQL URI (must start with 'sql://' and contain '#')."
+msgstr "잘못된 SQL URI ('sql://'로 시작하고 '#'가 들어 있어야 합니다)."
+
+#: libplanner/mrp-storage-sql.c:274
+msgid "Invalid SQL URI (invalid project id)."
+msgstr "잘못된 SQL URI (잘못된 프로젝트 id)."
+
+#: libplanner/mrp-storage-sql.c:282
+msgid "Invalid SQL URI (no database name specified)."
+msgstr "잘못된 SQL URI (데이타베이스 이름이 지정되지 않았습니다)."
+
+#: libplanner/mrp-task.c:1016
+msgid ""
+"Could not add a predecessor relation, because the tasks are already related."
+msgstr "선행 관계를 맺을 수 없습니다. 이미 선행 관계에 놓여 있는 작업입니다."
+
+#: libplanner/mrp-task-manager.c:1769
+msgid "Can not add a predecessor relation between a task and its ancestor."
+msgstr "작업과 그 작업의 상위 작업 사이에는 선행 관계를 맺을 수 없습니다."
+
+#: libplanner/mrp-task-manager.c:1778 libplanner/mrp-task-manager.c:1786
+msgid "Can not add a predecessor, because it would result in a loop."
+msgstr "선행 관계를 맺을 수 없습니다. 그러면 루프가 발생합니다."
+
+#: libplanner/mrp-task-manager.c:1821
+msgid "Can not move the task, since it would result in a loop."
+msgstr "작업을 옮길 수 없습니다. 그러면 루프가 발생합니다."
+
+#: libplanner/mrp-xsl.c:96
+msgid "HTML export failed"
+msgstr "HTML 내보내기가 실패했습니다"
+
+#: src/planner-application.c:125
+msgid "Edit"
+msgstr "편집"
+
+#: src/planner-cell-renderer-date.c:147
+msgid "Constraint type"
+msgstr "제한 종류"
+
+#: src/planner-cell-renderer-date.c:154
+msgid "As soon as possible"
+msgstr "가능한 한 빨리"
+
+#: src/planner-cell-renderer-date.c:155
+msgid "Start no earlier than"
+msgstr "이후에 시작"
+
+#: src/planner-cell-renderer-date.c:156
+msgid "Must start on"
+msgstr "날짜에 시작"
+
+#: src/planner-cell-renderer-date.c:171
+msgid "Today"
+msgstr "오늘"
+
+#: src/planner-cell-renderer-date.c:179
+msgid "Cancel"
+msgstr "취소"
+
+#: src/planner-cell-renderer-date.c:187
+msgid "OK"
+msgstr "확인"
+
+#: src/planner-cmd-manager.c:226
+#, c-format
+msgid "Undo '%s'"
+msgstr "실행 취소: '%s'"
+
+#: src/planner-cmd-manager.c:228
+msgid "Undo"
+msgstr "실행 취소"
+
+#: src/planner-cmd-manager.c:238
+#, c-format
+msgid "Redo '%s'"
+msgstr "다시 실행: '%s'"
+
+#: src/planner-cmd-manager.c:240
+msgid "Redo"
+msgstr "다시 실행"
+
+#: src/planner-default-week-dialog.c:40
+msgid "Monday"
+msgstr "월요일"
+
+#: src/planner-default-week-dialog.c:41
+msgid "Tuesday"
+msgstr "화요일"
+
+#: src/planner-default-week-dialog.c:42
+msgid "Wednesday"
+msgstr "수요일"
+
+#: src/planner-default-week-dialog.c:43
+msgid "Thursday"
+msgstr "목요일"
+
+#: src/planner-default-week-dialog.c:44
+msgid "Friday"
+msgstr "금요일"
+
+#: src/planner-default-week-dialog.c:45
+msgid "Saturday"
+msgstr "토요일"
+
+#: src/planner-default-week-dialog.c:46
+msgid "Sunday"
+msgstr "일요일"
+
+#: src/planner-default-week-dialog.c:266
+msgid "No working time"
+msgstr "근무 시간 아님"
+
+#: src/planner-default-week-dialog.c:277 src/planner-default-week-dialog.c:281
+msgid "%H:%M"
+msgstr "%H:%M"
+
+#: src/planner-format.c:141
+#, c-format
+msgid "%dd %dh"
+msgstr "%d일 %d시간"
+
+#: src/planner-format.c:144
+#, c-format
+msgid "%dd"
+msgstr "%d일"
+
+#: src/planner-format.c:147
+#, c-format
+msgid "%dh"
+msgstr "%d시간"
+
+#: src/planner-format.c:171
+#, c-format
+msgid "%s days"
+msgstr "%s일"
+
+#: src/planner-format.c:174
+msgid "0 days"
+msgstr "0일"
+
+#: src/planner-format.c:177
+#, c-format
+msgid "%s day"
+msgstr "%s일"
+
+#. i18n: this string is the date nr and month name, displayed
+#. * e.g. in the date cells in the task tree. See
+#. * libmrproject/docs/DateFormat.
+#.
+#: src/planner-format.c:197
+msgid "%b %e"
+msgstr "%b %e일"
+
+#. i18n: project start, the date format is described in
+#. * libmrproject/docs/DateFormat.
+#: src/planner-gantt-background.c:579
+msgid "%Y %b %d"
+msgstr "%Y년 %b %e일"
+
+#: src/planner-gantt-background.c:581
+msgid "Project start"
+msgstr "프로젝트 시작"
+
+#: src/planner-gantt-print.c:190 src/planner-group-dialog.c:805
+#: src/planner-property-dialog.c:378 src/planner-resource-view.c:1159
+#: src/planner-task-dialog.c:1311 src/planner-task-dialog.c:1397
+#: src/planner-task-view.c:265
+msgid "Name"
+msgstr "이름"
+
+#: src/planner-gantt-print.c:198 src/planner-resource-dialog.c:1101
+#: src/planner-resource-view.c:682 src/planner-resource-view.c:698
+#: src/planner-resource-view.c:1528 src/planner-task-view.c:268
+msgid "Work"
+msgstr "작업"
+
+#: src/planner-gantt-print.c:513 src/planner-gantt-print.c:515
+#: src/planner-gantt-row.c:656 src/planner-gantt-row.c:658
+#: src/planner-window.c:1648
+msgid "Unnamed"
+msgstr "이름없음"
+
+#: src/planner-gantt-row.c:1841 src/planner-gantt-row.c:1844
+msgid "No name"
+msgstr "이름 없음"
+
+#: src/planner-gantt-row.c:1847
+#, c-format
+msgid "Make task '%s' a predecessor of '%s'"
+msgstr "'%s' 작업을 '%s'의 선행 작업으로 만들기"
+
+#: src/planner-gantt-row.c:1905
+#, c-format
+msgid "Change work to %s"
+msgstr "작업을 %s(으)로 바꿈"
+
+#: src/planner-gantt-view.c:288
+msgid "Gantt Chart"
+msgstr "Gantt 차트"
+
+#: src/planner-gantt-view.c:296
+msgid "_Gantt Chart"
+msgstr "Gantt 차트(_G)"
+
+#: src/planner-gantt-view.c:493
+msgid ""
+"\n"
+"Name"
+msgstr ""
+"\n"
+"이름"
+
+#. COL_START,    _("\nStart"),
+#: src/planner-gantt-view.c:495
+msgid ""
+"\n"
+"Work"
+msgstr ""
+"\n"
+"작업"
+
+#: src/planner-group-dialog.c:302
+msgid "Insert group"
+msgstr "그룹 넣기"
+
+#: src/planner-group-dialog.c:425
+msgid "Remove group"
+msgstr "그룹 지우기"
+
+#: src/planner-group-dialog.c:517
+msgid "Default group"
+msgstr "기본 그룹"
+
+#: src/planner-group-dialog.c:633
+msgid "Edit group property"
+msgstr "그룹 등록 정보 편집"
+
+#: src/planner-group-dialog.c:811
+msgid "Manager name"
+msgstr "관리자 이름"
+
+#: src/planner-group-dialog.c:817
+msgid "Manager phone"
+msgstr "관리자 전화"
+
+#: src/planner-group-dialog.c:823
+msgid "Manager email"
+msgstr "관리자 전자메일"
+
+#: src/planner-html-plugin.c:138
+#, c-format
+msgid ""
+"\"%s\" is a directory.\n"
+"Enter a filename and try again."
+msgstr ""
+"\"%s\"은(는) 디렉토리입니다.\n"
+"파일 이름을 입력하고 다시 시도하십시오."
+
+#: src/planner-html-plugin.c:148 src/planner-window.c:1416
+#, c-format
+msgid "File \"%s\" exists, do you want to overwrite it?"
+msgstr "\"%s\" 파일이 이미 있습니다. 덮어씁니까?"
+
+#: src/planner-main.c:50
+msgid "Create the initial window with the given geometry."
+msgstr "주어진 위치와 크기에 따라 맨 처음 창을 만듭니다."
+
+#: src/planner-main.c:50
+msgid "GEOMETRY"
+msgstr "<크기및위치>"
+
+#: src/planner-main.c:76
+msgid "planner: --geometry cannot be used with more than one file."
+msgstr ""
+"planner: --geometry 옵션은 두 개 이상의 파일을 여는 경우 사용할 수 없습니다."
+
+#: src/planner-plugin-loader.c:40
+#, c-format
+msgid "Could not open plugin file '%s'\n"
+msgstr "플러그인 파일 '%s'을(를) 열 수 없습니다\n"
+
+#: src/planner-predecessor-model.c:191 src/planner-task-dialog.c:1039
+msgid "FS"
+msgstr "FS"
+
+#: src/planner-predecessor-model.c:194 src/planner-task-dialog.c:1040
+msgid "FF"
+msgstr "FF"
+
+#: src/planner-predecessor-model.c:197 src/planner-task-dialog.c:1041
+msgid "SS"
+msgstr "SS"
+
+#: src/planner-predecessor-model.c:200 src/planner-task-dialog.c:1042
+msgid "SF"
+msgstr "SF"
+
+#: src/planner-print-dialog.c:112
+msgid "Print Project"
+msgstr "프로젝트 인쇄"
+
+#: src/planner-print-dialog.c:119
+msgid "Select views"
+msgstr "뷰 선택"
+
+#: src/planner-print-dialog.c:143
+msgid "Select the views to print:"
+msgstr "인쇄할 뷰를 선택하세요:"
+
+#: src/planner-project-properties.c:308
+msgid "Select a calendar to use for this project:"
+msgstr "이 프로젝트에서 사용할 달력을 선택하십시오:"
+
+#: src/planner-project-properties.c:403
+msgid "Edit Project Name"
+msgstr "프로젝트 이름 편집"
+
+#: src/planner-project-properties.c:439
+msgid "Edit Organization"
+msgstr "조직 편집"
+
+#: src/planner-project-properties.c:475
+msgid "Edit Manager"
+msgstr "관리자 편집"
+
+#: src/planner-project-properties.c:546
+msgid "Edit Project Start"
+msgstr "프로젝트 시작 편집"
+
+#: src/planner-project-properties.c:615
+msgid "Edit Project Phase"
+msgstr "프로젝트 단계 편집"
+
+#: src/planner-project-properties.c:748
+msgid "Property"
+msgstr "속성"
+
+#: src/planner-project-properties.c:759 src/planner-property-dialog.c:431
+msgid "Value"
+msgstr "값"
+
+#: src/planner-project-properties.c:1130 src/planner-property-dialog.c:229
+msgid "The name of the custom property needs to start with a letter."
+msgstr "맞춤 속성의 이름은 글자로 시작해야 합니다."
+
+#: src/planner-project-properties.c:1202 src/planner-property-dialog.c:300
+#, c-format
+msgid "Do you really want to remove the property '%s' from the project?"
+msgstr "정말 프로젝트에서 '%s' 속성을 지울까요?"
+
+#: src/planner-project-properties.c:1344
+msgid "Could not create properties dialog."
+msgstr "등록 정보 대화 상자를 만들 수 없습니다."
+
+#: src/planner-property-dialog.c:397
+msgid "Label"
+msgstr "레이블"
+
+#: src/planner-property-dialog.c:411 src/planner-resource-view.c:1180
+#: src/planner-task-dialog.c:1429
+msgid "Type"
+msgstr "종류"
+
+#. Put "no group" at the top.
+#: src/planner-resource-dialog.c:248 src/planner-resource-input-dialog.c:96
+#: src/planner-resource-view.c:1739
+msgid "(None)"
+msgstr "(없음)"
+
+#: src/planner-resource-dialog.c:258 src/planner-resource-input-dialog.c:106
+#: src/planner-task-dialog.c:249
+msgid "(No name)"
+msgstr "(이름 없음)"
+
+#. i18n: time stamp format for notes in task dialog, see strftime(3) for
+#. * a detailed description.
+#: src/planner-resource-dialog.c:728 src/planner-task-dialog.c:679
+msgid "%a %d %b %Y, %H:%M\n"
+msgstr "%Y년 %b %e일 (%a), %H:%M\n"
+
+#: src/planner-resource-dialog.c:826
+msgid "None (use project default)"
+msgstr "없음 (프로젝트 기본값 사용)"
+
+#: src/planner-resource-dialog.c:953 src/planner-resource-dialog.c:955
+msgid "Edit resource properties"
+msgstr "자원 등록정보 편집"
+
+#: src/planner-resource-dialog.c:1102 src/planner-resource-view.c:685
+#: src/planner-resource-view.c:699 src/planner-resource-view.c:1529
+msgid "Material"
+msgstr "재료"
+
+#: src/planner-resource-view.c:251
+msgid "/_Insert resource"
+msgstr "/자원 넣기(_I)"
+
+#: src/planner-resource-view.c:252
+msgid "/_Remove resource"
+msgstr "/자원 지우기(_R)"
+
+#: src/planner-resource-view.c:253
+msgid "/_Edit resource..."
+msgstr "/자원 편집(_E)..."
+
+#: src/planner-resource-view.c:392
+msgid "_Resources"
+msgstr "자원(_R)"
+
+#: src/planner-resource-view.c:789
+msgid "Insert resource"
+msgstr "자원 넣기"
+
+#: src/planner-resource-view.c:941
+msgid "Remove resource"
+msgstr "자원 지우기"
+
+#: src/planner-resource-view.c:1042
+msgid "Edit custom resource properties"
+msgstr "맞춤 자원 등록정보 편집"
+
+#: src/planner-resource-view.c:1204
+msgid "Group"
+msgstr "그룹"
+
+#: src/planner-resource-view.c:1233
+msgid "Email"
+msgstr "전자메일"
+
+#: src/planner-resource-view.c:1298
+msgid "Edit resource property"
+msgstr "자원 등록 정보 편집"
+
+#: src/planner-resource-view.c:1360
+msgid "Edit resource custom property"
+msgstr "자원 사용자 등록 정보 편집"
+
+#. i18n: Short "Week", preferably 2 letters.
+#: src/planner-scale-utils.c:325
+#, c-format
+msgid "Wk %d"
+msgstr "%d 주"
+
+#: src/planner-scale-utils.c:329
+#, c-format
+msgid "Week %d"
+msgstr "%d번째 주"
+
+#. i18n: Week, year.
+#: src/planner-scale-utils.c:334
+#, c-format
+msgid "Week %d, %d"
+msgstr "%2$d년 %1$d번째 주"
+
+#. i18n: Short "Quarter", preferrably 1 letter.
+#: src/planner-scale-utils.c:365
+#, c-format
+msgid "Q%d"
+msgstr "Q%d"
+
+#. i18n: Short "Quarter", preferrably 2-3 letters.
+#: src/planner-scale-utils.c:369
+#, c-format
+msgid "Qtr %d"
+msgstr "%d/4분기"
+
+#. i18n: Year, short "Quarter", preferrably 2-3 letters.
+#: src/planner-scale-utils.c:373
+#, c-format
+msgid "%d, Qtr %d"
+msgstr "%d, %d/4분기"
+
+#. i18n: Short "Half year", prefferably 1 letter.
+#: src/planner-scale-utils.c:386
+#, c-format
+msgid "H%d"
+msgstr "H%d"
+
+#. i18n: Year, short "Half year", prefferably 1 letter.
+#: src/planner-scale-utils.c:391
+#, c-format
+msgid "%04d, H%d"
+msgstr "%04d, %d반기"
+
+#: src/planner-sql-plugin.c:367
+msgid "Project"
+msgstr "프로젝트"
+
+#: src/planner-sql-plugin.c:537
+msgid "Open from Database"
+msgstr "데이타베이스에서 열기"
+
+#: src/planner-sql-plugin.c:644
+msgid "Save to Database"
+msgstr "데이타베이스로 저장"
+
+#: src/planner-task-dialog.c:745
+msgid "Finish to start (FS)"
+msgstr "완료 후 시작 (FS)"
+
+#: src/planner-task-dialog.c:746
+msgid "Finish to finish (FF)"
+msgstr "완료 후 완료 (FF)"
+
+#: src/planner-task-dialog.c:747
+msgid "Start to start (SS)"
+msgstr "시작 후 시작 (SS)"
+
+#: src/planner-task-dialog.c:748
+msgid "Start to finish (SF)"
+msgstr "시작 후 완료 (SF)"
+
+#: src/planner-task-dialog.c:798
+msgid "Can't add new predecessor. No task selected!"
+msgstr "새 선행 작업을 더할 수 없습니다. 작업이 선택되지 않았습니다!"
+
+#: src/planner-task-dialog.c:1330
+msgid "Assigned"
+msgstr "배정"
+
+#: src/planner-task-dialog.c:1347
+msgid "Units"
+msgstr "단위"
+
+#: src/planner-task-dialog.c:1451
+msgid "Lag"
+msgstr "간격"
+
+#: src/planner-task-dialog.c:1584 src/planner-task-dialog.c:1586
+msgid "Edit task properties"
+msgstr "작업 등록 정보 편집"
+
+#: src/planner-task-tree.c:189
+msgid "/_Insert task"
+msgstr "/작업 넣기(_I)"
+
+#: src/planner-task-tree.c:192
+msgid "/_Insert subtask"
+msgstr "/하위 작업 넣기(_I)"
+
+#: src/planner-task-tree.c:195
+msgid "/_Remove task"
+msgstr "/작업 삭제(_R)"
+
+#: src/planner-task-tree.c:200
+msgid "/_Unlink task"
+msgstr "/작업 풀기(_U)"
+
+#: src/planner-task-tree.c:206
+msgid "/_Edit task..."
+msgstr "/작업 편집(_E)..."
+
+#: src/planner-task-tree.c:297
+msgid "Insert task"
+msgstr "업무 넣기"
+
+#: src/planner-task-tree.c:373
+msgid "Edit task property"
+msgstr "작업 등록 정보 편집"
+
+#: src/planner-task-tree.c:2471
+msgid "mon"
+msgstr "달"
+
+#. month unit variant accepted in input
+#: src/planner-task-tree.c:2472
+msgid "month"
+msgstr "달"
+
+#. month unit variant accepted in input
+#: src/planner-task-tree.c:2473
+msgid "months"
+msgstr "달"
+
+#. month unit variant accepted in input
+#: src/planner-task-tree.c:2474
+msgid "w"
+msgstr "w"
+
+#. week unit variant accepted in input
+#: src/planner-task-tree.c:2475
+msgid "week"
+msgstr "주"
+
+#. week unit variant accepted in input
+#: src/planner-task-tree.c:2476
+msgid "weeks"
+msgstr "주"
+
+#. week unit variant accepted in input
+#: src/planner-task-tree.c:2477
+msgid "d"
+msgstr "d"
+
+#. day unit variant accepted in input
+#: src/planner-task-tree.c:2478
+msgid "day"
+msgstr "일"
+
+#. day unit variant accepted in input
+#: src/planner-task-tree.c:2480
+msgid "h"
+msgstr "h"
+
+#. hour unit variant accepted in input
+#: src/planner-task-tree.c:2481
+msgid "hour"
+msgstr "시간"
+
+#. hour unit variant accepted in input
+#: src/planner-task-tree.c:2482
+msgid "hours"
+msgstr "시간"
+
+#. hour unit variant accepted in input
+#: src/planner-task-tree.c:2483
+msgid "min"
+msgstr "분"
+
+#. minute unit variant accepted in input
+#: src/planner-task-tree.c:2484
+msgid "minute"
+msgstr "분"
+
+#. minute unit variant accepted in input
+#: src/planner-task-tree.c:2485
+msgid "minutes"
+msgstr "분"
+
+#: src/planner-task-view.c:203
+msgid "Tasks"
+msgstr "작업"
+
+#: src/planner-task-view.c:211
+msgid "_Tasks"
+msgstr "작업(_T)"
+
+#: src/planner-task-view.c:266
+msgid "Start"
+msgstr "시작"
+
+#: src/planner-task-view.c:267
+msgid "Finish"
+msgstr "마감"
+
+#: src/planner-task-view.c:269
+msgid "Slack"
+msgstr "여유"
+
+#: src/planner-task-view.c:488
+msgid "Edit custom task properties"
+msgstr "맞춤 작업 등록 정보 편집"
+
+#: src/planner-view-loader.c:41
+#, c-format
+msgid "Could not open view plugin file '%s'\n"
+msgstr "뷰 플러그인 파일 '%s'을(를) 열 수 없습니다\n"
+
+#: src/planner-window.c:639
+msgid "Open a file"
+msgstr "파일 열기"
+
+#. I18n: Translators, list your names here, newline separated if there
+#. * are more than one, to appear in the about box.
+#.
+#: src/planner-window.c:1085 src/planner-window.c:1092
+msgid "translator_credits"
+msgstr ""
+"손경욱 <vvs740@chol.com>\n"
+"류창우 <cwryu@debian.org>"
+
+#. "Copyright \xc2\xa9"
+#: src/planner-window.c:1089
+msgid "A Project Management application for the GNOME desktop"
+msgstr "그놈 데스크탑을 위한 프로젝트 관리 프로그램"
+
+#: src/planner-window.c:1099
+msgid "The Planner Homepage"
+msgstr "Planner 홈페이지"
+
+#: src/planner-window.c:1227
+msgid "If you don't save, changes made the last minute will be discarded."
+msgstr "저장하지 않으면 지난 1 분간의 작업이 취소됩니다."
+
+#: src/planner-window.c:1232
+#, c-format
+msgid "If you don't save, changes made the last %d minutes will be discarded."
+msgstr "저장하지 않으면 지난 %d 분간의 작업이 취소됩니다."
+
+#: src/planner-window.c:1237
+msgid "If you don't save, changes made the last hour will be discarded."
+msgstr "저장하지 않으면 지난 한 시간 분량의 작업이 취소됩니다."
+
+#: src/planner-window.c:1242
+#, c-format
+msgid "If you don't save, changes made the last %d hours will be discarded."
+msgstr "저장하지 않으면 지난 %d시간 분량의 작업이 취소됩니다."
+
+#: src/planner-window.c:1249
+#, c-format
+msgid "Save changes to document '%s' before closing?"
+msgstr "'%s' 문서를 닫기 전에 저장합니까?"
+
+#: src/planner-window.c:1267
+msgid "C_lose without saving"
+msgstr "저장하지 않고 닫기(_L)"
+
+#: src/planner-window.c:1269
+msgid "_Cancel"
+msgstr "취소(_C)"
+
+#: src/planner-window.c:1380
+msgid "Save a file"
+msgstr "파일 저장"
+
+#: src/planner-window.c:1611
+msgid ""
+"You have opened a file that was saved with an old version of Planner.\n"
+"\n"
+"When loading old files, all tasks will use the constraint 'Must Start On', "
+"since the old version did not fully support automatic rescheduling. To take "
+"advantage of this new feature, you should add predecessor relations between "
+"tasks that are dependent on each other.\n"
+"\n"
+"You can add a predecessor relation by clicking on the predecessor and "
+"dragging to the successor.\n"
+"\n"
+"After doing this, you can remove all constraints by selecting the menu item "
+"'Remove all constraints' in the 'Edit' menu."
+msgstr ""
+"Planner 과거 버전에서 저장한 파일을 열었습니다.\n"
+"\n"
+"과거 파일을 읽어들일 경우, 모든 작업은 \"날짜에서 시작\" 제한을 사용하게 됩니"
+"다.  과거 버전에서는 자동 재스케줄을 완전히 지원하지 않기 때문입니다.  이 새"
+"로운 기능을 사용하려면, 작업들 사이에 무엇이 무엇에 의존한다는 선행 작업 관계"
+"를 더해 줘야 합니다.\n"
+"\n"
+"선행 작업 관계는 선행 작업에 클릭하고 후행 작업에 끌어다 놓으면 됩니다.\n"
+"\n"
+"이렇게 하고 나서, \"편집\" 메뉴의 항목에서 \"모든 제한 없애기\"를 선택해 모"
+"든 제한을 지우면 됩니다."
