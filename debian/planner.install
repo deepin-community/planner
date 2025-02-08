@@ -1,0 +1,5 @@
+usr/bin
+usr/lib/*/planner/file-modules/*.so
+usr/lib/*/planner/plugins/*.so
+usr/lib/*/planner/storage-modules/*.so
+usr/lib/*/planner/*.so.*

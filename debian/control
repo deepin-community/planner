@@ -1,15 +1,61 @@
-Source: template-repository
-Section: unknown
+Source: planner
+Section: gnome
 Priority: optional
-Maintainer: Tsic404 <liuheng@deepin.org>
-Build-Depends: debhelper (>= 11)
-Standards-Version: 4.1.3
-Homepage: https://github.com/deepin-community/template-repository
-#Vcs-Browser: https://salsa.debian.org/debian/deepin-community-template-repository
-#Vcs-Git: https://salsa.debian.org/debian/deepin-community-template-repository.git
+Maintainer: Shriram Ravindranathan <s20n@ters.dev>
+Build-Depends:
+ debhelper-compat (= 13),
+ meson,
+ gtk-doc-tools,
+ libgail-3-dev,
+ libgda-5.0-dev,
+ libgirepository1.0-dev,
+ libglib2.0-dev,
+ libgsf-1-dev,
+ libxml2-dev,
+ libxslt1-dev,
+Rules-Requires-Root: no
+Standards-Version: 4.6.2
+Homepage: https://wiki.gnome.org/action/show/Apps/Planner
+Vcs-Browser: https://salsa.debian.org/debian/planner
+Vcs-Git: https://salsa.debian.org/debian/planner.git
 
-Package: template-repository
+Package: planner
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends:
+ planner-data (= ${source:Version}),
+ python3-gi,
+ shared-mime-info,
+ ${misc:Depends},
+ ${shlibs:Depends},
+Recommends:
+ planner-doc,
+Description: project management application
+ Planner is a Project Management application that supports Gantt charts,
+ resource allocation and integration with other GNOME applications.
+ .
+ Planner was formerly known as Mr.Project.
+
+Package: planner-doc
+Section: doc
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+Suggests:
+ planner,
+Description: Documentation for planner
+ Planner is a Project Management application that supports Gantt charts,
+ resource allocation and integration with other GNOME applications.
+ .
+ This package contains the html documentation for planner.
+
+Package: planner-data
+Architecture: all
+Depends:
+ ${misc:Depends},
+Description: Data files for planner
+ Planner is a Project Management application that supports Gantt charts,
+ resource allocation and integration with other GNOME applications.
+ .
+ This package contains data files for planner like images, icons, and
+ arch-independent files.

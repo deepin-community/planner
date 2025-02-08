@@ -1,0 +1,75 @@
+About Planner
+=============
+
+Planner is a project management tool for the GNOME desktop, for planning,
+scheduling and tracking projects. 
+
+Planner was originally developed and maintained by the guys at Imendio, but
+is now maintained by the Planner community.  We wish to extend our thanks
+to Imendio for all their hard work and dedication to this an many other
+open source projects.  For more information on Imendio, please visit
+http://www.imendio.com
+
+
+Features
+========
+
+Among the features are:
+
+    * Definition of tasks and subtasks, resources and resource groups
+    * Dependencies between tasks
+    * Display of the critical path
+    * Calendars with working/non-working time
+    * Gantt chart and resource usage overview
+    * HTML export of project plans
+    * Translated to over 50 languages
+
+
+Available Platforms
+===================
+
+Planner is available on Linux/UNIX platforms, and included in most Linux
+distributions. It's also available in a Windows version at
+https://wiki.gnome.org/Apps/Planner/Downloads.
+
+Resources
+=========
+
+Please check out Planner FAQ which is a list of frequently asked questions
+before posting a question to any of the mailing lists. You can read the
+archives and subscribe to the user and developer mailing lists at the GNOME
+mailing lists page (https://mail.gnome.org/mailman/listinfo).
+Note that you must be subscribed to the list to be able to post to it.
+
+If you find a bug or missing feature, you can let us know by filing a report in
+our issue tracker (https://gitlab.gnome.org/World/planner/-/issues).
+
+See https://wiki.gnome.org/Apps/Planner for more information.
+
+You can download the latest tarball from the GNOME mirroring service:
+
+    https://download.gnome.org/sources/planner/
+
+
+Installation
+============
+
+Dependencies:
+
+GLIB 2.56
+GTK 3.22
+LIBXML 2.6.27
+LIBXSLT 1.1.23
+
+Simple install procedure:
+
+  $ tar xzvf planner-0.14.6.tar.gz 	# unpack the sources
+  $ cd planner-0.14.6			# change to the toplevel directory
+  $ meson build				# run the configuration
+  $ ninja -C build			# build planner
+  [ Become root if necessary ]
+  $ ninja -C build install		# install planner
+
+More detailed installation instructions can be found at
+https://wiki.gnome.org/Apps/Planner
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/app/drey/Planner/ui">
+    <file preprocess="xml-stripblanks">planner-calendar-popover.ui</file>
+  </gresource>
+</gresources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="PlannerCalendarPopover" parent="GtkPopover">
+    <property name="position">bottom</property>
+    <property name="constrain_to">none</property>
+    <child>
+      <object class="GtkBox">
+        <property name="visible">True</property>
+        <property name="orientation">vertical</property>
+        <property name="margin">6</property>
+        <property name="spacing">6</property>
+        <child>
+          <object class="GtkCalendar" id="calendar">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <signal name="day-selected" handler="on_calendar_day_selected" swapped="yes" />
+            <signal name="day-selected-double-click" handler="on_calendar_day_double_clicked" swapped="yes" />
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="today_button">
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">Today</property>
+            <signal name="clicked" handler="on_today_clicked" swapped="yes" />
+          </object>
+        </child>
+        <child>
+          <object class="GtkBox" id="constraint_box">
+            <property name="visible" bind-source="PlannerCalendarPopover" bind-property="use-constraint" bind-flags="default|sync-create" />
+            <property name="orientation">horizontal</property>
+            <property name="spacing">6</property>
+            <child>
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Schedule:</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkComboBoxText" id="constraint_combo">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <items>
+                  <!-- The order of items has to match the CONSTRAINT_COMBO_* constants in C file -->
+                  <item translatable="yes">As soon as possible</item>
+                  <item translatable="yes">No earlier than</item>
+                  <item translatable="yes">On fixed date</item>
+                </items>
+                <signal name="changed" handler="on_constraint_changed_cb" swapped="yes" />
+              </object>
+              <packing>
+                <property name="expand">True</property>
+              </packing>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

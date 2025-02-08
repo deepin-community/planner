@@ -1,0 +1,27 @@
+#define PLANNER_ICON 	101
+
+PLANNER_ICON		ICON "../data/images/gnome-planner.ico"
+
+1 VERSIONINFO
+FILEVERSION     @FILEVERSION@
+PRODUCTVERSION  @FILEVERSION@
+FILEFLAGSMASK   0x0000003FL
+FILEFLAGS       (0x00000008L|0x00000002L|0x00000001L)
+FILEOS          0x00010001L
+FILETYPE        0x00000001L
+FILESUBTYPE     0x00000000L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName",         "Gnome\0"
+            VALUE "FileDescription",     "Gnome Planner for Windows\0"
+            VALUE "FileVersion",         "@VERSION@\0"
+            VALUE "InternalName",        "planner" "\0"
+            VALUE "OriginalFilename",    "planner.exe\0"
+            VALUE "ProductName",         "Gnome Planner\0"
+            VALUE "ProductVersion",       "@VERSION@\0"
+        END
+    END
+END

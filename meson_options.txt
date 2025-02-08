@@ -1,0 +1,25 @@
+option('database-gda',
+  type: 'feature',
+  value: 'auto',
+  description: 'Enable PostgreSQL database support (experimental)',
+)
+option('eds',
+  type: 'feature',
+  value: 'disabled',
+  description: 'Build evolution-data-server import plugin (experimental)',
+)
+option('examples',
+  type: 'boolean',
+  value: false,
+  description: 'Install sample project files',
+)
+option('gtk_doc',
+  type: 'boolean',
+  value: false,
+  description: 'Build private API reference with gtk-doc',
+)
+option('simple-priority-scheduling',
+  type: 'boolean',
+  value: false,
+  description: 'Enable simple priority scheduling in tasks management (experimental)',
+)

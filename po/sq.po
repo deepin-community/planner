@@ -1,0 +1,2195 @@
+# Përkthimi i mesazheve të planner në shqip
+# This file is distributed under the same license as the Planner package.
+# Copyright (C) 2003, 2004 Free Software Foundation, Inc.
+# Laurent Dhima <laurenti@alblinux.net>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: planner HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-09-02 12:20+0200\n"
+"PO-Revision-Date: 2004-09-03 17:20+0200\n"
+"Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
+"Language-Team: Albanian <gnome-albanian-perkthyesit@lists.sourceforge.net>\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/glade/add-predecessor.glade.h:1 data/glade/calendar-dialog.glade.h:4
+#: data/glade/html-output.glade.h:2 data/glade/new-property.glade.h:1
+#: data/glade/project-properties.glade.h:1
+#: data/glade/resource-dialog.glade.h:1
+#: data/glade/resource-input-dialog.glade.h:1 data/glade/sql.glade.h:1
+#: data/glade/task-dialog.glade.h:4 data/glade/task-input-dialog.glade.h:1
+msgid "*"
+msgstr "*"
+
+#: data/glade/add-predecessor.glade.h:2
+msgid "Add Predecessor"
+msgstr "Shto Proçesor"
+
+#: data/glade/add-predecessor.glade.h:3
+msgid "_Lag:"
+msgstr "_Lag:"
+
+#: data/glade/add-predecessor.glade.h:4 data/glade/calendar-dialog.glade.h:35
+#: data/glade/new-property.glade.h:5 data/glade/project-properties.glade.h:10
+#: data/glade/resource-dialog.glade.h:12
+#: data/glade/resource-input-dialog.glade.h:7
+#: data/glade/task-dialog.glade.h:14 data/glade/task-input-dialog.glade.h:4
+msgid "_Name:"
+msgstr "_Emri:"
+
+#: data/glade/add-predecessor.glade.h:5
+msgid "_Relation type:"
+msgstr "Lloji i _Relacionit:"
+
+#: data/glade/calendar-dialog.glade.h:1
+msgid ""
+"\n"
+"The selected day type has the following working hours:"
+msgstr ""
+"\n"
+"Lloji i ditës së zgjedhur ka orët e punës si në vazhdim:"
+
+#: data/glade/calendar-dialog.glade.h:3 data/glade/html-output.glade.h:1
+#: data/glade/task-dialog.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: data/glade/calendar-dialog.glade.h:5
+msgid "-"
+msgstr "-"
+
+#: data/glade/calendar-dialog.glade.h:6
+msgid "<b>Calendar:</b>"
+msgstr "<b>Kalendari:</b>"
+
+#: data/glade/calendar-dialog.glade.h:7
+msgid "<b>Day types</b>"
+msgstr "<b>Llojet e Ditës</b>"
+
+#: data/glade/calendar-dialog.glade.h:8
+msgid "<b>Working hours</b>"
+msgstr "<b>Orë Pune</b>"
+
+#: data/glade/calendar-dialog.glade.h:9
+msgid "<b>Working time</b>"
+msgstr "<b>Koha e punës</b>"
+
+#: data/glade/calendar-dialog.glade.h:10
+msgid "Add Day Type"
+msgstr "Shto lloj dite"
+
+#: data/glade/calendar-dialog.glade.h:11
+msgid "Apply"
+msgstr "Apliko"
+
+#: data/glade/calendar-dialog.glade.h:12
+#, fuzzy
+msgid "C_opy an existing calendar"
+msgstr "C kalendari"
+
+#: data/glade/calendar-dialog.glade.h:13
+msgid "C_reate"
+msgstr "K_rijo"
+
+#: data/glade/calendar-dialog.glade.h:14
+#, fuzzy
+msgid "Calendar Editor"
+msgstr "Kalendari Editori"
+
+#: data/glade/calendar-dialog.glade.h:15
+#, fuzzy
+msgid "Create an _empty calendar"
+msgstr "Krijo kalendari"
+
+#: data/glade/calendar-dialog.glade.h:16
+#, fuzzy
+msgid "Custom working time"
+msgstr "E personalizuar ora"
+
+#: data/glade/calendar-dialog.glade.h:17
+#, fuzzy
+msgid "Day type:"
+msgstr "Dita lloji:"
+
+#: data/glade/calendar-dialog.glade.h:18
+#, fuzzy
+msgid "Default Week"
+msgstr "E prezgjedhur Java"
+
+#: data/glade/calendar-dialog.glade.h:19
+#, fuzzy
+msgid "Default week..."
+msgstr "E prezgjedhur."
+
+#: data/glade/calendar-dialog.glade.h:20
+#, fuzzy
+msgid "Edit Day Types"
+msgstr "Ndrysho Dita Llojet"
+
+#: data/glade/calendar-dialog.glade.h:21
+#, fuzzy
+msgid "Edit Working Time"
+msgstr "Ndrysho Ora"
+
+#: data/glade/calendar-dialog.glade.h:22
+msgid "From:"
+msgstr "Nga:"
+
+#: data/glade/calendar-dialog.glade.h:23
+msgid "New Calendar"
+msgstr "Kalendar i Ri"
+
+#: data/glade/calendar-dialog.glade.h:24
+#, fuzzy
+msgid "Select a Calendar"
+msgstr "Zgjidh a Kalendari"
+
+#: data/glade/calendar-dialog.glade.h:25
+#, fuzzy
+msgid ""
+"Select a weekday and the day type to use for that day in the default week "
+"for this calendar.\n"
+msgstr "Zgjidh a dhe ditë lloji për ditë në prezgjedhur për kalendari j"
+
+#: data/glade/calendar-dialog.glade.h:27
+#, fuzzy
+msgid "Set day type to:"
+msgstr "ditë lloji:"
+
+#: data/glade/calendar-dialog.glade.h:28
+msgid "To:"
+msgstr "Për:"
+
+#: data/glade/calendar-dialog.glade.h:29
+#, fuzzy
+msgid "Use working time from derived calendar"
+msgstr "ora kalendari"
+
+#: data/glade/calendar-dialog.glade.h:30
+#, fuzzy
+msgid "Week day:"
+msgstr "Java ditë:"
+
+#: data/glade/calendar-dialog.glade.h:31
+#, fuzzy
+msgid "Working time..."
+msgstr "ora."
+
+#: data/glade/calendar-dialog.glade.h:32
+#, fuzzy
+msgid "_Derive from a calendar"
+msgstr "a kalendari"
+
+#: data/glade/calendar-dialog.glade.h:33
+msgid "_Existing calendars:"
+msgstr ""
+
+#: data/glade/calendar-dialog.glade.h:34
+#, fuzzy
+msgid "_Name of the new calendar:"
+msgstr "Emri nga i ri kalendari:"
+
+#: data/glade/calendar-dialog.glade.h:36
+#, fuzzy
+msgid "_New..."
+msgstr "_I Ri..."
+
+#: data/glade/group-dialog.glade.h:1
+#, fuzzy
+msgid "Group Editor"
+msgstr "Editori"
+
+#: data/glade/html-output.glade.h:3
+#, fuzzy
+msgid "<b>Save to file</b>"
+msgstr "<b> Ruaj</b>"
+
+#: data/glade/html-output.glade.h:4
+#, fuzzy
+msgid "Export to HTML"
+msgstr "Eksporto"
+
+#: data/glade/html-output.glade.h:5
+#, fuzzy
+msgid "Local file:"
+msgstr "File lokal:"
+
+#: data/glade/html-output.glade.h:6
+#, fuzzy
+msgid "Save to HTML File"
+msgstr "Ruaj File"
+
+#: data/glade/html-output.glade.h:7
+#, fuzzy
+msgid "Web location:"
+msgstr "Web pozicioni:"
+
+#: data/glade/new-property.glade.h:2
+#, fuzzy
+msgid "Add Property"
+msgstr "Shto Pronësia"
+
+#: data/glade/new-property.glade.h:3
+msgid "_Description:"
+msgstr "_Përshkrimi:"
+
+#: data/glade/new-property.glade.h:4
+msgid "_Label:"
+msgstr "_Etiketa:"
+
+#: data/glade/new-property.glade.h:6 data/glade/resource-dialog.glade.h:14
+msgid "_Type:"
+msgstr "_Lloji:"
+
+#: data/glade/project-properties.glade.h:2
+msgid "Custom"
+msgstr "E personalizuar"
+
+#: data/glade/project-properties.glade.h:3
+#, fuzzy
+msgid "Edit Project Phases"
+msgstr "Ndrysho Projekti"
+
+#: data/glade/project-properties.glade.h:4
+#: data/glade/resource-dialog.glade.h:5 data/glade/task-dialog.glade.h:6
+msgid "General"
+msgstr "Të përgjithshme"
+
+#: data/glade/project-properties.glade.h:5
+#, fuzzy
+msgid "New Project Phase"
+msgstr "E re Projekti"
+
+#: data/glade/project-properties.glade.h:6
+#, fuzzy
+msgid "Project Properties"
+msgstr "Projekti Pronësitë"
+
+#: data/glade/project-properties.glade.h:7
+msgid "Select..."
+msgstr "Zgjidh..."
+
+#: data/glade/project-properties.glade.h:8
+#, fuzzy
+msgid "_Calendar:"
+msgstr "Kalendari:"
+
+#: data/glade/project-properties.glade.h:9
+#, fuzzy
+msgid "_Manager:"
+msgstr "Manazhuesi:"
+
+#: data/glade/project-properties.glade.h:11
+#, fuzzy
+msgid "_Organization:"
+msgstr "Organizata:"
+
+#: data/glade/project-properties.glade.h:12
+msgid "_Phase:"
+msgstr ""
+
+#: data/glade/project-properties.glade.h:13
+#, fuzzy
+msgid "_Start:"
+msgstr "Fillo:"
+
+#: data/glade/property-dialog.glade.h:1
+#, fuzzy
+msgid "Custom Properties"
+msgstr "E personalizuar Pronësitë"
+
+#: data/glade/resource-dialog.glade.h:2
+#, fuzzy
+msgid "C_ost:"
+msgstr "C:"
+
+#: data/glade/resource-dialog.glade.h:3
+msgid "Calendar"
+msgstr "Kalendari"
+
+#: data/glade/resource-dialog.glade.h:4
+#, fuzzy
+msgid "Edit Calendars..."
+msgstr "Ndrysho Kalendarët."
+
+#: data/glade/resource-dialog.glade.h:6 data/glade/task-dialog.glade.h:7
+msgid "Notes"
+msgstr "Shënime"
+
+#: data/glade/resource-dialog.glade.h:7
+#, fuzzy
+msgid "Optional - overrides resource name in Gantt view."
+msgstr "Me dëshirë emri në shfaq."
+
+#: data/glade/resource-dialog.glade.h:8
+#, fuzzy
+msgid ""
+"Select the calendar to use for this resource. If you want to use the default "
+"calendar of the project, select 'None'. "
+msgstr "Zgjidh kalendari për prezgjedhur kalendari nga zgjidh Asnjë "
+
+#: data/glade/resource-dialog.glade.h:9
+#: data/glade/resource-input-dialog.glade.h:4
+#, fuzzy
+msgid "_Email:"
+msgstr "Email:"
+
+#: data/glade/resource-dialog.glade.h:10
+#: data/glade/resource-input-dialog.glade.h:5
+msgid "_Group:"
+msgstr "_Grupi:"
+
+#: data/glade/resource-dialog.glade.h:11
+#, fuzzy
+msgid "_Insert time stamp"
+msgstr "Fut ora"
+
+#: data/glade/resource-dialog.glade.h:13
+#: data/glade/resource-input-dialog.glade.h:8
+#, fuzzy
+msgid "_Short name:"
+msgstr "emri:"
+
+#: data/glade/resource-input-dialog.glade.h:2
+#, fuzzy
+msgid "Insert Resource"
+msgstr "Fut Burimi"
+
+#: data/glade/resource-input-dialog.glade.h:3
+#, fuzzy
+msgid "Optional - overrides resource name in gantt view."
+msgstr "Me dëshirë emri në shfaq."
+
+#: data/glade/resource-input-dialog.glade.h:6
+#: data/glade/task-input-dialog.glade.h:3
+msgid "_Insert"
+msgstr "_Shkruaj"
+
+#: data/glade/sql.glade.h:2
+#, fuzzy
+msgid "Open Database"
+msgstr "Hap Databaza"
+
+#: data/glade/sql.glade.h:3
+#, fuzzy
+msgid "Select a Project"
+msgstr "Zgjidh a Projekti"
+
+#: data/glade/sql.glade.h:4
+#, fuzzy
+msgid "The database contains the following projects. Select a project to open:"
+msgstr "Bankë të dhënash (databazë) përmban Zgjidh a hap:"
+
+#: data/glade/sql.glade.h:5
+msgid "_Database:"
+msgstr "_Databaza:"
+
+#: data/glade/sql.glade.h:6
+msgid "_Password:"
+msgstr "_Fjalëkalimi:"
+
+#: data/glade/sql.glade.h:7
+msgid "_Server:"
+msgstr "_Serveri:"
+
+#: data/glade/sql.glade.h:8
+msgid "_Username:"
+msgstr "_Përdoruesi:"
+
+#: data/glade/task-dialog.glade.h:3
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: data/glade/task-dialog.glade.h:5
+#, fuzzy
+msgid "C_omplete:"
+msgstr "C:"
+
+#: data/glade/task-dialog.glade.h:8
+msgid "Predecessors"
+msgstr ""
+
+#: data/glade/task-dialog.glade.h:9 src/planner-resource-view.c:429
+msgid "Resources"
+msgstr "Gjëndja"
+
+#: data/glade/task-dialog.glade.h:10
+msgid "_Duration:"
+msgstr ""
+
+#: data/glade/task-dialog.glade.h:11
+#, fuzzy
+msgid "_Fixed duration"
+msgstr "Fiksuar kohëzgjatja"
+
+#: data/glade/task-dialog.glade.h:12
+#, fuzzy
+msgid "_Insert Time Stamp"
+msgstr "Fut Ora"
+
+#: data/glade/task-dialog.glade.h:13
+msgid "_Milestone"
+msgstr ""
+
+#: data/glade/task-dialog.glade.h:15
+msgid "_Priority:"
+msgstr "_Prioriteti:"
+
+#: data/glade/task-dialog.glade.h:16 data/glade/task-input-dialog.glade.h:5
+#, fuzzy
+msgid "_Work:"
+msgstr "Punë:"
+
+#. day unit variant accepted in input
+#: data/glade/task-dialog.glade.h:17 src/planner-task-tree.c:3413
+msgid "days"
+msgstr "ditë"
+
+#: data/glade/task-input-dialog.glade.h:2
+#, fuzzy
+msgid "Insert Task"
+msgstr "Fut Aktiviteti"
+
+#: data/mime/planner.xml.in.h:1
+msgid "Planner project plan"
+msgstr ""
+
+#: data/planner.desktop.in.h:1
+#, fuzzy
+msgid "Planner Project Management"
+msgstr "Projekti"
+
+#: data/planner.desktop.in.h:2
+#, fuzzy
+msgid "Project Management"
+msgstr "Projekti"
+
+#: libegg/recent-files/egg-recent-vfs-utils.c:90
+msgid " (invalid Unicode)"
+msgstr " (Unicode i pavlefshëm)"
+
+#: libplanner/mrp-day.c:54
+msgid "Working"
+msgstr ""
+
+#: libplanner/mrp-day.c:55
+#, fuzzy
+msgid "A default working day"
+msgstr "A prezgjedhur ditë"
+
+#: libplanner/mrp-day.c:57
+msgid "Nonworking"
+msgstr ""
+
+#: libplanner/mrp-day.c:58
+#, fuzzy
+msgid "A default non working day"
+msgstr "A prezgjedhur ditë"
+
+#: libplanner/mrp-day.c:60
+msgid "Use base"
+msgstr ""
+
+#: libplanner/mrp-day.c:61
+#, fuzzy
+msgid "Use day from base calendar"
+msgstr "ditë kalendari"
+
+#: libplanner/mrp-file-module.c:115
+#, fuzzy
+msgid "This format is does support reading"
+msgstr "është"
+
+#: libplanner/mrp-parser.c:1062 libplanner/mrp-parser.c:1157
+#, fuzzy
+msgid "Could not create XML tree"
+msgstr "nuk XML degëzimi"
+
+#: libplanner/mrp-parser.c:1123
+#, fuzzy
+msgid "Could not write XML file"
+msgstr "nuk XML"
+
+#: libplanner/mrp-project.c:437 src/planner-group-dialog.c:840
+msgid "Default"
+msgstr "E prezgjedhur"
+
+#: libplanner/mrp-project.c:716
+#, c-format
+#, fuzzy
+msgid "Invalid URI: '%s'"
+msgstr "E pavlefshme URI"
+
+#: libplanner/mrp-project.c:755
+#, c-format
+#, fuzzy
+msgid "Couldn't find a suitable file module for loading '%s'"
+msgstr "gjej a për"
+
+#: libplanner/mrp-project.c:776 libplanner/mrp-project.c:1060
+#, fuzzy
+msgid "No support for SQL storage built into this version of Planner."
+msgstr "Jo për SQL versioni nga."
+
+#: libplanner/mrp-project.c:813
+#, fuzzy
+msgid "Invalid URI."
+msgstr "E pavlefshme URI."
+
+#: libplanner/mrp-project.c:954
+#, c-format
+#, fuzzy
+msgid "Unable to find file writer identified by '%s'"
+msgstr "gjej nga"
+
+#: libplanner/mrp-project.c:1017
+#, fuzzy
+msgid "Couldn't find a suitable file module for loading project"
+msgstr "gjej a për"
+
+#: libplanner/mrp-property.c:365
+msgid "Text"
+msgstr "Teksti"
+
+#: libplanner/mrp-property.c:367
+#, fuzzy
+msgid "String list"
+msgstr "Stringë lista"
+
+#: libplanner/mrp-property.c:369
+#, fuzzy
+msgid "Integer number"
+msgstr "Integrues"
+
+#: libplanner/mrp-property.c:371
+#, fuzzy
+msgid "Floating-point number"
+msgstr "pikë"
+
+#: libplanner/mrp-property.c:373
+msgid "Date"
+msgstr "Data"
+
+#: libplanner/mrp-property.c:375
+msgid "Duration"
+msgstr ""
+
+#: libplanner/mrp-property.c:377 src/planner-resource-view.c:1288
+#: src/planner-task-view.c:280
+msgid "Cost"
+msgstr "Kosto"
+
+#: libplanner/mrp-property.c:380 src/planner-project-properties.c:734
+msgid "None"
+msgstr "Asnjë"
+
+#. Give up.
+#: libplanner/mrp-sql.c:294 src/planner-sql-plugin.c:198
+#, fuzzy
+msgid "Invalid Unicode"
+msgstr "E pavlefshme Unicode"
+
+#: libplanner/mrp-sql.c:2177
+#, c-format
+#, fuzzy
+msgid "Connection to database '%s' failed.\n"
+msgstr "Lidhja Bankë të dhënash (databazë) j"
+
+#: libplanner/mrp-sql.c:2182
+#, c-format
+#, fuzzy
+msgid ""
+"Connection to database '%s' failed.\n"
+"%s"
+msgstr "Lidhja Bankë të dhënash (databazë) j"
+
+#: libplanner/mrp-sql.c:2190
+#, c-format
+msgid "BEGIN command failed %s."
+msgstr ""
+
+#: libplanner/mrp-sql.c:2356
+#, c-format
+#, fuzzy
+msgid ""
+"The project '%s' has been changed by the user '%s' since you opened it. Do "
+"you want to save anyway?"
+msgstr "nga përdorues Bëje ruaj?"
+
+#: libplanner/mrp-sql.c:3622 src/planner-sql-plugin.c:664
+#, c-format
+#, fuzzy
+msgid "Connection to database '%s' failed."
+msgstr "Lidhja Bankë të dhënash (databazë)."
+
+#: libplanner/mrp-storage-sql.c:205
+#, fuzzy
+msgid "Invalid SQL URI (must start with 'sql://' and contain '#')."
+msgstr "E pavlefshme SQL URI nisje me dhe."
+
+#: libplanner/mrp-storage-sql.c:274
+#, fuzzy
+msgid "Invalid SQL URI (invalid project id)."
+msgstr "E pavlefshme SQL URI I pavlefshëm."
+
+#: libplanner/mrp-storage-sql.c:282
+#, fuzzy
+msgid "Invalid SQL URI (no database name specified)."
+msgstr "E pavlefshme SQL URI jo Bankë të dhënash (databazë) emri."
+
+#: libplanner/mrp-task.c:1047
+#, fuzzy
+msgid "Could not add a predecessor relation, because the tasks are already related."
+msgstr "nuk shto a."
+
+#: libplanner/mrp-task-manager.c:2050
+#, fuzzy
+msgid "Cannot add a predecessor, because it would result in a loop."
+msgstr "shto a në a."
+
+#: libplanner/mrp-task-manager.c:2096
+#, fuzzy
+msgid "Cannot move the task, because it would result in a loop."
+msgstr "në a."
+
+#: libplanner/mrp-xsl.c:103
+#, fuzzy
+msgid "Export to HTML failed"
+msgstr "Eksporto"
+
+#: libplanner/mrp-xsl.c:167
+#, fuzzy
+msgid "Export to Planner pre-0.12 format failed"
+msgstr "Eksporto"
+
+#: src/planner-application.c:55 src/planner-application.c:111
+#, fuzzy
+msgid "Insert"
+msgstr "Fut"
+
+#: src/planner-application.c:62 src/planner-application.c:118
+msgid "Remove"
+msgstr "Hiq"
+
+#: src/planner-application.c:69
+msgid "Unlink"
+msgstr ""
+
+#: src/planner-application.c:76
+msgid "Link"
+msgstr "Lidhje"
+
+#: src/planner-application.c:83
+msgid "Indent"
+msgstr "Ngushto"
+
+#: src/planner-application.c:90
+#, fuzzy
+msgid "Unindent"
+msgstr "Zgjero"
+
+#: src/planner-application.c:97
+msgid "Move up"
+msgstr "Lëviz sipër"
+
+#: src/planner-application.c:104
+msgid "Move down"
+msgstr "Lëviz poshtë"
+
+#: src/planner-application.c:125
+msgid "Edit"
+msgstr "Ndrysho"
+
+#: src/planner-calendar-dialog.c:183
+#, fuzzy
+msgid "Change day type"
+msgstr "Ndrysho ditë lloji"
+
+#: src/planner-calendar-dialog.c:305
+#, fuzzy
+msgid "Remove calendar"
+msgstr "Hiq kalendari"
+
+#: src/planner-calendar-dialog.c:397
+#, fuzzy
+msgid "Add new calendar"
+msgstr "Shto i ri kalendari"
+
+#: src/planner-cell-renderer-date.c:147
+#, fuzzy
+msgid "Constraint type"
+msgstr "Kusht lloji"
+
+#: src/planner-cell-renderer-date.c:154
+msgid "As soon as possible"
+msgstr ""
+
+#: src/planner-cell-renderer-date.c:155
+#, fuzzy
+msgid "Start no earlier than"
+msgstr "Fillo jo"
+
+#: src/planner-cell-renderer-date.c:156
+#, fuzzy
+msgid "Must start on"
+msgstr "nisje në"
+
+#: src/planner-cell-renderer-date.c:171
+msgid "Today"
+msgstr "Sot"
+
+#: src/planner-cell-renderer-date.c:179
+msgid "Cancel"
+msgstr "Anulloje"
+
+#: src/planner-cell-renderer-date.c:187
+msgid "OK"
+msgstr "OK"
+
+#: src/planner-cmd-manager.c:227
+#, c-format
+#, fuzzy
+msgid "Undo '%s'"
+msgstr "Anullo"
+
+#: src/planner-cmd-manager.c:229
+msgid "Undo"
+msgstr "Anullo"
+
+#: src/planner-cmd-manager.c:239
+#, c-format
+#, fuzzy
+msgid "Redo '%s'"
+msgstr "Përsërite"
+
+#: src/planner-cmd-manager.c:241
+msgid "Redo"
+msgstr "Përsërite"
+
+#: src/planner-day-type-dialog.c:491
+#, c-format
+#, fuzzy
+msgid "Add day type \"%s\""
+msgstr "Shto ditë lloji"
+
+#: src/planner-day-type-dialog.c:552
+#, c-format
+#, fuzzy
+msgid "Remove day type \"%s\""
+msgstr "Hiq ditë lloji"
+
+#: src/planner-default-week-dialog.c:41
+msgid "Monday"
+msgstr "E hënë"
+
+#: src/planner-default-week-dialog.c:42
+msgid "Tuesday"
+msgstr "E martë"
+
+#: src/planner-default-week-dialog.c:43
+msgid "Wednesday"
+msgstr "E mërkurë"
+
+#: src/planner-default-week-dialog.c:44
+msgid "Thursday"
+msgstr "E enjte"
+
+#: src/planner-default-week-dialog.c:45
+msgid "Friday"
+msgstr "E premte"
+
+#: src/planner-default-week-dialog.c:46
+msgid "Saturday"
+msgstr "E shtunë"
+
+#: src/planner-default-week-dialog.c:47
+msgid "Sunday"
+msgstr "E djelë"
+
+#: src/planner-default-week-dialog.c:282
+#, fuzzy
+msgid "No working time"
+msgstr "Jo ora"
+
+#: src/planner-default-week-dialog.c:293 src/planner-default-week-dialog.c:297
+msgid "%H:%M"
+msgstr "%H:%M"
+
+#: src/planner-default-week-dialog.c:547
+#, fuzzy
+msgid "Edit default week"
+msgstr "Ndrysho prezgjedhur"
+
+#: src/planner-format.c:141
+#, c-format
+msgid "%dd %dh"
+msgstr ""
+
+#: src/planner-format.c:144
+#, c-format
+msgid "%dd"
+msgstr ""
+
+#: src/planner-format.c:147
+#, c-format
+msgid "%dh"
+msgstr ""
+
+#: src/planner-format.c:171
+#, c-format
+#, fuzzy
+msgid "%s days"
+msgstr "ditë"
+
+#: src/planner-format.c:174
+#, fuzzy
+msgid "0 days"
+msgstr "ditë"
+
+#: src/planner-format.c:177
+#, c-format
+#, fuzzy
+msgid "%s day"
+msgstr "ditë"
+
+#. i18n: this string is the date nr and month name, displayed
+#. * e.g. in the date cells in the task tree. See
+#. * libmrproject/docs/DateFormat.
+#.
+#: src/planner-format.c:197
+#, fuzzy
+msgid "%b %e"
+msgstr "e"
+
+#. i18n: project start, the date format is described in
+#. * libmrproject/docs/DateFormat.
+#: src/planner-gantt-background.c:579
+#, fuzzy
+msgid "%Y %b %d"
+msgstr "Y"
+
+#: src/planner-gantt-background.c:581
+#, fuzzy
+msgid "Project start"
+msgstr "Projekti nisje"
+
+#: src/planner-gantt-print.c:189 src/planner-group-dialog.c:816
+#: src/planner-property-dialog.c:481 src/planner-resource-view.c:1171
+#: src/planner-task-dialog.c:2536 src/planner-task-dialog.c:2625
+#: src/planner-task-view.c:275 src/planner-ttable-print.c:108
+msgid "Name"
+msgstr "Emri"
+
+#: src/planner-gantt-print.c:197 src/planner-resource-dialog.c:1869
+#: src/planner-resource-view.c:757 src/planner-resource-view.c:773
+#: src/planner-resource-view.c:1702 src/planner-task-view.c:278
+msgid "Work"
+msgstr "Punë"
+
+#: src/planner-gantt-print.c:541 src/planner-gantt-row.c:685
+#: src/planner-task-tree.c:1583 src/planner-window.c:1624
+msgid "Unnamed"
+msgstr "Pa emër"
+
+#: src/planner-gantt-row.c:1758 src/planner-gantt-row.c:1761
+msgid "No name"
+msgstr "Pa emër"
+
+#: src/planner-gantt-row.c:1764
+#, c-format
+#, fuzzy
+msgid "Make task '%s' a predecessor of '%s'"
+msgstr "a nga"
+
+#: src/planner-gantt-row.c:1820
+#, c-format
+#, fuzzy
+msgid "Change work to %s"
+msgstr "Ndrysho punë"
+
+#: src/planner-gantt-view.c:137 src/planner-task-view.c:119
+#, fuzzy
+msgid "_Insert Task"
+msgstr "Fut Aktiviteti"
+
+#: src/planner-gantt-view.c:137 src/planner-task-view.c:119
+#, fuzzy
+msgid "Insert a new task"
+msgstr "Fut a i ri"
+
+#: src/planner-gantt-view.c:138 src/planner-task-view.c:120
+#, fuzzy
+msgid "In_sert Tasks..."
+msgstr "Zmadho Aktivitete."
+
+#: src/planner-gantt-view.c:139 src/planner-task-view.c:121
+#, fuzzy
+msgid "_Remove Task"
+msgstr "Hiq Aktiviteti"
+
+#: src/planner-gantt-view.c:139 src/planner-task-view.c:121
+#, fuzzy
+msgid "Remove the selected tasks"
+msgstr "Hiq"
+
+#. sensitive = 0
+#: src/planner-gantt-view.c:140
+#, fuzzy
+msgid "_Edit Task Properties..."
+msgstr "Ndrysho Aktiviteti Pronësitë."
+
+#. sensitive = 0
+#: src/planner-gantt-view.c:141 src/planner-resource-view.c:258
+#: src/planner-task-view.c:123
+msgid "Select _All"
+msgstr "Zgjidh _gjithçka"
+
+#: src/planner-gantt-view.c:141 src/planner-resource-view.c:258
+#: src/planner-task-view.c:123
+#, fuzzy
+msgid "Select all tasks"
+msgstr "Zgjidh"
+
+#: src/planner-gantt-view.c:142 src/planner-task-view.c:124
+#, fuzzy
+msgid "_Unlink Task"
+msgstr "Aktiviteti"
+
+#: src/planner-gantt-view.c:142 src/planner-task-view.c:124
+msgid "Unlink the selected tasks"
+msgstr ""
+
+#: src/planner-gantt-view.c:143 src/planner-task-view.c:125
+#, fuzzy
+msgid "_Link Tasks"
+msgstr "Lidhje Aktivitete"
+
+#: src/planner-gantt-view.c:143 src/planner-task-view.c:125
+#, fuzzy
+msgid "Link the selected tasks"
+msgstr "Lidhje"
+
+#: src/planner-gantt-view.c:144 src/planner-task-view.c:126
+#, fuzzy
+msgid "I_ndent Task"
+msgstr "Aktiviteti"
+
+#: src/planner-gantt-view.c:144 src/planner-task-view.c:126
+#, fuzzy
+msgid "Indent the selected tasks"
+msgstr "Ngushto"
+
+#. sensitive = 0
+#: src/planner-gantt-view.c:145 src/planner-task-view.c:127
+#, fuzzy
+msgid "Unin_dent Task"
+msgstr "Aktiviteti"
+
+#: src/planner-gantt-view.c:145 src/planner-task-view.c:127
+#, fuzzy
+msgid "Unindent the selected tasks"
+msgstr "Zgjero"
+
+#. sensitive = 0
+#: src/planner-gantt-view.c:146 src/planner-task-view.c:128
+#, fuzzy
+msgid "Move Task _Up"
+msgstr "Lëvize Aktiviteti Sipër"
+
+#: src/planner-gantt-view.c:146 src/planner-task-view.c:128
+#, fuzzy
+msgid "Move the selected tasks upwards"
+msgstr "Lëvize"
+
+#. sensitive = 0
+#: src/planner-gantt-view.c:147 src/planner-task-view.c:129
+#, fuzzy
+msgid "Move Task Do_wn"
+msgstr "Lëvize Aktiviteti Bëje"
+
+#: src/planner-gantt-view.c:147 src/planner-task-view.c:129
+#, fuzzy
+msgid "Move the selected tasks downwards"
+msgstr "Lëvize"
+
+#. sensitive = 0
+#: src/planner-gantt-view.c:148 src/planner-task-view.c:130
+#, fuzzy
+msgid "Reset _Constraint"
+msgstr "Nga fillimi Kusht"
+
+#. sensitive = 0
+#: src/planner-gantt-view.c:149
+#, fuzzy
+msgid "Zoom To _Fit"
+msgstr "Shkalla e zmadhimit Për Përshtate"
+
+#: src/planner-gantt-view.c:149 src/planner-ttable-view.c:100
+#, fuzzy
+msgid "Zoom to fit the entire project"
+msgstr "Shkalla e zmadhimit"
+
+#: src/planner-gantt-view.c:150
+msgid "_Zoom In"
+msgstr "_Zmadho"
+
+#: src/planner-gantt-view.c:150 src/planner-ttable-view.c:99
+msgid "Zoom in"
+msgstr "Zmadho"
+
+#: src/planner-gantt-view.c:151
+msgid "Zoom _Out"
+msgstr "Z_vogëlo"
+
+#: src/planner-gantt-view.c:151 src/planner-ttable-view.c:98
+msgid "Zoom out"
+msgstr "Zvogëlo"
+
+#: src/planner-gantt-view.c:152
+msgid "Test"
+msgstr "Prova"
+
+#: src/planner-gantt-view.c:156
+#, fuzzy
+msgid "_Highlight Critical Tasks"
+msgstr "Kritik Aktivitete"
+
+#: src/planner-gantt-view.c:294
+#, fuzzy
+msgid "Gantt Chart"
+msgstr "Chart"
+
+#: src/planner-gantt-view.c:302
+#, fuzzy
+msgid "_Gantt Chart"
+msgstr "Chart"
+
+#. i18n: WBS is short for work breakdown structure, and is a
+#. * project management term. You might want to leave it
+#. * untranslated unless there is a localized term for it.
+#.
+#: src/planner-gantt-view.c:503
+msgid ""
+"\n"
+"WBS"
+msgstr ""
+
+#: src/planner-gantt-view.c:504 src/planner-ttable-tree.c:343
+msgid ""
+"\n"
+"Name"
+msgstr ""
+
+#. COL_START,    _("\nStart"),
+#: src/planner-gantt-view.c:506
+msgid ""
+"\n"
+"Work"
+msgstr ""
+
+#: src/planner-group-dialog.c:301
+#, fuzzy
+msgid "Insert group"
+msgstr "Fut grupi"
+
+#: src/planner-group-dialog.c:425
+#, fuzzy
+msgid "Remove group"
+msgstr "Hiq grupin"
+
+#: src/planner-group-dialog.c:520
+#, fuzzy
+msgid "Default group"
+msgstr "E prezgjedhur grupi"
+
+#: src/planner-group-dialog.c:638
+#, fuzzy
+msgid "Edit group property"
+msgstr "Ndrysho grupi"
+
+#: src/planner-group-dialog.c:822
+#, fuzzy
+msgid "Manager name"
+msgstr "Manazhuesi emri"
+
+#: src/planner-group-dialog.c:828
+#, fuzzy
+msgid "Manager phone"
+msgstr "Manazhuesi"
+
+#: src/planner-group-dialog.c:834
+#, fuzzy
+msgid "Manager email"
+msgstr "Manazhuesi"
+
+#: src/planner-html-plugin.c:67
+msgid "HTML"
+msgstr "HTML"
+
+#: src/planner-html-plugin.c:68
+#, fuzzy
+msgid "Export project to HTML"
+msgstr "Eksporto"
+
+#: src/planner-html-plugin.c:138
+#, c-format
+#, fuzzy
+msgid ""
+"\"%s\" is a directory.\n"
+"Enter a filename and try again."
+msgstr "është a a dhe."
+
+#: src/planner-html-plugin.c:148 src/planner-window.c:1381
+#: src/planner-xml-planner-plugin.c:130
+#, c-format
+#, fuzzy
+msgid "File \"%s\" exists, do you want to overwrite it?"
+msgstr "File ekziston?"
+
+#: src/planner-main.c:50
+msgid "Create the initial window with the given geometry."
+msgstr "Krijon dritaren kryesore me gjeometrinë e dhënë."
+
+#: src/planner-main.c:50
+msgid "GEOMETRY"
+msgstr "GJEOMETRIA"
+
+#: src/planner-main.c:76
+#, fuzzy
+msgid "planner: --geometry cannot be used with more than one file."
+msgstr "me tjetër."
+
+#: src/planner-phase-dialog.c:532
+#, fuzzy
+msgid "Insert phase"
+msgstr "Fut"
+
+#: src/planner-phase-dialog.c:631
+#, fuzzy
+msgid "Remove phase"
+msgstr "Hiq"
+
+#: src/planner-plugin-loader.c:40
+#, c-format
+#, fuzzy
+msgid "Could not open plugin file '%s'\n"
+msgstr "nuk hap j"
+
+#: src/planner-predecessor-model.c:191 src/planner-task-dialog.c:2197
+msgid "FS"
+msgstr ""
+
+#: src/planner-predecessor-model.c:194
+msgid "FF"
+msgstr ""
+
+#. list = g_list_append (list, g_strdup (_("FF")));
+#: src/planner-predecessor-model.c:197 src/planner-task-dialog.c:2199
+msgid "SS"
+msgstr ""
+
+#: src/planner-predecessor-model.c:200
+msgid "SF"
+msgstr ""
+
+#: src/planner-print-dialog.c:154
+#, fuzzy
+msgid "Print Project"
+msgstr "Printo Projekti"
+
+#: src/planner-print-dialog.c:161
+#, fuzzy
+msgid "Select views"
+msgstr "Zgjidh"
+
+#: src/planner-print-dialog.c:184
+#, fuzzy
+msgid "Select the views to print:"
+msgstr "Zgjidh printo:"
+
+#: src/planner-project-properties.c:382
+#, fuzzy
+msgid "Select a calendar to use for this project:"
+msgstr "Zgjidh a kalendari për:"
+
+#: src/planner-project-properties.c:482
+#, fuzzy
+msgid "Edit Project Name"
+msgstr "Ndrysho Projekti Emri"
+
+#: src/planner-project-properties.c:518
+#, fuzzy
+msgid "Edit Organization"
+msgstr "Ndrysho Organizata"
+
+#: src/planner-project-properties.c:554
+#, fuzzy
+msgid "Edit Manager"
+msgstr "Ndrysho Manazhuesi"
+
+#: src/planner-project-properties.c:625
+#, fuzzy
+msgid "Edit Project Start"
+msgstr "Ndrysho Projekti Fillo"
+
+#: src/planner-project-properties.c:694
+#, fuzzy
+msgid "Edit Project Phase"
+msgstr "Ndrysho Projekti"
+
+#: src/planner-project-properties.c:827
+msgid "Property"
+msgstr "Pronësia"
+
+#: src/planner-project-properties.c:838
+msgid "Value"
+msgstr "Vlera"
+
+#: src/planner-project-properties.c:1247 src/planner-property-dialog.c:329
+#, fuzzy
+msgid "The name of the custom property needs to start with a letter."
+msgstr "emri nga e personalizuar nisje me a."
+
+#: src/planner-project-properties.c:1318 src/planner-property-dialog.c:399
+#, c-format
+#, fuzzy
+msgid "Do you really want to remove the property '%s' from the project?"
+msgstr "Bëje hiq?"
+
+#: src/planner-project-properties.c:1411
+#, fuzzy
+msgid "Could not create properties dialog."
+msgstr "nuk pronësitë dialog."
+
+#: src/planner-project-properties.c:1776
+#, fuzzy
+msgid "Add project property"
+msgstr "Shto"
+
+#: src/planner-project-properties.c:1886
+#, fuzzy
+msgid "Remove project property"
+msgstr "Hiq"
+
+#: src/planner-project-properties.c:1979
+#, fuzzy
+msgid "Edit project property value"
+msgstr "Ndrysho"
+
+#: src/planner-property-dialog.c:498
+msgid "Label"
+msgstr "Etiketa"
+
+#: src/planner-property-dialog.c:510 src/planner-resource-view.c:1213
+#: src/planner-task-dialog.c:2657
+msgid "Type"
+msgstr "Lloji"
+
+#: src/planner-property-dialog.c:664
+#, fuzzy
+msgid "Add property"
+msgstr "Shto"
+
+#: src/planner-property-dialog.c:809
+#, fuzzy
+msgid "Remove property"
+msgstr "Hiq"
+
+#: src/planner-property-dialog.c:902
+#, fuzzy
+msgid "Edit property label"
+msgstr "Ndrysho etiketa"
+
+#: src/planner-resource-cmd.c:75
+#, fuzzy
+msgid "Insert resource"
+msgstr "Fut"
+
+#. Put "no group" at the top.
+#: src/planner-resource-dialog.c:325 src/planner-resource-input-dialog.c:99
+#: src/planner-resource-view.c:1913
+msgid "(None)"
+msgstr "(Asnjë)"
+
+#: src/planner-resource-dialog.c:335 src/planner-resource-input-dialog.c:109
+#: src/planner-task-dialog.c:375
+#, fuzzy
+msgid "(No name)"
+msgstr "Jo emri"
+
+#: src/planner-resource-dialog.c:508
+#, fuzzy
+msgid "Edit resource calendar"
+msgstr "Ndrysho kalendari"
+
+#: src/planner-resource-dialog.c:589
+#, fuzzy
+msgid "Edit resource note"
+msgstr "Ndrysho"
+
+#: src/planner-resource-dialog.c:662
+#, fuzzy
+msgid "Edit resource cost"
+msgstr "Ndrysho"
+
+#: src/planner-resource-dialog.c:731 src/planner-resource-dialog.c:772
+#: src/planner-resource-view.c:1370 src/planner-resource-view.c:1454
+#, fuzzy
+msgid "Edit resource property"
+msgstr "Ndrysho"
+
+#. i18n: time stamp format for notes in task dialog, see strftime(3) for
+#. * a detailed description.
+#: src/planner-resource-dialog.c:1427 src/planner-task-dialog.c:1784
+#, fuzzy
+msgid "%a %d %b %Y, %H:%M\n"
+msgstr "a Y M j"
+
+#: src/planner-resource-dialog.c:1544
+#, fuzzy
+msgid "None (use project default)"
+msgstr "Asnjë prezgjedhur"
+
+#: src/planner-resource-dialog.c:1671 src/planner-resource-dialog.c:1673
+#, fuzzy
+msgid "Edit resource properties"
+msgstr "Ndrysho pronësitë"
+
+#: src/planner-resource-dialog.c:1870 src/planner-resource-view.c:760
+#: src/planner-resource-view.c:774 src/planner-resource-view.c:1703
+msgid "Material"
+msgstr ""
+
+#: src/planner-resource-view.c:253
+#, fuzzy
+msgid "_Insert Resource"
+msgstr "Fut Burimi"
+
+#: src/planner-resource-view.c:253
+#, fuzzy
+msgid "Insert a new resource"
+msgstr "Fut a i ri"
+
+#: src/planner-resource-view.c:254
+#, fuzzy
+msgid "In_sert Resources..."
+msgstr "Zmadho Gjëndja."
+
+#: src/planner-resource-view.c:255
+#, fuzzy
+msgid "_Remove Resource"
+msgstr "Hiq Burimi"
+
+#: src/planner-resource-view.c:255
+#, fuzzy
+msgid "Remove the selected resource"
+msgstr "Hiq"
+
+#: src/planner-resource-view.c:256
+#, fuzzy
+msgid "_Edit Resource Properties..."
+msgstr "Ndrysho Burimi Pronësitë."
+
+#: src/planner-resource-view.c:257
+#, fuzzy
+msgid "Edit _Groups"
+msgstr "Ndrysho"
+
+#: src/planner-resource-view.c:257
+#, fuzzy
+msgid "Edit resource groups"
+msgstr "Ndrysho"
+
+#: src/planner-resource-view.c:259
+#, fuzzy
+msgid "Edit _Custom Properties..."
+msgstr "Ndrysho E personalizuar Pronësitë."
+
+#: src/planner-resource-view.c:275
+#, fuzzy
+msgid "/_Insert resource"
+msgstr "Fut"
+
+#: src/planner-resource-view.c:276
+#, fuzzy
+msgid "/_Remove resource"
+msgstr "Hiq"
+
+#: src/planner-resource-view.c:277 src/planner-ttable-tree.c:107
+#, fuzzy
+msgid "/_Edit resource..."
+msgstr "Ndrysho."
+
+#: src/planner-resource-view.c:437
+#, fuzzy
+msgid "_Resources"
+msgstr "Gjëndja"
+
+#: src/planner-resource-view.c:953
+#, fuzzy
+msgid "Remove resource"
+msgstr "Hiq"
+
+#: src/planner-resource-view.c:1053
+#, fuzzy
+msgid "Edit custom resource properties"
+msgstr "Ndrysho e personalizuar pronësitë"
+
+#: src/planner-resource-view.c:1192
+#, fuzzy
+msgid "Short name"
+msgstr "emri"
+
+#: src/planner-resource-view.c:1237
+#, fuzzy
+msgid "Group"
+msgstr "Grupi"
+
+#: src/planner-resource-view.c:1266
+msgid "Email"
+msgstr "Email"
+
+#. i18n: Short "Week", preferably 2 letters.
+#: src/planner-scale-utils.c:325
+#, c-format
+msgid "Wk %d"
+msgstr ""
+
+#: src/planner-scale-utils.c:329
+#, c-format
+#, fuzzy
+msgid "Week %d"
+msgstr "Java"
+
+#. i18n: Week, year.
+#: src/planner-scale-utils.c:334
+#, c-format
+#, fuzzy
+msgid "Week %d, %d"
+msgstr "Java"
+
+#. i18n: Short "Quarter", preferrably 1 letter.
+#: src/planner-scale-utils.c:365
+#, c-format
+#, fuzzy
+msgid "Q%d"
+msgstr "Q"
+
+#. i18n: Short "Quarter", preferrably 2-3 letters.
+#: src/planner-scale-utils.c:369
+#, c-format
+msgid "Qtr %d"
+msgstr ""
+
+#. i18n: Year, short "Quarter", preferrably 2-3 letters.
+#: src/planner-scale-utils.c:373
+#, c-format
+msgid "%d, Qtr %d"
+msgstr ""
+
+#. i18n: Short "Half year", prefferably 1 letter.
+#: src/planner-scale-utils.c:386
+#, c-format
+#, fuzzy
+msgid "H%d"
+msgstr "H"
+
+#. i18n: Year, short "Half year", prefferably 1 letter.
+#: src/planner-scale-utils.c:391
+#, c-format
+#, fuzzy
+msgid "%04d, H%d"
+msgstr "H"
+
+#: src/planner-sql-plugin.c:96
+#, fuzzy
+msgid "Open from Database..."
+msgstr "Hap Databaza."
+
+#: src/planner-sql-plugin.c:96
+#, fuzzy
+msgid "Open a project from a database"
+msgstr "Hap a a Bankë të dhënash (databazë)"
+
+#: src/planner-sql-plugin.c:97 src/planner-sql-plugin.c:1100
+#, fuzzy
+msgid "Save to Database"
+msgstr "Ruaj Databaza"
+
+#: src/planner-sql-plugin.c:97
+#, fuzzy
+msgid "Save the current project to a database"
+msgstr "Ruaj a Bankë të dhënash (databazë)"
+
+#: src/planner-sql-plugin.c:129
+#, fuzzy
+msgid "No errors reported."
+msgstr "Jo."
+
+#: src/planner-sql-plugin.c:495
+#, c-format
+#, fuzzy
+msgid ""
+"Database %s needs to be upgraded from version %s to version %s.\n"
+"Please backup database before the upgrade."
+msgstr "Databaza versioni versioni Bankë të dhënash (databazë) përpara upgrade."
+
+#: src/planner-sql-plugin.c:502
+#, fuzzy
+msgid "Upgrade"
+msgstr "Përditëso"
+
+#: src/planner-sql-plugin.c:516
+#, c-format
+#, fuzzy
+msgid ""
+"Could not upgrade database %s.\n"
+" Upgrade file used: %s.\n"
+"\n"
+"Database error: \n"
+"%s"
+msgstr ""
+"nuk upgrade Bankë të dhënash (databazë)\n"
+" Përditëso j gabim j"
+
+#: src/planner-sql-plugin.c:557
+#, c-format
+#, fuzzy
+msgid "Can't create tables in database %s"
+msgstr "në Bankë të dhënash (databazë)"
+
+#: src/planner-sql-plugin.c:618
+#, c-format
+#, fuzzy
+msgid "Database %s is not setup for Planner. Do you want to do that?"
+msgstr "Databaza është nuk për Bëje?"
+
+#: src/planner-sql-plugin.c:675
+#, c-format
+#, fuzzy
+msgid "Test to tables in database '%s' failed."
+msgstr "Prova në Bankë të dhënash (databazë)."
+
+#: src/planner-sql-plugin.c:768
+msgid "ID"
+msgstr "ID"
+
+#: src/planner-sql-plugin.c:776
+msgid "Project"
+msgstr "Projekti"
+
+#: src/planner-sql-plugin.c:784
+msgid "Phase"
+msgstr ""
+
+#: src/planner-sql-plugin.c:792
+msgid "Revision"
+msgstr ""
+
+#: src/planner-sql-plugin.c:988
+#, fuzzy
+msgid "Open from Database"
+msgstr "Hap Databaza"
+
+#: src/planner-task-cmd.c:97
+#, fuzzy
+msgid "Link task"
+msgstr "Lidhje"
+
+#: src/planner-task-cmd.c:173
+msgid "Unlink task"
+msgstr ""
+
+#: src/planner-task-cmd.c:266
+#, fuzzy
+msgid "Insert task"
+msgstr "Fut"
+
+#: src/planner-task-dialog.c:449 src/planner-task-tree.c:251
+#: src/planner-task-tree.c:1005
+#, fuzzy
+msgid "Edit task property"
+msgstr "Ndrysho"
+
+#: src/planner-task-dialog.c:523
+#, fuzzy
+msgid "Edit task type"
+msgstr "Ndrysho lloji"
+
+#: src/planner-task-dialog.c:590
+#, fuzzy
+msgid "Toggle fixed duration"
+msgstr "Kavo kohëzgjatja"
+
+#: src/planner-task-dialog.c:668
+msgid "Assign resource to task"
+msgstr ""
+
+#: src/planner-task-dialog.c:728
+msgid "Unassign resource from task"
+msgstr ""
+
+#: src/planner-task-dialog.c:787
+#, fuzzy
+msgid "Change resource units in task"
+msgstr "Ndrysho në"
+
+#: src/planner-task-dialog.c:875
+#, fuzzy
+msgid "Edit task predecessor"
+msgstr "Ndrysho"
+
+#: src/planner-task-dialog.c:946
+#, fuzzy
+msgid "Edit lag predecessor"
+msgstr "Shto Proçesor"
+
+#: src/planner-task-dialog.c:1012
+#, fuzzy
+msgid "Edit task note"
+msgstr "Ndrysho"
+
+#: src/planner-task-dialog.c:1856
+#, fuzzy
+msgid "Finish to start (FS)"
+msgstr "Mbarimi nisje"
+
+#. _("Finish to finish (FF)"), MRP_RELATION_FF,
+#: src/planner-task-dialog.c:1858
+#, fuzzy
+msgid "Start to start (SS)"
+msgstr "Fillo nisje"
+
+#: src/planner-task-dialog.c:1913
+#, fuzzy
+msgid "Can't add new predecessor. No task selected!"
+msgstr "shto i ri Jo!"
+
+#: src/planner-task-dialog.c:2557
+msgid "Assigned"
+msgstr "Caktuar"
+
+#: src/planner-task-dialog.c:2574
+msgid "Units"
+msgstr "Njësitë"
+
+#: src/planner-task-dialog.c:2679
+msgid "Lag"
+msgstr ""
+
+#: src/planner-task-dialog.c:2817 src/planner-task-dialog.c:2819
+#, fuzzy
+msgid "Edit task properties"
+msgstr "Ndrysho pronësitë"
+
+#: src/planner-task-popup.c:52
+#, fuzzy
+msgid "/_Insert task"
+msgstr "Fut"
+
+#: src/planner-task-popup.c:55
+#, fuzzy
+msgid "/Insert _subtask"
+msgstr "Fut"
+
+#: src/planner-task-popup.c:58
+#, fuzzy
+msgid "/_Remove task"
+msgstr "Hiq"
+
+#: src/planner-task-popup.c:63
+msgid "/_Unlink task"
+msgstr ""
+
+#: src/planner-task-popup.c:68
+msgid "/Assign _resources..."
+msgstr ""
+
+#: src/planner-task-popup.c:71 src/planner-ttable-tree.c:110
+#, fuzzy
+msgid "/_Edit task..."
+msgstr "Ndrysho."
+
+#: src/planner-task-tree.c:623
+#, fuzzy
+msgid "Remove task"
+msgstr "Hiq"
+
+#: src/planner-task-tree.c:700
+#, fuzzy
+msgid "Apply constraint to task"
+msgstr "Apliko"
+
+#: src/planner-task-tree.c:762
+#, fuzzy
+msgid "Reset task constraint"
+msgstr "Nga fillimi"
+
+#: src/planner-task-tree.c:896
+#, fuzzy
+msgid "Move task"
+msgstr "Lëvize"
+
+#: src/planner-task-tree.c:2774
+#, c-format
+#, fuzzy
+msgid ""
+"You are about to open an edit dialog each for %i tasks. Are you sure that "
+"you want to do that?"
+msgstr "Ti informacione hap ndrysho dialog për?"
+
+#: src/planner-task-tree.c:3405
+msgid "mon"
+msgstr ""
+
+#. month unit variant accepted in input
+#: src/planner-task-tree.c:3406
+msgid "month"
+msgstr ""
+
+#. month unit variant accepted in input
+#: src/planner-task-tree.c:3407
+#, fuzzy
+msgid "months"
+msgstr "muaj"
+
+#. month unit variant accepted in input
+#: src/planner-task-tree.c:3408
+msgid "w"
+msgstr ""
+
+#. week unit variant accepted in input
+#: src/planner-task-tree.c:3409
+msgid "week"
+msgstr ""
+
+#. week unit variant accepted in input
+#: src/planner-task-tree.c:3410
+msgid "weeks"
+msgstr "javë"
+
+#. week unit variant accepted in input
+#: src/planner-task-tree.c:3411
+msgid "d"
+msgstr ""
+
+#. day unit variant accepted in input
+#: src/planner-task-tree.c:3412
+msgid "day"
+msgstr "ditë"
+
+#. day unit variant accepted in input
+#: src/planner-task-tree.c:3414
+msgid "h"
+msgstr ""
+
+#. hour unit variant accepted in input
+#: src/planner-task-tree.c:3415
+msgid "hour"
+msgstr "orë"
+
+#. hour unit variant accepted in input
+#: src/planner-task-tree.c:3416
+msgid "hours"
+msgstr "orë"
+
+#. hour unit variant accepted in input
+#: src/planner-task-tree.c:3417
+msgid "min"
+msgstr ""
+
+#. minute unit variant accepted in input
+#: src/planner-task-tree.c:3418
+msgid "minute"
+msgstr "minutë"
+
+#. minute unit variant accepted in input
+#: src/planner-task-tree.c:3419
+msgid "minutes"
+msgstr "minuta"
+
+#: src/planner-task-view.c:122
+#, fuzzy
+msgid "_Edit Task"
+msgstr "Ndrysho Aktiviteti"
+
+#: src/planner-task-view.c:131
+#, fuzzy
+msgid "_Edit Custom Properties..."
+msgstr "Ndrysho E personalizuar Pronësitë."
+
+#: src/planner-task-view.c:208
+msgid "Tasks"
+msgstr "Aktivitete"
+
+#: src/planner-task-view.c:216
+msgid "_Tasks"
+msgstr "_Aktivitetet"
+
+#. i18n: WBS is sort for work breakdown structure, and is a
+#. * project management term. You might want to leave it
+#. * untranslated unless there is a localized term for it.
+#.
+#: src/planner-task-view.c:274
+msgid "WBS"
+msgstr ""
+
+#: src/planner-task-view.c:276
+msgid "Start"
+msgstr "Fillo"
+
+#: src/planner-task-view.c:277
+#, fuzzy
+msgid "Finish"
+msgstr "Mbarimi"
+
+#: src/planner-task-view.c:279
+msgid "Slack"
+msgstr ""
+
+#: src/planner-task-view.c:281
+#, fuzzy
+msgid "Assigned to"
+msgstr "Caktuar"
+
+#: src/planner-task-view.c:477
+#, fuzzy
+msgid "Edit custom task properties"
+msgstr "Ndrysho e personalizuar pronësitë"
+
+#: src/planner-ttable-print.c:189
+msgid "Task"
+msgstr "Aktiviteti"
+
+#: src/planner-ttable-row.c:2011
+#, c-format
+#, fuzzy
+msgid "Make task '%s' start on %s"
+msgstr "nisje në"
+
+#: src/planner-ttable-row.c:2085
+#, c-format
+#, fuzzy
+msgid "Change task '%s' work to %s, duration to %s (%d)"
+msgstr "Ndrysho punë kohëzgjatja"
+
+#: src/planner-ttable-tree.c:113
+#, fuzzy
+msgid "/_Expand all resources"
+msgstr "Shpalos"
+
+#: src/planner-ttable-tree.c:116
+msgid "/_Collapse all resources"
+msgstr ""
+
+#: src/planner-ttable-tree.c:345
+msgid ""
+"\n"
+"Task"
+msgstr ""
+
+#: src/planner-ttable-view.c:100
+#, fuzzy
+msgid "Zoom to fit"
+msgstr "Shkalla e zmadhimit"
+
+#: src/planner-ttable-view.c:157
+#, fuzzy
+msgid "Resource Usage"
+msgstr "Burimi"
+
+#: src/planner-ttable-view.c:164
+#, fuzzy
+msgid "Resource _Usage"
+msgstr "Burimi"
+
+#: src/planner-view-loader.c:41
+#, c-format
+#, fuzzy
+msgid "Could not open view plugin file '%s'\n"
+msgstr "nuk hap shfaq j"
+
+#: src/planner-window.c:207
+msgid "_File"
+msgstr "_File"
+
+#: src/planner-window.c:211
+#, fuzzy
+msgid "_New Project"
+msgstr "E re Projekti"
+
+#: src/planner-window.c:211
+#, fuzzy
+msgid "Create a new project"
+msgstr "Krijo a i ri"
+
+#: src/planner-window.c:215
+msgid "_Open..."
+msgstr "_Hap..."
+
+#: src/planner-window.c:215
+#, fuzzy
+msgid "Open a project"
+msgstr "Hap a"
+
+#: src/planner-window.c:218
+#, fuzzy
+msgid "_Import"
+msgstr "Eksporto"
+
+#: src/planner-window.c:222 src/planner-window.c:1252
+msgid "_Save"
+msgstr "_Ruaj"
+
+#: src/planner-window.c:222
+#, fuzzy
+msgid "Save the current project"
+msgstr "Ruaj"
+
+#: src/planner-window.c:225
+#, fuzzy
+msgid "_Export"
+msgstr "Eksporto"
+
+#: src/planner-window.c:228
+msgid "Save _As..."
+msgstr "Ruaje _Si..."
+
+#: src/planner-window.c:228
+#, fuzzy
+msgid "Save the current project with a different name"
+msgstr "Ruaj me a emri"
+
+#: src/planner-window.c:231
+msgid "_Print..."
+msgstr "_Printo..."
+
+#: src/planner-window.c:231
+#, fuzzy
+msgid "Print the current project"
+msgstr "Printo"
+
+#: src/planner-window.c:234
+msgid "Print Pre_view"
+msgstr "Pamja e _parë e printimit"
+
+#: src/planner-window.c:234
+#, fuzzy
+msgid "Print preview of the current project"
+msgstr "Printo nga"
+
+#: src/planner-window.c:237
+msgid "_Close"
+msgstr "_Mbylle"
+
+#: src/planner-window.c:237
+msgid "Close the current file"
+msgstr "Mbylle file aktual"
+
+#: src/planner-window.c:240
+msgid "_Quit"
+msgstr "_Dil"
+
+#: src/planner-window.c:240
+msgid "Exit the program"
+msgstr "Përfundo programin"
+
+#: src/planner-window.c:244
+msgid "_Edit"
+msgstr "_Ndrysho"
+
+#: src/planner-window.c:247
+msgid "_Undo"
+msgstr "_Anullo"
+
+#: src/planner-window.c:247
+msgid "Undo the last action"
+msgstr "Anullo veprimin e fundit"
+
+#: src/planner-window.c:250
+msgid "_Redo"
+msgstr "_Përsërit"
+
+#: src/planner-window.c:250
+msgid "Redo the undone action"
+msgstr "Përsërit veprimin e anulluar"
+
+#: src/planner-window.c:254
+msgid "_View"
+msgstr "_Shfaq"
+
+#: src/planner-window.c:258
+msgid "_Actions"
+msgstr "_Veprimet"
+
+#: src/planner-window.c:262
+#, fuzzy
+msgid "_Project"
+msgstr "Projekti"
+
+#: src/planner-window.c:265
+#, fuzzy
+msgid "_Manage Calendars"
+msgstr "Kalendarët"
+
+#: src/planner-window.c:268
+#, fuzzy
+msgid "Edit Day _Types"
+msgstr "Ndrysho Dita Llojet"
+
+#: src/planner-window.c:271
+#, fuzzy
+msgid "Edit Project _Phases"
+msgstr "Ndrysho Projekti"
+
+#: src/planner-window.c:274
+#, fuzzy
+msgid "_Edit Project Properties"
+msgstr "Ndrysho Projekti Pronësitë"
+
+#: src/planner-window.c:274
+#, fuzzy
+msgid "Edit the project properties"
+msgstr "Ndrysho pronësitë"
+
+#: src/planner-window.c:282
+msgid "_Help"
+msgstr "_Ndihmë"
+
+#: src/planner-window.c:285
+#, fuzzy
+msgid "_User Guide"
+msgstr "Përdoruesi"
+
+#: src/planner-window.c:285
+#, fuzzy
+msgid "Show the Planner User Guide"
+msgstr "Shfaq Përdoruesi"
+
+#: src/planner-window.c:288
+msgid "_About"
+msgstr "_Informacione"
+
+#: src/planner-window.c:288
+msgid "About this application"
+msgstr "Informacione mbi këtë program"
+
+#. Note: these strings are leaked.
+#: src/planner-window.c:562
+#, c-format
+#, fuzzy
+msgid "Switch to the view \"%s\""
+msgstr "Kalo shfaq"
+
+#: src/planner-window.c:707
+msgid "Open a file"
+msgstr "Hap një file"
+
+#. I18n: Translators, list your names here, newline separated if there
+#. * are more than one, to appear in the about box.
+#.
+#: src/planner-window.c:1073 src/planner-window.c:1080
+#, fuzzy
+msgid "translator-credits"
+msgstr "Laurent Dhima <laurenti@alblinux.net>"
+
+#. "Copyright \xc2\xa9"
+#: src/planner-window.c:1077
+#, fuzzy
+msgid "A Project Management application for the GNOME desktop"
+msgstr "A Projekti programi për GNOME"
+
+#: src/planner-window.c:1087
+#, fuzzy
+msgid "The Planner Homepage"
+msgstr "Faqja web"
+
+#: src/planner-window.c:1193
+#, fuzzy
+msgid "If you don't save, changes made the last minute will be discarded."
+msgstr "ruaj e fundit minutë."
+
+#: src/planner-window.c:1198
+#, c-format
+#, fuzzy
+msgid "If you don't save, changes made the last %d minutes will be discarded."
+msgstr "ruaj e fundit minuta."
+
+#: src/planner-window.c:1203
+#, fuzzy
+msgid "If you don't save, changes made the last hour will be discarded."
+msgstr "ruaj e fundit orë."
+
+#: src/planner-window.c:1208
+#, c-format
+#, fuzzy
+msgid "If you don't save, changes made the last %d hours will be discarded."
+msgstr "ruaj e fundit orë."
+
+#: src/planner-window.c:1215
+#, c-format
+#, fuzzy
+msgid "Save changes to document '%s' before closing?"
+msgstr "Ruaj përpara?"
+
+#: src/planner-window.c:1239
+#, fuzzy
+msgid "C_lose without saving"
+msgstr "C"
+
+#: src/planner-window.c:1245
+msgid "_Cancel"
+msgstr "_Anullo"
+
+#: src/planner-window.c:1344
+#, fuzzy
+msgid "Save a file"
+msgstr "Ruaj një file"
+
+#: src/planner-window.c:1581
+#, fuzzy
+msgid ""
+"You have opened a file that was saved with an old version of Planner.\n"
+"\n"
+"When loading old files, all tasks will use the constraint 'Must Start On', "
+"since the old version did not fully support automatic rescheduling. To take "
+"advantage of this new feature, you should add predecessor relations between "
+"tasks that are dependent on each other.\n"
+"\n"
+"You can add a predecessor relation by clicking on the predecessor and "
+"dragging to the successor.\n"
+"\n"
+"After doing this, you can remove all constraints by selecting the menu item "
+"'Remove all constraints' in the 'Edit' menu."
+msgstr "Ti a me versioni nga j Fillo Në versioni nuk Për nga i ri karakteristika shto në tjetër j shto a nga në dhe j hiq nga menuja element Hiq në Ndrysho menuja."
+
+#. Hack.
+#: src/planner-window.c:1616
+#, fuzzy
+msgid "Unnamed database project"
+msgstr "Pa emër Bankë të dhënash (databazë)"
+
+#: src/planner-working-time-dialog.c:144
+#, fuzzy
+msgid "Edit working time"
+msgstr "Ndrysho ora"
+
+#: src/planner-xml-planner-plugin.c:55
+#, fuzzy
+msgid "Planner 0.11 Format"
+msgstr "Formati"
+
+#: src/planner-xml-planner-plugin.c:56
+#, fuzzy
+msgid "Export project to a file suitable for Planner 0.11"
+msgstr "Eksporto a për"
+
+#: src/planner-xml-planner-plugin.c:99
+msgid "Export"
+msgstr "Eksporto"
+

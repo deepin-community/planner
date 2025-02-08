@@ -1,0 +1,2448 @@
+# Basque translation of planner.
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Hizkuntza Politikarako Sailburuordetza <hizkpol@ej-gv.es>, 2005.
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2006, 2007, 2008, 2009, 2010.
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2014.
+# Asier Sarasua Garmendia <asiersarasua@ni.eus>, 2022, 2023.
+#
+msgid ""
+msgstr "Project-Id-Version: planner master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/planner/issues\n"
+"POT-Creation-Date: 2023-02-07 08:03+0000\n"
+"PO-Revision-Date: 2023-04-10 12:06+0200\n"
+"Last-Translator: Asier Sarasua Garmendia <asiersarasua@ni.eus>\n"
+"Language-Team: Basque <librezale@librezale.eus>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"\n"
+
+#: data/mime/app.drey.Planner.xml.in:5
+msgid "Planner project plan"
+msgstr "Planner proiektu-plana"
+
+#: data/app.drey.Planner.desktop.in:3
+msgid "Planner"
+msgstr "Planner"
+
+#: data/app.drey.Planner.desktop.in:4
+msgid "Project Management"
+msgstr "Proiektu-kudeaketa"
+
+#: data/app.drey.Planner.desktop.in:6
+msgid "Handle the tasks, resources, and cost of your projects"
+msgstr "Kudeatu zure proiektuen zereginak, baliabideak eta kostuak"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/app.drey.Planner.desktop.in:8
+msgid "Gantt;Chart;Critical path;Relationship;Dependency;WBS;"
+msgstr "Gantt;Diagrama;Bide kritikoa;Erlazioak;Mendekotasuna;WBS;"
+
+#: data/app.drey.Planner.gschema.xml:19
+msgid "Highlight critical path in Gantt view"
+msgstr "Nabarmendu bide kritikoak Gantt ikuspegian"
+
+#: data/app.drey.Planner.gschema.xml:20
+msgid ""
+"Whether to highlight the tasks along the critical path in the Gantt view."
+msgstr "Zereginak Gantt ikuspegiko bide kritikoan zehar nabarmenduko den ala ez."
+
+#: data/app.drey.Planner.gschema.xml:24
+msgid "Display nonstandard days in Gantt view"
+msgstr "Bistaratu egun ez-estandarrak Gantt ikuspegian"
+
+#: data/app.drey.Planner.gschema.xml:25
+msgid "Whether to display nonstandard days in the Gantt view."
+msgstr "Egun ez-estandarrak Gantt ikuspegian bistaratuko diren ala ez."
+
+#: data/app.drey.Planner.gschema.xml:29
+msgid "Print the Gantt view"
+msgstr "Inprimatu Gantt-en ikuspegia"
+
+#: data/app.drey.Planner.gschema.xml:30
+msgid "Whether printing of the Gantt view is enabled."
+msgstr "Gantt ikuspegia inprimatzea gaituta dagoen ala ez."
+
+#: data/app.drey.Planner.gschema.xml:159
+msgid "Highlight critical path in Task view"
+msgstr "Nabarmendu bide kritikoak zereginen ikuspegian"
+
+#: data/app.drey.Planner.gschema.xml:160
+msgid ""
+"Whether to highlight the tasks along the critical path in the Task view."
+msgstr "Zereginen ikuspegian zereginak bide kritikoan zehar nabarmenduko diren ala ez."
+
+#: data/app.drey.Planner.gschema.xml:164
+msgid "Display nonstandard days in Task view"
+msgstr "Bistaratu egun ez-estandarrak zereginen ikuspegian"
+
+#: data/app.drey.Planner.gschema.xml:165
+msgid "Whether to display nonstandard days in the Task view."
+msgstr "Egun ez-estandarrak zereginen ikuspegian bistaratuko diren ala ez."
+
+#: data/app.drey.Planner.gschema.xml:169
+msgid "Print the Task view"
+msgstr "Inprimatu zereginen ikuspegia"
+
+#: data/app.drey.Planner.gschema.xml:170
+msgid "Whether printing of the Task view is enabled."
+msgstr "Zereginen ikuspegia inprimatzea gaituta dagoen ala ez."
+
+#: data/app.drey.Planner.gschema.xml:296
+msgid "Print the Resource view"
+msgstr "Inprimatu baliabideen ikuspegia"
+
+#: data/app.drey.Planner.gschema.xml:297
+msgid "Whether printing of the Resource view is enabled."
+msgstr "Baliabideen ikuspegia inprimatzea gaituta dagoen ala ez."
+
+#: data/app.drey.Planner.gschema.xml:401
+msgid "The active view"
+msgstr "Ikuspegi aktiboa"
+
+#: data/app.drey.Planner.gschema.xml:402
+msgid "Which view to display in the user interface."
+msgstr "Zein ikuspegi bistaratu erabiltzailearen interfazean."
+
+#: data/sql/app.drey.planner.plugins.sql.gschema.xml:6
+msgid "Host"
+msgstr "Ostalaria"
+
+#: data/sql/app.drey.planner.plugins.sql.gschema.xml:7
+msgid "The host running the SQL server."
+msgstr "SQL zerbitzaria exekutatzen ari den ostalaria."
+
+#: data/sql/app.drey.planner.plugins.sql.gschema.xml:11
+msgid "Database"
+msgstr "Datu-basea"
+
+#: data/sql/app.drey.planner.plugins.sql.gschema.xml:12
+msgid "The SQL server database."
+msgstr "SQL zerbitzariaren datu-basea."
+
+#: data/sql/app.drey.planner.plugins.sql.gschema.xml:16
+msgid "User"
+msgstr "Erabiltzailea"
+
+#: data/sql/app.drey.planner.plugins.sql.gschema.xml:17
+msgid "The SQL server user name."
+msgstr "SQL zerbitzariko erabiltzaile-izena."
+
+#: data/ui/add-predecessor.ui:7
+msgid "Add Predecessor"
+msgstr "Gehitu aurrekoa"
+
+#: data/ui/add-predecessor.ui:70 data/ui/new-day-dialog.ui:60
+#: data/ui/new-phase-dialog.ui:68 data/ui/new-property.ui:61
+#: data/ui/project-properties.ui:67 data/ui/resource-dialog.ui:62
+#: data/ui/resource-input-dialog.ui:112 data/ui/task-dialog.ui:89
+#: data/ui/task-input-dialog.ui:112
+msgid "_Name:"
+msgstr "_Izena:"
+
+#: data/ui/add-predecessor.ui:97
+msgid "_Relation type:"
+msgstr "_Erlazio-mota:"
+
+#: data/ui/add-predecessor.ui:139
+msgid "_Lag:"
+msgstr "_Atzerapena:"
+
+#: data/ui/calendar-dialog.ui:5
+msgid "Calendar Editor"
+msgstr "Egutegi-editorea"
+
+#: data/ui/calendar-dialog.ui:57
+msgid "_New..."
+msgstr "Berr_ia..."
+
+#: data/ui/calendar-dialog.ui:96
+msgid "Working time..."
+msgstr "Lanaldia..."
+
+#: data/ui/calendar-dialog.ui:106
+msgid "Default week..."
+msgstr "Aste lehenetsia..."
+
+#: data/ui/calendar-dialog.ui:211
+msgid "Use working time from derived calendar"
+msgstr "Erabili egutegi eratorriko lanaldia"
+
+#: data/ui/calendar-dialog.ui:233
+msgid "Set day type to:"
+msgstr "Ezarri egun-mota:"
+
+#: data/ui/calendar-dialog.ui:272
+msgid "Custom working time"
+msgstr "Lanaldi pertsonalizatua"
+
+#: data/ui/calendar-dialog.ui:319
+msgid "<b>Working time</b>"
+msgstr "<b>Lanaldia</b>"
+
+#: data/ui/calendar-dialog.ui:357 data/ui/calendar-dialog.ui:380
+#: data/ui/calendar-dialog.ui:403 data/ui/calendar-dialog.ui:426
+#: data/ui/calendar-dialog.ui:647 data/ui/working-time-dialog.ui:170
+#: data/ui/working-time-dialog.ui:193 data/ui/working-time-dialog.ui:216
+#: data/ui/working-time-dialog.ui:239 data/ui/working-time-dialog.ui:451
+msgid "-"
+msgstr "-"
+
+#: data/ui/calendar-dialog.ui:456 data/ui/calendar-dialog.ui:478
+#: data/ui/calendar-dialog.ui:500 data/ui/calendar-dialog.ui:522
+#: data/ui/calendar-dialog.ui:544 data/ui/calendar-dialog.ui:566
+#: data/ui/calendar-dialog.ui:588 data/ui/calendar-dialog.ui:610
+#: data/ui/calendar-dialog.ui:632 data/ui/calendar-dialog.ui:677
+#: data/ui/eds.ui:140 data/ui/new-calendar-dialog.ui:151
+#: data/ui/new-day-dialog.ui:88 data/ui/new-property.ui:139
+#: data/ui/new-property.ui:159 data/ui/new-property.ui:217
+#: data/ui/resource-dialog.ui:216 data/ui/resource-dialog.ui:237
+#: data/ui/resource-dialog.ui:258 data/ui/resource-dialog.ui:303
+#: data/ui/resource-input-dialog.ui:167 data/ui/resource-input-dialog.ui:187
+#: data/ui/resource-input-dialog.ui:271 data/ui/sql-open-dialog.ui:140
+#: data/ui/sql-open-dialog.ui:160 data/ui/sql-open-dialog.ui:180
+#: data/ui/sql-open-dialog.ui:224 data/ui/task-input-dialog.ui:167
+#: data/ui/task-input-dialog.ui:187 data/ui/working-time-dialog.ui:268
+#: data/ui/working-time-dialog.ui:289 data/ui/working-time-dialog.ui:310
+#: data/ui/working-time-dialog.ui:331 data/ui/working-time-dialog.ui:352
+#: data/ui/working-time-dialog.ui:373 data/ui/working-time-dialog.ui:394
+#: data/ui/working-time-dialog.ui:415 data/ui/working-time-dialog.ui:436
+#: data/ui/working-time-dialog.ui:480
+msgid "*"
+msgstr "*"
+
+#: data/ui/calendar-dialog.ui:692
+msgid "From:"
+msgstr "Hasi:"
+
+#: data/ui/calendar-dialog.ui:738
+msgid "To:"
+msgstr "Amaitu:"
+
+#: data/ui/calendar-dialog.ui:775
+msgid "Apply"
+msgstr "Aplikatu"
+
+#: data/ui/calendar-selector.ui:6
+msgid "Select a Calendar"
+msgstr "Hautatu egutegi bat"
+
+#: data/ui/column-dialog.ui:61
+msgid "Hidden columns:"
+msgstr "Ezkutatutako zutabeak:"
+
+#: data/ui/column-dialog.ui:127 data/ui/column-dialog.ui:151
+#: data/ui/column-dialog.ui:347 data/ui/default-week-dialog.ui:265
+#: data/ui/task-dialog.ui:323
+msgid "    "
+msgstr "    "
+
+#: data/ui/column-dialog.ui:230
+msgid "_Show"
+msgstr "E_rakutsi"
+
+#: data/ui/column-dialog.ui:299
+msgid "_Hide"
+msgstr "E_zkutatu"
+
+#: data/ui/column-dialog.ui:383
+msgid "Visible columns:"
+msgstr "Zutabe ikusgaiak:"
+
+#: data/ui/day-type-dialog.ui:6
+msgid "Edit Day Types"
+msgstr "Editatu egun-motak"
+
+#: data/ui/default-week-dialog.ui:6
+msgid "Default Week"
+msgstr "Aste lehenetsia"
+
+#: data/ui/default-week-dialog.ui:63
+msgid "<b>Calendar:</b>"
+msgstr "<b>Egutegia:</b>"
+
+#: data/ui/default-week-dialog.ui:120
+msgid ""
+"Select a weekday and the day type to use for that day in the default week "
+"for this calendar.\n"
+msgstr "Hautatu astegun bat eta egun horrentzat egutegi honetako aste lehenetsian erabiliko den egun-mota.\n"
+
+#: data/ui/default-week-dialog.ui:151
+msgid "Week day:"
+msgstr "Asteguna:"
+
+#: data/ui/default-week-dialog.ui:194
+msgid "Day type:"
+msgstr "Egun-mota:"
+
+#: data/ui/default-week-dialog.ui:239
+msgid ""
+"\n"
+"The selected day type has the following working hours:"
+msgstr "\n"
+"Hautatutako egun-motak ondorengo lan-orduak ditu:"
+
+#: data/ui/eds.ui:6
+msgid "dialog1"
+msgstr "1dialogoa"
+
+#: data/ui/eds.ui:71
+msgid "Select group"
+msgstr "Hautatu taldea"
+
+#: data/ui/eds.ui:114
+msgid "Search"
+msgstr "Bilatu"
+
+#: data/ui/eds.ui:205
+msgid "Select All"
+msgstr "Hautatu _denak"
+
+#: data/ui/eds.ui:274
+msgid "Unselect All"
+msgstr "Desautatu _denak"
+
+#: data/ui/eds.ui:353
+msgid "Loading resource data"
+msgstr "Baliabide-datuak kargatzen"
+
+#: data/ui/group-dialog.ui:7
+msgid "Group Editor"
+msgstr "Taldeen editorea"
+
+#: data/ui/new-calendar-dialog.ui:6
+msgid "New Calendar"
+msgstr "Egutegi berria"
+
+#: data/ui/new-calendar-dialog.ui:38
+msgid "C_reate"
+msgstr "S_ortu"
+
+#: data/ui/new-calendar-dialog.ui:65
+msgid "_Existing calendars:"
+msgstr "_Lehendik dauden egutegiak:"
+
+#: data/ui/new-calendar-dialog.ui:124
+msgid "_Name of the new calendar:"
+msgstr "_Egutegi berriaren izena:"
+
+#: data/ui/new-calendar-dialog.ui:184
+msgid "_Derive from a calendar"
+msgstr "_Eratorri egutegi batetik"
+
+#: data/ui/new-calendar-dialog.ui:201
+msgid "C_opy an existing calendar"
+msgstr "_Kopiatu lehendik dagoen egutegi bat"
+
+#: data/ui/new-calendar-dialog.ui:219
+msgid "Create an _empty calendar"
+msgstr "Gehitu egutegi _huts bat"
+
+#: data/ui/new-day-dialog.ui:6
+msgid "Add Day Type"
+msgstr "Gehitu egun-mota"
+
+#: data/ui/new-phase-dialog.ui:7
+msgid "New Project Phase"
+msgstr "Proiektu-fase berria"
+
+#: data/ui/new-property.ui:6
+msgid "Add Property"
+msgstr "Gehitu propietatea"
+
+#: data/ui/new-property.ui:85
+msgid "_Description:"
+msgstr "_Azalpena:"
+
+#: data/ui/new-property.ui:109 data/ui/resource-dialog.ui:86
+msgid "_Type:"
+msgstr "_Mota:"
+
+#: data/ui/new-property.ui:187
+msgid "_Label:"
+msgstr "_Etiketa:"
+
+#: data/ui/phase-dialog.ui:6
+msgid "Edit Project Phases"
+msgstr "Editatu proiektu-faseak"
+
+#: data/ui/project-properties.ui:6
+msgid "Project Properties"
+msgstr "Proiektu-propietateak"
+
+#: data/ui/project-properties.ui:95
+msgid "_Start:"
+msgstr "_Hasiera:"
+
+#: data/ui/project-properties.ui:123
+msgid "_Organization:"
+msgstr "E_rakundea:"
+
+#: data/ui/project-properties.ui:192
+msgid "_Manager:"
+msgstr "_Kudeatzailea:"
+
+#: data/ui/project-properties.ui:240
+msgid "_Calendar:"
+msgstr "E_gutegia:"
+
+#: data/ui/project-properties.ui:298
+msgid "Select..."
+msgstr "Hautatu..."
+
+#: data/ui/project-properties.ui:323
+msgid "_Phase:"
+msgstr "_Fasea:"
+
+#: data/ui/project-properties.ui:390
+msgid "Date..."
+msgstr "Data..."
+
+#: data/ui/project-properties.ui:418 data/ui/resource-dialog.ui:323
+#: data/ui/task-dialog.ui:688
+msgid "General"
+msgstr "Orokorra"
+
+#: data/ui/project-properties.ui:521
+msgid "Custom"
+msgstr "Pertsonalizatua"
+
+#: data/ui/property-dialog.ui:6
+msgid "Custom Properties"
+msgstr "Propietate pertsonalizatuak"
+
+#: data/ui/resource-dialog.ui:110 data/ui/resource-input-dialog.ui:136
+msgid "_Email:"
+msgstr "_Helb. el.:"
+
+#: data/ui/resource-dialog.ui:134 data/ui/resource-input-dialog.ui:201
+msgid "_Group:"
+msgstr "_Taldea:"
+
+#: data/ui/resource-dialog.ui:158
+msgid "C_ost:"
+msgstr "K_ostua:"
+
+#: data/ui/resource-dialog.ui:272 data/ui/resource-input-dialog.ui:239
+msgid "_Short name:"
+msgstr "_Izen laburra:"
+
+#: data/ui/resource-dialog.ui:296 data/ui/resource-input-dialog.ui:263
+msgid "Optional - overrides resource name in Gantt view."
+msgstr "Aukerakoa - gainidatzi baliabide-izena Gantt ikuspegian."
+
+#: data/ui/resource-dialog.ui:344
+msgid ""
+"Select the calendar to use for this resource. If you want to use the default "
+"calendar of the project, select 'None'. "
+msgstr "Hautatu baliabide honekin erabiltzeko egutegia. Proiektuko egutegi lehenetsia erabili nahi izanez gero, hautatu 'Bat ere ez'. "
+
+#: data/ui/resource-dialog.ui:395
+msgid "Edit Calendars..."
+msgstr "Editatu egutegiak..."
+
+#: data/ui/resource-dialog.ui:422
+msgid "Calendar"
+msgstr "Egutegia"
+
+#: data/ui/resource-dialog.ui:513
+msgid "_Insert time stamp"
+msgstr "_Txertatu data-zigilua"
+
+#: data/ui/resource-dialog.ui:552 data/ui/task-dialog.ui:973
+msgid "Notes"
+msgstr "Oharrak"
+
+#: data/ui/resource-input-dialog.ui:6
+msgid "Insert Resource"
+msgstr "Txertatu baliabidea"
+
+#: data/ui/resource-input-dialog.ui:69 data/ui/task-input-dialog.ui:69
+msgid "_Insert"
+msgstr "_Txertatu"
+
+#: data/ui/sql-open-dialog.ui:6
+msgid "Open Database"
+msgstr "Ireki datu-basea"
+
+#: data/ui/sql-open-dialog.ui:62
+msgid "_Server:"
+msgstr "_Zerbitzaria:"
+
+#: data/ui/sql-open-dialog.ui:86
+msgid "_Username:"
+msgstr "_Erabiltzaile-izena:"
+
+#: data/ui/sql-open-dialog.ui:110
+msgid "_Password:"
+msgstr "_Pasahitza:"
+
+#: data/ui/sql-open-dialog.ui:194
+msgid "_Database:"
+msgstr "_Datu-basea:"
+
+#: data/ui/sql-select-dialog.ui:6
+msgid "Select a Project"
+msgstr "Hautatu proiektu bat"
+
+#: data/ui/sql-select-dialog.ui:59
+msgid "The database contains the following projects. Select a project to open:"
+msgstr "Datu-baseak ondorengo proiektuak ditu. Hautatu proiektu bat irekitzeko:"
+
+#: data/ui/task-dialog.ui:117 data/ui/task-input-dialog.ui:136
+msgid "_Work:"
+msgstr "La_na:"
+
+#: data/ui/task-dialog.ui:145
+msgid "_Duration:"
+msgstr "_Iraupena:"
+
+#: data/ui/task-dialog.ui:173
+msgid "C_omplete:"
+msgstr "A_maituta:"
+
+#: data/ui/task-dialog.ui:201
+msgid "_Priority:"
+msgstr "_Lehentasuna:"
+
+#: data/ui/task-dialog.ui:269
+msgid "%"
+msgstr "%"
+
+#: data/ui/task-dialog.ui:296 data/ui/task-dialog.ui:401
+#: data/ui/task-dialog.ui:448 data/ui/task-dialog.ui:475
+#: data/ui/task-dialog.ui:502 data/ui/task-dialog.ui:648
+msgid "  "
+msgstr "  "
+
+#: data/ui/task-dialog.ui:356
+msgid "_Milestone"
+msgstr "_Mugarria"
+
+#: data/ui/task-dialog.ui:374
+msgid "_Fixed duration"
+msgstr "I_raupen finkoa"
+
+#. This is the verb "schedule"
+#: data/ui/task-dialog.ui:569 src/planner-calendar-popover.ui:36
+msgid "Schedule:"
+msgstr "Antolaketa"
+
+#: data/ui/task-dialog.ui:626
+msgid "Change..."
+msgstr "Aldatu..."
+
+#: data/ui/task-dialog.ui:735 src/planner-resource-view.c:405
+msgid "Resources"
+msgstr "Baliabideak"
+
+#: data/ui/task-dialog.ui:828
+msgid "Predecessors"
+msgstr "Aurrekoak"
+
+#: data/ui/task-dialog.ui:930
+msgid "_Insert Time Stamp"
+msgstr "T_xertatu data-zigilua"
+
+#: data/ui/task-input-dialog.ui:6
+msgid "Insert Task"
+msgstr "Txertatu zeregina"
+
+#: data/ui/working-time-dialog.ui:5
+msgid "Edit Working Time"
+msgstr "Editatu lanaldia"
+
+#: data/ui/working-time-dialog.ui:62
+msgid "<b>Day types</b>"
+msgstr "<b>Egun-motak</b>"
+
+#: data/ui/working-time-dialog.ui:142
+msgid "<b>Working hours</b>"
+msgstr "<b>Lan-orduak</b>"
+
+#: libplanner/mrp-day.c:64
+msgid "Working"
+msgstr "Laneguna"
+
+#: libplanner/mrp-day.c:65
+msgid "A default working day"
+msgstr "Lanegun lehenetsi bat"
+
+#: libplanner/mrp-day.c:67
+msgid "Nonworking"
+msgstr "Jaieguna"
+
+#: libplanner/mrp-day.c:68
+msgid "A default non working day"
+msgstr "Jaiegun lehenetsi bat"
+
+#: libplanner/mrp-day.c:70
+msgid "Use base"
+msgstr "Erabili basea"
+
+#: libplanner/mrp-day.c:71
+msgid "Use day from base calendar"
+msgstr "Hartu eguna egutegitik"
+
+#: libplanner/mrp-file-module.c:125
+#, c-format
+msgid "This format does not support reading"
+msgstr "Formatu honek ez du irakurketa onartzen"
+
+#: libplanner/mrp-parser.c:1076 libplanner/mrp-parser.c:1171
+#, c-format
+msgid "Could not create XML tree"
+msgstr "Ezin izan da XML zuhaitza sortu"
+
+#: libplanner/mrp-parser.c:1137
+#, c-format
+msgid "Could not write XML file"
+msgstr "Ezin izan da idatzi XML fitxategian"
+
+#: libplanner/mrp-project.c:582 src/planner-group-dialog.c:840
+msgid "Default"
+msgstr "Lehenetsia"
+
+#: libplanner/mrp-project.c:860
+#, c-format
+msgid "Invalid URI: '%s'"
+msgstr "URI baliogabea: %s"
+
+#: libplanner/mrp-project.c:904
+#, c-format
+msgid "Couldn't find a suitable file module for loading '%s'"
+msgstr "Ezin izan da aurkitu '%s' kargatzeko fitxategi-modulu egokirik"
+
+#: libplanner/mrp-project.c:925 libplanner/mrp-project.c:1209
+#, c-format
+msgid "No support for SQL storage built into this version of Planner."
+msgstr "SQL biltegiratzeen euskarririk ez du Planner-en bertsio honek."
+
+#: libplanner/mrp-project.c:962
+#, c-format
+msgid "Invalid URI."
+msgstr "URI baliogabea."
+
+#: libplanner/mrp-project.c:1103
+#, c-format
+msgid "Unable to find file writer identified by '%s'"
+msgstr "Ezin da aurkitu '%s' gisa identifikatutako fitxategi-idazlerik"
+
+#: libplanner/mrp-project.c:1166
+#, c-format
+msgid "Couldn't find a suitable file module for loading project"
+msgstr "Ezin izan da aurkitu proiektua kargatzeko fitxategi-modulu egokirik"
+
+#: libplanner/mrp-property.c:376
+msgid "Text"
+msgstr "Testua"
+
+#: libplanner/mrp-property.c:378
+msgid "String list"
+msgstr "Kate-zerrenda"
+
+#: libplanner/mrp-property.c:380
+msgid "Integer number"
+msgstr "Osoko zenbakia"
+
+#: libplanner/mrp-property.c:382
+msgid "Floating-point number"
+msgstr "Koma mugikorreko zenbakia"
+
+#: libplanner/mrp-property.c:384
+msgid "Date"
+msgstr "Data"
+
+#: libplanner/mrp-property.c:386 src/planner-gantt-view.c:601
+#: src/planner-task-view.c:365
+msgid "Duration"
+msgstr "Iraupena"
+
+#: libplanner/mrp-property.c:388 src/planner-gantt-view.c:603
+#: src/planner-resource-view.c:1286 src/planner-task-view.c:367
+msgid "Cost"
+msgstr "Kostua"
+
+#: libplanner/mrp-property.c:391 src/planner-project-properties.c:737
+msgid "None"
+msgstr "Bat ere ez"
+
+#: libplanner/mrp-sql.c:289 src/planner-sql-plugin.c:200
+msgid "Can't connect to database server"
+msgstr "Ezin da datu-basearen zerbitzariarekin konektatu"
+
+#: libplanner/mrp-sql.c:294 src/planner-sql-plugin.c:205
+msgid "No errors reported."
+msgstr "Ez du errorerik eman."
+
+#. Give up.
+#: libplanner/mrp-sql.c:389 src/planner-sql-plugin.c:274
+msgid "Invalid Unicode"
+msgstr "Unicode baliogabea"
+
+#: libplanner/mrp-sql.c:2283
+#, c-format
+msgid "Connection to database '%s' failed.\n"
+msgstr "'%s' datu-baserako konexioak huts egin du.\n"
+
+#: libplanner/mrp-sql.c:2288
+#, c-format
+msgid ""
+"Connection to database '%s' failed.\n"
+"%s"
+msgstr "'%s' datu-baserako konexioak huts egin du.\n"
+"%s"
+
+#: libplanner/mrp-sql.c:2303
+#, c-format
+msgid "BEGIN command failed %s."
+msgstr "BEGIN komandoak huts egin du: %s"
+
+#: libplanner/mrp-sql.c:2469
+#, c-format
+msgid ""
+"The project '%s' has been changed by the user '%s' since you opened it. Do "
+"you want to save anyway?"
+msgstr "'%s' proiektua aldatu egin du '%s' erabiltzaileak, zuk ireki eta gero. Gorde nahi duzu hala ere?"
+
+#: libplanner/mrp-sql.c:3724
+#, c-format
+msgid "Connection to database '%s' failed."
+msgstr "'%s' datu-baserako konexioak huts egin du."
+
+#: libplanner/mrp-storage-sql.c:181
+#, c-format
+msgid "Invalid SQL URI (must start with 'sql://' and contain '#')."
+msgstr "SQL URI baliogabea (honela hasi behar du: 'sql://', eta '#' eduki behar du)."
+
+#: libplanner/mrp-storage-sql.c:252
+#, c-format
+msgid "Invalid SQL URI (invalid project id)."
+msgstr "SQL URI baliogabea (proiektu-id baliogabea)."
+
+#: libplanner/mrp-storage-sql.c:260
+#, c-format
+msgid "Invalid SQL URI (no database name specified)."
+msgstr "SQL URI baliogabea (ez da datu-base izenik zehaztu)."
+
+#: libplanner/mrp-task.c:1118
+#, c-format
+msgid ""
+"Could not add a predecessor relation, because the tasks are already related."
+msgstr "Ezin izan da aurreko-erlaziorik gehitu; zereginak dagoeneko erlazionatuta daude."
+
+#: libplanner/mrp-task.c:1129
+msgid "Start to Finish relation type cannot be combined with other relations."
+msgstr "'Hasieratik amaierara' motako erlazioak ezin dira bestelako erlazioekin konbinatu."
+
+#: libplanner/mrp-task.c:1131
+msgid "Finish to Finish relation type cannot be combined with other relations."
+msgstr "'Amaieratik amaierara' motako erlazioak ezin dira bestelako erlazioekin konbinatu."
+
+#: libplanner/mrp-task.c:1148
+msgid ""
+"Start to Finish relation type cannot be combined with Start No Earlier Than "
+"constraint."
+msgstr "'Hasieratik amaierara' motako erlazioak ezin dira 'Ez hasi hau baino lehen' murriztapenekin konbinatu."
+
+#: libplanner/mrp-task.c:1150
+msgid ""
+"Finish to Finish relation type cannot be combined with Start No Earlier Than "
+"constraint."
+msgstr "'Amaieratik amaierara' motako erlazioak ezin dira 'Ez hasi hau baino lehen' murriztapenekin konbinatu."
+
+#: libplanner/mrp-task.c:1174
+#, c-format
+msgid ""
+"Start to Finish relation cannot be set. Predecessor starts on project start "
+"date."
+msgstr "'Hasieratik amaierara' erlazioa ezin da ezarri. Aurrekoaren hasiera proiektuaren hasierako data baita."
+
+#: libplanner/mrp-task-manager.c:2557
+#, c-format
+msgid "Cannot add a predecessor, because it would result in a loop."
+msgstr "Ezin da gehitu aurrekorik, begizta eragingo bailuke."
+
+#: libplanner/mrp-task-manager.c:2602
+#, c-format
+msgid "Cannot move the task, because it would result in a loop."
+msgstr "Ezin da lekuz aldatu zeregina, begizta eragingo bailuke."
+
+#. Translators: Example output: October 9, 2006
+#: libplanner/mrp-xsl.c:93
+msgid "%B %e, %Y"
+msgstr "%Y %B %e"
+
+#: libplanner/mrp-xsl.c:159 libplanner/mrp-xsl.c:207
+#, c-format
+msgid "Export to HTML failed"
+msgstr "Huts egin du HTMLra esportatzean"
+
+#: src/planner-application.c:54 src/planner-application.c:110
+msgid "Insert"
+msgstr "Txertatu"
+
+#: src/planner-application.c:61 src/planner-application.c:117
+msgid "Remove"
+msgstr "Kendu"
+
+#: src/planner-application.c:68
+msgid "Unlink"
+msgstr "Desestekatu"
+
+#: src/planner-application.c:75
+msgid "Link"
+msgstr "Estekatu"
+
+#: src/planner-application.c:82
+msgid "Indent"
+msgstr "Koska"
+
+#: src/planner-application.c:89
+msgid "Unindent"
+msgstr "Kendu koska"
+
+#: src/planner-application.c:96
+msgid "Move up"
+msgstr "Eraman gorantz"
+
+#: src/planner-application.c:103
+msgid "Move down"
+msgstr "Eraman beherantz"
+
+#: src/planner-application.c:124
+msgid "Edit"
+msgstr "Editatu"
+
+#: src/planner-calendar-dialog.c:183
+msgid "Change day type"
+msgstr "Aldatu egun-mota:"
+
+#: src/planner-calendar-dialog.c:305
+msgid "Remove calendar"
+msgstr "Kendu egutegia"
+
+#: src/planner-calendar-dialog.c:397
+msgid "Add new calendar"
+msgstr "Gehitu egutegi berria"
+
+#: src/planner-calendar-popover.ui:23
+msgid "Today"
+msgstr "Gaur"
+
+#. The order of items has to match the CONSTRAINT_COMBO_* constants in C file
+#: src/planner-calendar-popover.ui:45 src/planner-task-dialog.c:1431
+msgid "As soon as possible"
+msgstr "Ahal bezain laster"
+
+#: src/planner-calendar-popover.ui:46
+msgid "No earlier than"
+msgstr "Ez hasi hau baino lehen"
+
+#: src/planner-calendar-popover.ui:47
+msgid "On fixed date"
+msgstr "Finkatutako datan"
+
+#: src/planner-cmd-manager.c:227
+#, c-format
+msgid "Undo '%s'"
+msgstr "Desegin '%s'"
+
+#: src/planner-cmd-manager.c:229
+msgid "Undo"
+msgstr "Desegin"
+
+#: src/planner-cmd-manager.c:239
+#, c-format
+msgid "Redo '%s'"
+msgstr "Berregin '%s'"
+
+#: src/planner-cmd-manager.c:241
+msgid "Redo"
+msgstr "Berregin"
+
+#: src/planner-day-type-dialog.c:486
+#, c-format
+msgid "Add day type \"%s\""
+msgstr "Gehitu egun-mota: \"%s\""
+
+#: src/planner-day-type-dialog.c:547
+#, c-format
+msgid "Remove day type \"%s\""
+msgstr "Kendu egun-mota: \"%s\""
+
+#: src/planner-default-week-dialog.c:42
+msgid "Monday"
+msgstr "Astelehena"
+
+#: src/planner-default-week-dialog.c:43
+msgid "Tuesday"
+msgstr "Asteartea"
+
+#: src/planner-default-week-dialog.c:44
+msgid "Wednesday"
+msgstr "Asteazkena"
+
+#: src/planner-default-week-dialog.c:45
+msgid "Thursday"
+msgstr "Osteguna"
+
+#: src/planner-default-week-dialog.c:46
+msgid "Friday"
+msgstr "Ostirala"
+
+#: src/planner-default-week-dialog.c:47
+msgid "Saturday"
+msgstr "Larunbata"
+
+#: src/planner-default-week-dialog.c:48
+msgid "Sunday"
+msgstr "Igandea"
+
+#: src/planner-default-week-dialog.c:304
+msgid "No working time"
+msgstr "Lanik gabeko eguna"
+
+#: src/planner-default-week-dialog.c:315 src/planner-default-week-dialog.c:319
+msgid "%H:%M"
+msgstr "%H:%M"
+
+#: src/planner-default-week-dialog.c:533
+msgid "Edit default week"
+msgstr "Editatu aste lehenetsia"
+
+#: src/planner-eds-plugin.c:150
+msgid "EDS"
+msgstr "EDZ"
+
+#: src/planner-eds-plugin.c:151
+msgid "Import resources from Evolution Data Server"
+msgstr "Inportatu baliabideak Evolution Datu-Zerbitzaritik"
+
+#: src/planner-eds-plugin.c:379 src/planner-gantt-print.c:192
+#: src/planner-gantt-view.c:597 src/planner-group-dialog.c:816
+#: src/planner-property-dialog.c:458 src/planner-resource-view.c:1133
+#: src/planner-task-dialog.c:2557 src/planner-task-dialog.c:2627
+#: src/planner-task-view.c:361
+msgid "Name"
+msgstr "Izena"
+
+#: src/planner-eds-plugin.c:399 src/planner-resource-view.c:1259
+msgid "Email"
+msgstr "Helb. el."
+
+#: src/planner-eds-plugin.c:420
+msgid "Import"
+msgstr "Inportatu"
+
+#: src/planner-eds-plugin.c:430
+msgid "Photo"
+msgstr "Argazkia"
+
+#: src/planner-eds-plugin.c:666
+msgid "Imported from Evolution Data Server"
+msgstr "Evolution Datu-Zerbitzaritik inportatuta"
+
+#: src/planner-eds-plugin.c:667
+msgid "Updated from Evolution Data Server"
+msgstr "Evolution Datu-Zerbitzaritik eguneratuta"
+
+#: src/planner-eds-plugin.c:852
+msgid "Query cancelled."
+msgstr "Kontsulta bertan behera utzita."
+
+#: src/planner-eds-plugin.c:913
+msgid "Evolution Data Server UID"
+msgstr "Evolution Datu-Zerbitzariko UIDa"
+
+#: src/planner-eds-plugin.c:914
+msgid "Identifier used by Evolution Data Server for resources"
+msgstr "Identifikatzailea Evolution Datu-Zerbitzariak baliabideentzako erabiltzen duena"
+
+#: src/planner-format.c:153
+#, c-format
+msgid "%dd %dh"
+msgstr "%de %do"
+
+#: src/planner-format.c:156
+#, c-format
+msgid "%dd"
+msgstr "%de"
+
+#: src/planner-format.c:161
+#, c-format
+msgid "%dh %dmin"
+msgstr "%do %dmin"
+
+#: src/planner-format.c:164
+#, c-format
+msgid "%dh"
+msgstr "%do"
+
+#: src/planner-format.c:168
+#, c-format
+msgid "%dmin"
+msgstr "%dmin"
+
+#. i18n: this string is the date nr and month name, displayed
+#. * e.g. in the date cells in the task tree. See
+#. * libmrproject/docs/DateFormat.
+#.
+#: src/planner-format.c:203
+msgid "%b %e"
+msgstr "%b %e"
+
+#: src/planner-format.c:387
+msgid "mon"
+msgstr "hil"
+
+#. month unit variant accepted in input
+#: src/planner-format.c:388
+msgid "month"
+msgstr "hilabete"
+
+#. month unit variant accepted in input
+#: src/planner-format.c:389
+msgid "months"
+msgstr "hilabete"
+
+#. month unit variant accepted in input
+#: src/planner-format.c:390
+msgid "w"
+msgstr "a"
+
+#. week unit variant accepted in input
+#: src/planner-format.c:391
+msgid "week"
+msgstr "aste"
+
+#. week unit variant accepted in input
+#: src/planner-format.c:392
+msgid "weeks"
+msgstr "aste"
+
+#. week unit variant accepted in input
+#: src/planner-format.c:393
+msgid "d"
+msgstr "e"
+
+#. day unit variant accepted in input
+#: src/planner-format.c:394
+msgid "day"
+msgstr "egun"
+
+#. day unit variant accepted in input
+#: src/planner-format.c:395
+msgid "days"
+msgstr "egun"
+
+#. day unit variant accepted in input
+#: src/planner-format.c:396
+msgid "h"
+msgstr "o"
+
+#. hour unit variant accepted in input
+#: src/planner-format.c:397
+msgid "hour"
+msgstr "ordu"
+
+#. hour unit variant accepted in input
+#: src/planner-format.c:398
+msgid "hours"
+msgstr "ordu"
+
+#. hour unit variant accepted in input
+#: src/planner-format.c:399
+msgid "min"
+msgstr "min"
+
+#. minute unit variant accepted in input
+#: src/planner-format.c:400
+msgid "minute"
+msgstr "minutu"
+
+#. minute unit variant accepted in input
+#: src/planner-format.c:401
+msgid "minutes"
+msgstr "minutu"
+
+#. i18n: project start, the date format is described in
+#. * libmrproject/docs/DateFormat.
+#: src/planner-gantt-background.c:577
+msgid "%Y %b %d"
+msgstr "%Y %b %d"
+
+#: src/planner-gantt-background.c:579
+msgid "Project start"
+msgstr "Proiektu-hasiera"
+
+#: src/planner-gantt-header.c:687
+msgid "%a, %e %b %Y"
+msgstr "%a, %Y %b %e"
+
+#: src/planner-gantt-print.c:200 src/planner-gantt-view.c:600
+#: src/planner-resource-dialog.c:255 src/planner-resource-view.c:744
+#: src/planner-resource-view.c:760 src/planner-resource-view.c:1684
+#: src/planner-task-view.c:364
+msgid "Work"
+msgstr "Lanekoa"
+
+#: src/planner-gantt-print.c:547 src/planner-gantt-row.c:738
+#: src/planner-html-plugin.c:120 src/planner-task-tree.c:1570
+#: src/planner-window.c:1784
+msgid "Unnamed"
+msgstr "Izengabea"
+
+#: src/planner-gantt-row.c:2120
+#, c-format
+msgid "Change work to %s"
+msgstr "Aldatu lana --> %s"
+
+#: src/planner-gantt-row.c:2136
+#, c-format
+msgid "Change progress to %u%% complete"
+msgstr "Aldatu progresioa %%%u-(e)ra osatzeko"
+
+#: src/planner-gantt-row.c:2175 src/planner-gantt-row.c:2178
+msgid "No name"
+msgstr "Izenik ez"
+
+#: src/planner-gantt-row.c:2181
+#, c-format
+msgid "Make task '%s' a predecessor of '%s'"
+msgstr "Egin '%s' zeregina '%s'(r)en aurreko"
+
+#: src/planner-gantt-row.c:3202 src/planner-task-dialog.c:401
+#: src/planner-task-tree.c:264 src/planner-task-tree.c:957
+msgid "Edit task property"
+msgstr "Editatu zeregin-propietatea"
+
+#: src/planner-gantt-view.c:137 src/planner-task-view.c:118
+msgid "_Insert Task"
+msgstr "_Txertatu zeregina"
+
+#: src/planner-gantt-view.c:138 src/planner-task-view.c:119
+msgid "Insert a new task"
+msgstr "Txertatu zeregin berria"
+
+#: src/planner-gantt-view.c:140 src/planner-task-view.c:121
+msgid "In_sert Tasks..."
+msgstr "Tx_ertatu zereginak..."
+
+#: src/planner-gantt-view.c:143 src/planner-task-view.c:124
+msgid "_Remove Task"
+msgstr "_Kendu zeregina"
+
+#: src/planner-gantt-view.c:144 src/planner-task-view.c:125
+msgid "Remove the selected tasks"
+msgstr "Hautatutako zereginak kentzen ditu"
+
+#: src/planner-gantt-view.c:146
+msgid "_Edit Task Properties..."
+msgstr "_Editatu zeregin-propietateak..."
+
+#: src/planner-gantt-view.c:149 src/planner-resource-view.c:241
+#: src/planner-task-view.c:130
+msgid "Select _All"
+msgstr "Hautatu _denak"
+
+#: src/planner-gantt-view.c:150 src/planner-resource-view.c:242
+#: src/planner-task-view.c:131
+msgid "Select all tasks"
+msgstr "Hautatu zeregin guztiak"
+
+#: src/planner-gantt-view.c:152 src/planner-task-view.c:133
+msgid "_Unlink Task"
+msgstr "_Desestekatu zeregina"
+
+#: src/planner-gantt-view.c:153 src/planner-task-view.c:134
+msgid "Unlink the selected tasks"
+msgstr "Desestekatu hautatutako zereginak"
+
+#: src/planner-gantt-view.c:155 src/planner-task-view.c:136
+msgid "_Link Tasks"
+msgstr "_Estekatu zereginak"
+
+#: src/planner-gantt-view.c:156 src/planner-task-view.c:137
+msgid "Link the selected tasks"
+msgstr "Estekatu hautatutako zereginak"
+
+#: src/planner-gantt-view.c:158 src/planner-task-view.c:139
+msgid "I_ndent Task"
+msgstr "_Koskatu zeregina"
+
+#: src/planner-gantt-view.c:159 src/planner-task-view.c:140
+msgid "Indent the selected tasks"
+msgstr "Koskatu hautatutako zereginak"
+
+#: src/planner-gantt-view.c:161 src/planner-task-view.c:142
+msgid "Unin_dent Task"
+msgstr "Ke_ndu koska zereginari"
+
+#: src/planner-gantt-view.c:162 src/planner-task-view.c:143
+msgid "Unindent the selected tasks"
+msgstr "Kendu koska hautatutako zereginei"
+
+#: src/planner-gantt-view.c:164 src/planner-task-view.c:145
+msgid "Move Task _Up"
+msgstr "Eraman zeregina _gora"
+
+#: src/planner-gantt-view.c:165 src/planner-task-view.c:146
+msgid "Move the selected tasks upwards"
+msgstr "Hautatutako zereginak gorantz eramaten ditu"
+
+#: src/planner-gantt-view.c:167 src/planner-task-view.c:148
+msgid "Move Task Do_wn"
+msgstr "Eraman zeregina be_hera"
+
+#: src/planner-gantt-view.c:168 src/planner-task-view.c:149
+msgid "Move the selected tasks downwards"
+msgstr "Hautatutako zereginak beherantz eramaten ditu"
+
+#: src/planner-gantt-view.c:170 src/planner-task-view.c:151
+msgid "Reset _Constraint"
+msgstr "Berrezarri _murriztapena"
+
+#: src/planner-gantt-view.c:173
+msgid "Zoom To _Fit"
+msgstr "D_oitzeko zooma"
+
+#: src/planner-gantt-view.c:174 src/planner-usage-view.c:115
+msgid "Zoom to fit the entire project"
+msgstr "Zooma ezartzen du proiektu osora doitzeko"
+
+#: src/planner-gantt-view.c:176
+msgid "_Zoom In"
+msgstr "_Handiagotu"
+
+#: src/planner-gantt-view.c:177 src/planner-usage-view.c:111
+#: src/planner-usage-view.c:112
+msgid "Zoom in"
+msgstr "Handiagotu zooma"
+
+#: src/planner-gantt-view.c:179
+msgid "Zoom _Out"
+msgstr "_Txikiagotu"
+
+#: src/planner-gantt-view.c:180 src/planner-usage-view.c:108
+#: src/planner-usage-view.c:109
+msgid "Zoom out"
+msgstr "Txikiagotu zooma"
+
+#: src/planner-gantt-view.c:182 src/planner-resource-view.c:247
+#: src/planner-task-view.c:157 src/planner-usage-view.c:117
+msgid "Edit _Visible Columns"
+msgstr "Editatu zutabe _ikusgaiak"
+
+#: src/planner-gantt-view.c:183 src/planner-resource-view.c:248
+#: src/planner-task-view.c:158 src/planner-usage-view.c:118
+msgid "Edit visible columns"
+msgstr "Editatu zutabe ikusgaiak"
+
+#: src/planner-gantt-view.c:188 src/planner-task-view.c:163
+msgid "_Highlight Critical Tasks"
+msgstr "_Nabarmendu zeregin kritikoak"
+
+#: src/planner-gantt-view.c:191
+msgid "_Show Guide Lines"
+msgstr "_Erakutsi gida-lerroak"
+
+#: src/planner-gantt-view.c:194 src/planner-task-view.c:165
+msgid "_Nonstandard Days"
+msgstr "Egun e_z-estandarrak"
+
+#. i18n: Label used for the sidebar. Please try to make it short and use
+#. * a linebreak if necessary/possible.
+#.
+#: src/planner-gantt-view.c:390
+msgid "Gantt"
+msgstr "Gantt"
+
+#: src/planner-gantt-view.c:396
+msgid "_Gantt Chart"
+msgstr "_Gantt diagrama"
+
+#. i18n: WBS is short for work breakdown structure, and is a
+#. * project management term. You might want to leave it
+#. * untranslated unless there is a localized term for it.
+#.
+#. i18n: WBS is sort for work breakdown structure, and is a
+#. * project management term. You might want to leave it
+#. * untranslated unless there is a localized term for it.
+#.
+#: src/planner-gantt-view.c:596 src/planner-task-view.c:360
+msgid "WBS"
+msgstr "LDE"
+
+#: src/planner-gantt-view.c:598 src/planner-task-view.c:362
+msgid "Start"
+msgstr "Hasi"
+
+#: src/planner-gantt-view.c:599 src/planner-task-view.c:363
+msgid "Finish"
+msgstr "Amaitu"
+
+#: src/planner-gantt-view.c:602 src/planner-task-view.c:366
+msgid "Slack"
+msgstr "Lasaiera"
+
+#: src/planner-gantt-view.c:604 src/planner-task-view.c:368
+msgid "Assigned to"
+msgstr "Honi esleitua"
+
+#. i18n: The string "% Complete" will be used in the header
+#. * of a column containing values from 0 upto 100, indicating
+#. * what part of a task has been completed.
+#.
+#: src/planner-gantt-view.c:610 src/planner-task-view.c:374
+#, no-c-format
+msgid "% Complete"
+msgstr "Osatuta (%)"
+
+#: src/planner-gantt-view.c:947
+msgid "Edit Gantt Columns"
+msgstr "Editatu Gantt zutabeak"
+
+#: src/planner-group-dialog.c:302
+msgid "Insert group"
+msgstr "Txertatu taldea"
+
+#: src/planner-group-dialog.c:429
+msgid "Remove group"
+msgstr "Kendu taldea"
+
+#: src/planner-group-dialog.c:523
+msgid "Default group"
+msgstr "Talde lehenetsia"
+
+#: src/planner-group-dialog.c:641
+msgid "Edit group property"
+msgstr "Editatu talde-propietateak"
+
+#: src/planner-group-dialog.c:822
+msgid "Manager name"
+msgstr "Kudeatzailearen izena"
+
+#: src/planner-group-dialog.c:828
+msgid "Manager phone"
+msgstr "Kudeatzailearen telefonoa"
+
+#: src/planner-group-dialog.c:834
+msgid "Manager email"
+msgstr "Kudeatzailearen helb.el."
+
+#: src/planner-html-plugin.c:46
+msgid "HTML"
+msgstr "HTML"
+
+#: src/planner-html-plugin.c:47
+msgid "Export project to HTML"
+msgstr "Esportatu proiektua HTMLra"
+
+#: src/planner-html-plugin.c:79
+msgid "Could not export to HTML"
+msgstr "Ezin izan da HTMLra esportatu"
+
+#: src/planner-html-plugin.c:105
+msgid "Export to HTML"
+msgstr "Esportatu HTMLra"
+
+#: src/planner-html-plugin.c:149
+msgid "Show result in browser"
+msgstr "Ikusi emaitza arakatzailean"
+
+#: src/planner-html-plugin.c:168 src/planner-window.c:1511
+#: src/planner-xml-planner-plugin.c:128
+#, c-format
+msgid "File \"%s\" exists, do you want to overwrite it?"
+msgstr "\"%s\" fitxategia badago lehendik. Gainidatzi nahi duzu?"
+
+#: src/planner-main.c:44
+msgid "Create the initial window with the given geometry."
+msgstr "Sortu hasierako leihoa emandako geometriarekin."
+
+#: src/planner-main.c:44
+msgid "GEOMETRY"
+msgstr "GEOMETRIA"
+
+#: src/planner-main.c:45
+msgid "FILES|URIs"
+msgstr "FITXATEGIAK|URIak"
+
+#: src/planner-main.c:75
+msgid "- Planner project management"
+msgstr "- Planner proiektu-kudeaketa"
+
+#: src/planner-main.c:79
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr "%s\n"
+"Exekutatu '%s --help' aukeren zerrenda osoa ikusteko.\n"
+
+#: src/planner-main.c:107
+#, c-format
+msgid "Invalid geometry string \"%s\"\n"
+msgstr "\"%s\" geometria-kate baliogabea\n"
+
+#: src/planner-msp-plugin.c:51
+msgid "MS Project XML..."
+msgstr "MS Project XML..."
+
+#: src/planner-msp-plugin.c:51
+msgid "Import an MS Project XML file"
+msgstr "Inportatu MS Project XML fitxategia"
+
+#: src/planner-msp-plugin.c:119
+msgid "Couldn't import file."
+msgstr "Ezin izan da fitxategia inportatu"
+
+#: src/planner-msp-plugin.c:212
+msgid "Import a File"
+msgstr "Inportatu fitxategia"
+
+#: src/planner-msp-plugin.c:220
+msgid "XML Files"
+msgstr "XML fitxategiak"
+
+#: src/planner-msp-plugin.c:225 src/planner-window.c:875
+msgid "All Files"
+msgstr "Fitxategi denak"
+
+#: src/planner-phase-dialog.c:527
+msgid "Insert phase"
+msgstr "Txertatu fasea"
+
+#: src/planner-phase-dialog.c:626
+msgid "Remove phase"
+msgstr "Kendu fasea"
+
+#: src/planner-plugin-loader.c:40
+#, c-format
+msgid "Could not open plugin file '%s'\n"
+msgstr "Ezin izan da ireki '%s' plugin-fitxategia\n"
+
+#. i18n: finish-to-start, not sure if it should be translated...
+#: src/planner-predecessor-model.c:192 src/planner-task-dialog.c:2161
+msgid "FS"
+msgstr "AH"
+
+#: src/planner-predecessor-model.c:195 src/planner-task-dialog.c:2167
+msgid "FF"
+msgstr "AA"
+
+#: src/planner-predecessor-model.c:198 src/planner-task-dialog.c:2173
+msgid "SS"
+msgstr "HH"
+
+#: src/planner-predecessor-model.c:201 src/planner-task-dialog.c:2179
+msgid "SF"
+msgstr "HA"
+
+#: src/planner-print-dialog.c:247
+msgid "Select the views to print:"
+msgstr "Hautatu inprimatzeko ikuspegiak:"
+
+#: src/planner-print-job.c:168
+msgid "Select views"
+msgstr "Hautatu ikuspegiak"
+
+#: src/planner-project-properties.c:383
+msgid "Select a calendar to use for this project:"
+msgstr "Hautatu proiektu honetan erabiltzeko egutegia:"
+
+#: src/planner-project-properties.c:483
+msgid "Edit Project Name"
+msgstr "Editatu proiektuaren izena"
+
+#: src/planner-project-properties.c:519
+msgid "Edit Organization"
+msgstr "Editatu erakundea"
+
+#: src/planner-project-properties.c:555
+msgid "Edit Manager"
+msgstr "Editatu kudeatzailea"
+
+#: src/planner-project-properties.c:630 src/planner-project-properties.c:654
+msgid "Edit Project Start"
+msgstr "Editatu proiektuaren hasiera"
+
+#: src/planner-project-properties.c:679
+msgid "Edit Project Phase"
+msgstr "Editatu proiektuaren faseak"
+
+#: src/planner-project-properties.c:812
+msgid "Property"
+msgstr "Propietatea"
+
+#: src/planner-project-properties.c:823
+msgid "Value"
+msgstr "Balioa"
+
+#: src/planner-project-properties.c:1218 src/planner-property-dialog.c:306
+msgid "The name of the custom property needs to start with a letter."
+msgstr "Propietate pertsonalizatuaren izenak letra batekin hasi behar du."
+
+#: src/planner-project-properties.c:1290 src/planner-property-dialog.c:376
+#, c-format
+msgid "Do you really want to remove the property '%s' from the project?"
+msgstr "Ziur zaude '%s' propietatea proiektutik kendu nahi duzula?"
+
+#: src/planner-project-properties.c:1748
+msgid "Add project property"
+msgstr "Gehitu proiektuaren propietatea"
+
+#: src/planner-project-properties.c:1858
+msgid "Remove project property"
+msgstr "Kendu proiektuaren propietatea"
+
+#: src/planner-project-properties.c:1951
+msgid "Edit project property value"
+msgstr "Editatu proiektu-propietatearen balioa"
+
+#: src/planner-property-dialog.c:475
+msgid "Label"
+msgstr "Etiketa"
+
+#: src/planner-property-dialog.c:487 src/planner-resource-view.c:1195
+#: src/planner-task-dialog.c:2651
+msgid "Type"
+msgstr "Mota"
+
+#: src/planner-property-dialog.c:640
+msgid "Add property"
+msgstr "Gehitu propietatea"
+
+#: src/planner-property-dialog.c:785
+msgid "Remove property"
+msgstr "Kendu propietatea"
+
+#: src/planner-property-dialog.c:878
+msgid "Edit property label"
+msgstr "Editatu etiketa-propietatea"
+
+#: src/planner-resource-cmd.c:75
+msgid "Insert resource"
+msgstr "Txertatu baliabidea"
+
+#: src/planner-resource-dialog.c:256 src/planner-resource-view.c:747
+#: src/planner-resource-view.c:761 src/planner-resource-view.c:1689
+msgid "Material"
+msgstr "Materiala"
+
+#: src/planner-resource-dialog.c:271 src/planner-resource-input-dialog.c:80
+#: src/planner-resource-view.c:1863
+msgid "(None)"
+msgstr "(Bat ere ez)"
+
+#: src/planner-resource-dialog.c:275 src/planner-resource-input-dialog.c:84
+#: src/planner-task-dialog.c:330
+msgid "(No name)"
+msgstr "(Izenik ez)"
+
+#: src/planner-resource-dialog.c:472
+msgid "Edit resource calendar"
+msgstr "Editatu baliabide-egutegia"
+
+#: src/planner-resource-dialog.c:553
+msgid "Edit resource note"
+msgstr "Editatu baliabide-oharrak"
+
+#: src/planner-resource-dialog.c:620
+msgid "Edit resource cost"
+msgstr "Editatu baliabide-kosteak"
+
+#: src/planner-resource-dialog.c:688 src/planner-resource-dialog.c:729
+#: src/planner-resource-view.c:1385 src/planner-resource-view.c:1466
+msgid "Edit resource property"
+msgstr "Editatu baliabide-propietatea"
+
+#. i18n: time stamp format for notes in task dialog, see strftime(3) for
+#. * a detailed description.
+#: src/planner-resource-dialog.c:1373 src/planner-task-dialog.c:1746
+msgid "%a %d %b %Y, %H:%M\n"
+msgstr "%a, %Y %b %d, %H:%M\n"
+
+#: src/planner-resource-dialog.c:1489
+msgid "None (use project default)"
+msgstr "Bat ere ez (erabili proiektuko lehenetsia)"
+
+#: src/planner-resource-dialog.c:1611 src/planner-resource-dialog.c:1613
+msgid "Edit resource properties"
+msgstr "Editatu baliabide-propietateak"
+
+#: src/planner-resource-view.c:226
+msgid "_Insert Resource"
+msgstr "_Txertatu baliabidea"
+
+#: src/planner-resource-view.c:227
+msgid "Insert a new resource"
+msgstr "Txertatu baliabide berria"
+
+#: src/planner-resource-view.c:229
+msgid "In_sert Resources..."
+msgstr "Txertatu _baliabideak..."
+
+#: src/planner-resource-view.c:232
+msgid "_Remove Resource"
+msgstr "_Kendu baliabidea"
+
+#: src/planner-resource-view.c:233
+msgid "Remove the selected resource"
+msgstr "Kendu hautatutako baliabidea"
+
+#: src/planner-resource-view.c:235
+msgid "_Edit Resource Properties..."
+msgstr "_Editatu baliabide-propietateak..."
+
+#: src/planner-resource-view.c:238
+msgid "Edit _Groups"
+msgstr "Editatu ta_ldeak"
+
+#: src/planner-resource-view.c:239
+msgid "Edit resource groups"
+msgstr "Editatu baliabide-taldeak"
+
+#: src/planner-resource-view.c:244
+msgid "Edit _Custom Properties..."
+msgstr "Editatu propie_tate pertsonalizatuak..."
+
+#: src/planner-resource-view.c:411
+msgid "_Resources"
+msgstr "_Baliabideak"
+
+#: src/planner-resource-view.c:910
+msgid "Remove resource"
+msgstr "Kendu baliabidea"
+
+#: src/planner-resource-view.c:979
+msgid "Edit Resource Columns"
+msgstr "Editatu baliabide-zutabeak"
+
+#: src/planner-resource-view.c:1014
+msgid "Edit custom resource properties"
+msgstr "Editatu baliabide-propietate pertsonalizatuak"
+
+#: src/planner-resource-view.c:1159
+msgid "Short name"
+msgstr "Izen laburra"
+
+#: src/planner-resource-view.c:1233
+msgid "Group"
+msgstr "Taldea"
+
+#: src/planner-scale-utils.c:92
+#, c-format
+msgid "%a %e"
+msgstr "%a %e"
+
+#: src/planner-scale-utils.c:95
+msgid "%a, %b %e"
+msgstr "%a, %b %e"
+
+#. i18n: Short "Week", preferably 2 letters.
+#: src/planner-scale-utils.c:104
+#, c-format
+msgid "Wk %d"
+msgstr "%d. as"
+
+#: src/planner-scale-utils.c:108
+#, c-format
+msgid "Week %d"
+msgstr "%d. astea"
+
+#. i18n: Week, year.
+#: src/planner-scale-utils.c:113
+#, c-format
+msgid "Week %d, %d"
+msgstr "%d. astea, %d"
+
+#. i18n: Short "Quarter", preferably 1 letter.
+#: src/planner-scale-utils.c:140
+#, c-format
+msgid "Q%d"
+msgstr "%dHh"
+
+#. i18n: Short "Quarter", preferably 2-3 letters.
+#: src/planner-scale-utils.c:144
+#, c-format
+msgid "Qtr %d"
+msgstr "%d. Hh"
+
+#. i18n: Year, short "Quarter", preferably 2-3 letters.
+#: src/planner-scale-utils.c:148
+#, c-format
+msgid "%d, Qtr %d"
+msgstr "%d, %d. Hh"
+
+#. i18n: Short "Half year", preferably 1 letter.
+#: src/planner-scale-utils.c:161
+#, c-format
+msgid "H%d"
+msgstr "%dSh"
+
+#. i18n: Year, short "Half year", preferably 1 letter.
+#: src/planner-scale-utils.c:166
+#, c-format
+msgid "%04d, H%d"
+msgstr "%04d, %dSh"
+
+#: src/planner-sql-plugin.c:94
+msgid "Open from Database..."
+msgstr "Ireki datu-basetik..."
+
+#: src/planner-sql-plugin.c:95
+msgid "Open a project from a database"
+msgstr "Ireki proiektua datu-basetik"
+
+#: src/planner-sql-plugin.c:97 src/planner-sql-plugin.c:1210
+msgid "Save to Database"
+msgstr "Gorde datu-basean"
+
+#: src/planner-sql-plugin.c:98
+msgid "Save the current project to a database"
+msgstr "Gorde uneko proiektua datu-base batean"
+
+#: src/planner-sql-plugin.c:574
+#, c-format
+msgid ""
+"Database %s needs to be upgraded from version %s to version %s.\n"
+"Please backup database before the upgrade."
+msgstr "%s datu-baseak bertsio-berritzea eskatzen du (%s bertsiotik %s bertsiora).\n"
+"Datu-basearen babeskopia egin bertsio-berritu aurretik."
+
+#: src/planner-sql-plugin.c:581
+msgid "Upgrade"
+msgstr "Bertsio-berritu"
+
+#: src/planner-sql-plugin.c:595
+#, c-format
+msgid ""
+"Could not upgrade database %s.\n"
+" Upgrade file used: %s.\n"
+"\n"
+"Database error: \n"
+"%s"
+msgstr "Ezin izan da %s datu-basea bertsio-berritu.\n"
+"Erabilitako fitxategia bertsio-berritzeko: %s.\n"
+"\n"
+"Datu-baseko errorea:\n"
+"%s"
+
+#: src/planner-sql-plugin.c:635
+#, c-format
+msgid "Can't create tables in database %s"
+msgstr "Ezin da %s datu-basean taularik sortu"
+
+#: src/planner-sql-plugin.c:698
+#, c-format
+msgid "Database %s is not setup for Planner. Do you want to do that?"
+msgstr "%s datu-basea ez dago Planner-entzako konfiguratua. Hori egitea nahi duzu?"
+
+#: src/planner-sql-plugin.c:740
+#, c-format
+msgid "Connection to database '%s@%s' failed."
+msgstr "'%s@%s' datu-baserako konexioak huts egin du."
+
+#: src/planner-sql-plugin.c:763
+#, c-format
+msgid "Test to tables in database '%s' failed."
+msgstr "'%s' datu-baseko taulen probak huts egin du."
+
+#: src/planner-sql-plugin.c:851
+msgid "ID"
+msgstr "IDa"
+
+#: src/planner-sql-plugin.c:859
+msgid "Project"
+msgstr "Proiektua"
+
+#: src/planner-sql-plugin.c:867
+msgid "Phase"
+msgstr "Fasea"
+
+#: src/planner-sql-plugin.c:875
+msgid "Revision"
+msgstr "Berrikuspena"
+
+#: src/planner-sql-plugin.c:1100
+msgid "Open from Database"
+msgstr "Ireki datu-basetik"
+
+#: src/planner-task-cmd.c:97
+msgid "Link task"
+msgstr "Estekatu zeregina"
+
+#: src/planner-task-cmd.c:173
+msgid "Unlink task"
+msgstr "Desestekatu zeregina"
+
+#: src/planner-task-cmd.c:268
+msgid "Insert task"
+msgstr "Txertatu zeregina"
+
+#: src/planner-task-dialog.c:276
+msgid "Finish to start (FS)"
+msgstr "Amaieratik hasierara (AH)"
+
+#: src/planner-task-dialog.c:277
+msgid "Finish to finish (FF)"
+msgstr "Amaieratik amaierara (AA)"
+
+#: src/planner-task-dialog.c:278
+msgid "Start to start (SS)"
+msgstr "Hasieratik hasierara (HH)"
+
+#: src/planner-task-dialog.c:279
+msgid "Start to finish (SF)"
+msgstr "Hasieratik amaierara (HA)"
+
+#: src/planner-task-dialog.c:475
+msgid "Edit task type"
+msgstr "Editatu zeregin-mota"
+
+#: src/planner-task-dialog.c:542
+msgid "Toggle fixed duration"
+msgstr "Txandakatu iraupen finkoa"
+
+#: src/planner-task-dialog.c:609
+msgid "Edit task scheduling"
+msgstr "Editatu zeregin-antolaketa"
+
+#: src/planner-task-dialog.c:689
+msgid "Assign resource to task"
+msgstr "Esleitu baliabidea zereginera..."
+
+#: src/planner-task-dialog.c:749
+msgid "Unassign resource from task"
+msgstr "Desesleitu baliabidea zereginetik"
+
+#: src/planner-task-dialog.c:808
+msgid "Change resource units in task"
+msgstr "Aldatu zeregineko baliabide-unitateak"
+
+#: src/planner-task-dialog.c:896
+msgid "Edit task predecessor"
+msgstr "Editatu aurreko zeregina"
+
+#: src/planner-task-dialog.c:967
+msgid "Edit lag predecessor"
+msgstr "Gehitu aurreko atzerapena"
+
+#: src/planner-task-dialog.c:1032
+msgid "Edit task note"
+msgstr "Editatu zeregin-oharra"
+
+#: src/planner-task-dialog.c:1435
+#, c-format
+msgid "No earlier than %s"
+msgstr "Ez hasi %s baino lehen"
+
+#: src/planner-task-dialog.c:1439
+#, c-format
+msgid "On fixed date %s"
+msgstr "Finkatutako %s datan"
+
+#: src/planner-task-dialog.c:1909
+msgid "Can't add new predecessor. No task selected!"
+msgstr "Ezin da aurreko berririk gehitu. Ez da zereginik hautatu!"
+
+#: src/planner-task-dialog.c:2578
+msgid "Assigned"
+msgstr "Esleitua"
+
+#: src/planner-task-dialog.c:2595
+msgid "Units"
+msgstr "Unitateak"
+
+#: src/planner-task-dialog.c:2669
+msgid "Lag"
+msgstr "Atzerapena"
+
+#: src/planner-task-dialog.c:2812 src/planner-task-dialog.c:2814
+msgid "Edit task properties"
+msgstr "Editatu zeregin-propietateak"
+
+#: src/planner-task-popup.c:45
+msgid "_Insert task"
+msgstr "_Txertatu zeregina"
+
+#: src/planner-task-popup.c:49
+msgid "Insert _subtask"
+msgstr "Txertatu _azpizeregina"
+
+#: src/planner-task-popup.c:53
+msgid "_Remove task"
+msgstr "_Kendu zeregina"
+
+#: src/planner-task-popup.c:57
+msgid "_Unlink task"
+msgstr "_Desestekatu zeregina"
+
+#: src/planner-task-popup.c:61
+msgid "Assign _resources..."
+msgstr "Esleitu _baliabideak..."
+
+#: src/planner-task-popup.c:65 src/planner-usage-tree.c:91
+msgid "_Edit task..."
+msgstr "_Editatu zeregina..."
+
+#: src/planner-task-tree.c:566
+msgid "Remove task"
+msgstr "Kendu zeregina"
+
+#: src/planner-task-tree.c:656
+msgid "Apply constraint to task"
+msgstr "Aplikatu murriztapena zereginari"
+
+#: src/planner-task-tree.c:716
+msgid "Reset task constraint"
+msgstr "Berrezarri zereginaren murriztapena"
+
+#: src/planner-task-tree.c:1469 src/planner-task-tree.c:1623
+msgid "N/A"
+msgstr "E/E"
+
+#: src/planner-task-tree.c:2833
+msgid "Remove tasks"
+msgstr "Kendu zereginak"
+
+#: src/planner-task-tree.c:2895
+#, c-format
+msgid ""
+"You are about to open an edit dialog each for %i tasks. Are you sure that "
+"you want to do that?"
+msgstr "%i zeregin bakoitzarentzat edizio-koadro bat irekitzera zoaz. Ziur zaude hori egin nahi duzula?"
+
+#: src/planner-task-tree.c:2997
+msgid "Unlink tasks"
+msgstr "Desestekatu zereginak"
+
+#: src/planner-task-tree.c:3049
+msgid "Link tasks"
+msgstr "Estekatu zereginak"
+
+#: src/planner-task-tree.c:3138
+msgid "Indent tasks"
+msgstr "Koskatu zereginak"
+
+#: src/planner-task-tree.c:3149
+msgid "Indent task"
+msgstr "Koskatu zeregina"
+
+#: src/planner-task-tree.c:3241
+msgid "Unindent tasks"
+msgstr "Kendu koska zereginei"
+
+#: src/planner-task-tree.c:3259
+msgid "Unindent task"
+msgstr "Kendu koska zereginari"
+
+#: src/planner-task-tree.c:3335
+msgid "Move tasks up"
+msgstr "Eraman zereginak gora"
+
+#: src/planner-task-tree.c:3373
+msgid "Move task up"
+msgstr "Eraman zeregina gora"
+
+#: src/planner-task-tree.c:3465
+msgid "Move tasks down"
+msgstr "Eraman zereginak behera"
+
+#. Moving task from 'position' to 'position + 1'
+#: src/planner-task-tree.c:3511
+msgid "Move task down"
+msgstr "Eraman zeregina behera"
+
+#: src/planner-task-tree.c:3571
+msgid "Reset task constraints"
+msgstr "Berrezarri zereginaren murriztapenak"
+
+#: src/planner-task-tree.c:3603
+msgid "Reset all task constraints"
+msgstr "Berrezarri zeregin guztien murriztapenak"
+
+#: src/planner-task-view.c:127
+msgid "_Edit Task"
+msgstr "_Editatu zeregina"
+
+#: src/planner-task-view.c:154
+msgid "_Edit Custom Properties..."
+msgstr "_Editatu propietate pertsonalizatuak..."
+
+#: src/planner-task-view.c:300
+msgid "Tasks"
+msgstr "Zereginak"
+
+#: src/planner-task-view.c:306
+msgid "_Tasks"
+msgstr "_Zereginak"
+
+#: src/planner-task-view.c:602
+msgid "Edit custom task properties"
+msgstr "Editatu zereginaren propietate pertsonalizatuak"
+
+#: src/planner-task-view.c:656
+msgid "Edit Task Columns"
+msgstr "Editatu zereginen zutabea"
+
+#: src/planner-usage-tree.c:87
+msgid "Edit _resource..."
+msgstr "Editatu b_aliabidea..."
+
+#: src/planner-usage-tree.c:95
+msgid "E_xpand all resources"
+msgstr "_Zabaldu baliabide guztiak"
+
+#: src/planner-usage-tree.c:99
+msgid "_Collapse all resources"
+msgstr "_Tolestu baliabide guztiak"
+
+#: src/planner-usage-tree.c:389
+msgid ""
+"\n"
+"Name"
+msgstr "\n"
+"Izena"
+
+#: src/planner-usage-tree.c:391
+msgid ""
+"\n"
+"Task"
+msgstr "\n"
+"Zeregina"
+
+#: src/planner-usage-view.c:114
+msgid "Zoom to fit"
+msgstr "Doitzeko zooma"
+
+#. i18n: Label used for the sidebar. Please try to make it short and use
+#. * a linebreak if necessary/possible.
+#.
+#: src/planner-usage-view.c:273
+msgid ""
+"Resource\n"
+"Usage"
+msgstr "Baliabideen\n"
+"erabilera"
+
+#: src/planner-usage-view.c:279
+msgid "Resource _Usage"
+msgstr "Baliabide-erabi_lera"
+
+#: src/planner-usage-view.c:392
+msgid "Edit Resource Usage Columns"
+msgstr "Editatu baliabideen erabilera-zutabeak"
+
+#: src/planner-util-win32.c:45
+#, c-format
+msgid "Unable to open '%s'"
+msgstr "Ezin da '%s' ireki"
+
+#: src/planner-util-win32.c:72
+msgid "Unable to open help file"
+msgstr "Ezin da laguntzako fitxategia ireki"
+
+#: src/planner-window.c:211
+msgid "_File"
+msgstr "_Fitxategia"
+
+#: src/planner-window.c:215
+msgid "_New Project"
+msgstr "Proiekt_u berria"
+
+#: src/planner-window.c:215
+msgid "Create a new project"
+msgstr "Proiektu berria sortzen du"
+
+#: src/planner-window.c:219
+msgid "_Open..."
+msgstr "_Ireki..."
+
+#: src/planner-window.c:219
+msgid "Open a project"
+msgstr "Proiektu bat irekitzen du"
+
+#: src/planner-window.c:222
+msgid "Open _Recent"
+msgstr "Ireki _oraintsukoa"
+
+#: src/planner-window.c:225
+msgid "_Import"
+msgstr "_Inportatu"
+
+#: src/planner-window.c:229 src/planner-window.c:1380
+msgid "_Save"
+msgstr "_Gorde"
+
+#: src/planner-window.c:229
+msgid "Save the current project"
+msgstr "Uneko proiektua gordetzen du"
+
+#: src/planner-window.c:232
+msgid "_Export"
+msgstr "_Esportatu"
+
+#: src/planner-window.c:235
+msgid "Save _As..."
+msgstr "Gorde hone_la..."
+
+#: src/planner-window.c:235
+msgid "Save the current project with a different name"
+msgstr "Uneko proiektua beste izen batekin gordetzen du"
+
+#: src/planner-window.c:238
+msgid "Page Set_up..."
+msgstr "_Prestatu orrialdea..."
+
+#: src/planner-window.c:238
+msgid "Setup the page settings for your current printer"
+msgstr "Orrialdearen ezarpenak konfiguratzea uneko inprimagailuarentzako"
+
+#: src/planner-window.c:241
+msgid "_Print..."
+msgstr "I_nprimatu..."
+
+#: src/planner-window.c:241
+msgid "Print the current project"
+msgstr "Uneko proiektua inprimatzen du"
+
+#: src/planner-window.c:244
+msgid "Print Pre_view"
+msgstr "_Inprimatzeko aurrebista"
+
+#: src/planner-window.c:244
+msgid "Print preview of the current project"
+msgstr "Uneko proiektua inprimatzeko aurrebista"
+
+#: src/planner-window.c:247
+msgid "_Close"
+msgstr "It_xi"
+
+#: src/planner-window.c:247
+msgid "Close the current file"
+msgstr "Itxi uneko fitxategia"
+
+#: src/planner-window.c:250
+msgid "_Quit"
+msgstr "I_rten"
+
+#: src/planner-window.c:250
+msgid "Exit the program"
+msgstr "Irten programatik"
+
+#: src/planner-window.c:254
+msgid "_Edit"
+msgstr "_Editatu"
+
+#: src/planner-window.c:257
+msgid "_Undo"
+msgstr "_Desegin"
+
+#: src/planner-window.c:257
+msgid "Undo the last action"
+msgstr "Azken ekintza desegiten du"
+
+#: src/planner-window.c:260
+msgid "_Redo"
+msgstr "B_erregin"
+
+#: src/planner-window.c:260
+msgid "Redo the undone action"
+msgstr "Desegindako ekintza berregiten du"
+
+#: src/planner-window.c:264
+msgid "_View"
+msgstr "I_kusi"
+
+#: src/planner-window.c:268
+msgid "_Actions"
+msgstr "_Ekintzak"
+
+#: src/planner-window.c:272
+msgid "_Project"
+msgstr "_Proiektua"
+
+#: src/planner-window.c:275
+msgid "_Manage Calendars"
+msgstr "_Kudeatu egutegiak"
+
+#: src/planner-window.c:278
+msgid "Edit Day _Types"
+msgstr "Editatu egun-mo_tak"
+
+#: src/planner-window.c:281
+msgid "Edit Project _Phases"
+msgstr "Editatu _proiektuaren faseak"
+
+#: src/planner-window.c:284
+msgid "_Edit Project Properties"
+msgstr "_Editatu proiektuaren propietateak"
+
+#: src/planner-window.c:284
+msgid "Edit the project properties"
+msgstr "Proiektuaren propietateak editatzen ditu"
+
+#: src/planner-window.c:292
+msgid "_Help"
+msgstr "_Laguntza"
+
+#: src/planner-window.c:295
+msgid "_User Guide"
+msgstr "_Erabiltzailearen gida"
+
+#: src/planner-window.c:295
+msgid "Show the Planner User Guide"
+msgstr "Erakutsi Planner-en erabiltzailearen gida"
+
+#: src/planner-window.c:298
+msgid "_About"
+msgstr "Honi _buruz"
+
+#: src/planner-window.c:298
+msgid "About this application"
+msgstr "Aplikazio honi buruz"
+
+#: src/planner-window.c:687
+#, c-format
+msgid "Switch to the view \"%s\""
+msgstr "Aldatu \"%s\" ikuspegira"
+
+#: src/planner-window.c:859
+msgid "Open a File"
+msgstr "Ireki fitxategia"
+
+#: src/planner-window.c:869
+msgid "Planner Files"
+msgstr "Planner fitxategiak"
+
+#: src/planner-window.c:1177
+msgid "A Project Management application for the GNOME desktop"
+msgstr "Proiektuak kudeatzeko aplikazioa GNOME mahaigainerako"
+
+#: src/planner-window.c:1180
+msgid "translator-credits"
+msgstr "Hizkuntza Politikarako Sailburuordetza <hizkpol@ej-gv.es>\n"
+"Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>"
+
+#: src/planner-window.c:1182
+msgid "The Planner Homepage"
+msgstr "Planner-en gune nagusia"
+
+#: src/planner-window.c:1329
+#, c-format
+msgid "Save changes to document '%s' before closing?"
+msgstr "'%s' dokumentuko azken aldaketak gorde nahi dituzu itxi aurretik?"
+
+#: src/planner-window.c:1340
+msgid "If you don't save, changes made the last minute will be discarded."
+msgstr "Ez baduzu gordetzen, azken minutuan egindako aldaketak galdu egingo dira."
+
+#: src/planner-window.c:1344
+#, c-format
+msgid "If you don't save, changes made the last %d minute will be discarded."
+msgid_plural ""
+"If you don't save, changes made the last %d minutes will be discarded."
+msgstr[0] "Ez baduzu gordetzen, azken minutuan (%d) egindako aldaketak galdu egingo dira."
+msgstr[1] "Ez baduzu gordetzen, azken %d minutuetan egindako aldaketak galdu egingo dira."
+
+#: src/planner-window.c:1351
+msgid "If you don't save, changes made the last hour will be discarded."
+msgstr "Ez baduzu gordetzen, azken orduan egindako aldaketak galdu egingo dira."
+
+#: src/planner-window.c:1354
+#, c-format
+msgid "If you don't save, changes made the last %d hour will be discarded."
+msgid_plural ""
+"If you don't save, changes made the last %d hours will be discarded."
+msgstr[0] "Ez baduzu gordetzen, azken orduan (%d) egindako aldaketak galdu egingo dira."
+msgstr[1] "Ez baduzu gordetzen, azken %d orduetan egindako aldaketak galdu egingo dira."
+
+#: src/planner-window.c:1367
+msgid "C_lose without saving"
+msgstr "_Itxi gorde gabe"
+
+#: src/planner-window.c:1373
+msgid "_Cancel"
+msgstr "_Utzi"
+
+#: src/planner-window.c:1473
+msgid "Save a File"
+msgstr "Gorde fitxategi bat"
+
+#: src/planner-window.c:1741
+msgid ""
+"You have opened a file that was saved with an old version of Planner.\n"
+"\n"
+"When loading old files, all tasks will use the constraint 'Must Start On', "
+"since the old version did not fully support automatic rescheduling. To take "
+"advantage of this new feature, you should add predecessor relations between "
+"tasks that are dependent on each other.\n"
+"\n"
+"You can add a predecessor relation by clicking on the predecessor and "
+"dragging to the successor.\n"
+"\n"
+"After doing this, you can remove all constraints by selecting the menu item "
+"'Remove all constraints' in the 'Edit' menu."
+msgstr "Planner-en bertsio zaharrago batekin gordetako fitxategi bat ireki duzu.\n"
+"\n"
+"Fitxategi zaharrak kargatzean, zeregin guztiek 'Hasi behar du' murriztapena erabiliko dute, bertsio zaharrak ez baitzuen onartzen berrantolatze automatikoa. Eginbide hori baliatzeko, aurrekoekiko erlazioak gehitu behar dituzu elkarren mendekoak diren zereginen artean.\n"
+"\n"
+"Aurreko-erlazioak gehitzeko, egin klik aurrekoan, eta arrastatu ondorengora.\n"
+"\n"
+"Hori egindakoan, murriztapen guztiak ken ditzakezu, 'Kendu murriztapen guztiak' aukera hautatuz 'Editatu' menuan."
+
+#. Hack.
+#: src/planner-window.c:1776
+msgid "Unnamed database project"
+msgstr "Proiektuaren datu-base izengabea"
+
+#: src/planner-working-time-dialog.c:145
+msgid "Edit working time"
+msgstr "Editatu lanaldia"
+
+#: src/planner-xml-planner-plugin.c:54
+msgid "Planner 0.11 Format"
+msgstr "Planner 0.11 formatua"
+
+#: src/planner-xml-planner-plugin.c:55
+msgid "Export project to a file suitable for Planner 0.11"
+msgstr "Esportatu proiektua Planner 0.11 formatuko fitxategira"
+
+#: src/planner-xml-planner-plugin.c:94
+msgid "Export"
+msgstr "Esportatu"
+
+#: eds-backend/e-cal-backend-planner.c:288
+msgid "EDS UID"
+msgstr "EDZ UIDa"
+
+#: eds-backend/e-cal-backend-planner.c:289
+msgid "Identifier used by Evolution Data Server for tasks"
+msgstr "Identifikatzailea Evolution Datu-Zerbitzariak zereginentzako erabiltzen duena"
+
+#: eds-backend/e-cal-backend-planner.c:298
+msgid "EDS Categories"
+msgstr "EDZ kategoriak"
+
+#: eds-backend/e-cal-backend-planner.c:299
+msgid "Categories for a task used by Evolution Data Server"
+msgstr "Evolution Datu-Zerbitzariak erabiltzen duen zeregin baten kategoriak"
+
+#: eds-backend/e-cal-backend-planner.c:308
+msgid "EDS Classification"
+msgstr "EDZ sailkapena"
+
+#: eds-backend/e-cal-backend-planner.c:309
+msgid "Task access classification used by Evolution Data Server"
+msgstr "Evolution Datu-Zerbitzariak erabiltzen duen sailkapena zereginetara sarbidetzeko"
+
+#: eds-backend/e-cal-backend-planner.c:318
+msgid "EDS URL"
+msgstr "EDZ URLa"
+
+#: eds-backend/e-cal-backend-planner.c:319
+msgid "URL for a Task used by Evolution Data Server"
+msgstr "Evolution Datu-Zerbitzariak erabiltzen duen zereginaren URLa"
+
+#: eds-backend/e-cal-backend-planner.c:828
+msgid "Invalid server URI"
+msgstr "Zerbitzariaren URI baliogabea"
+
+#. book_target = (EABConfigTargetSource *) data->target;
+#. source = book_target->source;
+#: eds-backend/planner-source/planner-source.c:125
+msgid "Select planner file"
+msgstr "Hautatu planner fitxategia"
+
+#: eds-backend/planner-source/planner-source.c:157
+#, c-format
+msgid ""
+"The filename extension of this file isn't the planner usual file extension "
+"(%s) Do you want to continue?"
+msgstr "Fitxategiaren luzapena ez da planner-ek erabili ohi duena (%s). Jarraitzea nahi duzu?"
+
+#~ msgid "Cancel"
+#~ msgstr "Utzi"
+
+#~ msgid "Select"
+#~ msgstr "Hautatu"
+
+#~ msgid "OK"
+#~ msgstr "Ados"
+
+#~ msgid "window"
+#~ msgstr "leihoa"
+
+#~ msgid ""
+#~ "As soon as possible\n"
+#~ "No earlier than\n"
+#~ "On fixed date"
+#~ msgstr ""
+#~ "Ahal bezain laster\n"
+#~ "Ez hasi hau baino lehen\n"
+#~ "Finkatutako datan"
+
+#~ msgid "Project Plan"
+#~ msgstr "Proiektuaren plana"
+
+#~ msgid "Documents/Project Management"
+#~ msgstr "Dokumentu/Proiektu-kudeaketa"
+
+#~ msgid "Planner Project Management"
+#~ msgstr "Planner proiektu-kudeaketa"
+
+#~ msgid "Company:"
+#~ msgstr "Enpresa:"
+
+#~ msgid "Manager:"
+#~ msgstr "Kudeatzailea:"
+
+#~ msgid "Start:"
+#~ msgstr "Hasiera:"
+
+#~ msgid "Finish:"
+#~ msgstr "Amaitu:"
+
+#~ msgid "Report Date:"
+#~ msgstr "Txostenaren data:"
+
+#~ msgid "Week"
+#~ msgstr "Astea"
+
+#~ msgid "Priority"
+#~ msgstr "Lehentasuna"
+
+#~ msgid "Complete"
+#~ msgstr "Amaituta"
+
+#~ msgid "This file was generated by"
+#~ msgstr "Fitxategia honakoak sortuta:"
+
+#~ msgid "Gantt Chart"
+#~ msgstr "Gantt diagrama"
+
+#~ msgid "Phase:"
+#~ msgstr "Fasea:"
+
+#~ msgid "Unnamed Project"
+#~ msgstr "Izenik gabeko proiektua"
+
+#~ msgid "Failed to create a dictionary for the database connection.\n"
+#~ msgstr "Huts egin du hiztegi bat sortzean  datu-basearen konexiorako.\n"
+
+#~ msgid "Could not create properties dialog."
+#~ msgstr "Ezin izan da sortu propietateen elkarrizketa-koadroa."
+
+#~ msgid "/_Insert resource"
+#~ msgstr "/_Txertatu baliabidea"
+
+#~ msgid "/_Remove resource"
+#~ msgstr "/_Kendu baliabidea"

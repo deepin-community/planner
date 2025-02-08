@@ -1,0 +1,1 @@
+application/x-planner; planner %s; edit=planner %s; description="Planner document"; test=test "$DISPLAY" != ""; nametemplate=%s.planner

@@ -1,0 +1,2395 @@
+# Czech translation of planner.
+# Copyright (C) 2008 the author(s) of planner.
+# Copyright (C) 2004, 2005, 2006 Miloslav Trmac <mitr@volny.cz>.
+# This file is distributed under the same license as the planner package.
+#
+# Miloslav Trmac <mitr@volny.cz>, 2002, 2003, 2004, 2005, 2006.
+# Lucas Lommer <llommer@svn.gnome.org>, 2008.
+# Petr Kovar <pknbe@volny.cz>, 2008, 2010.
+# Ondřej Kopka <ondrej.kopka@gmail.com>, 2010.
+# Marek Černocký <marek@manet.cz>, 2010, 2011, 2012, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: planner\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/planner/issues\n"
+"POT-Creation-Date: 2021-06-27 10:20+0000\n"
+"PO-Revision-Date: 2021-09-06 10:34+0200\n"
+"Last-Translator: Marek Černocký <marek@manet.cz>\n"
+"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: data/mime/org.gnome.Planner.xml.in:5
+msgid "Planner project plan"
+msgstr "Plán projektu Planner"
+
+#: data/planner.desktop.in:3
+msgid "Planner"
+msgstr "Planner"
+
+#: data/planner.desktop.in:4
+msgid "Project Management"
+msgstr "Správa projektů"
+
+#: data/planner.desktop.in:6
+msgid "Handle the tasks, resources, and cost of your projects"
+msgstr "Spravovat úkoly, prostředky a náklady svých projektů"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/planner.desktop.in:8
+msgid "Gantt;Chart;Critical path;Relationship;Dependency;WBS;"
+msgstr "Ganttův diagram;graf;kritická cesta;vztah;závislost;WBS;rozpis;"
+
+#: data/org.gnome.Planner.gschema.xml:19
+msgid "Highlight critical path in Gantt view"
+msgstr "Zvýraznit kritickou cestu v Ganttově pohledu"
+
+#: data/org.gnome.Planner.gschema.xml:20
+msgid ""
+"Whether to highlight the tasks along the critical path in the Gantt view."
+msgstr "Jestli v Ganttově pohledu zvýraznit úkoly na kritické cestě."
+
+#: data/org.gnome.Planner.gschema.xml:24
+msgid "Display nonstandard days in Gantt view"
+msgstr "Zobrazovat nestandardní dny v Ganttově pohledu"
+
+#: data/org.gnome.Planner.gschema.xml:25
+msgid "Whether to display nonstandard days in the Gantt view."
+msgstr "Jestli v Ganttově pohledu zobrazovat nestandardní dny."
+
+#: data/org.gnome.Planner.gschema.xml:29
+msgid "Print the Gantt view"
+msgstr "Tisknout Ganttův pohled"
+
+#: data/org.gnome.Planner.gschema.xml:30
+msgid "Whether printing of the Gantt view is enabled."
+msgstr "Jestli je povolen tisk Ganttova pohledu."
+
+#: data/org.gnome.Planner.gschema.xml:159
+msgid "Highlight critical path in Task view"
+msgstr "Zvýraznit kritickou cestu v pohledu na úkoly"
+
+#: data/org.gnome.Planner.gschema.xml:160
+msgid ""
+"Whether to highlight the tasks along the critical path in the Task view."
+msgstr "Zda v zobrazení úkolů zvýraznit úkoly na kritické cestě."
+
+#: data/org.gnome.Planner.gschema.xml:164
+msgid "Display nonstandard days in Task view"
+msgstr "Zobrazovat nestandardní dny v zobrazení úkolů"
+
+#: data/org.gnome.Planner.gschema.xml:165
+msgid "Whether to display nonstandard days in the Task view."
+msgstr "Zda v zobrazení úkolů zobrazovat nestandardní dny."
+
+#: data/org.gnome.Planner.gschema.xml:169
+msgid "Print the Task view"
+msgstr "Tisk zobrazení úkolů"
+
+#: data/org.gnome.Planner.gschema.xml:170
+msgid "Whether printing of the Task view is enabled."
+msgstr "Zda je povolen tisk zobrazení úkolů."
+
+#: data/org.gnome.Planner.gschema.xml:296
+msgid "Print the Resource view"
+msgstr "Tisk zobrazení zdrojů"
+
+#: data/org.gnome.Planner.gschema.xml:297
+msgid "Whether printing of the Resource view is enabled."
+msgstr "Zda je povolen tisk zobrazení zdrojů."
+
+#: data/org.gnome.Planner.gschema.xml:401
+msgid "The active view"
+msgstr "Aktivní zobrazení"
+
+#: data/org.gnome.Planner.gschema.xml:402
+msgid "Which view to display in the user interface."
+msgstr "Které zobrazební zobrazovat v uživatelském rozhraní."
+
+#: data/ui/add-predecessor.ui:7
+msgid "Add Predecessor"
+msgstr "Přidat předchůdce"
+
+#: data/ui/add-predecessor.ui:70 data/ui/new-day-dialog.ui:60
+#: data/ui/new-phase-dialog.ui:68 data/ui/new-property.ui:61
+#: data/ui/project-properties.ui:67 data/ui/resource-dialog.ui:62
+#: data/ui/resource-input-dialog.ui:112 data/ui/task-dialog.ui:89
+#: data/ui/task-input-dialog.ui:112
+msgid "_Name:"
+msgstr "_Jméno:"
+
+#: data/ui/add-predecessor.ui:97
+msgid "_Relation type:"
+msgstr "Typ _vztahu:"
+
+#: data/ui/add-predecessor.ui:139
+msgid "_Lag:"
+msgstr "Z_poždění:"
+
+#: data/ui/calendar-dialog.ui:5
+msgid "Calendar Editor"
+msgstr "Editor kalendáře"
+
+#: data/ui/calendar-dialog.ui:57
+msgid "_New..."
+msgstr "_Nový…"
+
+#: data/ui/calendar-dialog.ui:96
+msgid "Working time..."
+msgstr "Pracovní doba…"
+
+#: data/ui/calendar-dialog.ui:106
+msgid "Default week..."
+msgstr "Výchozí týden…"
+
+#: data/ui/calendar-dialog.ui:211
+msgid "Use working time from derived calendar"
+msgstr "Použít pracovní dobu z odvozeného kalendáře"
+
+#: data/ui/calendar-dialog.ui:233
+msgid "Set day type to:"
+msgstr "Nastavit typ dne na:"
+
+#: data/ui/calendar-dialog.ui:272
+msgid "Custom working time"
+msgstr "Vlastní pracovní doba"
+
+#: data/ui/calendar-dialog.ui:319
+msgid "<b>Working time</b>"
+msgstr "<b>Pracovní doba</b>"
+
+#: data/ui/calendar-dialog.ui:357 data/ui/calendar-dialog.ui:380
+#: data/ui/calendar-dialog.ui:403 data/ui/calendar-dialog.ui:426
+#: data/ui/calendar-dialog.ui:647 data/ui/working-time-dialog.ui:170
+#: data/ui/working-time-dialog.ui:193 data/ui/working-time-dialog.ui:216
+#: data/ui/working-time-dialog.ui:239 data/ui/working-time-dialog.ui:451
+msgid "-"
+msgstr "-"
+
+#: data/ui/calendar-dialog.ui:456 data/ui/calendar-dialog.ui:478
+#: data/ui/calendar-dialog.ui:500 data/ui/calendar-dialog.ui:522
+#: data/ui/calendar-dialog.ui:544 data/ui/calendar-dialog.ui:566
+#: data/ui/calendar-dialog.ui:588 data/ui/calendar-dialog.ui:610
+#: data/ui/calendar-dialog.ui:632 data/ui/calendar-dialog.ui:677
+#: data/ui/eds.ui:140 data/ui/new-calendar-dialog.ui:151
+#: data/ui/new-day-dialog.ui:88 data/ui/new-property.ui:139
+#: data/ui/new-property.ui:159 data/ui/new-property.ui:217
+#: data/ui/resource-dialog.ui:216 data/ui/resource-dialog.ui:237
+#: data/ui/resource-dialog.ui:258 data/ui/resource-dialog.ui:303
+#: data/ui/resource-input-dialog.ui:167 data/ui/resource-input-dialog.ui:187
+#: data/ui/resource-input-dialog.ui:271 data/ui/sql-open-dialog.ui:140
+#: data/ui/sql-open-dialog.ui:160 data/ui/sql-open-dialog.ui:180
+#: data/ui/sql-open-dialog.ui:224 data/ui/task-input-dialog.ui:167
+#: data/ui/task-input-dialog.ui:187 data/ui/working-time-dialog.ui:268
+#: data/ui/working-time-dialog.ui:289 data/ui/working-time-dialog.ui:310
+#: data/ui/working-time-dialog.ui:331 data/ui/working-time-dialog.ui:352
+#: data/ui/working-time-dialog.ui:373 data/ui/working-time-dialog.ui:394
+#: data/ui/working-time-dialog.ui:415 data/ui/working-time-dialog.ui:436
+#: data/ui/working-time-dialog.ui:480
+msgid "*"
+msgstr "*"
+
+#: data/ui/calendar-dialog.ui:692
+msgid "From:"
+msgstr "Od:"
+
+#: data/ui/calendar-dialog.ui:738
+msgid "To:"
+msgstr "Do:"
+
+#: data/ui/calendar-dialog.ui:775
+msgid "Apply"
+msgstr "Použít"
+
+#: data/ui/calendar-selector.ui:6
+msgid "Select a Calendar"
+msgstr "Vyberte kalendář"
+
+#: data/ui/column-dialog.ui:61
+msgid "Hidden columns:"
+msgstr "Skryté sloupce:"
+
+#: data/ui/column-dialog.ui:127 data/ui/column-dialog.ui:151
+#: data/ui/column-dialog.ui:347 data/ui/default-week-dialog.ui:265
+#: data/ui/task-dialog.ui:323
+msgid "    "
+msgstr "    "
+
+#: data/ui/column-dialog.ui:230
+msgid "_Show"
+msgstr "_Zobrazit"
+
+#: data/ui/column-dialog.ui:299
+msgid "_Hide"
+msgstr "_Skrýt"
+
+#: data/ui/column-dialog.ui:383
+msgid "Visible columns:"
+msgstr "Viditelné sloupce:"
+
+#: data/ui/day-type-dialog.ui:6
+msgid "Edit Day Types"
+msgstr "Upravit typy dnů"
+
+#: data/ui/default-week-dialog.ui:6
+msgid "Default Week"
+msgstr "Výchozí týden"
+
+#: data/ui/default-week-dialog.ui:63
+msgid "<b>Calendar:</b>"
+msgstr "<b>Kalendář:</b>"
+
+#: data/ui/default-week-dialog.ui:120
+msgid ""
+"Select a weekday and the day type to use for that day in the default week "
+"for this calendar.\n"
+msgstr ""
+"Vyberte den v týdnu a typ dnů, který použít pro ten den ve výchozím týdnu "
+"tohoto kalendáře.\n"
+
+#: data/ui/default-week-dialog.ui:151
+msgid "Week day:"
+msgstr "Den v týdnu"
+
+#: data/ui/default-week-dialog.ui:194
+msgid "Day type:"
+msgstr "Typ dnů:"
+
+#: data/ui/default-week-dialog.ui:239
+msgid ""
+"\n"
+"The selected day type has the following working hours:"
+msgstr ""
+"\n"
+"Vybraný typ dnů má následující pracovní hodiny:"
+
+#: data/ui/eds.ui:6
+msgid "dialog1"
+msgstr "dialog1"
+
+#: data/ui/eds.ui:71
+msgid "Select group"
+msgstr "Vybrat skupinu"
+
+#: data/ui/eds.ui:114
+msgid "Search"
+msgstr "Hledat"
+
+#: data/ui/eds.ui:205
+msgid "Select All"
+msgstr "Vybrat vše"
+
+#: data/ui/eds.ui:274
+msgid "Unselect All"
+msgstr "Zrušit výběr všeho"
+
+#: data/ui/eds.ui:353
+msgid "Loading resource data"
+msgstr "Načítají se data zdrojů"
+
+#: data/ui/group-dialog.ui:7
+msgid "Group Editor"
+msgstr "Editor skupin"
+
+#: data/ui/new-calendar-dialog.ui:6
+msgid "New Calendar"
+msgstr "Nový kalendář"
+
+#: data/ui/new-calendar-dialog.ui:38
+msgid "C_reate"
+msgstr "_Vytvořit"
+
+#: data/ui/new-calendar-dialog.ui:65
+msgid "_Existing calendars:"
+msgstr "_Existující kalendáře:"
+
+#: data/ui/new-calendar-dialog.ui:124
+msgid "_Name of the new calendar:"
+msgstr "_Název nového kalendáře:"
+
+#: data/ui/new-calendar-dialog.ui:184
+msgid "_Derive from a calendar"
+msgstr "_Odvodit z kalendáře"
+
+#: data/ui/new-calendar-dialog.ui:201
+msgid "C_opy an existing calendar"
+msgstr "_Kopírovat existující kalendář"
+
+#: data/ui/new-calendar-dialog.ui:219
+msgid "Create an _empty calendar"
+msgstr "Vytvořit _prázdný kalendář"
+
+#: data/ui/new-day-dialog.ui:6
+msgid "Add Day Type"
+msgstr "Přidat typ dnů"
+
+#: data/ui/new-phase-dialog.ui:7
+msgid "New Project Phase"
+msgstr "Nová fáze projektu"
+
+#: data/ui/new-property.ui:6
+msgid "Add Property"
+msgstr "Přidat vlastnost"
+
+#: data/ui/new-property.ui:85
+msgid "_Description:"
+msgstr "_Popis:"
+
+#: data/ui/new-property.ui:109 data/ui/resource-dialog.ui:86
+msgid "_Type:"
+msgstr "_Typ:"
+
+#: data/ui/new-property.ui:187
+msgid "_Label:"
+msgstr "_Jmenovka:"
+
+#: data/ui/phase-dialog.ui:6
+msgid "Edit Project Phases"
+msgstr "Upravit fáze projektu"
+
+#: data/ui/project-properties.ui:6
+msgid "Project Properties"
+msgstr "Vlastnosti projektu"
+
+#: data/ui/project-properties.ui:95
+msgid "_Start:"
+msgstr "_Začátek"
+
+#: data/ui/project-properties.ui:123
+msgid "_Organization:"
+msgstr "_Organizace:"
+
+#: data/ui/project-properties.ui:192
+msgid "_Manager:"
+msgstr "_Správce:"
+
+#: data/ui/project-properties.ui:240
+msgid "_Calendar:"
+msgstr "_Kalendář:"
+
+#: data/ui/project-properties.ui:298
+msgid "Select..."
+msgstr "Vybrat…"
+
+#: data/ui/project-properties.ui:323
+msgid "_Phase:"
+msgstr "_Fáze"
+
+#: data/ui/project-properties.ui:405 data/ui/resource-dialog.ui:323
+#: data/ui/task-dialog.ui:678
+msgid "General"
+msgstr "Obecné"
+
+#: data/ui/project-properties.ui:508
+msgid "Custom"
+msgstr "Vlastní"
+
+#: data/ui/property-dialog.ui:6
+msgid "Custom Properties"
+msgstr "Vlastní vlastnosti"
+
+#: data/ui/resource-dialog.ui:110 data/ui/resource-input-dialog.ui:136
+msgid "_Email:"
+msgstr "_E-mail:"
+
+#: data/ui/resource-dialog.ui:134 data/ui/resource-input-dialog.ui:201
+msgid "_Group:"
+msgstr "_Skupina:"
+
+#: data/ui/resource-dialog.ui:158
+msgid "C_ost:"
+msgstr "_Cena:"
+
+#: data/ui/resource-dialog.ui:272 data/ui/resource-input-dialog.ui:239
+msgid "_Short name:"
+msgstr "_Krátký název:"
+
+#: data/ui/resource-dialog.ui:296 data/ui/resource-input-dialog.ui:263
+msgid "Optional - overrides resource name in Gantt view."
+msgstr "Nepovinné - nahrazuje název zdroje v Ganttově diagramu."
+
+#: data/ui/resource-dialog.ui:344
+msgid ""
+"Select the calendar to use for this resource. If you want to use the default "
+"calendar of the project, select 'None'. "
+msgstr ""
+"Vyberte kalendář, který použít pro tento zdroj. Chcete-li použít výchozí "
+"kalendář projektu, zvolte „Žádný“. "
+
+#: data/ui/resource-dialog.ui:395
+msgid "Edit Calendars..."
+msgstr "Upravit kalendáře…"
+
+#: data/ui/resource-dialog.ui:422
+msgid "Calendar"
+msgstr "Kalendář"
+
+#: data/ui/resource-dialog.ui:513
+msgid "_Insert time stamp"
+msgstr "Vložit _aktuální čas"
+
+#: data/ui/resource-dialog.ui:552 data/ui/task-dialog.ui:963
+msgid "Notes"
+msgstr "Poznámky"
+
+#: data/ui/resource-input-dialog.ui:6
+msgid "Insert Resource"
+msgstr "Vložit zdroj"
+
+#: data/ui/resource-input-dialog.ui:69 data/ui/task-input-dialog.ui:69
+msgid "_Insert"
+msgstr "_Vložit"
+
+#: data/ui/sql-open-dialog.ui:6
+msgid "Open Database"
+msgstr "Otevřít databázi"
+
+#: data/ui/sql-open-dialog.ui:62
+msgid "_Server:"
+msgstr "_Server:"
+
+#: data/ui/sql-open-dialog.ui:86
+msgid "_Username:"
+msgstr "Jméno _uživatele:"
+
+#: data/ui/sql-open-dialog.ui:110
+msgid "_Password:"
+msgstr "_Heslo:"
+
+#: data/ui/sql-open-dialog.ui:194
+msgid "_Database:"
+msgstr "_Databáze:"
+
+#: data/ui/sql-select-dialog.ui:6
+msgid "Select a Project"
+msgstr "Vyberte projekt"
+
+#: data/ui/sql-select-dialog.ui:59
+msgid "The database contains the following projects. Select a project to open:"
+msgstr ""
+"Databáze obsahuje následující projekty. Vyberte projekt, který otevřít:"
+
+#: data/ui/task-date-widget.ui:10 src/planner-cell-renderer-date.c:140
+#: src/planner-task-dialog.c:1429
+msgid "As soon as possible"
+msgstr "Co nejdřív"
+
+#: data/ui/task-date-widget.ui:13 src/planner-cell-renderer-date.c:142
+msgid "No earlier than"
+msgstr "Ne dříve než"
+
+#: data/ui/task-date-widget.ui:16 src/planner-cell-renderer-date.c:144
+msgid "On fixed date"
+msgstr "V pevné datum"
+
+#. The verb "schedule".
+#. This is the verb "schedule"
+#. I18n: the verb "schedule" here.
+#: data/ui/task-date-widget.ui:45 data/ui/task-dialog.ui:569
+#: src/planner-cell-renderer-date.c:135
+msgid "Schedule:"
+msgstr "Plánovat:"
+
+#: data/ui/task-date-widget.ui:102 src/planner-cell-renderer-date.c:160
+#: src/planner-project-properties.c:738
+msgid "Today"
+msgstr "Dnes"
+
+#: data/ui/task-date-widget.ui:113 src/planner-cell-renderer-date.c:166
+#: src/planner-project-properties.c:745
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: data/ui/task-date-widget.ui:124 src/planner-cell-renderer-date.c:173
+msgid "Select"
+msgstr "Vybrat"
+
+#: data/ui/task-dialog.ui:117 data/ui/task-input-dialog.ui:136
+msgid "_Work:"
+msgstr "_Práce:"
+
+#: data/ui/task-dialog.ui:145
+msgid "_Duration:"
+msgstr "_Trvání:"
+
+#: data/ui/task-dialog.ui:173
+msgid "C_omplete:"
+msgstr "_Hotovo:"
+
+#: data/ui/task-dialog.ui:201
+msgid "_Priority:"
+msgstr "Pr_iorita:"
+
+#: data/ui/task-dialog.ui:269
+msgid "%"
+msgstr "%"
+
+#: data/ui/task-dialog.ui:296 data/ui/task-dialog.ui:401
+#: data/ui/task-dialog.ui:448 data/ui/task-dialog.ui:475
+#: data/ui/task-dialog.ui:502 data/ui/task-dialog.ui:638
+msgid "  "
+msgstr "  "
+
+#: data/ui/task-dialog.ui:356
+msgid "_Milestone"
+msgstr "_Milník"
+
+#: data/ui/task-dialog.ui:374
+msgid "_Fixed duration"
+msgstr "_Fixní trvání"
+
+#: data/ui/task-dialog.ui:725 src/planner-resource-view.c:405
+msgid "Resources"
+msgstr "Zdroje"
+
+#: data/ui/task-dialog.ui:818
+msgid "Predecessors"
+msgstr "Předchůdci"
+
+#: data/ui/task-dialog.ui:920
+msgid "_Insert Time Stamp"
+msgstr "Vložit _aktuální čas"
+
+#: data/ui/task-input-dialog.ui:6
+msgid "Insert Task"
+msgstr "Vložit úkol"
+
+#: data/ui/working-time-dialog.ui:5
+msgid "Edit Working Time"
+msgstr "Upravit pracovní dobu"
+
+#: data/ui/working-time-dialog.ui:62
+msgid "<b>Day types</b>"
+msgstr "<b>Typy dnů</b>"
+
+#: data/ui/working-time-dialog.ui:142
+msgid "<b>Working hours</b>"
+msgstr "<b>Pracovní hodiny</b>"
+
+#: libplanner/mrp-day.c:64
+msgid "Working"
+msgstr "Pracovní"
+
+#: libplanner/mrp-day.c:65
+msgid "A default working day"
+msgstr "Výchozí pracovní den"
+
+#: libplanner/mrp-day.c:67
+msgid "Nonworking"
+msgstr "Nepracovní"
+
+#: libplanner/mrp-day.c:68
+msgid "A default non working day"
+msgstr "Výchozí nepracovní den"
+
+#: libplanner/mrp-day.c:70
+msgid "Use base"
+msgstr "Použít základní"
+
+#: libplanner/mrp-day.c:71
+msgid "Use day from base calendar"
+msgstr "Použít den ze základního kalendáře"
+
+#: libplanner/mrp-file-module.c:125
+#, c-format
+msgid "This format does not support reading"
+msgstr "Tento formát nepodporuje čtení"
+
+#: libplanner/mrp-parser.c:1060 libplanner/mrp-parser.c:1155
+#, c-format
+msgid "Could not create XML tree"
+msgstr "Nelze vytvořit strom XML"
+
+#: libplanner/mrp-parser.c:1121
+#, c-format
+msgid "Could not write XML file"
+msgstr "Nelze zapsat soubor XML"
+
+#: libplanner/mrp-project.c:582 src/planner-group-dialog.c:840
+msgid "Default"
+msgstr "Výchozí"
+
+#: libplanner/mrp-project.c:860
+#, c-format
+msgid "Invalid URI: '%s'"
+msgstr "Neplatné URI: „%s“"
+
+#: libplanner/mrp-project.c:903
+#, c-format
+msgid "Couldn't find a suitable file module for loading '%s'"
+msgstr "Nelze najít vhodný modul souboru pro načtení „%s“"
+
+#: libplanner/mrp-project.c:924 libplanner/mrp-project.c:1208
+#, c-format
+msgid "No support for SQL storage built into this version of Planner."
+msgstr "V této verzi Planneru není vestavěna podpora pro ukládání do SQL."
+
+#: libplanner/mrp-project.c:961
+#, c-format
+msgid "Invalid URI."
+msgstr "Neplatné URI."
+
+#: libplanner/mrp-project.c:1102
+#, c-format
+msgid "Unable to find file writer identified by '%s'"
+msgstr "Nelze najít zapisovač souboru identifikovaný „%s“"
+
+#: libplanner/mrp-project.c:1165
+#, c-format
+msgid "Couldn't find a suitable file module for loading project"
+msgstr "Nelze najít vhodný modul souboru pro načtení projektu"
+
+#: libplanner/mrp-property.c:376
+msgid "Text"
+msgstr "Text"
+
+#: libplanner/mrp-property.c:378
+msgid "String list"
+msgstr "Seznam řetězců"
+
+#: libplanner/mrp-property.c:380
+msgid "Integer number"
+msgstr "Celé číslo"
+
+#: libplanner/mrp-property.c:382
+msgid "Floating-point number"
+msgstr "Číslo s pohyblivou řádovou čárkou"
+
+#: libplanner/mrp-property.c:384
+msgid "Date"
+msgstr "Datum"
+
+#: libplanner/mrp-property.c:386 src/planner-gantt-view.c:602
+#: src/planner-task-view.c:366
+msgid "Duration"
+msgstr "Trvání"
+
+#: libplanner/mrp-property.c:388 src/planner-gantt-view.c:604
+#: src/planner-resource-view.c:1286 src/planner-task-view.c:368
+msgid "Cost"
+msgstr "Cena"
+
+#: libplanner/mrp-property.c:391 src/planner-project-properties.c:863
+msgid "None"
+msgstr "Žádný"
+
+#: libplanner/mrp-sql.c:288 src/planner-sql-plugin.c:199
+msgid "Can't connect to database server"
+msgstr "Nelze se připojit k databázovému serveru"
+
+#: libplanner/mrp-sql.c:293 src/planner-sql-plugin.c:204
+msgid "No errors reported."
+msgstr "Nebyla ohlášena žádná chyba."
+
+#. Give up.
+#: libplanner/mrp-sql.c:388 src/planner-sql-plugin.c:273
+msgid "Invalid Unicode"
+msgstr "Neplatné Unicode"
+
+#: libplanner/mrp-sql.c:2282
+#, c-format
+msgid "Connection to database '%s' failed.\n"
+msgstr "Připojení k databázi „%s“ selhalo.\n"
+
+#: libplanner/mrp-sql.c:2287
+#, c-format
+msgid ""
+"Connection to database '%s' failed.\n"
+"%s"
+msgstr ""
+"Připojení k databázi „%s“ selhalo.\n"
+"%s"
+
+#: libplanner/mrp-sql.c:2302
+#, c-format
+msgid "BEGIN command failed %s."
+msgstr "Příkaz BEGIN selhal %s."
+
+#: libplanner/mrp-sql.c:2468
+#, c-format
+msgid ""
+"The project '%s' has been changed by the user '%s' since you opened it. Do "
+"you want to save anyway?"
+msgstr ""
+"Projekt „%s“ byl změněn uživatelem „%s“ poté, co jste jej otevřeli. Chcete "
+"jej přesto uložit?"
+
+#: libplanner/mrp-sql.c:3723
+#, c-format
+msgid "Connection to database '%s' failed."
+msgstr "Připojení k databázi „%s“ selhalo."
+
+#: libplanner/mrp-storage-sql.c:206
+#, c-format
+msgid "Invalid SQL URI (must start with 'sql://' and contain '#')."
+msgstr "Neplatné SQL URI (musí začínat „sql://“ a obsahovat „#“)."
+
+#: libplanner/mrp-storage-sql.c:277
+#, c-format
+msgid "Invalid SQL URI (invalid project id)."
+msgstr "Neplatné SQL URI (neplatné id projektu)."
+
+#: libplanner/mrp-storage-sql.c:285
+#, c-format
+msgid "Invalid SQL URI (no database name specified)."
+msgstr "Neplatné SQL URI (neurčen název databáze)."
+
+#: libplanner/mrp-task.c:1153
+#, c-format
+msgid ""
+"Could not add a predecessor relation, because the tasks are already related."
+msgstr ""
+"Nelze přidat vztah předchůdce, protože mezi úkoly již existuje vztah."
+
+#: libplanner/mrp-task.c:1164
+msgid "Start to Finish relation type cannot be combined with other relations."
+msgstr "Typ vztahu začátek do konce nelze kombinovat s ostatními vztahy."
+
+#: libplanner/mrp-task.c:1166
+msgid "Finish to Finish relation type cannot be combined with other relations."
+msgstr "Typ vztahu konec do konce nelze kombinovat s ostatními vztahy."
+
+#: libplanner/mrp-task.c:1183
+msgid ""
+"Start to Finish relation type cannot be combined with Start No Earlier Than "
+"constraint."
+msgstr ""
+"Typ vztahu začátek do konce nelze kombinovat s omezením Začátek ne dříve než."
+
+#: libplanner/mrp-task.c:1185
+msgid ""
+"Finish to Finish relation type cannot be combined with Start No Earlier Than "
+"constraint."
+msgstr ""
+"Typ vztahu konec do konce nelze kombinovat s omezením Začátek ne dříve než."
+
+#: libplanner/mrp-task.c:1209
+#, c-format
+msgid ""
+"Start to Finish relation cannot be set. Predecessor starts on project start "
+"date."
+msgstr ""
+"Vztah začátek do konce nelze nastavit. Předchůdce začíná v den začátku "
+"projektu."
+
+#: libplanner/mrp-task-manager.c:2603
+#, c-format
+msgid "Cannot add a predecessor, because it would result in a loop."
+msgstr "Nelze přidat předchůdce, protože by tím vznikla smyčka."
+
+#: libplanner/mrp-task-manager.c:2647
+#, c-format
+msgid "Cannot move the task, because it would result in a loop."
+msgstr "Nelze přesunout úkol, protože by tím vznikla smyčka."
+
+#. Translators: Example output: October 9, 2006
+#: libplanner/mrp-xsl.c:93
+msgid "%B %e, %Y"
+msgstr "%e. %b %Y"
+
+#: libplanner/mrp-xsl.c:157 libplanner/mrp-xsl.c:205
+#, c-format
+msgid "Export to HTML failed"
+msgstr "Export do HTML selhal"
+
+#: src/planner-application.c:54 src/planner-application.c:110
+msgid "Insert"
+msgstr "Vložit"
+
+#: src/planner-application.c:61 src/planner-application.c:117
+msgid "Remove"
+msgstr "Odstranit"
+
+#: src/planner-application.c:68
+msgid "Unlink"
+msgstr "Odpojit"
+
+#: src/planner-application.c:75
+msgid "Link"
+msgstr "Spojit"
+
+#: src/planner-application.c:82
+msgid "Indent"
+msgstr "Odsadit"
+
+#: src/planner-application.c:89
+msgid "Unindent"
+msgstr "Zrušit odsazení"
+
+#: src/planner-application.c:96
+msgid "Move up"
+msgstr "Posunout nahoru"
+
+#: src/planner-application.c:103
+msgid "Move down"
+msgstr "Posunout dolů"
+
+#: src/planner-application.c:124
+msgid "Edit"
+msgstr "Upravit"
+
+#: src/planner-calendar-dialog.c:183
+msgid "Change day type"
+msgstr "Změnit typ dne"
+
+#: src/planner-calendar-dialog.c:305
+msgid "Remove calendar"
+msgstr "Odstranit kalendář"
+
+#: src/planner-calendar-dialog.c:397
+msgid "Add new calendar"
+msgstr "Přidat nový kalendář"
+
+#: src/planner-cmd-manager.c:227
+#, c-format
+msgid "Undo '%s'"
+msgstr "Zpět „%s“"
+
+#: src/planner-cmd-manager.c:229
+msgid "Undo"
+msgstr "Zpět"
+
+#: src/planner-cmd-manager.c:239
+#, c-format
+msgid "Redo '%s'"
+msgstr "Znovu „%s“"
+
+#: src/planner-cmd-manager.c:241
+msgid "Redo"
+msgstr "Znovu"
+
+#: src/planner-day-type-dialog.c:486
+#, c-format
+msgid "Add day type \"%s\""
+msgstr "Přidat typ dnů „%s“"
+
+#: src/planner-day-type-dialog.c:547
+#, c-format
+msgid "Remove day type \"%s\""
+msgstr "Odstranit typ dnů „%s“"
+
+#: src/planner-default-week-dialog.c:42
+msgid "Monday"
+msgstr "Pondělí"
+
+#: src/planner-default-week-dialog.c:43
+msgid "Tuesday"
+msgstr "Úterý"
+
+#: src/planner-default-week-dialog.c:44
+msgid "Wednesday"
+msgstr "Středa"
+
+#: src/planner-default-week-dialog.c:45
+msgid "Thursday"
+msgstr "Čtvrtek"
+
+#: src/planner-default-week-dialog.c:46
+msgid "Friday"
+msgstr "Pátek"
+
+#: src/planner-default-week-dialog.c:47
+msgid "Saturday"
+msgstr "Sobota"
+
+#: src/planner-default-week-dialog.c:48
+msgid "Sunday"
+msgstr "Neděle"
+
+#: src/planner-default-week-dialog.c:304
+msgid "No working time"
+msgstr "Žádná pracovní doba"
+
+#: src/planner-default-week-dialog.c:315 src/planner-default-week-dialog.c:319
+msgid "%H:%M"
+msgstr "%H:%M"
+
+#: src/planner-default-week-dialog.c:533
+msgid "Edit default week"
+msgstr "Upravit výchozí týden"
+
+#: src/planner-eds-plugin.c:150
+msgid "EDS"
+msgstr "EDS"
+
+#: src/planner-eds-plugin.c:151
+msgid "Import resources from Evolution Data Server"
+msgstr "Importovat zdroje z datového serveru Evolution"
+
+#: src/planner-eds-plugin.c:379 src/planner-gantt-print.c:191
+#: src/planner-gantt-view.c:598 src/planner-group-dialog.c:816
+#: src/planner-property-dialog.c:458 src/planner-resource-view.c:1133
+#: src/planner-task-dialog.c:2589 src/planner-task-dialog.c:2659
+#: src/planner-task-view.c:362
+msgid "Name"
+msgstr "Jméno"
+
+#: src/planner-eds-plugin.c:399 src/planner-resource-view.c:1259
+msgid "Email"
+msgstr "E-mail"
+
+#: src/planner-eds-plugin.c:420
+msgid "Import"
+msgstr "Importovat"
+
+#: src/planner-eds-plugin.c:430
+msgid "Photo"
+msgstr "Foto"
+
+#: src/planner-eds-plugin.c:666
+msgid "Imported from Evolution Data Server"
+msgstr "Importováno z datového serveru Evolution"
+
+#: src/planner-eds-plugin.c:667
+msgid "Updated from Evolution Data Server"
+msgstr "Aktualizováno z datového serveru Evolution"
+
+#: src/planner-eds-plugin.c:852
+msgid "Query cancelled."
+msgstr "Dotaz zrušen."
+
+#: src/planner-eds-plugin.c:913
+msgid "Evolution Data Server UID"
+msgstr "UID datového serveru Evolution"
+
+#: src/planner-eds-plugin.c:914
+msgid "Identifier used by Evolution Data Server for resources"
+msgstr "Identifikátor zdrojů používaný datovým serverem Evolution"
+
+#: src/planner-format.c:153
+#, c-format
+msgid "%dd %dh"
+msgstr "%dd %dh"
+
+#: src/planner-format.c:156
+#, c-format
+msgid "%dd"
+msgstr "%dd"
+
+#: src/planner-format.c:161
+#, c-format
+msgid "%dh %dmin"
+msgstr "%d h %d min"
+
+#: src/planner-format.c:164
+#, c-format
+msgid "%dh"
+msgstr "%dh"
+
+#: src/planner-format.c:168
+#, c-format
+msgid "%dmin"
+msgstr "%d min"
+
+#. i18n: this string is the date nr and month name, displayed
+#. * e.g. in the date cells in the task tree. See
+#. * libmrproject/docs/DateFormat.
+#.
+#: src/planner-format.c:203
+msgid "%b %e"
+msgstr "%e. %b"
+
+#: src/planner-format.c:387
+msgid "mon"
+msgstr "měs"
+
+#. month unit variant accepted in input
+#: src/planner-format.c:388
+msgid "month"
+msgstr "měsíc"
+
+#. month unit variant accepted in input
+#: src/planner-format.c:389
+msgid "months"
+msgstr "měsíců"
+
+#. month unit variant accepted in input
+#: src/planner-format.c:390
+msgid "w"
+msgstr "t"
+
+#. week unit variant accepted in input
+#: src/planner-format.c:391
+msgid "week"
+msgstr "týden"
+
+#. week unit variant accepted in input
+#: src/planner-format.c:392
+msgid "weeks"
+msgstr "týdnů"
+
+#. week unit variant accepted in input
+#: src/planner-format.c:393
+msgid "d"
+msgstr "d"
+
+#. day unit variant accepted in input
+#: src/planner-format.c:394
+msgid "day"
+msgstr "den"
+
+#. day unit variant accepted in input
+#: src/planner-format.c:395
+msgid "days"
+msgstr "dní"
+
+#. day unit variant accepted in input
+#: src/planner-format.c:396
+msgid "h"
+msgstr "h"
+
+#. hour unit variant accepted in input
+#: src/planner-format.c:397
+msgid "hour"
+msgstr "hodina"
+
+#. hour unit variant accepted in input
+#: src/planner-format.c:398
+msgid "hours"
+msgstr "hodin"
+
+#. hour unit variant accepted in input
+#: src/planner-format.c:399
+msgid "min"
+msgstr "min"
+
+#. minute unit variant accepted in input
+#: src/planner-format.c:400
+msgid "minute"
+msgstr "minuta"
+
+#. minute unit variant accepted in input
+#: src/planner-format.c:401
+msgid "minutes"
+msgstr "minut"
+
+#. Fallback to black
+#. i18n: project start, the date format is described in
+#. * libmrproject/docs/DateFormat.
+#: src/planner-gantt-background.c:578
+msgid "%Y %b %d"
+msgstr "%e. %b %Y"
+
+#: src/planner-gantt-background.c:580
+msgid "Project start"
+msgstr "Začátek projektu"
+
+#: src/planner-gantt-header.c:687
+msgid "%a, %e %b %Y"
+msgstr "%a, %e. %b %Y"
+
+#: src/planner-gantt-print.c:199 src/planner-gantt-view.c:601
+#: src/planner-resource-dialog.c:255 src/planner-resource-view.c:744
+#: src/planner-resource-view.c:760 src/planner-resource-view.c:1684
+#: src/planner-task-view.c:365
+msgid "Work"
+msgstr "Práce"
+
+#: src/planner-gantt-print.c:546 src/planner-gantt-row.c:738
+#: src/planner-html-plugin.c:120 src/planner-task-tree.c:1555
+#: src/planner-window.c:1784
+msgid "Unnamed"
+msgstr "Nepojmenovaný"
+
+#: src/planner-gantt-row.c:2124
+#, c-format
+msgid "Change work to %s"
+msgstr "Změnit práci na %s"
+
+#: src/planner-gantt-row.c:2140
+#, c-format
+msgid "Change progress to %u%% complete"
+msgstr "Změnit průběh na splnění %u%%"
+
+#: src/planner-gantt-row.c:2179 src/planner-gantt-row.c:2182
+msgid "No name"
+msgstr "Beze jména"
+
+#: src/planner-gantt-row.c:2185
+#, c-format
+msgid "Make task '%s' a predecessor of '%s'"
+msgstr "Učinit úkol „%s“ předchůdcem „%s“"
+
+#: src/planner-gantt-row.c:3206 src/planner-task-dialog.c:399
+#: src/planner-task-tree.c:260 src/planner-task-tree.c:942
+msgid "Edit task property"
+msgstr "Upravit vlastnosti úkolu"
+
+#: src/planner-gantt-view.c:138 src/planner-task-view.c:119
+msgid "_Insert Task"
+msgstr "_Vložit úkol"
+
+#: src/planner-gantt-view.c:139 src/planner-task-view.c:120
+msgid "Insert a new task"
+msgstr "Vložit nový úkol"
+
+#: src/planner-gantt-view.c:141 src/planner-task-view.c:122
+msgid "In_sert Tasks..."
+msgstr "_Vložit úkoly…"
+
+#: src/planner-gantt-view.c:144 src/planner-task-view.c:125
+msgid "_Remove Task"
+msgstr "_Odstranit úkoly"
+
+#: src/planner-gantt-view.c:145 src/planner-task-view.c:126
+msgid "Remove the selected tasks"
+msgstr "Odstranit vybrané úkoly"
+
+#: src/planner-gantt-view.c:147
+msgid "_Edit Task Properties..."
+msgstr "Upravit _vlastnosti úkolu…"
+
+#: src/planner-gantt-view.c:150 src/planner-resource-view.c:241
+#: src/planner-task-view.c:131
+msgid "Select _All"
+msgstr "Vybrat _vše"
+
+#: src/planner-gantt-view.c:151 src/planner-resource-view.c:242
+#: src/planner-task-view.c:132
+msgid "Select all tasks"
+msgstr "Vybrat všechny úkoly"
+
+#: src/planner-gantt-view.c:153 src/planner-task-view.c:134
+msgid "_Unlink Task"
+msgstr "Od_pojit úkol"
+
+#: src/planner-gantt-view.c:154 src/planner-task-view.c:135
+msgid "Unlink the selected tasks"
+msgstr "Odpojit vybrané úkoly"
+
+#: src/planner-gantt-view.c:156 src/planner-task-view.c:137
+msgid "_Link Tasks"
+msgstr "S_pojit úkoly"
+
+#: src/planner-gantt-view.c:157 src/planner-task-view.c:138
+msgid "Link the selected tasks"
+msgstr "Spojit vybrané úkoly"
+
+#: src/planner-gantt-view.c:159 src/planner-task-view.c:140
+msgid "I_ndent Task"
+msgstr "_Odsadit úkol"
+
+#: src/planner-gantt-view.c:160 src/planner-task-view.c:141
+msgid "Indent the selected tasks"
+msgstr "Odsadit vybrané úkoly"
+
+#: src/planner-gantt-view.c:162 src/planner-task-view.c:143
+msgid "Unin_dent Task"
+msgstr "Zrušit od_sazení úkolu"
+
+#: src/planner-gantt-view.c:163 src/planner-task-view.c:144
+msgid "Unindent the selected tasks"
+msgstr "Zrušit odsazení vybraných úkolů"
+
+#: src/planner-gantt-view.c:165 src/planner-task-view.c:146
+msgid "Move Task _Up"
+msgstr "Posunout úkol _nahoru"
+
+#: src/planner-gantt-view.c:166 src/planner-task-view.c:147
+msgid "Move the selected tasks upwards"
+msgstr "Přesunout vybrané úkoly výše"
+
+#: src/planner-gantt-view.c:168 src/planner-task-view.c:149
+msgid "Move Task Do_wn"
+msgstr "Posunout úkoly _dolů"
+
+#: src/planner-gantt-view.c:169 src/planner-task-view.c:150
+msgid "Move the selected tasks downwards"
+msgstr "Přesunout vybrané úkoly níže"
+
+#: src/planner-gantt-view.c:171 src/planner-task-view.c:152
+msgid "Reset _Constraint"
+msgstr "Odstranit _omezení"
+
+#: src/planner-gantt-view.c:174
+msgid "Zoom To _Fit"
+msgstr "Zmenšit do _okna"
+
+#: src/planner-gantt-view.c:175 src/planner-usage-view.c:115
+msgid "Zoom to fit the entire project"
+msgstr "Zmenšit celý projekt do okna"
+
+#: src/planner-gantt-view.c:177
+msgid "_Zoom In"
+msgstr "Z_většit"
+
+#: src/planner-gantt-view.c:178 src/planner-usage-view.c:111
+#: src/planner-usage-view.c:112
+msgid "Zoom in"
+msgstr "Zvětšit"
+
+#: src/planner-gantt-view.c:180
+msgid "Zoom _Out"
+msgstr "Z_menšit"
+
+#: src/planner-gantt-view.c:181 src/planner-usage-view.c:108
+#: src/planner-usage-view.c:109
+msgid "Zoom out"
+msgstr "Zmenšit"
+
+#: src/planner-gantt-view.c:183 src/planner-resource-view.c:247
+#: src/planner-task-view.c:158 src/planner-usage-view.c:117
+msgid "Edit _Visible Columns"
+msgstr "Upravit _viditelné sloupce"
+
+#: src/planner-gantt-view.c:184 src/planner-resource-view.c:248
+#: src/planner-task-view.c:159 src/planner-usage-view.c:118
+msgid "Edit visible columns"
+msgstr "Upravit viditelné sloupce"
+
+#: src/planner-gantt-view.c:189 src/planner-task-view.c:164
+msgid "_Highlight Critical Tasks"
+msgstr "_Zvýraznit kritické úkoly"
+
+#: src/planner-gantt-view.c:192
+msgid "_Show Guide Lines"
+msgstr "_Zobrazit vodicí linky"
+
+#: src/planner-gantt-view.c:195 src/planner-task-view.c:166
+msgid "_Nonstandard Days"
+msgstr "_Nestandardní dny"
+
+#. i18n: Label used for the sidebar. Please try to make it short and use
+#. * a linebreak if necessary/possible.
+#.
+#: src/planner-gantt-view.c:391
+msgid "Gantt"
+msgstr "Gantt"
+
+#: src/planner-gantt-view.c:397
+msgid "_Gantt Chart"
+msgstr "_Ganttův diagram"
+
+#. i18n: WBS is short for work breakdown structure, and is a
+#. * project management term. You might want to leave it
+#. * untranslated unless there is a localized term for it.
+#.
+#. i18n: WBS is sort for work breakdown structure, and is a
+#. * project management term. You might want to leave it
+#. * untranslated unless there is a localized term for it.
+#.
+#: src/planner-gantt-view.c:597 src/planner-task-view.c:361
+msgid "WBS"
+msgstr "WBS"
+
+#: src/planner-gantt-view.c:599 src/planner-task-view.c:363
+msgid "Start"
+msgstr "Začátek"
+
+#: src/planner-gantt-view.c:600 src/planner-task-view.c:364
+msgid "Finish"
+msgstr "Konec"
+
+#: src/planner-gantt-view.c:603 src/planner-task-view.c:367
+msgid "Slack"
+msgstr "Rezerva"
+
+#: src/planner-gantt-view.c:605 src/planner-task-view.c:369
+msgid "Assigned to"
+msgstr "Přiřazeno"
+
+#. i18n: The string "% Complete" will be used in the header
+#. * of a column containing values from 0 upto 100, indicating
+#. * what part of a task has been completed.
+#.
+#: src/planner-gantt-view.c:611 src/planner-task-view.c:375
+#, no-c-format
+msgid "% Complete"
+msgstr "% hotovo"
+
+#: src/planner-gantt-view.c:948
+msgid "Edit Gantt Columns"
+msgstr "Upravit sloupce v Gantt"
+
+#: src/planner-group-dialog.c:302
+msgid "Insert group"
+msgstr "Vložit skupinu"
+
+#: src/planner-group-dialog.c:429
+msgid "Remove group"
+msgstr "Odstranit skupinu"
+
+#: src/planner-group-dialog.c:523
+msgid "Default group"
+msgstr "Výchozí skupina"
+
+#: src/planner-group-dialog.c:641
+msgid "Edit group property"
+msgstr "Upravit vlastnost skupiny"
+
+#: src/planner-group-dialog.c:822
+msgid "Manager name"
+msgstr "Jméno manažera"
+
+#: src/planner-group-dialog.c:828
+msgid "Manager phone"
+msgstr "Telefon manažera"
+
+#: src/planner-group-dialog.c:834
+msgid "Manager email"
+msgstr "E-mail manažera"
+
+#: src/planner-html-plugin.c:46
+msgid "HTML"
+msgstr "HTML"
+
+#: src/planner-html-plugin.c:47
+msgid "Export project to HTML"
+msgstr "Exportovat projekt do HTML"
+
+#: src/planner-html-plugin.c:79
+msgid "Could not export to HTML"
+msgstr "Nelze exportovat do HTML"
+
+#: src/planner-html-plugin.c:105
+msgid "Export to HTML"
+msgstr "Export do HTML"
+
+#: src/planner-html-plugin.c:149
+msgid "Show result in browser"
+msgstr "Zobrazit výsledek v prohlížeči"
+
+#: src/planner-html-plugin.c:168 src/planner-window.c:1511
+#: src/planner-xml-planner-plugin.c:128
+#, c-format
+msgid "File \"%s\" exists, do you want to overwrite it?"
+msgstr "Soubor „%s“ existuje, chcete jej přepsat?"
+
+#: src/planner-main.c:44
+msgid "Create the initial window with the given geometry."
+msgstr "Vytvořit počáteční okno s zadanou geometrií."
+
+#: src/planner-main.c:44
+msgid "GEOMETRY"
+msgstr "GEOMETRIE"
+
+#: src/planner-main.c:45
+msgid "FILES|URIs"
+msgstr "SOUBORY|adresy_URI"
+
+#: src/planner-main.c:75
+msgid "- Planner project management"
+msgstr "- Správa projektů Planner"
+
+#: src/planner-main.c:79
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Spusťte „%s --help“ pro zobrazení seznamu dostupných přepínačů příkazové "
+"řádky\n"
+
+#: src/planner-main.c:107
+#, c-format
+msgid "Invalid geometry string \"%s\"\n"
+msgstr "Neplatný řetězec s polohou a rozměry „%s“\n"
+
+#: src/planner-msp-plugin.c:51
+msgid "MS Project XML..."
+msgstr "MS Project XML…"
+
+#: src/planner-msp-plugin.c:51
+msgid "Import an MS Project XML file"
+msgstr "Importovat soubor MS Project XML"
+
+#: src/planner-msp-plugin.c:119
+msgid "Couldn't import file."
+msgstr "Nelze importovat soubor."
+
+#: src/planner-msp-plugin.c:212
+msgid "Import a File"
+msgstr "Importovat soubor"
+
+#: src/planner-msp-plugin.c:220
+msgid "XML Files"
+msgstr "Soubory XML"
+
+#: src/planner-msp-plugin.c:225 src/planner-window.c:875
+msgid "All Files"
+msgstr "Všechny soubory"
+
+#: src/planner-phase-dialog.c:527
+msgid "Insert phase"
+msgstr "Vložit fázi"
+
+#: src/planner-phase-dialog.c:626
+msgid "Remove phase"
+msgstr "Odstranit fázi"
+
+#: src/planner-plugin-loader.c:40
+#, c-format
+msgid "Could not open plugin file '%s'\n"
+msgstr "Nelze otevřít soubor zásuvného modulu „%s“\n"
+
+#. i18n: finish-to-start, not sure if it should be translated...
+#: src/planner-predecessor-model.c:191 src/planner-task-dialog.c:2159
+msgid "FS"
+msgstr "KZ"
+
+#: src/planner-predecessor-model.c:194 src/planner-task-dialog.c:2165
+msgid "FF"
+msgstr "KK"
+
+#: src/planner-predecessor-model.c:197 src/planner-task-dialog.c:2171
+msgid "SS"
+msgstr "ZZ"
+
+#: src/planner-predecessor-model.c:200 src/planner-task-dialog.c:2177
+msgid "SF"
+msgstr "ZK"
+
+#: src/planner-print-dialog.c:247
+msgid "Select the views to print:"
+msgstr "Vyberte pohledy, které chcete vytisknout:"
+
+#: src/planner-print-job.c:168
+msgid "Select views"
+msgstr "Vyberte pohledy"
+
+#: src/planner-project-properties.c:385
+msgid "Select a calendar to use for this project:"
+msgstr "Vyberte kalendář, který používat pro tento projekt:"
+
+#: src/planner-project-properties.c:485
+msgid "Edit Project Name"
+msgstr "Upravit název projektu"
+
+#: src/planner-project-properties.c:521
+msgid "Edit Organization"
+msgstr "Upravit organizaci"
+
+#: src/planner-project-properties.c:557
+msgid "Edit Manager"
+msgstr "Upravit manažera"
+
+#: src/planner-project-properties.c:629 src/planner-project-properties.c:663
+msgid "Edit Project Start"
+msgstr "Upravit začátek projektu"
+
+#: src/planner-project-properties.c:752
+msgid "OK"
+msgstr "Budiž"
+
+#: src/planner-project-properties.c:805
+msgid "Edit Project Phase"
+msgstr "Upravit fázi projektu"
+
+#: src/planner-project-properties.c:938
+msgid "Property"
+msgstr "Vlastnost"
+
+#: src/planner-project-properties.c:949
+msgid "Value"
+msgstr "Hodnota"
+
+#: src/planner-project-properties.c:1344 src/planner-property-dialog.c:306
+msgid "The name of the custom property needs to start with a letter."
+msgstr "Název vlastní vlastnosti musí začínat písmenem."
+
+#: src/planner-project-properties.c:1416 src/planner-property-dialog.c:376
+#, c-format
+msgid "Do you really want to remove the property '%s' from the project?"
+msgstr "Opravdu chcete z projektu odstranit vlastnost „%s“?"
+
+#: src/planner-project-properties.c:1535
+msgid "Date..."
+msgstr "Datum…"
+
+#: src/planner-project-properties.c:1879
+msgid "Add project property"
+msgstr "Přidat vlastnost projektu"
+
+#: src/planner-project-properties.c:1989
+msgid "Remove project property"
+msgstr "Odstranit vlastnost projektu"
+
+#: src/planner-project-properties.c:2082
+msgid "Edit project property value"
+msgstr "Upravit hodnotu vlastnosti projektu"
+
+#: src/planner-property-dialog.c:475
+msgid "Label"
+msgstr "Jmenovka"
+
+#: src/planner-property-dialog.c:487 src/planner-resource-view.c:1195
+#: src/planner-task-dialog.c:2683
+msgid "Type"
+msgstr "Typ"
+
+#: src/planner-property-dialog.c:640
+msgid "Add property"
+msgstr "Přidat vlastnost"
+
+#: src/planner-property-dialog.c:785
+msgid "Remove property"
+msgstr "Odstranit vlastnost"
+
+#: src/planner-property-dialog.c:878
+msgid "Edit property label"
+msgstr "Upravit jmenovku vlastnosti"
+
+#: src/planner-resource-cmd.c:75
+msgid "Insert resource"
+msgstr "Vložit zdroj"
+
+#: src/planner-resource-dialog.c:256 src/planner-resource-view.c:747
+#: src/planner-resource-view.c:761 src/planner-resource-view.c:1689
+msgid "Material"
+msgstr "Materiál"
+
+#: src/planner-resource-dialog.c:271 src/planner-resource-input-dialog.c:80
+#: src/planner-resource-view.c:1863
+msgid "(None)"
+msgstr "(žádná)"
+
+#: src/planner-resource-dialog.c:275 src/planner-resource-input-dialog.c:84
+#: src/planner-task-dialog.c:328
+msgid "(No name)"
+msgstr "(beze jména)"
+
+#: src/planner-resource-dialog.c:472
+msgid "Edit resource calendar"
+msgstr "Upravit kalendář zdroje"
+
+#: src/planner-resource-dialog.c:553
+msgid "Edit resource note"
+msgstr "Upravit poznámku o zdroji"
+
+#: src/planner-resource-dialog.c:620
+msgid "Edit resource cost"
+msgstr "Upravit cenu zdroje"
+
+#: src/planner-resource-dialog.c:688 src/planner-resource-dialog.c:729
+#: src/planner-resource-view.c:1385 src/planner-resource-view.c:1466
+msgid "Edit resource property"
+msgstr "Upravit vlastnost zdroje"
+
+#. i18n: time stamp format for notes in task dialog, see strftime(3) for
+#. * a detailed description.
+#: src/planner-resource-dialog.c:1373 src/planner-task-dialog.c:1744
+msgid "%a %d %b %Y, %H:%M\n"
+msgstr "%a %d. %b %Y, %H:%M\n"
+
+#: src/planner-resource-dialog.c:1489
+msgid "None (use project default)"
+msgstr "Žádný (použít výchozí projektu)"
+
+#: src/planner-resource-dialog.c:1611 src/planner-resource-dialog.c:1613
+msgid "Edit resource properties"
+msgstr "Upravit vlastnosti zdroje"
+
+#: src/planner-resource-view.c:226
+msgid "_Insert Resource"
+msgstr "_Vložit zdroj"
+
+#: src/planner-resource-view.c:227
+msgid "Insert a new resource"
+msgstr "Vložit nový zdroj"
+
+#: src/planner-resource-view.c:229
+msgid "In_sert Resources..."
+msgstr "_Vložit zdroje…"
+
+#: src/planner-resource-view.c:232
+msgid "_Remove Resource"
+msgstr "_Odstranit zdroj"
+
+#: src/planner-resource-view.c:233
+msgid "Remove the selected resource"
+msgstr "Odstranit vybraný zdroj"
+
+#: src/planner-resource-view.c:235
+msgid "_Edit Resource Properties..."
+msgstr "_Upravit vlastnosti zdroje…"
+
+#: src/planner-resource-view.c:238
+msgid "Edit _Groups"
+msgstr "Upravit _skupiny"
+
+#: src/planner-resource-view.c:239
+msgid "Edit resource groups"
+msgstr "Upravit skupiny zdrojů"
+
+#: src/planner-resource-view.c:244
+msgid "Edit _Custom Properties..."
+msgstr "Upravit _vlastní vlastnosti…"
+
+#: src/planner-resource-view.c:411
+msgid "_Resources"
+msgstr "_Zdroje"
+
+#: src/planner-resource-view.c:910
+msgid "Remove resource"
+msgstr "Odstranit zdroj"
+
+#: src/planner-resource-view.c:979
+msgid "Edit Resource Columns"
+msgstr "Upravit sloupce zdrojů"
+
+#: src/planner-resource-view.c:1014
+msgid "Edit custom resource properties"
+msgstr "Upravit vlastní vlastnosti zdroje"
+
+#: src/planner-resource-view.c:1159
+msgid "Short name"
+msgstr "Krátký název"
+
+#: src/planner-resource-view.c:1233
+msgid "Group"
+msgstr "Skupina"
+
+#. i18n: Short "Week", preferably 2 letters.
+#: src/planner-scale-utils.c:129
+#, c-format
+msgid "Wk %d"
+msgstr "Týd %d"
+
+#: src/planner-scale-utils.c:133
+#, c-format
+msgid "Week %d"
+msgstr "Týden %d"
+
+#. i18n: Week, year.
+#: src/planner-scale-utils.c:139
+#, c-format
+msgid "Week %d, %d"
+msgstr "Týden %d, %d"
+
+#. i18n: Short "Quarter", preferably 1 letter.
+#: src/planner-scale-utils.c:170
+#, c-format
+msgid "Q%d"
+msgstr "Q%d"
+
+#. i18n: Short "Quarter", preferably 2-3 letters.
+#: src/planner-scale-utils.c:174
+#, c-format
+msgid "Qtr %d"
+msgstr "Kv %d"
+
+#. i18n: Year, short "Quarter", preferably 2-3 letters.
+#: src/planner-scale-utils.c:178
+#, c-format
+msgid "%d, Qtr %d"
+msgstr "%d, Kv %d"
+
+#. i18n: Short "Half year", preferably 1 letter.
+#: src/planner-scale-utils.c:191
+#, c-format
+msgid "H%d"
+msgstr "P%d"
+
+#. i18n: Year, short "Half year", preferably 1 letter.
+#: src/planner-scale-utils.c:196
+#, c-format
+msgid "%04d, H%d"
+msgstr "%04d, P%d"
+
+#: src/planner-sql-plugin.c:93
+msgid "Open from Database..."
+msgstr "Otevřít z databáze…"
+
+#: src/planner-sql-plugin.c:94
+msgid "Open a project from a database"
+msgstr "Otevřít projekt z databáze"
+
+#: src/planner-sql-plugin.c:96 src/planner-sql-plugin.c:1208
+msgid "Save to Database"
+msgstr "Uložit do databáze"
+
+#: src/planner-sql-plugin.c:97
+msgid "Save the current project to a database"
+msgstr "Uložit aktuální projekt do databáze"
+
+#: src/planner-sql-plugin.c:570
+#, c-format
+msgid ""
+"Database %s needs to be upgraded from version %s to version %s.\n"
+"Please backup database before the upgrade."
+msgstr ""
+"Databázi %s je potřeba aktualizovat z verze %s na verzi %s.\n"
+"Před aktualizací prosím databázi zazálohujte."
+
+#: src/planner-sql-plugin.c:577
+msgid "Upgrade"
+msgstr "Aktualizovat"
+
+#: src/planner-sql-plugin.c:591
+#, c-format
+msgid ""
+"Could not upgrade database %s.\n"
+" Upgrade file used: %s.\n"
+"\n"
+"Database error: \n"
+"%s"
+msgstr ""
+"Nelze aktualizovat databázi %s.\n"
+" Používaný soubor aktualizace: %s.\n"
+"\n"
+"Chyba databáze: \n"
+"%s"
+
+#: src/planner-sql-plugin.c:631
+#, c-format
+msgid "Can't create tables in database %s"
+msgstr "Nelze vytvořit tabulky v databázi %s"
+
+#: src/planner-sql-plugin.c:694
+#, c-format
+msgid "Database %s is not setup for Planner. Do you want to do that?"
+msgstr "Databáze %s není nastavena pro Planner. Chcete to udělat?"
+
+#: src/planner-sql-plugin.c:736
+#, c-format
+msgid "Connection to database '%s@%s' failed."
+msgstr "Připojení k databázi „%s@%s“ selhalo."
+
+#: src/planner-sql-plugin.c:759
+#, c-format
+msgid "Test to tables in database '%s' failed."
+msgstr "Test do tabulek v databázi „%s“ selhal."
+
+#: src/planner-sql-plugin.c:847
+msgid "ID"
+msgstr "ID"
+
+#: src/planner-sql-plugin.c:855
+msgid "Project"
+msgstr "Projekt"
+
+#: src/planner-sql-plugin.c:863
+msgid "Phase"
+msgstr "Fáze"
+
+#: src/planner-sql-plugin.c:871
+msgid "Revision"
+msgstr "Verze"
+
+#: src/planner-sql-plugin.c:1098
+msgid "Open from Database"
+msgstr "Otevřít z databáze"
+
+#: src/planner-task-cmd.c:96
+msgid "Link task"
+msgstr "Připojit úkol"
+
+#: src/planner-task-cmd.c:172
+msgid "Unlink task"
+msgstr "Odpojit úkol"
+
+#: src/planner-task-cmd.c:267
+msgid "Insert task"
+msgstr "Vložit úkol"
+
+#: src/planner-task-dialog.c:274
+msgid "Finish to start (FS)"
+msgstr "Konec do začátku (KZ)"
+
+#: src/planner-task-dialog.c:275
+msgid "Finish to finish (FF)"
+msgstr "Konec do konce (KK)"
+
+#: src/planner-task-dialog.c:276
+msgid "Start to start (SS)"
+msgstr "Začátek do začátku (ZZ)"
+
+#: src/planner-task-dialog.c:277
+msgid "Start to finish (SF)"
+msgstr "Začátek do konce (ZK)"
+
+#: src/planner-task-dialog.c:473
+msgid "Edit task type"
+msgstr "Upravit typ úkolu"
+
+#: src/planner-task-dialog.c:540
+msgid "Toggle fixed duration"
+msgstr "Přepnout fixní trvání"
+
+#: src/planner-task-dialog.c:607
+msgid "Edit task scheduling"
+msgstr "Upravit plánování úkolu"
+
+#: src/planner-task-dialog.c:687
+msgid "Assign resource to task"
+msgstr "Přiřadit zdroj k úkolu"
+
+#: src/planner-task-dialog.c:747
+msgid "Unassign resource from task"
+msgstr "Zrušit přiřazení zdroje k úkolu"
+
+#: src/planner-task-dialog.c:806
+msgid "Change resource units in task"
+msgstr "Změnit jednotky zdroje pro úkol"
+
+#: src/planner-task-dialog.c:894
+msgid "Edit task predecessor"
+msgstr "Upravit předchůdce úkolu"
+
+#: src/planner-task-dialog.c:965
+msgid "Edit lag predecessor"
+msgstr "Upravit předchůdce zpoždění"
+
+#: src/planner-task-dialog.c:1030
+msgid "Edit task note"
+msgstr "Upravit poznámku o úkolu"
+
+#: src/planner-task-dialog.c:1433
+#, c-format
+msgid "No earlier than %s"
+msgstr "Ne dříve než %s"
+
+#: src/planner-task-dialog.c:1437
+#, c-format
+msgid "On fixed date %s"
+msgstr "V pevné datum %s"
+
+#: src/planner-task-dialog.c:1907
+msgid "Can't add new predecessor. No task selected!"
+msgstr "Nelze přidat nového předchůdce. Není vybrán žádný úkol!"
+
+#: src/planner-task-dialog.c:2436
+msgid "Change..."
+msgstr "Změnit…"
+
+#: src/planner-task-dialog.c:2610
+msgid "Assigned"
+msgstr "Přiřazeno"
+
+#: src/planner-task-dialog.c:2627
+msgid "Units"
+msgstr "Jednotky"
+
+#: src/planner-task-dialog.c:2701
+msgid "Lag"
+msgstr "Zpoždění"
+
+#: src/planner-task-dialog.c:2844 src/planner-task-dialog.c:2846
+msgid "Edit task properties"
+msgstr "Upravit vlastnosti úkolu"
+
+#: src/planner-task-popup.c:45
+msgid "_Insert task"
+msgstr "_Vložit úkol"
+
+#: src/planner-task-popup.c:49
+msgid "Insert _subtask"
+msgstr "Vložit _podúkol"
+
+#: src/planner-task-popup.c:53
+msgid "_Remove task"
+msgstr "_Odstranit úkol"
+
+#: src/planner-task-popup.c:57
+msgid "_Unlink task"
+msgstr "Od_pojit úkol"
+
+#: src/planner-task-popup.c:61
+msgid "Assign _resources..."
+msgstr "Přiřadit zd_roje…"
+
+#: src/planner-task-popup.c:65 src/planner-usage-tree.c:92
+msgid "_Edit task..."
+msgstr "_Upravit úkol…"
+
+#: src/planner-task-tree.c:562
+msgid "Remove task"
+msgstr "Odstranit úkol"
+
+#: src/planner-task-tree.c:639
+msgid "Apply constraint to task"
+msgstr "Přidat omezení úkolu"
+
+#: src/planner-task-tree.c:701
+msgid "Reset task constraint"
+msgstr "Odstranit omezení úkolu"
+
+#: src/planner-task-tree.c:1454 src/planner-task-tree.c:1608
+msgid "N/A"
+msgstr "N/A"
+
+#: src/planner-task-tree.c:2775
+msgid "Remove tasks"
+msgstr "Odstranit úkoly"
+
+#: src/planner-task-tree.c:2837
+#, c-format
+msgid ""
+"You are about to open an edit dialog each for %i tasks. Are you sure that "
+"you want to do that?"
+msgstr ""
+"Hodláte otevřít dialogová okna pro úpravu každého z %i úkolů. Jste si jisti, "
+"že to chcete udělat?"
+
+#: src/planner-task-tree.c:2939
+msgid "Unlink tasks"
+msgstr "Odpojit úkolyy"
+
+#: src/planner-task-tree.c:2991
+msgid "Link tasks"
+msgstr "Připojit úkolyy"
+
+#: src/planner-task-tree.c:3080
+msgid "Indent tasks"
+msgstr "Odsadit úkolyy"
+
+#: src/planner-task-tree.c:3091
+msgid "Indent task"
+msgstr "Odsadit úkol"
+
+#: src/planner-task-tree.c:3183
+msgid "Unindent tasks"
+msgstr "Zrušit odsazení úkolu"
+
+#: src/planner-task-tree.c:3201
+msgid "Unindent task"
+msgstr "Zrušit odsazení úkolu"
+
+#: src/planner-task-tree.c:3277
+msgid "Move tasks up"
+msgstr "Posunout úkoly nahoru"
+
+#: src/planner-task-tree.c:3315
+msgid "Move task up"
+msgstr "Posunout úkol nahoru"
+
+#: src/planner-task-tree.c:3403
+msgid "Move tasks down"
+msgstr "Posunout úkoly dolů"
+
+#. Moving task from 'position' to 'position + 1'
+#: src/planner-task-tree.c:3449
+msgid "Move task down"
+msgstr "Posunout úkol dolů"
+
+#: src/planner-task-tree.c:3505
+msgid "Reset task constraints"
+msgstr "Odstranit omezení úkolu"
+
+#: src/planner-task-tree.c:3537
+msgid "Reset all task constraints"
+msgstr "Odstranit omezení všech úkolů"
+
+#: src/planner-task-view.c:128
+msgid "_Edit Task"
+msgstr "_Upravit úkol"
+
+#: src/planner-task-view.c:155
+msgid "_Edit Custom Properties..."
+msgstr "Upravit _vlastní vlastnosti…"
+
+#: src/planner-task-view.c:301
+msgid "Tasks"
+msgstr "Úkoly"
+
+#: src/planner-task-view.c:307
+msgid "_Tasks"
+msgstr "Ú_lohy"
+
+#: src/planner-task-view.c:603
+msgid "Edit custom task properties"
+msgstr "Upravit vlastní vlastnosti úkolu"
+
+#: src/planner-task-view.c:657
+msgid "Edit Task Columns"
+msgstr "Upravit sloupce úkolu"
+
+#: src/planner-usage-tree.c:88
+msgid "Edit _resource..."
+msgstr "Upravit zd_roj…"
+
+#: src/planner-usage-tree.c:96
+msgid "E_xpand all resources"
+msgstr "Roz_balit všechny zdroje"
+
+#: src/planner-usage-tree.c:100
+msgid "_Collapse all resources"
+msgstr "_Sbalit všechny zdroje"
+
+#: src/planner-usage-tree.c:390
+msgid ""
+"\n"
+"Name"
+msgstr ""
+"\n"
+"Jméno"
+
+#: src/planner-usage-tree.c:392
+msgid ""
+"\n"
+"Task"
+msgstr ""
+"\n"
+"Úkol"
+
+#: src/planner-usage-view.c:114
+msgid "Zoom to fit"
+msgstr "Přizpůsobit velikosti okna"
+
+#. i18n: Label used for the sidebar. Please try to make it short and use
+#. * a linebreak if necessary/possible.
+#.
+#: src/planner-usage-view.c:273
+msgid ""
+"Resource\n"
+"Usage"
+msgstr ""
+"Využití\n"
+"zdroje"
+
+#: src/planner-usage-view.c:279
+msgid "Resource _Usage"
+msgstr "_Využití zdroje"
+
+#: src/planner-usage-view.c:392
+msgid "Edit Resource Usage Columns"
+msgstr "Upravit sloupce využití zdrojů"
+
+#: src/planner-util-win32.c:45
+#, c-format
+msgid "Unable to open '%s'"
+msgstr "Nelze otevřít „%s“"
+
+#: src/planner-util-win32.c:72
+msgid "Unable to open help file"
+msgstr "Nelze otevřít soubor s nápovědou"
+
+#: src/planner-window.c:211
+msgid "_File"
+msgstr "_Soubor"
+
+#: src/planner-window.c:215
+msgid "_New Project"
+msgstr "_Nový projekt"
+
+#: src/planner-window.c:215
+msgid "Create a new project"
+msgstr "Vytvořit nový projekt"
+
+#: src/planner-window.c:219
+msgid "_Open..."
+msgstr "_Otevřít…"
+
+#: src/planner-window.c:219
+msgid "Open a project"
+msgstr "Otevřít projekt"
+
+#: src/planner-window.c:222
+msgid "Open _Recent"
+msgstr "Otevřít ne_dávné"
+
+#: src/planner-window.c:225
+msgid "_Import"
+msgstr "_Importovat"
+
+#: src/planner-window.c:229 src/planner-window.c:1380
+msgid "_Save"
+msgstr "_Uložit"
+
+#: src/planner-window.c:229
+msgid "Save the current project"
+msgstr "Uložit aktuální projekt"
+
+#: src/planner-window.c:232
+msgid "_Export"
+msgstr "_Exportovat"
+
+#: src/planner-window.c:235
+msgid "Save _As..."
+msgstr "Uložit _jako…"
+
+#: src/planner-window.c:235
+msgid "Save the current project with a different name"
+msgstr "Uložit aktuální projekt pod jiným jménem"
+
+#: src/planner-window.c:238
+msgid "Page Set_up..."
+msgstr "Nastavení s_tránky…"
+
+#: src/planner-window.c:238
+msgid "Setup the page settings for your current printer"
+msgstr "Upravit nastavení stránky pro aktivní tiskárnu"
+
+#: src/planner-window.c:241
+msgid "_Print..."
+msgstr "_Tisk…"
+
+#: src/planner-window.c:241
+msgid "Print the current project"
+msgstr "Vytisknout aktuální projekt"
+
+#: src/planner-window.c:244
+msgid "Print Pre_view"
+msgstr "_Náhled před tiskem"
+
+#: src/planner-window.c:244
+msgid "Print preview of the current project"
+msgstr "Náhled aktuálního projektu před tiskem"
+
+#: src/planner-window.c:247
+msgid "_Close"
+msgstr "_Zavřít"
+
+#: src/planner-window.c:247
+msgid "Close the current file"
+msgstr "Zavřít aktuální soubor"
+
+#: src/planner-window.c:250
+msgid "_Quit"
+msgstr "_Konec"
+
+#: src/planner-window.c:250
+msgid "Exit the program"
+msgstr "Ukončit program"
+
+#: src/planner-window.c:254
+msgid "_Edit"
+msgstr "_Upravit"
+
+#: src/planner-window.c:257
+msgid "_Undo"
+msgstr "_Zpět"
+
+#: src/planner-window.c:257
+msgid "Undo the last action"
+msgstr "Vrátit poslední akci"
+
+#: src/planner-window.c:260
+msgid "_Redo"
+msgstr "Z_novu"
+
+#: src/planner-window.c:260
+msgid "Redo the undone action"
+msgstr "Zrušit poslední akci zpět"
+
+#: src/planner-window.c:264
+msgid "_View"
+msgstr "_Zobrazit"
+
+#: src/planner-window.c:268
+msgid "_Actions"
+msgstr "_Akce"
+
+#: src/planner-window.c:272
+msgid "_Project"
+msgstr "_Projekt"
+
+#: src/planner-window.c:275
+msgid "_Manage Calendars"
+msgstr "_Spravovat kalendáře"
+
+#: src/planner-window.c:278
+msgid "Edit Day _Types"
+msgstr "Upravit _typy dnů"
+
+#: src/planner-window.c:281
+msgid "Edit Project _Phases"
+msgstr "Upravit _fáze projektu"
+
+#: src/planner-window.c:284
+msgid "_Edit Project Properties"
+msgstr "Upravit _vlastnosti projektu"
+
+#: src/planner-window.c:284
+msgid "Edit the project properties"
+msgstr "Upravit vlastnosti projektu"
+
+#: src/planner-window.c:292
+msgid "_Help"
+msgstr "_Nápověda"
+
+#: src/planner-window.c:295
+msgid "_User Guide"
+msgstr "_Příručka uživatele"
+
+#: src/planner-window.c:295
+msgid "Show the Planner User Guide"
+msgstr "Zobrazit příručku uživatele Planneru"
+
+#: src/planner-window.c:298
+msgid "_About"
+msgstr "_O programu"
+
+#: src/planner-window.c:298
+msgid "About this application"
+msgstr "O této aplikaci"
+
+#: src/planner-window.c:687
+#, c-format
+msgid "Switch to the view \"%s\""
+msgstr "Přepnout na pohled „%s“"
+
+#: src/planner-window.c:859
+msgid "Open a File"
+msgstr "Otevřít soubor"
+
+#: src/planner-window.c:869
+msgid "Planner Files"
+msgstr "Soubory Planneru"
+
+#: src/planner-window.c:1177
+msgid "A Project Management application for the GNOME desktop"
+msgstr "Aplikace pro správu projektů pro prostředí pracovní plochy GNOME"
+
+#: src/planner-window.c:1180
+msgid "translator-credits"
+msgstr "Miloslav Trmač <mitr@volny.cz>"
+
+#: src/planner-window.c:1182
+msgid "The Planner Homepage"
+msgstr "Domácí stránka Planneru"
+
+#: src/planner-window.c:1329
+#, c-format
+msgid "Save changes to document '%s' before closing?"
+msgstr "Uložit před zavřením změny do dokumentu „%s“?"
+
+#: src/planner-window.c:1340
+msgid "If you don't save, changes made the last minute will be discarded."
+msgstr "Pokud je neuložíte, budou změny provedené za poslední minutu ztraceny."
+
+#: src/planner-window.c:1344
+#, c-format
+msgid "If you don't save, changes made the last %d minute will be discarded."
+msgid_plural ""
+"If you don't save, changes made the last %d minutes will be discarded."
+msgstr[0] ""
+"Pokud je neuložíte, budou změny provedené za poslední %d minutu ztraceny."
+msgstr[1] ""
+"Pokud je neuložíte, budou změny provedené za poslední %d minuty ztraceny."
+msgstr[2] ""
+"Pokud je neuložíte, budou změny provedené za posledních %d minut ztraceny."
+
+#: src/planner-window.c:1351
+msgid "If you don't save, changes made the last hour will be discarded."
+msgstr "Pokud je neuložíte, budou změny provedené za poslední hodinu ztraceny."
+
+#: src/planner-window.c:1354
+#, c-format
+msgid "If you don't save, changes made the last %d hour will be discarded."
+msgid_plural ""
+"If you don't save, changes made the last %d hours will be discarded."
+msgstr[0] ""
+"Pokud je neuložíte, budou změny provedené za poslední %d hodinu ztraceny."
+msgstr[1] ""
+"Pokud je neuložíte, budou změny provedené za poslední %d hodiny ztraceny."
+msgstr[2] ""
+"Pokud je neuložíte, budou změny provedené za posledních %d hodin ztraceny."
+
+#: src/planner-window.c:1367
+msgid "C_lose without saving"
+msgstr "Z_avřít bez uložení"
+
+#: src/planner-window.c:1373
+msgid "_Cancel"
+msgstr "_Zrušit"
+
+#: src/planner-window.c:1473
+msgid "Save a File"
+msgstr "Uložit soubor"
+
+#: src/planner-window.c:1741
+msgid ""
+"You have opened a file that was saved with an old version of Planner.\n"
+"\n"
+"When loading old files, all tasks will use the constraint 'Must Start On', "
+"since the old version did not fully support automatic rescheduling. To take "
+"advantage of this new feature, you should add predecessor relations between "
+"tasks that are dependent on each other.\n"
+"\n"
+"You can add a predecessor relation by clicking on the predecessor and "
+"dragging to the successor.\n"
+"\n"
+"After doing this, you can remove all constraints by selecting the menu item "
+"'Remove all constraints' in the 'Edit' menu."
+msgstr ""
+"Otevřeli jste soubor, který byl uložen starou verzí Planneru.\n"
+"\n"
+"Při načítání starých souborů budou všechny úkoly používat omezení „musí "
+"začít v“, protože stará verze neměla plnou podporu automatického "
+"přeplánování. Tuto novou vlastnost můžete využít po přidání vztahů "
+"předchůdce mezi úkoly, které jsou na sobě závislé.\n"
+"\n"
+"Vztah předchůdce můžete přidat kliknutím na předchůdce a tažením na "
+"následníka.\n"
+"\n"
+"Pak můžete odstranit všechna omezení výběrem položky „Odstranit všechna "
+"omezení“ nabídky „Úpravy“."
+
+#. Hack.
+#: src/planner-window.c:1776
+msgid "Unnamed database project"
+msgstr "Nepojmenovaný projekt v databázi"
+
+#: src/planner-working-time-dialog.c:145
+msgid "Edit working time"
+msgstr "Upravit pracovní dobu"
+
+#: src/planner-xml-planner-plugin.c:54
+msgid "Planner 0.11 Format"
+msgstr "Formát Planneru 0.11"
+
+#: src/planner-xml-planner-plugin.c:55
+msgid "Export project to a file suitable for Planner 0.11"
+msgstr "Exportovat projekt do souboru vhodného pro Planner 0.11"
+
+#: src/planner-xml-planner-plugin.c:94
+msgid "Export"
+msgstr "Exportovat"
+
+#: eds-backend/e-cal-backend-planner.c:288
+msgid "EDS UID"
+msgstr "UID EDS"
+
+#: eds-backend/e-cal-backend-planner.c:289
+msgid "Identifier used by Evolution Data Server for tasks"
+msgstr "Identifikátor používaný datovým serverem Evolution pro úkoly"
+
+#: eds-backend/e-cal-backend-planner.c:298
+msgid "EDS Categories"
+msgstr "Kategorie EDS"
+
+#: eds-backend/e-cal-backend-planner.c:299
+msgid "Categories for a task used by Evolution Data Server"
+msgstr "Kategorie pro úkol použitý datovým serverem Evolution"
+
+#: eds-backend/e-cal-backend-planner.c:308
+msgid "EDS Classification"
+msgstr "Klasifikace EDS"
+
+#: eds-backend/e-cal-backend-planner.c:309
+msgid "Task access classification used by Evolution Data Server"
+msgstr "Klasifikace přístupu k úkolům používaná datovým serverem Evolution"
+
+#: eds-backend/e-cal-backend-planner.c:318
+msgid "EDS URL"
+msgstr "URL EDS"
+
+#: eds-backend/e-cal-backend-planner.c:319
+msgid "URL for a Task used by Evolution Data Server"
+msgstr "Adresa URL pro úkoly používaná datovým serverem Evolution"
+
+#: eds-backend/e-cal-backend-planner.c:828
+msgid "Invalid server URI"
+msgstr "Neplatná adresa URI serveru."
+
+#. book_target = (EABConfigTargetSource *) data->target;
+#. source = book_target->source;
+#: eds-backend/planner-source/planner-source.c:125
+msgid "Select planner file"
+msgstr "Výběr souboru planner"
+
+#: eds-backend/planner-source/planner-source.c:157
+#, c-format
+msgid ""
+"The filename extension of this file isn't the planner usual file extension "
+"(%s) Do you want to continue?"
+msgstr ""
+"Přípona tohoto souboru není obvyklá přípona souboru (%s) pro aplikaci "
+"Planner. Chcete pokračovat?"
+

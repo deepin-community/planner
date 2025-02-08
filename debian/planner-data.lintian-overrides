@@ -1,0 +1,4 @@
+# the binary for the command is shipped with the 'planner' package. The
+# planner-data package is only supposed to be installed as a dependency
+# of the main 'planner' package
+planner-data: desktop-command-not-in-package planner [usr/share/applications/app.drey.Planner.desktop]

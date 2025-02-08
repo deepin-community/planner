@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<schemalist gettext-domain="planner">
+  <schema id="app.drey.Planner.plugins.sql" path="/app/drey/Planner/plugins/sql/">
+    <key name="server" type="s">
+      <default>'localhost'</default>
+      <summary>Host</summary>
+      <description>The host running the SQL server.</description>
+    </key>
+    <key name="database" type="s">
+      <default>'plannerdb'</default>
+      <summary>Database</summary>
+      <description>The SQL server database.</description>
+    </key>
+    <key name="username" type="s">
+      <default>'kurt'</default>
+      <summary>User</summary>
+      <description>The SQL server user name.</description>
+    </key>
+  </schema>
+</schemalist>

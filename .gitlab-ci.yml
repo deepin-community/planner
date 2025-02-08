@@ -1,0 +1,19 @@
+build-ubuntu:
+  image: ubuntu:rolling
+  before_script:
+    - ln -fs /usr/share/zoneinfo/Etc/UTC /etc/localtime
+    - apt-get update
+    - apt-get install -q -y --no-install-recommends meson gcc gettext libgtk-3-dev libgail-3-dev libxml2-dev libxslt1-dev libgda-5.0-dev libebook1.2-dev desktop-file-utils
+  script:
+    - meson build -Ddatabase-gda=enabled -Deds=enabled
+    - ninja -C build test
+    - ninja -C build install
+
+build-fedora:
+  image: fedora:latest
+  before_script:
+    - dnf install -y meson gcc gettext gtk3-devel libxml2-devel libxslt-devel libgda5-devel evolution-data-server-devel desktop-file-utils
+  script:
+    - meson build -Ddatabase-gda=enabled -Deds=enabled
+    - ninja -C build test
+    - ninja -C build install

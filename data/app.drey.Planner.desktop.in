@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Planner
+GenericName=Project Management
+X-GNOME-FullName=Planner Project Management
+Comment=Handle the tasks, resources, and cost of your projects
+# Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+Keywords=Gantt;Chart;Critical path;Relationship;Dependency;WBS;
+Exec=planner %F
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=gnome-planner
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Office;ProjectManagement;
+StartupNotify=true
+MimeType=application/x-planner;

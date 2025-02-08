@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/app/drey/Planner">
+    <file preprocess="xml-stripblanks">ui/add-predecessor.ui</file>
+    <file preprocess="xml-stripblanks">ui/calendar-dialog.ui</file>
+    <file preprocess="xml-stripblanks">ui/calendar-selector.ui</file>
+    <file preprocess="xml-stripblanks">ui/column-dialog.ui</file>
+    <file preprocess="xml-stripblanks">ui/day-type-dialog.ui</file>
+    <file preprocess="xml-stripblanks">ui/default-week-dialog.ui</file>
+    <file preprocess="xml-stripblanks">ui/group-dialog.ui</file>
+    <file preprocess="xml-stripblanks">ui/new-calendar-dialog.ui</file>
+    <file preprocess="xml-stripblanks">ui/new-day-dialog.ui</file>
+    <file preprocess="xml-stripblanks">ui/new-phase-dialog.ui</file>
+    <file preprocess="xml-stripblanks">ui/new-property.ui</file>
+    <file preprocess="xml-stripblanks">ui/phase-dialog.ui</file>
+    <file preprocess="xml-stripblanks">ui/project-properties.ui</file>
+    <file preprocess="xml-stripblanks">ui/property-dialog.ui</file>
+    <file preprocess="xml-stripblanks">ui/resource-dialog.ui</file>
+    <file preprocess="xml-stripblanks">ui/resource-input-dialog.ui</file>
+    <file preprocess="xml-stripblanks">ui/task-dialog.ui</file>
+    <file preprocess="xml-stripblanks">ui/task-input-dialog.ui</file>
+    <file preprocess="xml-stripblanks">ui/working-time-dialog.ui</file>
+  </gresource>
+</gresources>
